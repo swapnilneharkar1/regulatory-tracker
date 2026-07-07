@@ -9,7 +9,8 @@
   },
   "dependencies": {
     "cheerio": "^1.0.0",
-    "fast-xml-parser": "^4.4.1"
+    "fast-xml-parser": "^4.4.1",
+    "puppeteer": "^22.15.0"
   },
   "engines": {
     "node": ">=18"

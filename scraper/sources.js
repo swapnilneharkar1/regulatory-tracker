@@ -25,7 +25,7 @@ module.exports = {
   },
   BSE: {
     tabs: [
-      { key: 'BSE_0', label: 'Circulars to Listed Co.', cat: 'Circular', rss: null, src: 'https://www.bseindia.com/corporates/CirularToListedComp.html', htmlParse: 'generic' },
+      { key: 'BSE_0', label: 'Circulars to Listed Co.', cat: 'Circular', rss: null, src: 'https://www.bseindia.com/corporates/CirularToListedComp.html', htmlParse: 'headless' },
     ]
   },
   NSE: {
@@ -65,8 +65,8 @@ module.exports = {
   },
   PCAOB: {
     tabs: [
-      { key: 'PCAOB_0', label: 'Updates & News', cat: 'News',        rss: null, src: 'https://pcaobus.org/all-updates-and-news-releases', htmlParse: 'generic' },
-      { key: 'PCAOB_1', label: 'Enforcement',    cat: 'Enforcement', rss: null, src: 'https://pcaobus.org/all-enforcement-updates', htmlParse: 'generic' },
+      { key: 'PCAOB_0', label: 'Updates & News', cat: 'News',        rss: null, src: 'https://pcaobus.org/all-updates-and-news-releases', htmlParse: 'headless' },
+      { key: 'PCAOB_1', label: 'Enforcement',    cat: 'Enforcement', rss: null, src: 'https://pcaobus.org/all-enforcement-updates', htmlParse: 'headless' },
     ]
   }
 };
