@@ -391,6 +391,30 @@ function parseLinkList(html, base, cat) {
   return rows;
 }
 
+/* ── RBI-style category navigation tree (Master Directions / Master Circulars) ──
+   These pages have NO actual dated document list — the real content area is empty,
+   and the "list" is a subject-category sidebar (e.g. #lblNavData: "Commercial Banks",
+   "Foreign Exchange Management", ...) where each link leads to a further page with the
+   real dated documents. Confirmed against the real page HTML — this isn't a parsing
+   failure to fix, it's genuinely dateless category index content, same situation as
+   SEBI's FAQ page. Scoped to #lblNavData specifically so it doesn't also pick up the
+   unrelated year-archive sidebar or other page furniture. */
+function parseRBINavTree(html, base, cat) {
+  const $ = cheerio.load(html);
+  const scope = $('#lblNavData');
+  const root = scope.length ? scope : stripChrome($('body'));
+  const rows = [];
+  const seen = new Set();
+  root.find('a[href]').each((_, a) => {
+    if (rows.length >= 60) return;
+    const t = $(a).text().trim().replace(/\s+/g, ' ');
+    if (t.length < 4 || seen.has(t) || NAV_WORDS.has(t.toLowerCase())) return;
+    seen.add(t);
+    rows.push({ sr: rows.length + 1, date: '—', year: null, cat, title: t, desc: '', link: resolveLink($(a).attr('href') || '', base) });
+  });
+  return rows;
+}
+
 /* ── NSE __NEXT_DATA__ parser ── */
 function parseNSENextData(html, base, cat) {
   const $ = cheerio.load(html);
@@ -453,6 +477,7 @@ async function scrapeTab(tab, cat) {
   switch (tab.htmlParse) {
     case 'linklist':      rows = parseLinkList(html, tab.src, cat); break;
     case 'nse_next_data': rows = parseNSENextData(html, tab.src, cat); break;
+    case 'rbi_nav_tree':  rows = parseRBINavTree(html, tab.src, cat); break;
     default:               rows = parseGenericHTML(html, tab.src, cat);
   }
   if (!rows.length) dumpDebugHtml(tab.key, html);

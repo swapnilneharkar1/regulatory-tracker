@@ -18,8 +18,8 @@ module.exports = {
   RBI: {
     tabs: [
       { key: 'RBI_0', label: 'Notifications',       cat: 'Notifications',       rss: 'https://www.rbi.org.in/notifications_rss.xml', src: 'https://www.rbi.org.in/Scripts/NotificationUser.aspx' },
-      { key: 'RBI_1', label: 'Master Directions',   cat: 'Master Directions',   rss: null, src: 'https://www.rbi.org.in/Scripts/BS_ViewMasterDirections.aspx?did=333', htmlParse: 'generic' },
-      { key: 'RBI_2', label: 'Master Circulars',    cat: 'Master Circulars',    rss: null, src: 'https://www.rbi.org.in/Scripts/BS_ViewMasterCirculardetails.aspx?did=333', htmlParse: 'generic' },
+      { key: 'RBI_1', label: 'Master Directions',   cat: 'Master Directions',   rss: null, src: 'https://www.rbi.org.in/Scripts/BS_ViewMasterDirections.aspx?did=333', htmlParse: 'rbi_nav_tree' },
+      { key: 'RBI_2', label: 'Master Circulars',    cat: 'Master Circulars',    rss: null, src: 'https://www.rbi.org.in/Scripts/BS_ViewMasterCirculardetails.aspx?did=333', htmlParse: 'rbi_nav_tree' },
       { key: 'RBI_3', label: 'Draft Notifications', cat: 'Draft Notifications', rss: null, src: 'https://www.rbi.org.in/Scripts/DraftNotificationsGuildelines.aspx', htmlParse: 'generic' },
     ]
   },
