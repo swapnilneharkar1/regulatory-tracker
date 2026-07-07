@@ -337,6 +337,15 @@ function parseNSENextData(html, base, cat) {
   return parseGenericHTML(html, base, cat);
 }
 
+const DEBUG_DIR = path.join(__dirname, '..', 'data', 'debug');
+function dumpDebugHtml(key, html) {
+  try {
+    fs.mkdirSync(DEBUG_DIR, { recursive: true });
+    // Cap size so the repo doesn't bloat — first 150KB is plenty to see the real structure.
+    fs.writeFileSync(path.join(DEBUG_DIR, `${key}.html`), html.slice(0, 150000));
+  } catch (e) { /* non-fatal — debugging aid only */ }
+}
+
 async function scrapeTab(tab, cat) {
   if (tab.rss) {
     try {
@@ -350,11 +359,63 @@ async function scrapeTab(tab, cat) {
       // fall through to HTML parse below
     }
   }
+
+  if (tab.htmlParse === 'headless') {
+    const html = await fetchViaHeadlessBrowser(tab.src);
+    const rows = parseGenericHTML(html, tab.src, cat);
+    if (!rows.length) dumpDebugHtml(tab.key, html);
+    return rows;
+  }
+
   const html = await fetchWithRetry(tab.src);
+  let rows;
   switch (tab.htmlParse) {
-    case 'linklist':      return parseLinkList(html, tab.src, cat);
-    case 'nse_next_data': return parseNSENextData(html, tab.src, cat);
-    default:               return parseGenericHTML(html, tab.src, cat);
+    case 'linklist':      rows = parseLinkList(html, tab.src, cat); break;
+    case 'nse_next_data': rows = parseNSENextData(html, tab.src, cat); break;
+    default:               rows = parseGenericHTML(html, tab.src, cat);
+  }
+  if (!rows.length) dumpDebugHtml(tab.key, html);
+  return rows;
+}
+
+/* ── Headless browser fetch (Puppeteer) — for sites that render their content list
+   via JavaScript after page load (BSE, PCAOB), where a plain HTTP fetch just sees an
+   empty shell. One browser instance is reused across all headless-required tabs to
+   avoid the overhead of launching Chromium repeatedly. ── */
+let _browserPromise = null;
+function getBrowser() {
+  if (!_browserPromise) {
+    const puppeteer = require('puppeteer');
+    _browserPromise = puppeteer.launch({
+      headless: 'new',
+      args: ['--no-sandbox', '--disable-setuid-sandbox', '--disable-dev-shm-usage'],
+    });
+  }
+  return _browserPromise;
+}
+
+async function closeBrowser() {
+  if (_browserPromise) {
+    const browser = await _browserPromise;
+    await browser.close();
+    _browserPromise = null;
+  }
+}
+
+async function fetchViaHeadlessBrowser(url, timeoutMs = 45000) {
+  const browser = await getBrowser();
+  const page = await browser.newPage();
+  try {
+    await page.setUserAgent(UA);
+    await page.setExtraHTTPHeaders({ 'Accept-Language': 'en-US,en;q=0.9' });
+    await page.goto(url, { waitUntil: 'networkidle2', timeout: timeoutMs });
+    // Give client-side rendering a moment to settle after the network goes idle —
+    // some sites still run a final render pass (e.g. React hydration) after their
+    // last network request completes.
+    await new Promise(r => setTimeout(r, 2000));
+    return await page.content();
+  } finally {
+    await page.close();
   }
 }
 
@@ -390,6 +451,8 @@ async function main() {
   fs.mkdirSync(path.dirname(OUT_PATH), { recursive: true });
   fs.writeFileSync(OUT_PATH, JSON.stringify(final, null, 2));
   console.log(`\nWrote ${OUT_PATH}`);
+
+  await closeBrowser();
 }
 
-main().catch(e => { console.error(e); process.exit(1); });
+main().catch(async e => { console.error(e); await closeBrowser(); process.exit(1); });
