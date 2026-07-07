@@ -1,0 +1,18 @@
+{
+  "name": "regulatory-tracker-scraper",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Server-side scraper that feeds the regulatory tracker HTML with pre-fetched data.",
+  "main": "scraper.js",
+  "scripts": {
+    "scrape": "node scraper.js"
+  },
+  "dependencies": {
+    "cheerio": "^1.0.0",
+    "fast-xml-parser": "^4.4.1",
+    "puppeteer": "^22.15.0"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}

@@ -134,6 +134,11 @@ const NAV_WORDS = new Set([
   'selected', 'skip to main content', 'accessibility', 'screen reader'
 ]);
 
+// Social-share and pagination chrome is extremely common CMS boilerplate across many
+// government sites, and worth excluding explicitly regardless of date proximity — it
+// often sits directly next to a genuine date by design (post metadata blocks).
+const SHARE_OR_PAGING_RE = /^(share (on|of) |tweet|pin it|next\b|previous\b|«|»|prev\b)/i;
+
 function stripChrome($) {
   $('nav, header, footer, .nav, .navbar, .menu, .breadcrumb, .breadcrumbs, #menu, #nav, #header, #footer, .sidebar, .footer, .header').remove();
   return $;
@@ -209,8 +214,8 @@ function parseGenericHTML(html, base, cat) {
     if (rows.length >= 40) return;
     const a = $(li).find('a[href]').first();
     if (!a.length) return;
-    const t = a.text().trim();
-    if (t.length < 10 || NAV_WORDS.has(t.toLowerCase())) return;
+    const t = a.text().trim().replace(/\s+/g, ' ');
+    if (t.length < 10 || NAV_WORDS.has(t.toLowerCase()) || SHARE_OR_PAGING_RE.test(t)) return;
     const dateMatch = $(li).text().match(DATE_RE);
     if (!dateMatch) return; // no date nearby — skip rather than guess
     const d = tryParseDate(dateMatch[0]);
@@ -219,22 +224,30 @@ function parseGenericHTML(html, base, cat) {
   if (rows.length) return rows;
 
   // Pass 3: last resort — meaningful anchors, but ONLY keep ones with a real nearby date.
-  // Nav/menu links almost never sit next to a date, so this alone filters out most junk
-  // without needing an exhaustive nav-word blocklist.
+  // Date lookup is purely position-based (search text immediately after, then before, the
+  // anchor's own position in the page) rather than via closest('div') — an earlier version
+  // used closest() with a text-length cutoff to avoid matching giant wrapper divs, but that
+  // heuristic breaks down on pages with only a few items, where even a "whole section"
+  // wrapper is short enough to look like a single item. Position-based search doesn't have
+  // this failure mode since it always respects the actual order of content on the page.
   const seen = new Set();
   const fullText = $('body').text();
   $('a[href]').each((_, a) => {
     if (rows.length >= 40) return;
-    const t = $(a).text().trim();
+    const t = $(a).text().trim().replace(/\s+/g, ' ');
     if (t.length < 10 || t.length > 300 || seen.has(t) || NAV_WORDS.has(t.toLowerCase())) return;
+    if (SHARE_OR_PAGING_RE.test(t)) return;
     seen.add(t);
-    let dateText = $(a).closest('td,li,tr,p,div').text().match(DATE_RE)?.[0] || '';
-    if (!dateText) {
-      const pos = fullText.indexOf(t);
-      if (pos !== -1) {
-        const windowTxt = fullText.substring(Math.max(0, pos - 60), pos + t.length + 60);
-        dateText = windowTxt.match(DATE_RE)?.[0] || '';
-      }
+
+    let dateText = '';
+    const pos = fullText.indexOf(t);
+    if (pos !== -1) {
+      // Prefer a date immediately AFTER the title (typical of article/card layouts where
+      // metadata follows the heading) before falling back to searching BEFORE it (typical
+      // of table rows where a date column precedes the title column).
+      const afterTxt = fullText.substring(pos + t.length, pos + t.length + 100);
+      const beforeTxt = fullText.substring(Math.max(0, pos - 100), pos);
+      dateText = afterTxt.match(DATE_RE)?.[0] || beforeTxt.match(DATE_RE)?.[0] || '';
     }
     if (!dateText) return; // no date nearby — most likely nav/chrome, skip it
     const d = tryParseDate(dateText);
@@ -337,11 +350,58 @@ async function scrapeTab(tab, cat) {
       // fall through to HTML parse below
     }
   }
+
+  if (tab.htmlParse === 'headless') {
+    const html = await fetchViaHeadlessBrowser(tab.src);
+    return parseGenericHTML(html, tab.src, cat);
+  }
+
   const html = await fetchWithRetry(tab.src);
   switch (tab.htmlParse) {
     case 'linklist':      return parseLinkList(html, tab.src, cat);
     case 'nse_next_data': return parseNSENextData(html, tab.src, cat);
     default:               return parseGenericHTML(html, tab.src, cat);
+  }
+}
+
+/* ── Headless browser fetch (Puppeteer) — for sites that render their content list
+   via JavaScript after page load (BSE, PCAOB), where a plain HTTP fetch just sees an
+   empty shell. One browser instance is reused across all headless-required tabs to
+   avoid the overhead of launching Chromium repeatedly. ── */
+let _browserPromise = null;
+function getBrowser() {
+  if (!_browserPromise) {
+    const puppeteer = require('puppeteer');
+    _browserPromise = puppeteer.launch({
+      headless: 'new',
+      args: ['--no-sandbox', '--disable-setuid-sandbox', '--disable-dev-shm-usage'],
+    });
+  }
+  return _browserPromise;
+}
+
+async function closeBrowser() {
+  if (_browserPromise) {
+    const browser = await _browserPromise;
+    await browser.close();
+    _browserPromise = null;
+  }
+}
+
+async function fetchViaHeadlessBrowser(url, timeoutMs = 45000) {
+  const browser = await getBrowser();
+  const page = await browser.newPage();
+  try {
+    await page.setUserAgent(UA);
+    await page.setExtraHTTPHeaders({ 'Accept-Language': 'en-US,en;q=0.9' });
+    await page.goto(url, { waitUntil: 'networkidle2', timeout: timeoutMs });
+    // Give client-side rendering a moment to settle after the network goes idle —
+    // some sites still run a final render pass (e.g. React hydration) after their
+    // last network request completes.
+    await new Promise(r => setTimeout(r, 2000));
+    return await page.content();
+  } finally {
+    await page.close();
   }
 }
 
@@ -377,6 +437,8 @@ async function main() {
   fs.mkdirSync(path.dirname(OUT_PATH), { recursive: true });
   fs.writeFileSync(OUT_PATH, JSON.stringify(final, null, 2));
   console.log(`\nWrote ${OUT_PATH}`);
+
+  await closeBrowser();
 }
 
-main().catch(e => { console.error(e); process.exit(1); });
+main().catch(async e => { console.error(e); await closeBrowser(); process.exit(1); });
