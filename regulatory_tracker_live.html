@@ -1,4 +1,4 @@
-  <!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="en">
 <head>
 <meta charset="UTF-8"/>
@@ -20,6 +20,8 @@
     --accent-iepfa: #2980b9;
     --accent-egaz: #d35400;
     --accent-mca: #16a085;
+    --accent-nfra: #6d28d9;
+    --accent-pcaob: #0f766e;
     --tag-notif: #e8f4fd;
     --tag-notif-text: #1a56db;
     --tag-circular: #fff4e5;
@@ -100,6 +102,8 @@
   .reg-iepfa { color: var(--accent-iepfa); }
   .reg-egaz  { color: var(--accent-egaz); }
   .reg-mca   { color: var(--accent-mca); }
+  .reg-nfra  { color: var(--accent-nfra); }
+  .reg-pcaob { color: var(--accent-pcaob); }
 
   .content-panel {
     background: var(--surface);
@@ -338,6 +342,16 @@
       <span class="reg-full">Ministry of Corporate Affairs</span>
       <span class="reg-count" id="count-MCA">—</span>
     </button>
+    <button class="reg-btn reg-nfra" data-reg="NFRA" onclick="selectReg('NFRA')">
+      <span class="reg-name">NFRA</span>
+      <span class="reg-full">National Financial Reporting Authority</span>
+      <span class="reg-count" id="count-NFRA">—</span>
+    </button>
+    <button class="reg-btn reg-pcaob" data-reg="PCAOB" onclick="selectReg('PCAOB')">
+      <span class="reg-name">PCAOB</span>
+      <span class="reg-full">Public Company Accounting Oversight Board</span>
+      <span class="reg-count" id="count-PCAOB">—</span>
+    </button>
   </div>
 
   <div class="content-panel">
@@ -480,6 +494,23 @@ const REGULATORS = {
       { label: 'ROC Adj. (Off-sys)',  cat: 'Orders',  rss: null, src: 'https://www.mca.gov.in/content/mca/global/en/data-and-reports/rd-roc-info/roc-adjudication-orders/archive.html',           parser: 'mca' },
       { label: 'RD Adj. Orders',      cat: 'Orders',  rss: null, src: 'https://www.mca.gov.in/content/mca/global/en/data-and-reports/rd-roc-info/rd-adjudication-orders.html',                    parser: 'mca' },
       { label: 'RD Adj. (Off-sys)',   cat: 'Orders',  rss: null, src: 'https://www.mca.gov.in/content/mca/global/en/data-and-reports/rd-roc-info/rd-adjudication-orders/archive.html',            parser: 'mca' },
+    ]
+  },
+  NFRA: {
+    name: 'National Financial Reporting Authority',
+    color: '#6d28d9',
+    tabs: [
+      { label: 'Circulars',            cat: 'Circulars',           rss: null, src: 'https://nfra.gov.in/document-category/circulars/',            parser: 'generic' },
+      { label: 'Orders',               cat: 'Orders',              rss: null, src: 'https://nfra.gov.in/document-category/orders/',               parser: 'generic' },
+      { label: 'Consultation Papers',  cat: 'Consultation Paper',  rss: null, src: 'https://nfra.gov.in/document-category/consultation-papers/',  parser: 'generic' },
+    ]
+  },
+  PCAOB: {
+    name: 'Public Company Accounting Oversight Board',
+    color: '#0f766e',
+    tabs: [
+      { label: 'Updates & News',   cat: 'News',        rss: null, src: 'https://pcaobus.org/all-updates-and-news-releases', parser: 'generic' },
+      { label: 'Enforcement',      cat: 'Enforcement', rss: null, src: 'https://pcaobus.org/all-enforcement-updates',       parser: 'generic' },
     ]
   }
 };
@@ -692,28 +723,21 @@ function extractYear(s) {
 
 /* ── Fallback static data when site is unreachable ── */
 function fallbackRows(reg, cat, src, isFileProtocol = false, errMsg = '') {
-  const fmt = d => d.toLocaleDateString('en-IN',{day:'2-digit',month:'short',year:'numeric'});
   const reason = isFileProtocol
-    ? '⚠ Live fetch blocked — open via web server (see yellow banner above)'
-    : '⚠ Live fetch failed' + (errMsg ? ': ' + errMsg.substring(0,80) : '') + ' — click Refresh or ↗ Visit Source';
-  const msgs = {
-    SEBI:  ['SEBI Circular on LODR amendments','SEBI updates KYC norms for FPIs','SEBI framework on ESG disclosures','SEBI extends compliance deadlines','SEBI circular on insider trading norms'],
-    RBI:   ['RBI Directions on KCC Scheme 2026','RBI circular on NBFC liquidity norms','RBI notification on digital lending','RBI master direction on FEMA','RBI directions on co-lending models'],
-    BSE:   ['BSE circular on listing compliance','BSE notice on trading halt mechanism','BSE circular on XBRL filing','BSE update on surveillance measures','BSE circular on broker compliance'],
-    NSE:   ['NSE circular on equity margin norms','NSE notice on derivatives expiry','NSE update on co-location policy','NSE circular on algo trading','NSE framework on market maker'],
-    IRDAI: ['IRDAI guidelines on unit-linked products','IRDAI circular on health insurance','IRDAI notification on reinsurance','IRDAI update on solvency norms','IRDAI guidelines on motor insurance'],
-    IEPFA: ['IEPF rules on unclaimed dividends','IEPF circular on refund process','IEPF notice on investor outreach','IEPF order under rule 7(3)','IEPF update on e-verification'],
-    EGaz:  ['E-Gazette: Visit source for date-based search. Path: E-Gazette → Search → Ministry → SEBI/MCA → Date Wise → Submit'],
-    MCA:   ['MCA notification on CSR norms','MCA circular on ROC adjudication','MCA update on Companies Act rules','MCA RD adjudication order 2026','MCA update on LLP filing norms'],
-  };
-  const titles = msgs[reg] || ['Regulatory update pending'];
-  const now = new Date();
-  return titles.map((title, i) => ({
-    sr: i+1,
-    date: fmt(new Date(now - i*86400000)),
-    year: now.getFullYear(),
-    cat, title, desc: reason, link: src
-  }));
+    ? 'Data source not configured — see the yellow banner above.'
+    : 'Live fetch failed' + (errMsg ? ': ' + errMsg.substring(0,120) : '') + '. Click Refresh, or visit the source directly for the latest updates.';
+  // E-Gazette genuinely can't be scraped (session-based search form), so this note is
+  // accurate guidance rather than a placeholder — safe to show as-is.
+  if (reg === 'EGaz') {
+    return [{ sr: 1, date: '—', year: null, cat,
+      title: 'E-Gazette requires a manual date-range search',
+      desc: 'Path: E-Gazette → Search → Ministry → SEBI/MCA → Date Wise → Select date range → Submit',
+      link: src }];
+  }
+  // IMPORTANT: never fabricate plausible-sounding circular titles here. A compliance tool
+  // showing invented content that looks real (even with a caveat) risks being mistaken for
+  // an actual update. Show one honest, clearly-labeled "no data" row instead.
+  return [{ sr: 1, date: '—', year: null, cat, title: '⚠ No data available for this tab', desc: reason, link: src }];
 }
 
 /* ── Render ── */

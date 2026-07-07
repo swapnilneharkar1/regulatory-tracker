@@ -12,7 +12,7 @@ const REGULATORS = require('./sources');
 
 const OUT_PATH = path.join(__dirname, '..', 'data', 'regulatory_data.json');
 const UA = 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0 Safari/537.36';
-const DATE_RE = /\d{2}[\-\/][A-Za-z]{3}[\-\/]\d{4}|\d{2}[\-\/]\d{2}[\-\/]\d{4}|\d{4}-\d{2}-\d{2}/;
+const DATE_RE = /\d{1,2}[\-\/\s][A-Za-z]{3,9}[\-\/\s,]+\d{4}|[A-Za-z]{3,9}\s+\d{1,2},?\s+\d{4}|\d{1,2}[\-\/]\d{1,2}[\-\/]\d{4}|\d{4}-\d{2}-\d{2}/;
 
 function tryParseDate(s) {
   if (!s) return '';
@@ -44,7 +44,13 @@ async function fetchText(url, timeoutMs = 20000) {
   try {
     const resp = await fetch(url, {
       signal: ctrl.signal,
-      headers: { 'User-Agent': UA, 'Accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8' }
+      headers: {
+        'User-Agent': UA,
+        'Accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+        'Accept-Language': 'en-US,en;q=0.9',
+        'Referer': new URL(url).origin + '/',
+        'Cache-Control': 'no-cache',
+      }
     });
     if (!resp.ok) throw new Error('HTTP ' + resp.status);
     return await resp.text();
@@ -53,11 +59,14 @@ async function fetchText(url, timeoutMs = 20000) {
   }
 }
 
-async function fetchWithRetry(url, attempts = 2) {
+async function fetchWithRetry(url, attempts = 3) {
   let lastErr;
   for (let i = 0; i < attempts; i++) {
     try { return await fetchText(url); }
-    catch (e) { lastErr = e; await new Promise(r => setTimeout(r, 1500)); }
+    catch (e) {
+      lastErr = e;
+      await new Promise(r => setTimeout(r, 1500 + i * 1500)); // 1.5s, 3s, 4.5s backoff
+    }
   }
   throw lastErr;
 }
@@ -92,34 +101,67 @@ function parseRSS(xmlText, cat, linkFilter) {
     });
 }
 
-/* ── Generic table/list HTML parser (works across most gov/exchange sites) ── */
+/* ── Generic table/list HTML parser (works across most gov/exchange sites) ──
+   Key fixes vs the naive version:
+   1. Strip nav/header/footer/menu chrome FIRST — this is what was causing menu items
+      ("About Us", "Option Chain", "Holidays") to be scraped as if they were documents.
+   2. Score ALL tables and pick the best one (most rows with valid dates), instead of
+      just taking whichever table appears first in the HTML — the first table on a page
+      is often a small unrelated widget, not the actual data table.
+*/
+const NAV_WORDS = new Set([
+  'home', 'login', 'logout', 'sitemap', 'contact', 'contact us', 'about', 'about us',
+  'search', 'back', 'top', 'next', 'prev', 'previous', 'skip', 'menu', 'download',
+  'subscribe', 'register', 'careers', 'tenders', 'rti', 'faqs', "faq's", 'faq',
+  'press releases', 'annual report', 'organisation & functions', 'organisation and functions',
+  'notifications', 'circulars', 'guidelines', 'master directions', 'master circulars',
+  'draft notifications', 'publications', 'statistics', 'what\'s new', 'whats new',
+  'terms of use', 'privacy policy', 'disclaimer', 'feedback', 'sitemap', 'help',
+  'option chain', 'market turnover', 'listings', 'daily report', 'holidays',
+  'selected', 'skip to main content', 'accessibility', 'screen reader'
+]);
+
+function stripChrome($) {
+  $('nav, header, footer, .nav, .navbar, .menu, .breadcrumb, .breadcrumbs, #menu, #nav, #header, #footer, .sidebar, .footer, .header').remove();
+  return $;
+}
+
+function scoreTable($, tbl, base, cat) {
+  const trs = $(tbl).find('tr');
+  if (trs.length < 2) return null;
+  const candidateRows = [];
+  trs.each((i, tr) => {
+    const tds = $(tr).find('td');
+    if (tds.length < 2) return;
+    const linkEl = $(tr).find('a[href]').first();
+    const title = (linkEl.text() || $(tds[0]).text() || '').trim();
+    if (!title || title.length < 8 || NAV_WORDS.has(title.toLowerCase())) return;
+    const link = resolveLink(linkEl.attr('href') || '', base);
+    const cellTexts = tds.toArray().map(td => $(td).text().trim());
+    const dateText = cellTexts.find(t => DATE_RE.test(t)) || '';
+    const d = tryParseDate(dateText);
+    candidateRows.push({ sr: 0, date: d || dateText || '—', year: extractYear(d || dateText), cat, title, desc: '', link });
+  });
+  if (candidateRows.length < 2) return null;
+  const withDate = candidateRows.filter(r => r.date !== '—').length;
+  // Score favors: more rows overall, and a higher proportion having real dates
+  const score = candidateRows.length + withDate * 2;
+  return { rows: candidateRows, score };
+}
+
 function parseGenericHTML(html, base, cat) {
-  const $ = cheerio.load(html);
+  const $ = stripChrome(cheerio.load(html));
   const rows = [];
 
-  // Pass 1: tables
+  // Pass 1: score every table on the page, keep the best-scoring one
+  let best = null;
   $('table').each((_, tbl) => {
-    if (rows.length) return;
-    const trs = $(tbl).find('tr');
-    if (trs.length < 2) return;
-    let tableRows = 0;
-    trs.each((i, tr) => {
-      if (rows.length >= 50) return;
-      const tds = $(tr).find('td');
-      if (tds.length < 2) return;
-      const linkEl = $(tr).find('a[href]').first();
-      const title = (linkEl.text() || $(tds[0]).text() || '').trim();
-      if (!title || title.length < 6) return;
-      const link = resolveLink(linkEl.attr('href') || '', base);
-      const cellTexts = tds.toArray().map(td => $(td).text().trim());
-      const dateText = cellTexts.find(t => DATE_RE.test(t)) || '';
-      const d = tryParseDate(dateText);
-      rows.push({ sr: rows.length + 1, date: d || dateText || '—', year: extractYear(d || dateText), cat, title, desc: '', link });
-      tableRows++;
-    });
-    if (tableRows >= 3) return;
+    const result = scoreTable($, tbl, base, cat);
+    if (result && (!best || result.score > best.score)) best = result;
   });
-  if (rows.length) return rows;
+  if (best) {
+    return best.rows.slice(0, 50).map((r, i) => ({ ...r, sr: i + 1 }));
+  }
 
   // Pass 2: list items with anchors
   $('ul li, ol li').each((_, li) => {
@@ -127,7 +169,7 @@ function parseGenericHTML(html, base, cat) {
     const a = $(li).find('a[href]').first();
     if (!a.length) return;
     const t = a.text().trim();
-    if (t.length < 8) return;
+    if (t.length < 10 || NAV_WORDS.has(t.toLowerCase())) return;
     const dateMatch = $(li).text().match(DATE_RE);
     const dateText = dateMatch?.[0] || '';
     const d = tryParseDate(dateText);
@@ -135,8 +177,9 @@ function parseGenericHTML(html, base, cat) {
   });
   if (rows.length) return rows;
 
-  // Pass 3: last resort — meaningful anchors + nearby date sniffing
-  const NAV_WORDS = new Set(['home', 'login', 'logout', 'sitemap', 'contact', 'about', 'search', 'back', 'top', 'next', 'prev', 'previous', 'skip', 'menu', 'download', 'subscribe', 'register']);
+  // Pass 3: last resort — meaningful anchors, but ONLY keep ones with a real nearby date.
+  // Nav/menu links almost never sit next to a date, so this alone filters out most junk
+  // without needing an exhaustive nav-word blocklist.
   const seen = new Set();
   const fullText = $('body').text();
   $('a[href]').each((_, a) => {
@@ -152,22 +195,22 @@ function parseGenericHTML(html, base, cat) {
         dateText = windowTxt.match(DATE_RE)?.[0] || '';
       }
     }
+    if (!dateText) return; // no date nearby — most likely nav/chrome, skip it
     const d = tryParseDate(dateText);
-    rows.push({ sr: rows.length + 1, date: d || dateText || '—', year: extractYear(d || dateText), cat, title: t, desc: '', link: resolveLink($(a).attr('href') || '', base) });
+    rows.push({ sr: rows.length + 1, date: d || dateText, year: extractYear(d || dateText), cat, title: t, desc: '', link: resolveLink($(a).attr('href') || '', base) });
   });
   return rows;
 }
 
 /* ── Link-list parser (SEBI FAQ style — no dates by nature) ── */
 function parseLinkList(html, base, cat) {
-  const $ = cheerio.load(html);
+  const $ = stripChrome(cheerio.load(html));
   const rows = [];
   const seen = new Set();
   $('a[href]').each((_, a) => {
     if (rows.length >= 40) return;
     const t = $(a).text().trim();
-    if (t.length < 10 || seen.has(t)) return;
-    if (['home', 'login', 'logout', 'sitemap', 'contact', 'about', 'back', 'top'].includes(t.toLowerCase())) return;
+    if (t.length < 10 || seen.has(t) || NAV_WORDS.has(t.toLowerCase())) return;
     seen.add(t);
     rows.push({ sr: rows.length + 1, date: '—', year: null, cat, title: t, desc: '', link: resolveLink($(a).attr('href') || '', base) });
   });
