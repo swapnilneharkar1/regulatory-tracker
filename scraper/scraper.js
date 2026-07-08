@@ -139,6 +139,11 @@ const NAV_WORDS = new Set([
 // often sits directly next to a genuine date by design (post metadata blocks).
 const SHARE_OR_PAGING_RE = /^(share (on|of) |tweet|pin it|next\b|previous\b|«|»|prev\b)/i;
 
+// Real headlines are never raw URLs — some pages have "quick link" widgets whose visible
+// text literally is their own href (e.g. <a href="...">http://mca.gov.in/XBRL/</a>), which
+// otherwise passes every other content-quality check. Reject these explicitly.
+const IS_URL_RE = /^(https?:\/\/|www\.)/i;
+
 function stripChrome($) {
   $('nav, header, footer, .nav, .navbar, .menu, .breadcrumb, .breadcrumbs, #menu, #nav, #header, #footer, .sidebar, .footer, .header').remove();
   return $;
@@ -169,7 +174,7 @@ function scoreTable($, tbl, base, cat) {
     if (tds.length < 2) return;
     const cellTexts = tds.toArray().map(td => $(td).text().trim());
     const title = pickTitleFromCells(cellTexts);
-    if (!title || NAV_WORDS.has(title.toLowerCase())) return;
+    if (!title || NAV_WORDS.has(title.toLowerCase()) || IS_URL_RE.test(title)) return;
     // Link: prefer an anchor within the cell that actually contains the title text;
     // fall back to the first anchor in the row otherwise.
     let link = '';
@@ -270,7 +275,7 @@ function parseGenericHTML(html, base, cat) {
         if ($node.children().length > 0) return;
         const t = $node.text().trim().replace(/\s+/g, ' ');
         if (t === dateText || t.length < 20) return;
-        if (NAV_WORDS.has(t.toLowerCase()) || SHARE_OR_PAGING_RE.test(t)) return;
+        if (NAV_WORDS.has(t.toLowerCase()) || SHARE_OR_PAGING_RE.test(t) || IS_URL_RE.test(t)) return;
         if (/^(about the|read more|learn more)/i.test(t)) return;
         if (t.length > title.length) title = t;
       });
@@ -292,7 +297,7 @@ function parseGenericHTML(html, base, cat) {
     const a = $(li).find('a[href]').first();
     if (!a.length) return;
     const t = a.text().trim().replace(/\s+/g, ' ');
-    if (t.length < 10 || NAV_WORDS.has(t.toLowerCase()) || SHARE_OR_PAGING_RE.test(t)) return;
+    if (t.length < 10 || NAV_WORDS.has(t.toLowerCase()) || SHARE_OR_PAGING_RE.test(t) || IS_URL_RE.test(t)) return;
     const dateMatch = $(li).text().match(DATE_RE);
     if (!dateMatch) return; // no date nearby — skip rather than guess
     const d = tryParseDate(dateMatch[0]);
@@ -312,7 +317,7 @@ function parseGenericHTML(html, base, cat) {
   $('a[href]').each((_, a) => {
     if (rows.length >= 40) return;
     const t = $(a).text().trim().replace(/\s+/g, ' ');
-    if (t.length < 10 || t.length > 300 || seen.has(t) || NAV_WORDS.has(t.toLowerCase())) return;
+    if (t.length < 10 || t.length > 300 || seen.has(t) || NAV_WORDS.has(t.toLowerCase()) || IS_URL_RE.test(t)) return;
     if (SHARE_OR_PAGING_RE.test(t)) return;
     seen.add(t);
 
@@ -384,7 +389,7 @@ function parseLinkList(html, base, cat) {
   $('a[href]').each((_, a) => {
     if (rows.length >= 40) return;
     const t = $(a).text().trim();
-    if (t.length < 10 || seen.has(t) || NAV_WORDS.has(t.toLowerCase())) return;
+    if (t.length < 10 || seen.has(t) || NAV_WORDS.has(t.toLowerCase()) || IS_URL_RE.test(t)) return;
     seen.add(t);
     rows.push({ sr: rows.length + 1, date: '—', year: null, cat, title: t, desc: '', link: resolveLink($(a).attr('href') || '', base) });
   });
@@ -408,7 +413,7 @@ function parseRBINavTree(html, base, cat) {
   root.find('a[href]').each((_, a) => {
     if (rows.length >= 60) return;
     const t = $(a).text().trim().replace(/\s+/g, ' ');
-    if (t.length < 4 || seen.has(t) || NAV_WORDS.has(t.toLowerCase())) return;
+    if (t.length < 4 || seen.has(t) || NAV_WORDS.has(t.toLowerCase()) || IS_URL_RE.test(t)) return;
     seen.add(t);
     rows.push({ sr: rows.length + 1, date: '—', year: null, cat, title: t, desc: '', link: resolveLink($(a).attr('href') || '', base) });
   });
@@ -468,7 +473,7 @@ async function scrapeTab(tab, cat) {
   if (tab.htmlParse === 'headless') {
     const html = await fetchViaHeadlessBrowser(tab.src);
     const rows = parseGenericHTML(html, tab.src, cat);
-    if (!rows.length) dumpDebugHtml(tab.key, html);
+    if (rows.length < 3) dumpDebugHtml(tab.key, html);
     return rows;
   }
 
@@ -480,7 +485,7 @@ async function scrapeTab(tab, cat) {
     case 'rbi_nav_tree':  rows = parseRBINavTree(html, tab.src, cat); break;
     default:               rows = parseGenericHTML(html, tab.src, cat);
   }
-  if (!rows.length) dumpDebugHtml(tab.key, html);
+  if (rows.length < 3) dumpDebugHtml(tab.key, html);
   return rows;
 }
 
