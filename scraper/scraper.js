@@ -12,11 +12,11 @@ const REGULATORS = require('./sources');
 
 const OUT_PATH = path.join(__dirname, '..', 'data', 'regulatory_data.json');
 const UA = 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0 Safari/537.36';
-const DATE_RE = /\d{1,2}[\-\/\s][A-Za-z]{3,9}[\-\/\s,]+\d{4}|[A-Za-z]{3,9}\.?\s+\d{1,2},?\s+\d{4}|\d{1,2}[\-\/]\d{1,2}[\-\/]\d{4}|\d{4}-\d{2}-\d{2}/i;
+const DATE_RE = /\d{1,2}(?:st|nd|rd|th)?[\-\/\s][A-Za-z]{3,9}[\-\/\s,]+\d{4}|[A-Za-z]{3,9}\.?\s+\d{1,2}(?:st|nd|rd|th)?,?\s+\d{4}|\d{1,2}[\-\/]\d{1,2}[\-\/]\d{4}|\d{4}-\d{2}-\d{2}/i;
 
 function tryParseDate(s) {
   if (!s) return '';
-  s = String(s).trim();
+  s = String(s).trim().replace(/(\d{1,2})(st|nd|rd|th)\b/i, '$1');
   let d = new Date(s);
   if (!isNaN(d.getTime()) && d.getFullYear() > 1990) {
     return d.toLocaleDateString('en-IN', { day: '2-digit', month: 'short', year: 'numeric' });
@@ -404,6 +404,45 @@ function parseLinkList(html, base, cat) {
    failure to fix, it's genuinely dateless category index content, same situation as
    SEBI's FAQ page. Scoped to #lblNavData specifically so it doesn't also pick up the
    unrelated year-archive sidebar or other page furniture. */
+/* ── MCA homepage marquee/news-ticker parser ──
+   MCA's "What's New" content isn't a list at all — it's one giant scrolling text blob
+   (.marquee-container) with announcements separated by "||", most with no individual
+   link, occasional inline links, and dates written as ordinals ("7th July 2026"). No
+   generic table/list/card pass can handle this shape — confirmed against the real page,
+   this needed a bespoke parser. */
+function parseMCAMarquee(html, base, cat) {
+  const $ = cheerio.load(html);
+  const container = $('.marquee-container').first();
+  if (!container.length) return [];
+
+  const innerHtml = container.html() || '';
+  // Split on the "||" separators (rendered with &nbsp; padding around them in the source)
+  const segments = innerHtml.split(/(?:&nbsp;|\u00a0|\s)*\|\|(?:&nbsp;|\u00a0|\s)*/i);
+
+  const rows = [];
+  for (const seg of segments) {
+    if (rows.length >= 40) break;
+    const $seg = cheerio.load(seg);
+    const text = $seg.root().text().trim().replace(/\s+/g, ' ');
+    if (text.length < 15) continue;
+
+    const dateMatch = text.match(DATE_RE);
+    if (!dateMatch) continue; // ticker items without a date are usually evergreen notices, not "updates"
+
+    const d = tryParseDate(dateMatch[0]);
+    const link = $seg('a[href]').first();
+    const href = link.length ? resolveLink(link.attr('href') || '', base) : base;
+
+    rows.push({
+      sr: rows.length + 1,
+      date: d || dateMatch[0],
+      year: extractYear(d || dateMatch[0]),
+      cat, title: text.substring(0, 300), desc: '', link: href
+    });
+  }
+  return rows;
+}
+
 function parseRBINavTree(html, base, cat) {
   const $ = cheerio.load(html);
   const scope = $('#lblNavData');
@@ -470,18 +509,16 @@ async function scrapeTab(tab, cat) {
     }
   }
 
-  if (tab.htmlParse === 'headless') {
-    const html = await fetchViaHeadlessBrowser(tab.src);
-    const rows = parseGenericHTML(html, tab.src, cat);
-    if (rows.length < 3) dumpDebugHtml(tab.key, html);
-    return rows;
-  }
+  const html = tab.headless
+    ? await fetchViaHeadlessBrowser(tab.src)
+    : await fetchWithRetry(tab.src);
 
-  const html = await fetchWithRetry(tab.src);
   let rows;
   switch (tab.htmlParse) {
     case 'linklist':      rows = parseLinkList(html, tab.src, cat); break;
     case 'nse_next_data': rows = parseNSENextData(html, tab.src, cat); break;
+    case 'rbi_nav_tree':  rows = parseRBINavTree(html, tab.src, cat); break;
+    case 'mca_marquee':   rows = parseMCAMarquee(html, tab.src, cat); break;
     case 'rbi_nav_tree':  rows = parseRBINavTree(html, tab.src, cat); break;
     default:               rows = parseGenericHTML(html, tab.src, cat);
   }
