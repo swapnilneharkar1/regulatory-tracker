@@ -1,10 +1,10 @@
 <!DOCTYPE html><html lang="en" style="font-size: 14px;"><head style="font-size: 14px;">
     <meta charset="UTF-8" style="font-size: 14px;">
-    <title style="font-size: 14px;">ROC Adjudication Orders</title>
-    
-    
-    <meta name="template" content="home-page" style="font-size: 14px;">
-    <meta name="viewport" content="width=device-width, initial-scale=1" style="font-size: 14px;">
+    <title style="font-size: 14px;">HOME</title>
+    <meta name="keywords" content="Home,English,MCA" style="font-size: 14px;">
+    <meta name="description" content="Home page of Ministry of Corporate Affairs." style="font-size: 14px;">
+    <meta name="template" content="home-page-en" style="font-size: 14px;">
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=yes" style="font-size: 14px;">
 
     
     
@@ -22,22 +22,15 @@
 
     
     
-<script src="/etc.clientlibs/core/wcm/components/commons/site/clientlibs/container.min.js" style="font-size: 14px;"></script>
-<script src="/etc.clientlibs/mca/clientlibs/clientlib-base.min.js" style="font-size: 14px;"></script>
+<script src="/etc.clientlibs/mca/clientlibs/clientlib-jquery-3.5.min.js" style="font-size: 14px;"></script>
+<script src="/etc.clientlibs/mca/components/content/home/clientlibs/clientlibs-encrptdecrypt.min.js" style="font-size: 14px;"></script>
 
 
 
     
     
-<link rel="stylesheet" href="/etc.clientlibs/mca/clientlibs/clientlib-base.min.css" type="text/css" style="font-size: 14px;">
-<link rel="stylesheet" href="/etc.clientlibs/mca/clientlibs/clientlibs-encrptdecrypt.min.css" type="text/css" style="font-size: 14px;">
-<link rel="stylesheet" href="/etc.clientlibs/mca/clientlibs/clientlib-site.min.css" type="text/css" style="font-size: 14px;">
-<link rel="stylesheet" href="/etc.clientlibs/mca/clientlibs/vendor/font-awesome.min.css" type="text/css" style="font-size: 14px;">
-<link rel="stylesheet" href="/etc.clientlibs/iepf/clientlibs/vendor/font-awesome.min.css" type="text/css" style="font-size: 14px;">
-<link rel="stylesheet" href="/etc.clientlibs/csr/clientlibs/vendor/font-awesome.min.css" type="text/css" style="font-size: 14px;">
-<link rel="stylesheet" href="/etc.clientlibs/mca/clientlibs/vendor/font-poppins.min.css" type="text/css" style="font-size: 14px;">
-<link rel="stylesheet" href="/etc.clientlibs/iepf/clientlibs/vendor/font-poppins.min.css" type="text/css" style="font-size: 14px;">
-<link rel="stylesheet" href="/etc.clientlibs/csr/clientlibs/vendor/font-poppins.min.css" type="text/css" style="font-size: 14px;">
+<link rel="stylesheet" href="/etc.clientlibs/mca/clientlibs/clientlib-bootstrap-5-3-8.min.css" type="text/css" style="font-size: 14px;">
+<link rel="stylesheet" href="/etc.clientlibs/mca/clientlibs/vendor/font-poppins-mcafo.min.css" type="text/css" style="font-size: 14px;">
 <link rel="stylesheet" href="/etc.clientlibs/mca/components/content/home/clientlibs/clientlib-home.min.css" type="text/css" style="font-size: 14px;">
 
 
@@ -46,8 +39,10 @@
 
     
     
-<meta name="viewport" content="maximum-scale=1.0, user-scalable=no ,width=device-width, initial-scale=1" style="font-size: 14px;"></head>
-    <body class="homepage page basicpage" id="homepage-586420d166" style="font-size: 14px;">
+</head>
+<body class="home-page page basicpage" id="home-page-fb887dcfcb" style="font-size: 14px;">
+<main style="font-size: 14px;">
+    <div class="home-main-container" style="font-size: 14px;">
         
         
 
@@ -55,6 +50,7 @@
 	<script disable-devtool-auto="" url="/content/mca/global/en/home.html" src="/etc.clientlibs/mca/clientlibs/clientlib-devtool.js" style="font-size: 14px;"></script>
 
 
+        
         
 
     
@@ -68,6 +64,12 @@
 
     <div display="none" id="tabRestrictionData" pagepathallowedinnewtab="ZmFsc2U=" errorpagecontentpath="L2NvbnRlbnQvbWNhL2dsb2JhbC9lbi9lcnJvcnBhZ2UuaHRtbA==" broadcastchannelname="TUNBRk9TaXRl" broadcastmessage="TUNBRk9TaXRlLVRBQg==" style="font-size: 14px;">
     </div>
+
+        
+    
+<!--<sly data-sly-test="false">-->
+<!--	<input type="hidden" id="referer" value="/content/mca/global/en/foportal/fologin.html"/>-->
+<!--</sly>-->
 
         
         
@@ -132,7 +134,7 @@
                     </li>
                     <li class="nav-item hide-themes toggle-theme" tabindex="0" style="font-size: 16px;">
                         <p id="themeText" style="font-size: 12px;">Light Mode</p>
-                        <input type="checkbox" class="themecheckbox" id="themesbox" value="light" style="font-size: 16px;">
+                        <input type="checkbox" class="themecheckbox" id="themesbox" style="font-size: 16px;">
                         <label for="themesbox" class="checkbox-label" style="font-size: 14px;">
                             <img src="/content/dam/mca/icons/home-new/lightmode.svg" alt="Website content displayed in light mode" style="font-size: 14px;">
                             <img src="/content/dam/mca/icons/home-new/dark_mode.svg" alt="Website content displayed in Dark mode" style="font-size: 14px;">
@@ -169,7 +171,7 @@
                         <input type="text" name="query" placeholder="Search" id="searchbox" aria-label="search" autocomplete="on" class="form-control p-1 my-auto pr-0 rounded-pill shadow-sm border header-search pr-0" onkeypress="return searchKeyPress(event);" style="font-size: 14px;">
                         <input type="hidden" name="maxresults" value="10" style="font-size: 14px;">
                         <input type="hidden" name="fe" value="UTF-8" style="font-size: 14px;">
-                        <button type="button" aria-label="search" class="searchIcon search-icon mca-services" id="search-icon" onclick="getSearchResult(event)" src="/content/dam/mca/icons/search-line.png" style="font-size: 14px;"></button>
+                        <button type="button" aria-label="search" class="searchIcon search-icon mca-services" id="search-icon" onclick="getSearchResult(event)" style="font-size: 14px;"></button>
                     </div>
                 </form>
                 
@@ -234,7 +236,7 @@
         </div>
     </div>
     
-    <div class="second-navigation" style="font-size: 11px;">
+    <div class="second-navigation" style="font-size: 14px;">
     
 <link rel="stylesheet" href="/etc.clientlibs/mca/components/content/home/navigation/v1/navigation/clientlibs.min.css" type="text/css" style="font-size: 14px;">
 <script src="/etc.clientlibs/mca/components/content/home/navigation/v1/navigation/clientlibs.min.js" style="font-size: 14px;"></script>
@@ -243,7 +245,7 @@
 
 
 
-	<input type="hidden" class="hideInNav" value="{}" style="font-size: 11px;">
+	<input type="hidden" class="hideInNav" value="{}" style="font-size: 14px;">
 
 <div class="topNav" style="font-size: 14px;">
 	<div class="container" style="font-size: 14px;">
@@ -291,7 +293,7 @@
 
 
 
-      <li class="nav-item level-0" style="font-size: 14px;">
+      <li class="nav-item  level-0 active" style="font-size: 14px;">
       	
 	
 	
@@ -998,7 +1000,7 @@
 
 
 
-      <li class="nav-item level-0" style="font-size: 14px;">
+      <li class="nav-item  level-0 " style="font-size: 14px;">
       	
 	
 	
@@ -1024,7 +1026,7 @@
 
 
 
-      <li class="nav-item level-0" style="font-size: 14px;">
+      <li class="nav-item  level-0 " style="font-size: 14px;">
       	
 	
 	
@@ -6357,7 +6359,7 @@ beneficial interest in contribution received by the LLP</a>
 
 
 
-<ul class="dropdown-level1 dropdown-menu-right" style="font-size: 14px;">
+<ul class="dropdown-level1" style="font-size: 14px;">
 	
 	
 
@@ -6472,7 +6474,7 @@ beneficial interest in contribution received by the LLP</a>
 
 
 
-      <li class="nav-item level-0 active has-submenu" style="font-size: 14px; color: rgb(18, 122, 191);">
+      <li class="nav-item level-0 has-submenu" style="font-size: 14px;">
       	
 	
 	
@@ -6492,7 +6494,7 @@ beneficial interest in contribution received by the LLP</a>
 
 
 
-<ul class="dropdown-level1 dropdown-menu-right" style="font-size: 14px;">
+<ul class="dropdown-level1" style="font-size: 14px;">
 	
 	
 
@@ -7215,7 +7217,7 @@ beneficial interest in contribution received by the LLP</a>
 
 
 
-      <li class="abovenotreq level-1 active" style="font-size: 14px; color: rgb(18, 122, 191);">
+      <li class="abovenotreq level-1" style="font-size: 14px;">
       	
 	
 	
@@ -7450,7 +7452,7 @@ beneficial interest in contribution received by the LLP</a>
 
 
 
-      <li class="  level-2 active" style="font-size: 14px; color: rgb(18, 122, 191);">
+      <li class="  level-2 " style="font-size: 14px;">
       	
 	
 	
@@ -9919,7 +9921,7 @@ beneficial interest in contribution received by the LLP</a>
 
 
 
-<ul class="dropdown-level1 dropdown-menu-right" style="font-size: 14px;">
+<ul class="dropdown-level1" style="font-size: 14px;">
 	
 	
 
@@ -9941,7 +9943,7 @@ beneficial interest in contribution received by the LLP</a>
 
 
 
-<ul class="dropdown-level2 dropdown-menu-right" style="font-size: 14px;"></ul>
+<ul class="dropdown-level2" style="font-size: 14px;"></ul>
 
    </li>
 
@@ -9967,7 +9969,7 @@ beneficial interest in contribution received by the LLP</a>
 
 
 
-<ul class="dropdown-level2 dropdown-menu-right" style="font-size: 14px;"></ul>
+<ul class="dropdown-level2" style="font-size: 14px;"></ul>
 
    </li>
 
@@ -9993,7 +9995,7 @@ beneficial interest in contribution received by the LLP</a>
 
 
 
-<ul class="dropdown-level2 dropdown-menu-right" style="font-size: 14px;"></ul>
+<ul class="dropdown-level2" style="font-size: 14px;"></ul>
 
    </li>
 
@@ -10019,7 +10021,7 @@ beneficial interest in contribution received by the LLP</a>
 
 
 
-<ul class="dropdown-level2 dropdown-menu-right" style="font-size: 14px;"></ul>
+<ul class="dropdown-level2" style="font-size: 14px;"></ul>
 
    </li>
 
@@ -10045,7 +10047,7 @@ beneficial interest in contribution received by the LLP</a>
 
 
 
-<ul class="dropdown-level2 dropdown-menu-right" style="font-size: 14px;"></ul>
+<ul class="dropdown-level2" style="font-size: 14px;"></ul>
 
    </li>
 
@@ -10071,7 +10073,7 @@ beneficial interest in contribution received by the LLP</a>
 
 
 
-<ul class="dropdown-level2 dropdown-menu-right" style="font-size: 14px;"></ul>
+<ul class="dropdown-level2" style="font-size: 14px;"></ul>
 
    </li>
 
@@ -10097,7 +10099,7 @@ beneficial interest in contribution received by the LLP</a>
 
 
 
-<ul class="dropdown-level2 dropdown-menu-right" style="font-size: 14px;"></ul>
+<ul class="dropdown-level2" style="font-size: 14px;"></ul>
 
    </li>
 
@@ -10123,7 +10125,7 @@ beneficial interest in contribution received by the LLP</a>
 
 
 
-<ul class="dropdown-level2 dropdown-menu-right" style="font-size: 14px;"></ul>
+<ul class="dropdown-level2" style="font-size: 14px;"></ul>
 
    </li>
 
@@ -10149,7 +10151,7 @@ beneficial interest in contribution received by the LLP</a>
 
 
 
-<ul class="dropdown-level2 dropdown-menu-right" style="font-size: 14px;"></ul>
+<ul class="dropdown-level2" style="font-size: 14px;"></ul>
 
    </li>
 
@@ -10175,7 +10177,7 @@ beneficial interest in contribution received by the LLP</a>
 
 
 
-<ul class="dropdown-level2 dropdown-menu-right" style="font-size: 14px;"></ul>
+<ul class="dropdown-level2" style="font-size: 14px;"></ul>
 
    </li>
 
@@ -10201,7 +10203,7 @@ beneficial interest in contribution received by the LLP</a>
 
 
 
-<ul class="dropdown-level2 dropdown-menu-right" style="font-size: 14px;"></ul>
+<ul class="dropdown-level2" style="font-size: 14px;"></ul>
 
    </li>
 
@@ -10227,7 +10229,7 @@ beneficial interest in contribution received by the LLP</a>
 
 
 
-<ul class="dropdown-level2 dropdown-menu-right" style="font-size: 14px;"></ul>
+<ul class="dropdown-level2" style="font-size: 14px;"></ul>
 
    </li>
 
@@ -10248,17 +10250,28 @@ beneficial interest in contribution received by the LLP</a>
     
 </div>
 </header></div>
-<div class="responsivegrid main-content aem-GridColumn aem-GridColumn--default--12" style="font-size: 14px;">
+<div class="responsivegrid aem-GridColumn aem-GridColumn--default--12" style="font-size: 14px;">
 
 
 <div class="aem-Grid aem-Grid--12 aem-Grid--default--12 " style="font-size: 14px;">
     
-    <div class="image aem-GridColumn aem-GridColumn--default--12" style="font-size: 14px;">
-<div data-cmp-lazythreshold="0" data-cmp-src="/content/mca/global/en/data-and-reports/rd-roc-info/roc-adjudication-orders/_jcr_content/root/responsivegrid/image.coreimg{.width}.jpeg/1710913200131/collage-2.jpeg" data-asset="/content/dam/mca/images/Collage_2.jpg" data-asset-id="8bd98676-315e-40eb-a6e1-d1703bc72365" id="image-22323be690" class="cmp-image" itemscope="" itemtype="http://schema.org/ImageObject" style="font-size: 14px;">
+    <div class="carousel aem-GridColumn aem-GridColumn--default--12" style="font-size: 14px;">
+    
+<link rel="stylesheet" href="/etc.clientlibs/mca/components/content/home/carousel/v1/carousel/clientlibs-carousel.min.css" type="text/css" style="font-size: 14px;">
+<script src="/etc.clientlibs/mca/components/content/home/carousel/v1/carousel/clientlibs-carousel.min.js" style="font-size: 14px;"></script>
+
+
+
+<div class="cmp-carousel" role="group" aria-roledescription="carousel" data-cmp-autoplay="" data-cmp-delay="5000" style="font-size: 14px;">
+    <div class="cmp-carousel__content" style="font-size: 14px;">
+        <div class="cmp-carousel__item cmp-carousel__item--active" tabindex="-1" aria-label="Slide 1 of 6" data-cmp-hook-carousel="item" style="font-size: 14px;"><div class="cbpsBannerComp" style="font-size: 14px;"><img src="/bin/mca/cbpsImage" id="_WGTmyWw1sp3rfwlR" onclick="javascript:window.open('https://cbpssubscriber.mygov.in/aff/WGTmyWw1sp3rfwlR')" style="cursor: pointer; font-size: 14px;" onload="javascript:(function(){ _done=true;}).call(this)"></div>
+</div>
+<div class="cmp-carousel__item" tabindex="-1" aria-label="Slide 2 of 6" data-cmp-hook-carousel="item" aria-hidden="true" style="font-size: 14px;"><div class="image" style="font-size: 14px;">
+<div data-cmp-is="image" data-cmp-lazythreshold="0" data-cmp-src="/content/mca/global/en/home/_jcr_content/root/responsivegrid/carousel/item_1610906827319.coreimg{.width}.png/1783099370807/corporate-mitra-course.png" data-asset="/content/dam/mca/banners/corporate-mitra-course.png" data-asset-id="a03775a8-2e40-4ff0-891d-0f2b11bcb4b8" data-title="Corporate Mitra Course banner showing eligibility, academic support institutions, course fee, and fee concession details." id="image-cb0cc4c281" class="cmp-image" itemscope="" itemtype="http://schema.org/ImageObject" style="font-size: 14px;">
     
         
             
-            <img src="/content/mca/global/en/data-and-reports/rd-roc-info/roc-adjudication-orders/_jcr_content/root/responsivegrid/image.coreimg.jpeg/1710913200131/collage-2.jpeg" class="cmp-image__image" itemprop="contentUrl" data-cmp-hook-image="image" style="font-size: 14px;">
+            <img src="/content/mca/global/en/home/_jcr_content/root/responsivegrid/carousel/item_1610906827319.coreimg.png/1783099370807/corporate-mitra-course.png" class="cmp-image__image" itemprop="contentUrl" data-cmp-hook-image="image" alt="Corporate Mitra Course banner showing eligibility, academic support institutions, course fee, and fee concession details." style="font-size: 14px;">
             
         
     
@@ -10268,540 +10281,105 @@ beneficial interest in contribution received by the LLP</a>
 
     
 </div>
-<div class="breadcrumb aem-GridColumn aem-GridColumn--default--12" style="font-size: 14px;">
+</div>
+<div class="cmp-carousel__item" tabindex="-1" aria-label="Slide 3 of 6" data-cmp-hook-carousel="item" aria-hidden="true" style="font-size: 14px;"><div class="image" style="font-size: 14px;">
+<div data-cmp-is="image" data-cmp-lazythreshold="0" data-cmp-src="/content/mca/global/en/home/_jcr_content/root/responsivegrid/carousel/item_1610906827318.coreimg{.width}.jpeg/1775473550879/pmis-20260406.jpeg" data-asset="/content/dam/mca/banners/PMIS-20260406.jpg" data-asset-id="8f65bf3d-9f44-43b8-953c-3f17eef7b6ec" data-title="Banner for the Prime Minister Internship Scheme showing internship benefits, eligibility, and registration details." id="image-08d39a0d3c" class="cmp-image" itemscope="" itemtype="http://schema.org/ImageObject" style="font-size: 14px;">
+    <a class="cmp-image__link" href="https://pminternship.mca.gov.in" data-cmp-hook-image="link" style="font-size: 14px;">
+        
+            
+            <img src="/content/mca/global/en/home/_jcr_content/root/responsivegrid/carousel/item_1610906827318.coreimg.jpeg/1775473550879/pmis-20260406.jpeg" class="cmp-image__image" itemprop="contentUrl" data-cmp-hook-image="image" alt="Banner for the Prime Minister Internship Scheme showing internship benefits, eligibility, and registration details." style="font-size: 14px;">
+            
+        
+    </a>
+    
+    
+</div>
 
     
-<link rel="stylesheet" href="/etc.clientlibs/mca/components/content/breadcrumb/clientlibs.min.css" type="text/css" style="font-size: 14px;">
+</div>
+</div>
+<div class="cmp-carousel__item" tabindex="-1" aria-label="Slide 4 of 6" data-cmp-hook-carousel="item" aria-hidden="true" style="font-size: 14px;"><div class="image" style="font-size: 14px;">
+<div data-cmp-is="image" data-cmp-lazythreshold="0" data-cmp-src="/content/mca/global/en/home/_jcr_content/root/responsivegrid/carousel/item_1595829668932.coreimg{.width}.jpeg/1711010934002/banner-1234-3.jpeg" data-asset="/content/dam/mca/banners/banner-1234-3.jpg" data-asset-id="990da9fb-a8db-4505-8af5-ef91eb46ba75" data-title="Ease of Doing Business through Digital Transformation improves business processes by enabling easy e‑filing, e‑consultation, service integration, simplified incorporation, better accessibility, and an enhanced user experience." id="image-0af7da81d6" class="cmp-image" itemscope="" itemtype="http://schema.org/ImageObject" style="font-size: 14px;">
+    <a class="cmp-image__link" href="/content/mca/global/en/ease-of-doing-business.html" data-cmp-hook-image="link" style="font-size: 14px;">
+        
+            
+            <img src="/content/mca/global/en/home/_jcr_content/root/responsivegrid/carousel/item_1595829668932.coreimg.jpeg/1711010934002/banner-1234-3.jpeg" class="cmp-image__image" itemprop="contentUrl" data-cmp-hook-image="image" alt="Ease of Doing Business through Digital Transformation improves business processes by enabling easy e‑filing, e‑consultation, service integration, simplified incorporation, better accessibility, and an enhanced user experience." style="font-size: 14px;">
+            
+        
+    </a>
+    
+    
+</div>
 
+    
+</div>
+</div>
+<div class="cmp-carousel__item" tabindex="-1" aria-label="Slide 5 of 6" data-cmp-hook-carousel="item" aria-hidden="true" style="font-size: 14px;"><div class="image" style="font-size: 14px;">
+<div data-cmp-is="image" data-cmp-lazythreshold="0" data-cmp-src="/content/mca/global/en/home/_jcr_content/root/responsivegrid/carousel/item_1595941582411.coreimg{.width}.png/1767969456177/corporate-seva-kendra-banner-20260107.png" data-asset="/content/dam/mca/banners/corporate-seva-kendra_Banner-20260107.png" data-asset-id="6edd97f7-2ed9-408d-acaf-368ee6e59814" data-title="Corporate Seva Kendra offers corporate support through helplines 0120‑4832500, 1800‑202‑3454, and 0120‑6951300, email appl.helpdesk@mca.gov.in, and a DIN Cell Helpline at 7796698925–27 for quick assistance." id="image-a2dd242e47" class="cmp-image" itemscope="" itemtype="http://schema.org/ImageObject" style="font-size: 14px;">
+    <a class="cmp-image__link" href="/content/mca/global/en/corporate-seva-kendra.html" data-cmp-hook-image="link" style="font-size: 14px;">
+        
+            
+            <img src="/content/mca/global/en/home/_jcr_content/root/responsivegrid/carousel/item_1595941582411.coreimg.png/1767969456177/corporate-seva-kendra-banner-20260107.png" class="cmp-image__image" itemprop="contentUrl" data-cmp-hook-image="image" alt="Corporate Seva Kendra offers corporate support through helplines 0120‑4832500, 1800‑202‑3454, and 0120‑6951300, email appl.helpdesk@mca.gov.in, and a DIN Cell Helpline at 7796698925–27 for quick assistance." style="font-size: 14px;">
+            
+        
+    </a>
+    
+    
+</div>
 
+    
+</div>
+</div>
+<div class="cmp-carousel__item" tabindex="-1" aria-label="Slide 6 of 6" data-cmp-hook-carousel="item" aria-hidden="true" style="font-size: 14px;"><div class="image" style="font-size: 14px;">
+<div data-cmp-is="image" data-cmp-lazythreshold="0" data-cmp-src="/content/mca/global/en/home/_jcr_content/root/responsivegrid/carousel/item_1610906827365.coreimg{.width}.jpeg/1714623028038/iepf-banner-image1.jpeg" data-asset="/content/dam/mca/banners/iepf-banner-image1.jpg" data-asset-id="e42627dd-625a-488a-8e64-58772a6ef891" data-title="The message cautions investors not to let greed put their investments at risk and encourages making informed and careful financial decisions, as advised in public interest by the IEPF Authority, with more information available at www.iepf.gov.in." id="image-39781a2cfb" class="cmp-image" itemscope="" itemtype="http://schema.org/ImageObject" style="font-size: 14px;">
+    <a class="cmp-image__link" href="http://www.iepf.gov.in/" data-cmp-hook-image="link" style="font-size: 14px;">
+        
+            
+            <img src="/content/mca/global/en/home/_jcr_content/root/responsivegrid/carousel/item_1610906827365.coreimg.jpeg/1714623028038/iepf-banner-image1.jpeg" class="cmp-image__image" itemprop="contentUrl" data-cmp-hook-image="image" alt="The message cautions investors not to let greed put their investments at risk and encourages making informed and careful financial decisions, as advised in public interest by the IEPF Authority, with more information available at www.iepf.gov.in." style="font-size: 14px;">
+            
+        
+    </a>
+    
+    
+</div>
 
-<div class="container" style="font-size: 14px;">
-    <div class="row" style="font-size: 14px;">
-        <div class="col-12" style="font-size: 14px;">
-            <nav id="breadcrumb-6cc447a4e8" class="cmp-breadcrumb" aria-label="Breadcrumb" style="font-size: 14px;">
-                <ol class="cmp-breadcrumb__list" itemscope="" itemtype="http://schema.org/BreadcrumbList" style="font-size: 14px;">
-                    <li class="cmp-breadcrumb__item" itemprop="itemListElement" itemscope="" itemtype="http://schema.org/ListItem" style="font-size: 12px;">
-                        <a href="/content/mca/global/en.html" class="cmp-breadcrumb__item-link" itemprop="item" style="font-size: 14px;">
-                            <span itemprop="name" style="font-size: 14px;">Home</span>
-                        </a>
-                        <meta itemprop="position" content="1" style="font-size: 14px;">
-                    </li>
-                
-                    <li class="cmp-breadcrumb__item" itemprop="itemListElement" itemscope="" itemtype="http://schema.org/ListItem" style="font-size: 12px;">
-                        <a href="/content/mca/global/en/data-and-reports.html" class="cmp-breadcrumb__item-link" itemprop="item" style="font-size: 14px;">
-                            <span itemprop="name" style="font-size: 14px;">Data &amp; Reports</span>
-                        </a>
-                        <meta itemprop="position" content="2" style="font-size: 14px;">
-                    </li>
-                
-                    <li class="cmp-breadcrumb__item" itemprop="itemListElement" itemscope="" itemtype="http://schema.org/ListItem" style="font-size: 12px;">
-                        <a href="/content/mca/global/en/data-and-reports/rd-roc-info.html" class="cmp-breadcrumb__item-link" itemprop="item" style="font-size: 14px;">
-                            <span itemprop="name" style="font-size: 14px;">RD/ROC Information</span>
-                        </a>
-                        <meta itemprop="position" content="3" style="font-size: 14px;">
-                    </li>
-                
-                    <li class="cmp-breadcrumb__item cmp-breadcrumb__item--active" itemprop="itemListElement" itemscope="" itemtype="http://schema.org/ListItem" style="font-size: 12px;">
-                        
-                            <span itemprop="name" style="font-size: 14px;">ROC Adjudication Orders</span>
-                        
-                        <meta itemprop="position" content="4" style="font-size: 14px;">
-                    </li>
-                </ol>
-            </nav>
+    
+</div>
+</div>
+
+        <div class="cmp-carousel__actions" style="font-size: 14px;">
+            <button type="button" class="cmp-carousel__action cmp-carousel__action--previous" aria-label="Previous" id="prevBtn" data-cmp-hook-carousel="previous" title="carousel previous button" tabindex="0" style="font-size: 14px;"></button>
+            <button type="button" class="cmp-carousel__action cmp-carousel__action--next" data-cmp-hook-carousel="next" id="nxtBtn" title="carousel next button" tabindex="0" style="font-size: 14px;"></button>
         </div>
+        <ol class="mca-carousel-cmp-carousel__indicators" role="tablist" aria-label="Choose a slide to display" data-cmp-hook-carousel="indicators" style="font-size: 14px;">
+            <li class="cmp-carousel__indicator cmp-carousel__indicator--active" role="tab" aria-label="Slide 1" data-cmp-hook-carousel="indicator" aria-selected="true" tabindex="0" style="font-size: 0px;">
+                Image
+            </li>
+<li class="cmp-carousel__indicator" role="tab" aria-label="Slide 2" data-cmp-hook-carousel="indicator" aria-selected="false" tabindex="-1" style="font-size: 0px;">
+                
+            </li>
+<li class="cmp-carousel__indicator" role="tab" aria-label="Slide 3" data-cmp-hook-carousel="indicator" aria-selected="false" tabindex="-1" style="font-size: 0px;">
+                
+            </li>
+<li class="cmp-carousel__indicator" role="tab" aria-label="Slide 4" data-cmp-hook-carousel="indicator" aria-selected="false" tabindex="-1" style="font-size: 0px;">
+                
+            </li>
+<li class="cmp-carousel__indicator" role="tab" aria-label="Slide 5" data-cmp-hook-carousel="indicator" aria-selected="false" tabindex="-1" style="font-size: 0px;">
+                
+            </li>
+<li class="cmp-carousel__indicator" role="tab" aria-label="Slide 6" data-cmp-hook-carousel="indicator" aria-selected="false" tabindex="-1" style="font-size: 0px;">
+                
+            </li>
+
+        </ol>
+        
     </div>
-</div>
-
+</div></div>
+<div class="slidingtext aem-GridColumn aem-GridColumn--default--12" style="font-size: 14px;">
     
-</div>
-<div class="leftnavcontainer aem-GridColumn aem-GridColumn--default--12" style="font-size: 14px;"><div class="mca-container" style="font-size: 14px;">
-    <div class="row" style="font-size: 14px;">
-    	<div class="col-lg-3" id="left-content" style="font-size: 14px;">
-            <div class="leftnavigation section" style="font-size: 14px;">
-    
-<link rel="stylesheet" href="/etc.clientlibs/mca/components/content/leftnavigation/clientlibs.min.css" type="text/css" style="font-size: 14px;">
-<link rel="stylesheet" href="/etc.clientlibs/bomca/components/content/leftnavigation/clientlibs.min.css" type="text/css" style="font-size: 14px;">
-<script src="/etc.clientlibs/mca/components/content/leftnavigation/clientlibs.min.js" style="font-size: 14px;"></script>
-<script src="/etc.clientlibs/bomca/components/content/leftnavigation/clientlibs.min.js" style="font-size: 14px;"></script>
+<link rel="stylesheet" href="/etc.clientlibs/mca/components/content/home/slidingtext/v1/slidingtext/clientlibs.min.css" type="text/css" style="font-size: 14px;">
 
 
 
-
- <div class="d-none d-lg-block" id="sidenav" style="font-size: 14px;">
-		
-
-
-	
-	
-
-	
-	
-
-	
-	
-
-<ul class="navbar-nav" style="font-size: 14px;">
-	
-
-
-    <li class="nav-item dropdown bottom-border" style="font-size: 14px;">
-		
-    
-
-	
-<a class="nav-link level0  " href="/content/mca/global/en/data-and-reports/reports.html" style="font-size: 14px;">Reports</a>
-
-    	
-
-
-	
-
-	
-
-	
-
-	
-
-	
-
-<a class="toggleclass dropdown-toggle" data-toggle="dropdown" style="font-size: 14px;"></a><ul class="dropdown-menu innerNavul" style="font-size: 14px;">
-	
-
-
-    <li class="dropdown-item" style="font-size: 14px;">
-		
-    
-
-	
-<a class="dropdown-item level1  " href="/content/mca/global/en/data-and-reports/reports/annual-reports.html" style="font-size: 13px;">Annual Reports</a>
-
-    	
-
-
-	
-
-	
-
-	
-
-<a class="toggleclass dropdown-toggle innerNavLinks" data-toggle="dropdown" style="font-size: 13px;"></a><ul class="dropdown-menu innerNavul" style="font-size: 14px;">
-	
-
-
-    <li class="dropdown-item" style="font-size: 14px;">
-		
-    
-
-	
-<a class="dropdown-item level2  " href="/content/mca/global/en/data-and-reports/reports/annual-reports/annual-report.html" style="font-size: 13px;">Annual Report</a>
-
-    	
-	</li>
-
-
-	
-
-
-    <li class="dropdown-item" style="font-size: 14px;">
-		
-    
-
-	
-<a class="dropdown-item level2  " href="/content/mca/global/en/data-and-reports/reports/annual-reports/companies-2013.html" style="font-size: 13px;">Annual Reports on Working &amp; Administration of Companies Act, 2013</a>
-
-    	
-	</li>
-
-
-	
-
-
-    <li class="dropdown-item" style="font-size: 14px;">
-		
-    
-
-	
-<a class="dropdown-item level2  " href="/content/mca/global/en/data-and-reports/reports/annual-reports/companies-1956.html" style="font-size: 13px;">Annual Reports on Working &amp; Administration of Companies Act, 1956</a>
-
-    	
-	</li>
-
-</ul>
-
-	</li>
-
-
-	
-
-
-    <li class="dropdown-item" style="font-size: 14px;">
-		
-    
-
-	
-<a class="dropdown-item level1  " href="/content/mca/global/en/data-and-reports/reports/monthly-information-bulletin.html" style="font-size: 13px;">Monthly Information Bulletin</a>
-
-    	
-	</li>
-
-
-	
-
-
-    <li class="dropdown-item" style="font-size: 14px;">
-		
-    
-
-	
-<a class="dropdown-item level1  " href="/content/mca/global/en/data-and-reports/reports/report-company-law.html" style="font-size: 13px;">Report Of The Expert Committee On Company Law</a>
-
-    	
-	</li>
-
-
-	
-
-
-    <li class="dropdown-item" style="font-size: 14px;">
-		
-    
-
-	
-<a class="dropdown-item level1  " href="/content/mca/global/en/data-and-reports/reports/library.html" style="font-size: 13px;">Expert Committee Reports</a>
-
-    	
-	</li>
-
-
-	
-
-
-    <li class="dropdown-item" style="font-size: 14px;">
-		
-    
-
-	
-<a class="dropdown-item level1  " href="/content/mca/global/en/data-and-reports/reports/miscellaneous.html" style="font-size: 13px;">Miscellaneous</a>
-
-    	
-
-
-	
-
-<a class="toggleclass dropdown-toggle innerNavLinks" data-toggle="dropdown" style="font-size: 13px;"></a><ul class="dropdown-menu innerNavul" style="font-size: 14px;">
-	
-
-
-    <li class="dropdown-item" style="font-size: 14px;">
-		
-    
-
-	
-<a class="dropdown-item level2  " href="/content/mca/global/en/data-and-reports/reports/miscellaneous/compendium-on-csr.html" style="font-size: 13px;">Compendium-on-CSR</a>
-
-    	
-	</li>
-
-</ul>
-
-	</li>
-
-</ul>
-
-	</li>
-
-
-	
-
-
-    <li class="nav-item dropdown bottom-border" style="font-size: 14px;">
-		
-    
-
-	
-<a class="nav-link level0  " href="/content/mca/global/en/data-and-reports/company-llp-info.html" style="font-size: 14px;">Company/LLP Information</a>
-
-    	
-
-
-	
-
-	
-
-	
-
-	
-
-<a class="toggleclass dropdown-toggle" data-toggle="dropdown" style="font-size: 14px;"></a><ul class="dropdown-menu innerNavul" style="font-size: 14px;">
-	
-
-
-    <li class="dropdown-item" style="font-size: 14px;">
-		
-    
-
-	
-<a class="dropdown-item level1  " href="/content/mca/global/en/data-and-reports/company-llp-info/incorporated-closed-month.html" style="font-size: 13px;">Incorporated Or Closed During The Month</a>
-
-    	
-	</li>
-
-
-	
-
-
-    <li class="dropdown-item" style="font-size: 14px;">
-		
-    
-
-	
-<a class="dropdown-item level1  " href="/content/mca/global/en/data-and-reports/company-llp-info/csr-data-summary.html" style="font-size: 13px;">CSR Data &amp; Summary</a>
-
-    	
-	</li>
-
-
-	
-
-
-    <li class="dropdown-item" style="font-size: 14px;">
-		
-    
-
-	
-<a class="dropdown-item level1  " href="/content/mca/global/en/data-and-reports/company-llp-info/puc-range-wise.html" style="font-size: 13px;">PUC Range Wise</a>
-
-    	
-	</li>
-
-
-	
-
-
-    <li class="dropdown-item" style="font-size: 14px;">
-		
-    
-
-	
-<a class="dropdown-item level1  " href="/content/mca/global/en/data-and-reports/company-llp-info/under-alert.html" style="font-size: 13px;">Companies Under Alert</a>
-
-    	
-
-
-	
-
-	
-
-	
-
-	
-
-	
-
-	
-
-	
-
-	
-
-	
-
-	
-
-<a class="toggleclass dropdown-toggle innerNavLinks" data-toggle="dropdown" style="font-size: 13px;"></a><ul class="dropdown-menu innerNavul" style="font-size: 14px;">
-	
-
-
-    <li class="dropdown-item" style="font-size: 14px;">
-		
-    
-
-	
-<a class="dropdown-item level2  " href="/content/mca/global/en/data-and-reports/company-llp-info/under-alert/mlm.html" style="font-size: 13px;">MLM Companies</a>
-
-    	
-	</li>
-
-
-	
-
-
-    <li class="dropdown-item" style="font-size: 14px;">
-		
-    
-
-	
-<a class="dropdown-item level2  " href="/content/mca/global/en/data-and-reports/company-llp-info/under-alert/vanishing-companies.html" style="font-size: 13px;">Vanishing Companies</a>
-
-    	
-	</li>
-
-
-	
-
-
-    <li class="dropdown-item" style="font-size: 14px;">
-		
-    
-
-	
-<a class="dropdown-item level2  " href="/content/mca/global/en/data-and-reports/company-llp-info/under-alert/disqualified-directors.html" style="font-size: 13px;">Disqualified Directors</a>
-
-    	
-	</li>
-
-
-	
-
-
-    <li class="dropdown-item" style="font-size: 14px;">
-		
-    
-
-	
-<a class="dropdown-item level2  " href="/content/mca/global/en/data-and-reports/company-llp-info/under-alert/defaulter-companies.html" style="font-size: 13px;">Defaulter Companies</a>
-
-    	
-	</li>
-
-
-	
-
-
-    <li class="dropdown-item" style="font-size: 14px;">
-		
-    
-
-	
-<a class="dropdown-item level2  " href="/content/mca/global/en/data-and-reports/company-llp-info/under-alert/defaulter-directors.html" style="font-size: 13px;">Defaulter Directors</a>
-
-    	
-	</li>
-
-
-	
-
-
-    <li class="dropdown-item" style="font-size: 14px;">
-		
-    
-
-	
-<a class="dropdown-item level2  " href="/content/mca/global/en/data-and-reports/company-llp-info/under-alert/defaulter-secretaries.html" style="font-size: 13px;">Defaulter Secretaries</a>
-
-    	
-	</li>
-
-
-	
-
-
-    <li class="dropdown-item" style="font-size: 14px;">
-		
-    
-
-	
-<a class="dropdown-item level2  " href="/content/mca/global/en/data-and-reports/company-llp-info/under-alert/dormant-companies.html" style="font-size: 13px;">Dormant Companies</a>
-
-    	
-	</li>
-
-
-	
-
-
-    <li class="dropdown-item" style="font-size: 14px;">
-		
-    
-
-	
-<a class="dropdown-item level2  " href="/content/mca/global/en/data-and-reports/company-llp-info/under-alert/companies-under-strike-off.html" style="font-size: 13px;">Companies under strike off</a>
-
-    	
-	</li>
-
-
-	
-
-
-    <li class="dropdown-item" style="font-size: 14px;">
-		
-    
-
-	
-<a class="dropdown-item level2  " href="/content/mca/global/en/data-and-reports/company-llp-info/under-alert/llps-under-strike-off.html" style="font-size: 13px;">LLPs under strike off</a>
-
-    	
-	</li>
-
-
-	
-
-
-    <li class="dropdown-item" style="font-size: 14px;">
-		
-    
-
-	
-<a class="dropdown-item level2  " href="/content/mca/global/en/data-and-reports/company-llp-info/under-alert/companies-nf-5inv.html" style="font-size: 13px;">Companies not filed 5INV</a>
-
-    	
-	</li>
-
-</ul>
-
-	</li>
-
-</ul>
-
-	</li>
-
-
-	
-
-
-    <li class="nav-item dropdown bottom-border show" style="font-size: 14px;">
-		
-    
-
-	
-<a class="nav-link level0 active" href="/content/mca/global/en/data-and-reports/rd-roc-info.html" style="font-size: 13px; color: rgb(18, 122, 191);">RD/ROC Information</a>
-
-    	
-
-
-	
-
-	
-
-	
-
-	
-
-	
-
-	
-
-	
-
-	
-
-	
-
-	
-
-	
-
-	
-
-<a class="toggleclass dropdown-toggle" data-toggle="dropdown" style="font-size: 14px;"></a><ul class="dropdown-menu innerNavul show" style="font-size: 14px;">
-	
-
-
-    <li class="dropdown-item" style="font-size: 14px;">
-		
-    
-
-	
-<a class="dropdown-item level1  " href="/content/mca/global/en/data-and-reports/rd-roc-info/companies-struck-roc.html" style="font-size: 13px;">List Of
+<div class="marquee" style="font-size: 14px;">
+    <span tabindex="0" class="marquee-container" style="font-size: 14px;"><p style="font-size: 16px;"><a href="/content/dam/mca/pdf/open-house-20260709.pdf" target="_blank" style="font-size: 14px;"> <u style="font-size: 14px;">The Open House Session Regarding the Registration/Compliance of Foreign Companies in India </u></a>&nbsp;&nbsp;||&nbsp;&nbsp;Corporate Mitra Faculty &amp; Students Webinar — Central &amp; North Region successfully conducted today on 7th July 2026 at 5:30 PM​​​&nbsp;&nbsp;||&nbsp;&nbsp;Corporate Mitra Faculty &amp; Students Webinar — North-east Region successfully conducted today on 6th July 2026 at 4:00 PM​​&nbsp;&nbsp;||&nbsp;&nbsp;Corporate Mitra’ course Webinar for Working Professionals successfully conducted today on 5th July 2026 at 5:30 PM​​&nbsp;&nbsp;||&nbsp;&nbsp;Corporate Mitra Faculty &amp; Students Webinar — West Region successfully conducted today on 4th July 2026 at 5:30 PM&nbsp;&nbsp;||&nbsp;&nbsp;Stay alert against fake MCA communications. Do not click suspicious links or open unsolicited ZIP files. Verify only at <a href="https://www.mca.gov.in/content/mca/global/en/home.html" target="_blank" style="font-size: 14px;"><u style="font-size: 14px;">www.mca.gov.in.</u></a>&nbsp;||&nbsp;&nbsp;Corporate Mitra Faculty &amp; Students Webinar — East Region successfully conducted today on 3rd July 2026 at 5:30 PM​&nbsp;||&nbsp;&nbsp;Corporate Mitra Faculty &amp; Students Webinar for the South Region successfully conducted on 2 July 2026. Registration for the ‘Corporate Mitra’ Course will commence soon!&nbsp;||&nbsp;&nbsp;18 Vacancies of Company Prosecutor in the Ministry of Corporate Affairs (<a href="https://upsconline.nic.in/ora/" target="_blank" style="font-size: 14px;"> <u style="font-size: 14px;">https://upsconline.nic.in/ora/</u></a> and <a href="https://upsc.gov.in" target="_blank" style="font-size: 14px;"><u style="font-size: 14px;">https://upsc.gov.in</u></a>)&nbsp;||&nbsp;&nbsp;<a href="/content/dam/mca/pdf/corporate-mitra-guidelines-20260626.pdf" style="font-size: 14px;"><u style="font-size: 14px;">‘Corporate Mitra’ Guidelines</u></a>&nbsp;||&nbsp;&nbsp;Stakeholders may please note that ‘Companies Compliance Facilitation Scheme, 2026 (CCFS-2026)’, issued vide Circular No. 01/2026 shall be effective from 15 April 2026 and shall remain in force till 15th July 2026. Stakeholders may kindly take note of this update and plan their relevant form filings accordingly.&nbsp;&nbsp;||&nbsp;&nbsp;<a href="/content/mca/global/en/help-faq/annual-filing.html" style="font-size: 14px;"><u style="font-size: 14px;">FAQs for Annual Filing Forms</u></a>&nbsp;||&nbsp;&nbsp;Attention Foreign Directors - Stakeholders facing OTP issues are advised to raise a ticket with the MCA Helpdesk and follow the instructions received via email in response to the ticket&nbsp;||&nbsp;&nbsp;Stakeholders are advised to create user ID/upgrade existing V2 ID/Merge V2 ID in V3 system under ‘Business user’ category and associate the DSC if not already done. &nbsp;&nbsp;||&nbsp;&nbsp;Users are requested to make payments for fund transfer to IEPFA through MCA portal under V3 Miscellaneous fee service only. Kindly do not make direct payments to Bharat Kosh for such fund transfers. ||&nbsp;
