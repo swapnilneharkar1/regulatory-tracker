@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-13T06:49:01.100Z",
+  "generatedAt": "2026-07-13T07:17:16.332Z",
   "data": {
     "SEBI_0": {
       "rows": [
@@ -13,7 +13,7 @@
           "link": "https://www.sebi.gov.in/legal/circulars/jul-2026/intraday-borrowing-facility-availed-by-mutual-funds_102762.html"
         }
       ],
-      "ts": 1783925215078,
+      "ts": 1783926910116,
       "ok": true
     },
     "SEBI_1": {
@@ -244,7 +244,7 @@
           "link": "https://www.sebi.gov.in/legal/master-circulars/nov-2024/master-circular-for-compliance-with-the-provisions-of-the-securities-and-exchange-board-of-india-listing-obligations-and-disclosure-requirements-regulations-2015-by-listed-entities_88388.html"
         }
       ],
-      "ts": 1783925217970,
+      "ts": 1783926912876,
       "ok": true
     },
     "SEBI_2": {
@@ -475,7 +475,7 @@
           "link": "https://www.sebi.gov.in/enforcement/informal-guidance/apr-2025/informal-guidance-by-way-of-an-interpretive-letter-with-respect-to-regulation-10-1-d-iii-of-the-sebi-substantial-acquisition-of-shares-and-takeovers-regulations-2011-takeover-regulations-in-_93264.html"
         }
       ],
-      "ts": 1783925219771,
+      "ts": 1783926914771,
       "ok": true
     },
     "SEBI_3": {
@@ -706,7 +706,7 @@
           "link": "https://www.sebi.gov.in/reports-and-statistics/reports/apr-2026/consultation-paper-on-review-of-variable-net-worth-for-stock-brokers-_101092.html"
         }
       ],
-      "ts": 1783925222164,
+      "ts": 1783926917123,
       "ok": true
     },
     "SEBI_4": {
@@ -1072,7 +1072,7 @@
           "link": "https://www.sebi.gov.in/sebiweb/home/HomeAction.do?doListingAll=yes&cid=24"
         }
       ],
-      "ts": 1783925224260,
+      "ts": 1783926919133,
       "ok": true
     },
     "SEBI_5": {
@@ -1096,7 +1096,7 @@
           "link": "https://www.sebi.gov.in/enforcement/clarifications-on-insider-trading/oct-2022/compilation-of-informal-guidance-relating-to-sebi-pit-regulations-2015-for-the-period-oct-2015-sept-2022_64336.html"
         }
       ],
-      "ts": 1783925225981,
+      "ts": 1783926920957,
       "ok": true
     },
     "SEBI_6": {
@@ -1165,7 +1165,7 @@
           "link": "https://www.sebi.gov.in/enforcement/orders/jul-2026/adjudication-order-in-respect-of-late-padma-singhwani-in-the-matter-of-dealings-in-illiquid-stock-options-at-bse_102693.html"
         }
       ],
-      "ts": 1783925227447,
+      "ts": 1783926922446,
       "ok": true
     },
     "RBI_0": {
@@ -1261,7 +1261,7 @@
           "link": "https://www.rbi.org.in/scripts/NotificationUser.aspx?Id=13545&Mode=0"
         }
       ],
-      "ts": 1783925229829,
+      "ts": 1783926924631,
       "ok": true
     },
     "RBI_1": {
@@ -1483,7 +1483,7 @@
           "link": "https://www.rbi.org.in/Scripts/BS_ViewMasterDirections.aspx?did=344"
         }
       ],
-      "ts": 1783925232024,
+      "ts": 1783926926906,
       "ok": true
     },
     "RBI_2": {
@@ -1597,7 +1597,7 @@
           "link": "https://www.rbi.org.in/Scripts/BS_ViewMasterCirculardetails.aspx?did=332"
         }
       ],
-      "ts": 1783925234264,
+      "ts": 1783926929086,
       "ok": true
     },
     "RBI_3": {
@@ -1783,13 +1783,157 @@
           "link": "https://www.rbi.org.in/Scripts/BS_PressReleaseDisplay.aspx?prid=62221"
         }
       ],
-      "ts": 1783925236874,
+      "ts": 1783926931402,
       "ok": true
     },
     "BSE_0": {
       "rows": [
         {
           "sr": 1,
+          "date": "19 Jun 2026",
+          "year": 2026,
+          "cat": "Circular",
+          "title": "Update of single filing system through API-based integration between Stock Exchanges.",
+          "desc": "",
+          "link": "https://www.bseindia.com/downloads/UploadDocs/Notices/20260619-11/20260619-11.pdf"
+        },
+        {
+          "sr": 2,
+          "date": "12 Jun 2026",
+          "year": 2026,
+          "cat": "Circular",
+          "title": "Frequently Asked Questions (FAQs) on the submission of the Quarterly Integrated Filing – Governance",
+          "desc": "",
+          "link": "https://www.bseindia.com/downloads/UploadDocs/Notices/20260612-13/20260612-13.pdf"
+        },
+        {
+          "sr": 3,
+          "date": "01 Jun 2026",
+          "year": 2026,
+          "cat": "Circular",
+          "title": "MCA Notifications relating to Corporate Social Responsibility (CSR) and Social Stock Exchange",
+          "desc": "",
+          "link": "https://www.bseindia.com/downloads/UploadDocs/Notices/20260601-37/20260601-37.pdf"
+        },
+        {
+          "sr": 4,
+          "date": "01 Jun 2026",
+          "year": 2026,
+          "cat": "Circular",
+          "title": "Pre-Packaged Insolvency Resolution Process under Section 54L of the Insolvency and Bankruptcy Code, 2016",
+          "desc": "",
+          "link": "https://www.bseindia.com/downloads/UploadDocs/Notices/20260601-34/20260601-34.pdf"
+        },
+        {
+          "sr": 5,
+          "date": "29 May 2026",
+          "year": 2026,
+          "cat": "Circular",
+          "title": "Update of single filing system through API-based integration between Stock Exchanges",
+          "desc": "",
+          "link": "https://www.bseindia.com/downloads/UploadDocs/Notices/20260529-28/20260529-28.pdf"
+        },
+        {
+          "sr": 6,
+          "date": "20 May 2026",
+          "year": 2026,
+          "cat": "Circular",
+          "title": "Status of SPVs post conclusion or termination of Concession Agreement",
+          "desc": "",
+          "link": "https://www.bseindia.com/downloads/UploadDocs/Notices/20260520-10/20260520-10.pdf"
+        },
+        {
+          "sr": 7,
+          "date": "20 May 2026",
+          "year": 2026,
+          "cat": "Circular",
+          "title": "Permitted use of fresh borrowings for InvITs where Net Borrowings exceeds forty-nine percent of the value of InvIT assets",
+          "desc": "",
+          "link": "https://www.bseindia.com/downloads/UploadDocs/Notices/20260520-8/20260520-8.pdf"
+        },
+        {
+          "sr": 8,
+          "date": "06 May 2026",
+          "year": 2026,
+          "cat": "Circular",
+          "title": "Extension of timeline for compliance with terms and conditions by\nDebenture Trustees for carrying out activities outside the purview of\nSEBI",
+          "desc": "",
+          "link": "https://www.bseindia.com/downloads/UploadDocs/Notices/20260506-37/20260506-37.pdf"
+        },
+        {
+          "sr": 9,
+          "date": "04 May 2026",
+          "year": 2026,
+          "cat": "Circular",
+          "title": "XBRL based filing for Violations related to Code of Conduct (CoC) under SEBI PIT Regulations, 2015",
+          "desc": "",
+          "link": "https://www.bseindia.com/downloads/UploadDocs/Notices/20260504-17/20260504-17.pdf"
+        },
+        {
+          "sr": 10,
+          "date": "04 May 2026",
+          "year": 2026,
+          "cat": "Circular",
+          "title": "Update of single filing system through API-based integration between Stock Exchanges",
+          "desc": "",
+          "link": "https://www.bseindia.com/downloads/UploadDocs/Notices/20260504-16/20260504-16.pdf"
+        },
+        {
+          "sr": 11,
+          "date": "30 Apr 2026",
+          "year": 2026,
+          "cat": "Circular",
+          "title": "Master Circular - Listing Compliance",
+          "desc": "",
+          "link": "https://www.bseindia.com/downloads/UploadDocs/Notices/20260430-29/20260430-29.pdf"
+        },
+        {
+          "sr": 12,
+          "date": "24 Apr 2026",
+          "year": 2026,
+          "cat": "Circular",
+          "title": "Update of single filing system through API-based integration between Stock Exchanges",
+          "desc": "",
+          "link": "https://www.bseindia.com/downloads/UploadDocs/Notices/20260424-25/20260424-25.pdf"
+        },
+        {
+          "sr": 13,
+          "date": "20 Apr 2026",
+          "year": 2026,
+          "cat": "Circular",
+          "title": "Update of single filing system through API-based integration between Stock Exchanges",
+          "desc": "",
+          "link": "https://www.bseindia.com/downloads/UploadDocs/Notices/20260420-31/20260420-31.pdf"
+        },
+        {
+          "sr": 14,
+          "date": "09 Apr 2026",
+          "year": 2026,
+          "cat": "Circular",
+          "title": "Master Circular for compliance with the provisions of the SEBI (LODR) Regulations, 2015 on non-compliance with the Minimum Public Shareholding (MPS) requirements",
+          "desc": "",
+          "link": "https://www.bseindia.com/downloads/UploadDocs/Notices/20260409-3/20260409-3.pdf"
+        },
+        {
+          "sr": 15,
+          "date": "30 Mar 2026",
+          "year": 2026,
+          "cat": "Circular",
+          "title": "Update on single filing system through API-based integration between Stock Exchanges",
+          "desc": "",
+          "link": "https://www.bseindia.com/downloads/UploadDocs/Notices/20260330-41/20260330-41.pdf"
+        },
+        {
+          "sr": 16,
+          "date": "23 Mar 2026",
+          "year": 2026,
+          "cat": "Circular",
+          "title": "Listing of Units of Raajmarg Infra Investment Trust",
+          "desc": "",
+          "link": "https://www.bseindia.com/downloads/UploadDocs/Notices/20260323-27/20260323-27.pdf"
+        },
+        {
+          "sr": 17,
           "date": "10 Mar 2026",
           "year": 2026,
           "cat": "Circular",
@@ -1798,7 +1942,7 @@
           "link": "https://www.bseindia.com/markets/MarketInfo/DispNewNoticesCirculars?page=20260310-1"
         },
         {
-          "sr": 2,
+          "sr": 18,
           "date": "06 Mar 2026",
           "year": 2026,
           "cat": "Circular",
@@ -1807,7 +1951,7 @@
           "link": "https://www.bseindia.com/markets/MarketInfo/DispNewNoticesCirculars?page=20260306-25"
         },
         {
-          "sr": 3,
+          "sr": 19,
           "date": "20 Feb 2026",
           "year": 2026,
           "cat": "Circular",
@@ -1816,7 +1960,7 @@
           "link": "https://www.bseindia.com/markets/MarketInfo/DispNewNoticesCirculars?page=20260220-44"
         },
         {
-          "sr": 4,
+          "sr": 20,
           "date": "03 Feb 2026",
           "year": 2026,
           "cat": "Circular",
@@ -1825,7 +1969,7 @@
           "link": "https://www.bseindia.com/markets/MarketInfo/DispNewNoticesCirculars?page=20260203-14"
         },
         {
-          "sr": 5,
+          "sr": 21,
           "date": "03 Feb 2026",
           "year": 2026,
           "cat": "Circular",
@@ -1834,7 +1978,7 @@
           "link": "https://www.bseindia.com/markets/MarketInfo/DispNewNoticesCirculars?page=20260203-13"
         },
         {
-          "sr": 6,
+          "sr": 22,
           "date": "03 Feb 2026",
           "year": 2026,
           "cat": "Circular",
@@ -1843,7 +1987,7 @@
           "link": "https://www.bseindia.com/markets/MarketInfo/DispNewNoticesCirculars?page=20260203-12"
         },
         {
-          "sr": 7,
+          "sr": 23,
           "date": "02 Feb 2026",
           "year": 2026,
           "cat": "Circular",
@@ -1852,7 +1996,7 @@
           "link": "https://www.bseindia.com/markets/MarketInfo/DispNewNoticesCirculars?page=20260202-37"
         },
         {
-          "sr": 8,
+          "sr": 24,
           "date": "02 Jan 2026",
           "year": 2026,
           "cat": "Circular",
@@ -1861,160 +2005,16 @@
           "link": "https://www.bseindia.com/markets/MarketInfo/DispNewNoticesCirculars?page=20260102-23"
         },
         {
-          "sr": 9,
+          "sr": 25,
           "date": "22 Dec 2025",
           "year": 2025,
           "cat": "Circular",
           "title": "Modification in the conditions specified for reduction in denomination of debt securities",
           "desc": "",
           "link": "https://www.bseindia.com/markets/MarketInfo/DispNewNoticesCirculars?page=20251222-26"
-        },
-        {
-          "sr": 10,
-          "date": "22 Dec 2025",
-          "year": 2025,
-          "cat": "Circular",
-          "title": "Mandating periodic disclosure requirements- Securitised Debt  Instruments (SDIs).",
-          "desc": "",
-          "link": "https://www.bseindia.com/markets/MarketInfo/DispNewNoticesCirculars?page=20251222-25"
-        },
-        {
-          "sr": 11,
-          "date": "18 Dec 2025",
-          "year": 2025,
-          "cat": "Circular",
-          "title": "Reclassification of Real Estate Investment Trusts (REITs) as equity related instruments for facilitating enhanced participation by Mutual Funds and Specialized Investment Funds (SIFs).",
-          "desc": "",
-          "link": "https://www.bseindia.com/markets/MarketInfo/DispNewNoticesCirculars?page=20251218-23"
-        },
-        {
-          "sr": 12,
-          "date": "09 Dec 2025",
-          "year": 2025,
-          "cat": "Circular",
-          "title": "SEBI (Substantial Acquisition of Shares and Takeovers) (Amendment) Regulations, 2025",
-          "desc": "",
-          "link": "https://www.bseindia.com/markets/MarketInfo/DispNewNoticesCirculars?page=20251209-53"
-        },
-        {
-          "sr": 13,
-          "date": "27 Nov 2025",
-          "year": 2025,
-          "cat": "Circular",
-          "title": "Modifications to Chapter IV of the Master Circular for Debenture Trustees dated August 13, 2025.",
-          "desc": "",
-          "link": "https://www.bseindia.com/markets/MarketInfo/DispNewNoticesCirculars?page=20251127-66"
-        },
-        {
-          "sr": 14,
-          "date": "27 Nov 2025",
-          "year": 2025,
-          "cat": "Circular",
-          "title": "Specification of the terms and conditions for Debenture Trustees for carrying out activities outside the purview of SEBI.",
-          "desc": "",
-          "link": "https://www.bseindia.com/markets/MarketInfo/DispNewNoticesCirculars?page=20251127-65"
-        },
-        {
-          "sr": 15,
-          "date": "27 Nov 2025",
-          "year": 2025,
-          "cat": "Circular",
-          "title": "Timeline for submission of information by the Issuer to the Debenture Trustee(s)",
-          "desc": "",
-          "link": "https://www.bseindia.com/markets/MarketInfo/DispNewNoticesCirculars?page=20251127-64"
-        },
-        {
-          "sr": 16,
-          "date": "27 Nov 2025",
-          "year": 2025,
-          "cat": "Circular",
-          "title": "SEBI (Listing obligations and disclosure requirements) (Fifth amendment) regulations, 2025",
-          "desc": "",
-          "link": "https://www.bseindia.com/markets/MarketInfo/DispNewNoticesCirculars?page=20251127-63"
-        },
-        {
-          "sr": 17,
-          "date": "21 Nov 2025",
-          "year": 2025,
-          "cat": "Circular",
-          "title": "Master Circular for issue and listing of Non-convertible Securities, Securitised Debt Instruments, Security Receipts, Municipal Debt Securities and Commercial Paper.",
-          "desc": "",
-          "link": "https://www.bseindia.com/markets/MarketInfo/DispNewNoticesCirculars?page=20251121-73"
-        },
-        {
-          "sr": 18,
-          "date": "21 Nov 2025",
-          "year": 2025,
-          "cat": "Circular",
-          "title": "XBRL based filing of Regulation 50 for Entities which has listed its non-convertible securities",
-          "desc": "",
-          "link": "https://www.bseindia.com/markets/MarketInfo/DispNewNoticesCirculars?page=20251121-72"
-        },
-        {
-          "sr": 19,
-          "date": "17 Nov 2025",
-          "year": 2025,
-          "cat": "Circular",
-          "title": "Frequently Asked Questions (FAQ) for submission of financial results as required under Regulation 33 of SEBI (LODR) Regulations, 2015 & Master circular for compliance with the provisions of the SEBI (LODR) Regulations, 2015.",
-          "desc": "",
-          "link": "https://www.bseindia.com/markets/MarketInfo/DispNewNoticesCirculars?page=20251117-20"
-        },
-        {
-          "sr": 20,
-          "date": "14 Oct 2025",
-          "year": 2025,
-          "cat": "Circular",
-          "title": "SEBI Circular on “Minimum information to be provided to the Audit Committee and Shareholders for approval of Related Party Transactions.”",
-          "desc": "",
-          "link": "https://www.bseindia.com/markets/MarketInfo/DispNewNoticesCirculars?page=20251014-34"
-        },
-        {
-          "sr": 21,
-          "date": "09 Oct 2025",
-          "year": 2025,
-          "cat": "Circular",
-          "title": "Filing of Financial Results by REITs & InvITs in XBRL Mode",
-          "desc": "",
-          "link": "https://www.bseindia.com/markets/MarketInfo/DispNewNoticesCirculars?page=20251009-62"
-        },
-        {
-          "sr": 22,
-          "date": "26 Sept 2025",
-          "year": 2025,
-          "cat": "Circular",
-          "title": "Framework on Social Stock Exchange (“SSE”)",
-          "desc": "",
-          "link": "https://www.bseindia.com/markets/MarketInfo/DispNewNoticesCirculars?page=20250926-67"
-        },
-        {
-          "sr": 23,
-          "date": "24 Sept 2025",
-          "year": 2025,
-          "cat": "Circular",
-          "title": "Listing of further securities issued by the companies under ESOP/ESOS",
-          "desc": "",
-          "link": "https://www.bseindia.com/markets/MarketInfo/DispNewNoticesCirculars?page=20250924-42"
-        },
-        {
-          "sr": 24,
-          "date": "12 Sept 2025",
-          "year": 2025,
-          "cat": "Circular",
-          "title": "Update on single filing system through API-based integration between Stock Exchanges",
-          "desc": "",
-          "link": "https://www.bseindia.com/markets/MarketInfo/DispNewNoticesCirculars?page=20250912-89"
-        },
-        {
-          "sr": 25,
-          "date": "11 Sept 2025",
-          "year": 2025,
-          "cat": "Circular",
-          "title": "SEBI (LODR) (Third Amendment) Regulations, 2025",
-          "desc": "",
-          "link": "https://www.bseindia.com/markets/MarketInfo/DispNewNoticesCirculars?page=20250911-86"
         }
       ],
-      "ts": 1783925243546,
+      "ts": 1783926938342,
       "ok": true
     },
     "NSE_0": {
@@ -2470,7 +2470,7 @@
           "link": "https://nsearchives.nseindia.com//web/sites/default/files/inline-files/SEBI%20Circular.PDF"
         }
       ],
-      "ts": 1783925246169,
+      "ts": 1783926940627,
       "ok": true
     },
     "IRDAI_0": {
@@ -2656,7 +2656,7 @@
           "link": "https://irdai.gov.in/documents/37343/370706/%E0%A4%B5%E0%A4%BF%E0%A4%A4%E0%A5%8D%E0%A4%A4%E0%A5%80%E0%A4%AF+%E0%A4%B5%E0%A4%B0%E0%A5%8D%E0%A4%B7+2021-22+%E0%A4%95%E0%A5%87+%E0%A4%B2%E0%A4%BF%E0%A4%8F+%E0%A4%85%E0%A4%A8%E0%A4%BF%E0%A4%B5%E0%A4%BE%E0%A4%B0%E0%A5%8D%E0%A4%AF+%E0%A4%85%E0%A4%A7%E0%A5%8D%E0%A4%AF%E0%A4%AA%E0%A4%B0%E0%A5%8D%E0%A4%A3+_+Obligatory+Cession+for+the+financial+year+2021-22.pdf/1d9d69ca-4c19-6270-12bf-97c98263d2de?version=1.3&t=1688453069110&download=true"
         }
       ],
-      "ts": 1783925249661,
+      "ts": 1783926943947,
       "ok": true
     },
     "IRDAI_1": {
@@ -2842,7 +2842,7 @@
           "link": "https://irdai.gov.in/documents/37343/365525/%E0%A4%B8%E0%A4%B0%E0%A4%95%E0%A4%BE%E0%A4%B0%E0%A5%80+%E0%A4%AA%E0%A5%8D%E0%A4%B0%E0%A4%A4%E0%A4%BF%E0%A4%AD%E0%A5%82%E0%A4%A4%E0%A4%BF%E0%A4%AF%E0%A5%8B%E0%A4%82+%E0%A4%AE%E0%A5%87%E0%A4%82+%E0%A4%B5%E0%A4%BE%E0%A4%AF%E0%A4%A6%E0%A4%BE+%E0%A4%B8%E0%A4%82%E0%A4%B5%E0%A4%BF%E0%A4%A6%E0%A4%BE%E0%A4%93%E0%A4%82+%28%E0%A4%AC%E0%A4%BE%E0%A4%82%E0%A4%A1+%E0%A4%AB%E0%A4%BE%E0%A4%B0%E0%A5%8D%E0%A4%B5%E0%A4%B0%E0%A5%8D%E0%A4%A1%E0%A5%8D%E0%A4%B8%29+%E0%A4%AE%E0%A5%87%E0%A4%82+%E0%A4%8F%E0%A4%95%E0%A5%8D%E0%A4%B8%E0%A4%AA%E0%A5%8B%E0%A4%9C%E0%A4%BC%E0%A4%B0+_+Exposure+to+Forward+Contracts+in+Government+Securities+%28Bond+Forwards%29.pdf/0537a8ef-0854-a1ad-e8d6-57295e432496?version=1.0&t=1741606296187&download=true"
         }
       ],
-      "ts": 1783925253332,
+      "ts": 1783926947213,
       "ok": true
     },
     "IRDAI_2": {
@@ -3028,7 +3028,7 @@
           "link": "https://irdai.gov.in/documents/37343/366029/Guidelines+for+Practical+Training+for+Surveyors+and+Loss+Assessors.pdf/a6bf771d-06cb-182f-6b70-f49179a9241d?version=1.0&t=1631531743569&download=true"
         }
       ],
-      "ts": 1783925256670,
+      "ts": 1783926952221,
       "ok": true
     },
     "IEPFA_0": {
@@ -3079,7 +3079,7 @@
           "link": "https://www.iepf.gov.in/content/iepf/global/master/Home/Notifications/rules.html#"
         }
       ],
-      "ts": 1783925272608,
+      "ts": 1783926962984,
       "ok": true
     },
     "IEPFA_1": {
@@ -3130,7 +3130,7 @@
           "link": "https://www.iepf.gov.in/content/iepf/global/master/Home/Notifications/notices-and-circulars.html#"
         }
       ],
-      "ts": 1783925277441,
+      "ts": 1783926967817,
       "ok": true
     },
     "IEPFA_2": {
@@ -3181,7 +3181,7 @@
           "link": "https://www.iepf.gov.in/content/iepf/global/master/Home/Notifications/notices-and-orders-under-rule-7-3----7-7-.html#"
         }
       ],
-      "ts": 1783925282239,
+      "ts": 1783926972618,
       "ok": true
     },
     "MCA_0": {
@@ -3250,27 +3250,27 @@
           "link": "https://www.mca.gov.in/content/mca/global/en/home.html"
         }
       ],
-      "ts": 1783925288681,
+      "ts": 1783926979151,
       "ok": true
     },
     "MCA_1": {
       "rows": [],
-      "ts": 1783925298857,
+      "ts": 1783926986682,
       "ok": true
     },
     "MCA_2": {
       "rows": [],
-      "ts": 1783925306679,
+      "ts": 1783926993094,
       "ok": true
     },
     "MCA_3": {
       "rows": [],
-      "ts": 1783925313159,
+      "ts": 1783926999055,
       "ok": true
     },
     "MCA_4": {
       "rows": [],
-      "ts": 1783925320234,
+      "ts": 1783927006097,
       "ok": true
     },
     "NFRA_0": {
@@ -3330,7 +3330,7 @@
           "link": "https://cdnbbsr.s3waas.gov.in/s3e2ad76f2326fbc6b56a45a56c59fafdb/uploads/2023/02/2023020650.pdf"
         }
       ],
-      "ts": 1783925323372,
+      "ts": 1783927011003,
       "ok": true
     },
     "NFRA_1": {
@@ -3444,7 +3444,7 @@
           "link": "https://cdnbbsr.s3waas.gov.in/s3e2ad76f2326fbc6b56a45a56c59fafdb/uploads/2024/06/202406211115088640.pdf"
         }
       ],
-      "ts": 1783925324884,
+      "ts": 1783927012515,
       "ok": true
     },
     "NFRA_2": {
@@ -3549,7 +3549,121 @@
           "link": "https://cdnbbsr.s3waas.gov.in/s3e2ad76f2326fbc6b56a45a56c59fafdb/uploads/2023/02/2023020735.pdf"
         }
       ],
-      "ts": 1783925326389,
+      "ts": 1783927014061,
+      "ok": true
+    },
+    "NFRA_3": {
+      "rows": [
+        {
+          "sr": 1,
+          "date": "27 Mar 2026",
+          "year": 2026,
+          "cat": "Inspection Report",
+          "title": "Accessible Version :\n                                                         View(2 MB)",
+          "desc": "",
+          "link": "https://cdnbbsr.s3waas.gov.in/s3e2ad76f2326fbc6b56a45a56c59fafdb/uploads/2026/03/202603271602779421.pdf"
+        },
+        {
+          "sr": 2,
+          "date": "27 Mar 2026",
+          "year": 2026,
+          "cat": "Inspection Report",
+          "title": "Accessible Version :\n                                                         View(6 MB)",
+          "desc": "",
+          "link": "https://cdnbbsr.s3waas.gov.in/s3e2ad76f2326fbc6b56a45a56c59fafdb/uploads/2026/03/20260327184757266.pdf"
+        },
+        {
+          "sr": 3,
+          "date": "27 Mar 2026",
+          "year": 2026,
+          "cat": "Inspection Report",
+          "title": "Accessible Version :\n                                                         View(1 MB)",
+          "desc": "",
+          "link": "https://cdnbbsr.s3waas.gov.in/s3e2ad76f2326fbc6b56a45a56c59fafdb/uploads/2026/03/20260327329777596.pdf"
+        },
+        {
+          "sr": 4,
+          "date": "27 Mar 2026",
+          "year": 2026,
+          "cat": "Inspection Report",
+          "title": "Accessible Version :\n                                                         View(970 KB)",
+          "desc": "",
+          "link": "https://cdnbbsr.s3waas.gov.in/s3e2ad76f2326fbc6b56a45a56c59fafdb/uploads/2026/03/202603271697133162.pdf"
+        },
+        {
+          "sr": 5,
+          "date": "27 Mar 2026",
+          "year": 2026,
+          "cat": "Inspection Report",
+          "title": "Accessible Version :\n                                                         View(8 MB)",
+          "desc": "",
+          "link": "https://cdnbbsr.s3waas.gov.in/s3e2ad76f2326fbc6b56a45a56c59fafdb/uploads/2026/03/20260327472312265.pdf"
+        },
+        {
+          "sr": 6,
+          "date": "27 Mar 2026",
+          "year": 2026,
+          "cat": "Inspection Report",
+          "title": "Accessible Version :\n                                                         View",
+          "desc": "",
+          "link": "https://cdnbbsr.s3waas.gov.in/s3e2ad76f2326fbc6b56a45a56c59fafdb/uploads/2026/03/20260327320356470.pdf"
+        },
+        {
+          "sr": 7,
+          "date": "16 Mar 2026",
+          "year": 2026,
+          "cat": "Inspection Report",
+          "title": "Accessible Version :\n                                                         View(869 KB)",
+          "desc": "",
+          "link": "https://cdnbbsr.s3waas.gov.in/s3e2ad76f2326fbc6b56a45a56c59fafdb/uploads/2026/03/20260316375432609.pdf"
+        },
+        {
+          "sr": 8,
+          "date": "16 Mar 2026",
+          "year": 2026,
+          "cat": "Inspection Report",
+          "title": "Accessible Version :\n                                                         View(963 KB)",
+          "desc": "",
+          "link": "https://cdnbbsr.s3waas.gov.in/s3e2ad76f2326fbc6b56a45a56c59fafdb/uploads/2026/03/202603161208398009.pdf"
+        },
+        {
+          "sr": 9,
+          "date": "16 Mar 2026",
+          "year": 2026,
+          "cat": "Inspection Report",
+          "title": "Accessible Version :\n                                                         View(2 MB)",
+          "desc": "",
+          "link": "https://cdnbbsr.s3waas.gov.in/s3e2ad76f2326fbc6b56a45a56c59fafdb/uploads/2026/03/20260316322158579.pdf"
+        },
+        {
+          "sr": 10,
+          "date": "16 Mar 2026",
+          "year": 2026,
+          "cat": "Inspection Report",
+          "title": "Accessible Version :\n                                                         View(1,005 KB)",
+          "desc": "",
+          "link": "https://cdnbbsr.s3waas.gov.in/s3e2ad76f2326fbc6b56a45a56c59fafdb/uploads/2026/03/20260316866297865.pdf"
+        },
+        {
+          "sr": 11,
+          "date": "28 Mar 2025",
+          "year": 2025,
+          "cat": "Inspection Report",
+          "title": "Accessible Version :\n                                                         View(1 MB)",
+          "desc": "",
+          "link": "https://cdnbbsr.s3waas.gov.in/s3e2ad76f2326fbc6b56a45a56c59fafdb/uploads/2025/03/202503281125535815.pdf"
+        },
+        {
+          "sr": 12,
+          "date": "28 Mar 2025",
+          "year": 2025,
+          "cat": "Inspection Report",
+          "title": "Accessible Version :\n                                                         View(6 MB)",
+          "desc": "",
+          "link": "https://cdnbbsr.s3waas.gov.in/s3e2ad76f2326fbc6b56a45a56c59fafdb/uploads/2025/03/202503281699084526.pdf"
+        }
+      ],
+      "ts": 1783927015588,
       "ok": true
     },
     "PCAOB_0": {
@@ -3735,7 +3849,7 @@
           "link": "https://pcaobus.org/news-events/news-releases/news-release-detail/pcaob-requests-public-comment-on-strategic-priorities"
         }
       ],
-      "ts": 1783925333468,
+      "ts": 1783927022544,
       "ok": true
     },
     "PCAOB_1": {
@@ -3921,7 +4035,193 @@
           "link": "http://pcaobus.org/news-events/news-releases/news-release-detail/pcaob-sanctions-former-partner-for-violations-of-pcaob-rules-and-standards--including-failure-to-cooperate-with-an-inspection"
         }
       ],
-      "ts": 1783925339899,
+      "ts": 1783927028930,
+      "ok": true
+    },
+    "PCAOB_2": {
+      "rows": [
+        {
+          "sr": 1,
+          "date": "dateApr. 30, 2026",
+          "year": 2026,
+          "cat": "Inspection Report",
+          "title": "Download PDF",
+          "desc": "",
+          "link": "https://assets.pcaobus.org/pcaob-dev/docs/default-source/inspections/reports/documents/104-2026-049-aryroepcke.pdf?sfvrsn=c243429c_2"
+        },
+        {
+          "sr": 2,
+          "date": "dateApr. 30, 2026",
+          "year": 2026,
+          "cat": "Inspection Report",
+          "title": "Calvetti Ferguson, LLC",
+          "desc": "",
+          "link": "https://assets.pcaobus.org/pcaob-dev/docs/default-source/inspections/reports/documents/104-2026-050-calvetti.pdf?sfvrsn=fa040e82_2"
+        },
+        {
+          "sr": 3,
+          "date": "dateApr. 30, 2026",
+          "year": 2026,
+          "cat": "Inspection Report",
+          "title": "Deloitte Touche Tohmatsu Auditores Independentes Ltda.",
+          "desc": "",
+          "link": "https://assets.pcaobus.org/pcaob-dev/docs/default-source/inspections/reports/documents/104-2026-051-dt-brazil.pdf?sfvrsn=a8819c6d_2"
+        },
+        {
+          "sr": 4,
+          "date": "dateApr. 30, 2026",
+          "year": 2026,
+          "cat": "Inspection Report",
+          "title": "Gray, Gray & Gray, LLP",
+          "desc": "",
+          "link": "https://assets.pcaobus.org/pcaob-dev/docs/default-source/inspections/reports/documents/104-2026-052-gray.pdf?sfvrsn=e23eb8ee_2"
+        },
+        {
+          "sr": 5,
+          "date": "dateApr. 30, 2026",
+          "year": 2026,
+          "cat": "Inspection Report",
+          "title": "Keiter, Stephens, Hurst, Gary & Shreaves, P.C.",
+          "desc": "",
+          "link": "https://assets.pcaobus.org/pcaob-dev/docs/default-source/inspections/reports/documents/104-2026-053-keiterstephens.pdf?sfvrsn=56ebe69d_2"
+        },
+        {
+          "sr": 6,
+          "date": "dateApr. 30, 2026",
+          "year": 2026,
+          "cat": "Inspection Report",
+          "title": "PBMares, LLP",
+          "desc": "",
+          "link": "https://assets.pcaobus.org/pcaob-dev/docs/default-source/inspections/reports/documents/104-2026-054-pbmares.pdf?sfvrsn=ef23c6a3_2"
+        },
+        {
+          "sr": 7,
+          "date": "dateApr. 30, 2026",
+          "year": 2026,
+          "cat": "Inspection Report",
+          "title": "SC&H Attest Services, P.C.",
+          "desc": "",
+          "link": "https://assets.pcaobus.org/pcaob-dev/docs/default-source/inspections/reports/documents/104-2026-056-sc-h.pdf?sfvrsn=b74ffc91_2"
+        },
+        {
+          "sr": 8,
+          "date": "dateApr. 30, 2026",
+          "year": 2026,
+          "cat": "Inspection Report",
+          "title": "BDO AG Wirtschaftsprüfungsgesellschaft",
+          "desc": "",
+          "link": "https://assets.pcaobus.org/pcaob-dev/docs/default-source/inspections/reports/documents/104-2026-040-bdo-germany.pdf?sfvrsn=c3f59294_2"
+        },
+        {
+          "sr": 9,
+          "date": "dateMar. 26, 2026",
+          "year": 2026,
+          "cat": "Inspection Report",
+          "title": "Deloitte Certified Public Accountants S.A.",
+          "desc": "",
+          "link": "https://assets.pcaobus.org/pcaob-dev/docs/default-source/inspections/reports/documents/104-2026-041-deloitte-greece.pdf?sfvrsn=a2c91e3_2"
+        },
+        {
+          "sr": 10,
+          "date": "dateMar. 26, 2026",
+          "year": 2026,
+          "cat": "Inspection Report",
+          "title": "Ernst & Young AB",
+          "desc": "",
+          "link": "https://assets.pcaobus.org/pcaob-dev/docs/default-source/inspections/reports/documents/104-2026-043-ey-sweden.pdf?sfvrsn=91cd38a_2"
+        },
+        {
+          "sr": 11,
+          "date": "dateMar. 26, 2026",
+          "year": 2026,
+          "cat": "Inspection Report",
+          "title": "Ernst & Young LLP",
+          "desc": "",
+          "link": "https://assets.pcaobus.org/pcaob-dev/docs/default-source/inspections/reports/documents/104-2026-044-ey-uk.pdf?sfvrsn=e589106d_2"
+        },
+        {
+          "sr": 12,
+          "date": "dateMar. 26, 2026",
+          "year": 2026,
+          "cat": "Inspection Report",
+          "title": "EY Bedrijfsrevisoren BV",
+          "desc": "",
+          "link": "https://assets.pcaobus.org/pcaob-dev/docs/default-source/inspections/reports/documents/104-2026-045-ey-belgium.pdf?sfvrsn=795658b3_2"
+        },
+        {
+          "sr": 13,
+          "date": "dateMar. 26, 2026",
+          "year": 2026,
+          "cat": "Inspection Report",
+          "title": "Fahn Kanne & Co.",
+          "desc": "",
+          "link": "https://assets.pcaobus.org/pcaob-dev/docs/default-source/inspections/reports/documents/104-2026-046-fahn-kanne-israel.pdf?sfvrsn=6db729be_2"
+        },
+        {
+          "sr": 14,
+          "date": "dateMar. 26, 2026",
+          "year": 2026,
+          "cat": "Inspection Report",
+          "title": "Grant Thornton UK LLP",
+          "desc": "",
+          "link": "https://assets.pcaobus.org/pcaob-dev/docs/default-source/inspections/reports/documents/104-2026-047-gt-uk.pdf?sfvrsn=f6b72253_2"
+        },
+        {
+          "sr": 15,
+          "date": "dateMar. 26, 2026",
+          "year": 2026,
+          "cat": "Inspection Report",
+          "title": "PricewaterhouseCoopers AS",
+          "desc": "",
+          "link": "https://assets.pcaobus.org/pcaob-dev/docs/default-source/inspections/reports/documents/104-2026-048-pwc-norway.pdf?sfvrsn=ab9014d_2"
+        },
+        {
+          "sr": 16,
+          "date": "dateMar. 26, 2026",
+          "year": 2026,
+          "cat": "Inspection Report",
+          "title": "Deloitte Accountants B.V.",
+          "desc": "",
+          "link": "https://assets.pcaobus.org/pcaob-dev/docs/default-source/inspections/reports/documents/104-2026-037-deloitte-netherlands.pdf?sfvrsn=940a67f7_2"
+        },
+        {
+          "sr": 17,
+          "date": "dateFeb. 9, 2026",
+          "year": 2026,
+          "cat": "Inspection Report",
+          "title": "Mauldin & Jenkins, LLC",
+          "desc": "",
+          "link": "https://assets.pcaobus.org/pcaob-dev/docs/default-source/inspections/reports/documents/104-2026-039-mauldin.pdf?sfvrsn=a34ca344_2"
+        },
+        {
+          "sr": 18,
+          "date": "dateJan. 29, 2026",
+          "year": 2026,
+          "cat": "Inspection Report",
+          "title": "L J Soldinger Associates, LLC",
+          "desc": "",
+          "link": "https://assets.pcaobus.org/pcaob-dev/docs/default-source/inspections/reports/documents/104-2026-034-ljsoldinger.pdf?sfvrsn=f810a45c_2"
+        },
+        {
+          "sr": 19,
+          "date": "dateJan. 29, 2026",
+          "year": 2026,
+          "cat": "Inspection Report",
+          "title": "Navarro Amper & Co.",
+          "desc": "",
+          "link": "https://assets.pcaobus.org/pcaob-dev/docs/default-source/inspections/reports/documents/104-2026-035-navarro-amper-philippines.pdf?sfvrsn=f90c608b_2"
+        },
+        {
+          "sr": 20,
+          "date": "dateJan. 29, 2026",
+          "year": 2026,
+          "cat": "Inspection Report",
+          "title": "PricewaterhouseCoopers Statsautoriseret Revisionspartnerselskab",
+          "desc": "",
+          "link": "https://assets.pcaobus.org/pcaob-dev/docs/default-source/inspections/reports/documents/104-2026-036-pwc-denmark.pdf?sfvrsn=148cfe17_2"
+        }
+      ],
+      "ts": 1783927035130,
       "ok": true
     }
   }
