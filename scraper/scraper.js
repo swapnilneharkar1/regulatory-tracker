@@ -410,6 +410,45 @@ function parseLinkList(html, base, cat) {
    link, occasional inline links, and dates written as ordinals ("7th July 2026"). No
    generic table/list/card pass can handle this shape — confirmed against the real page,
    this needed a bespoke parser. */
+/* ── NFRA-style ".bt-content" list layout ──
+   NFRA's Inspection Reports page renders what looks like a table but is actually
+   div/span-based (title in <span class="bt-content">), so scoreTable() — built for real
+   <table><tr><td> markup — never finds it, and the row falls through to a weaker fallback
+   pass that grabs the wrong text. Confirmed against the real page: walk up from each
+   .bt-content title span to find the nearest date and link in the same row. */
+function parseBtContentRows(html, base, cat) {
+  const $ = cheerio.load(html);
+  const rows = [];
+  const seen = new Set();
+  $('.bt-content').each((_, el) => {
+    if (rows.length >= 60) return;
+    const title = $(el).text().trim().replace(/\s+/g, ' ');
+    if (title.length < 8 || seen.has(title) || NAV_WORDS.has(title.toLowerCase()) || IS_URL_RE.test(title)) return;
+
+    // Walk up a bounded number of ancestors looking for the row container that also
+    // holds this row's date and link — capped so we don't grab a huge unrelated scope.
+    let $row = $(el);
+    let dateText = '', link = '';
+    for (let hops = 0; hops < 6; hops++) {
+      $row = $row.parent();
+      if (!$row.length) break;
+      const rowText = $row.text();
+      const m = rowText.match(DATE_RE);
+      if (m) dateText = m[0];
+      const anchors = $row.find('a[href]');
+      let a = anchors.filter((_, a) => !GENERIC_LINK_WORDS.has($(a).text().trim().toLowerCase())).first();
+      if (!a.length) a = anchors.first();
+      if (a.length) link = resolveLink(a.attr('href') || '', base);
+      if (dateText && link) break;
+    }
+
+    seen.add(title);
+    const d = tryParseDate(dateText);
+    rows.push({ sr: rows.length + 1, date: d || dateText, year: extractYear(d || dateText), cat, title, desc: '', link: link || base });
+  });
+  return rows;
+}
+
 function parseMCAMarquee(html, base, cat) {
   const $ = cheerio.load(html);
   const container = $('.marquee-container').first();
@@ -521,6 +560,7 @@ async function scrapeTab(tab, cat) {
     case 'nse_next_data': rows = parseNSENextData(html, tab.src, cat); break;
     case 'rbi_nav_tree':  rows = parseRBINavTree(html, tab.src, cat); break;
     case 'mca_marquee':   rows = parseMCAMarquee(html, tab.src, cat); break;
+    case 'bt_content_rows': rows = parseBtContentRows(html, tab.src, cat); break;
     case 'rbi_nav_tree':  rows = parseRBINavTree(html, tab.src, cat); break;
     default:               rows = parseGenericHTML(html, tab.src, cat);
   }
