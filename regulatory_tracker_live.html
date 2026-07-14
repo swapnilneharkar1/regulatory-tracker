@@ -226,21 +226,7 @@
   .btn-settings:hover { background: var(--bg); color: var(--text-primary); }
   .btn-settings.configured { border-color:#8b5cf6; color:#7c3aed; background:#f5f3ff; }
 
-  #settingsModal { display:none; position:fixed; inset:0; background:rgba(0,0,0,.5); z-index:9999; align-items:center; justify-content:center; }
-  #settingsModal .modal-box { background:#fff; border-radius:12px; padding:28px; max-width:480px; width:90%; box-shadow:0 20px 60px rgba(0,0,0,.3); }
-  #settingsModal h3 { margin:0 0 6px; font-size:16px; }
-  #settingsModal p { margin:0 0 14px; font-size:13px; color:#5a6474; line-height:1.5; }
-  #settingsModal input[type=password], #settingsModal input[type=text] { width:100%; border:1px solid var(--border); border-radius:7px; padding:9px 12px; font-size:13px; font-family:monospace; margin-bottom:10px; outline:none; }
-  #settingsModal input:focus { border-color:#8b5cf6; }
-  #settingsModal .key-actions { display:flex; gap:8px; margin-top:14px; }
-  #settingsModal .btn-save { background:#7c3aed; color:#fff; border:none; border-radius:7px; padding:9px 18px; font-size:13px; font-weight:600; cursor:pointer; }
-  #settingsModal .btn-save:hover { background:#6d28d9; }
-  #settingsModal .btn-clear { background:none; border:1px solid var(--border); border-radius:7px; padding:9px 16px; font-size:13px; cursor:pointer; color:#5a6474; }
-  #settingsModal .btn-cancel { background:none; border:none; padding:9px 12px; font-size:13px; cursor:pointer; color:#5a6474; margin-left:auto; }
-  #settingsModal .key-status { font-size:12px; margin-bottom:10px; padding:8px 10px; border-radius:6px; }
-  #settingsModal .key-status.ok { background:#f0faf4; color:#1a7c44; }
-  #settingsModal .key-status.none { background:#fff8f0; color:#b45309; }
-  #settingsModal a { color:#7c3aed; }
+  
 
 </style>
 </head>
@@ -251,25 +237,8 @@
 <div id="localFileBanner">
   <span>⚠️</span>
   <span id="localFileBannerText"><strong>Data source not set up yet.</strong>
-  Edit <code>DATA_JSON_URL</code> near the top of the script and point it at your repo's <code>data/regulatory_data.json</code> (via raw.githubusercontent.com) — see the setup guide in the repo README. AI summaries separately need your own API key: click <a onclick="openSettings()">⚙️ AI Settings</a> above.</span>
+  Edit <code>DATA_JSON_URL</code> near the top of the script and point it at your repo's <code>data/regulatory_data.json</code> (via raw.githubusercontent.com) — see the setup guide in the repo README.</span>
   <button class="banner-close" onclick="this.parentElement.classList.remove('show')">✕</button>
-</div>
-
-<div id="settingsModal">
-  <div class="modal-box">
-    <h3>AI Summary — API Key</h3>
-    <p>AI summaries are generated using the Anthropic API directly from your browser. Your key is stored only in <strong>this browser's local storage</strong> — it is never sent anywhere except directly to Anthropic's servers.</p>
-    <div class="key-status" id="keyStatusBox">No API key configured yet.</div>
-    <input type="password" id="apiKeyInput" placeholder="sk-ant-..." autocomplete="off"/>
-    <div style="font-size:11.5px;color:var(--text-muted);margin-bottom:4px;">
-      Don't have a key? <a href="https://console.anthropic.com/settings/keys" target="_blank">Get one at console.anthropic.com</a> (requires billing setup — separate from any Claude.ai subscription).
-    </div>
-    <div class="key-actions">
-      <button class="btn-save" onclick="saveApiKey()">Save Key</button>
-      <button class="btn-clear" onclick="clearApiKey()">Clear</button>
-      <button class="btn-cancel" onclick="closeSettings()">Close</button>
-    </div>
-  </div>
 </div>
 
 <div id="serverHelpModal" style="display:none;position:fixed;inset:0;background:rgba(0,0,0,.5);z-index:9999;align-items:center;justify-content:center;">
@@ -297,7 +266,6 @@
   <div class="header-right">
     <div class="live-badge"><span class="live-dot"></span>Live Data</div>
     <span class="header-time" id="headerTime"></span>
-    <button class="btn-settings" id="settingsBtn" onclick="openSettings()" title="AI Summary Settings">⚙️ AI Settings</button>
   </div>
 </div>
 
@@ -381,12 +349,11 @@
             <th>DATE</th>
             <th>CATEGORY</th>
             <th>TITLE / DESCRIPTION</th>
-            <th>AI SUMMARY</th>
             <th>LINK</th>
           </tr>
         </thead>
         <tbody id="tableBody">
-          <tr class="state-row"><td colspan="6"><div class="spinner-wrap"><div class="mini-spin"></div>Loading data…</div></td></tr>
+          <tr class="state-row"><td colspan="5"><div class="spinner-wrap"><div class="mini-spin"></div>Loading data…</div></td></tr>
         </tbody>
       </table>
     </div>
@@ -518,59 +485,13 @@ const REGULATORS = {
   }
 };
 
-/* ── API Key Settings (stored locally in the user's own browser only) ── */
-const API_KEY_STORAGE = 'regtracker_anthropic_api_key';
-
-function getApiKey() {
-  try { return localStorage.getItem(API_KEY_STORAGE) || ''; } catch(e) { return ''; }
-}
-function openSettings() {
-  const key = getApiKey();
-  document.getElementById('apiKeyInput').value = key;
-  const box = document.getElementById('keyStatusBox');
-  if (key) {
-    box.className = 'key-status ok';
-    box.textContent = '✓ API key configured (ending …' + key.slice(-4) + ')';
-  } else {
-    box.className = 'key-status none';
-    box.textContent = 'No API key configured yet — AI summaries will not run until you add one.';
-  }
-  document.getElementById('settingsModal').style.display = 'flex';
-}
-function closeSettings() { document.getElementById('settingsModal').style.display = 'none'; }
-function saveApiKey() {
-  const val = document.getElementById('apiKeyInput').value.trim();
-  if (!val) { alert('Please paste a valid API key, or use Clear to remove it.'); return; }
-  if (!val.startsWith('sk-ant-')) { if (!confirm('That doesn\'t look like a typical Anthropic key (usually starts with "sk-ant-"). Save anyway?')) return; }
-  try { localStorage.setItem(API_KEY_STORAGE, val); } catch(e) { alert('Could not save key: ' + e.message); return; }
-  updateSettingsBtnState();
-  closeSettings();
-  // Retry any summaries currently showing an error/missing-key state
-  filteredRows.forEach((r, idx) => {
-    const cell = document.getElementById('sum-' + idx);
-    if (cell && cell.querySelector('.ai-error')) retrySummary(idx);
-  });
-}
-function clearApiKey() {
-  try { localStorage.removeItem(API_KEY_STORAGE); } catch(e) {}
-  document.getElementById('apiKeyInput').value = '';
-  updateSettingsBtnState();
-  openSettings();
-}
-function updateSettingsBtnState() {
-  const btn = document.getElementById('settingsBtn');
-  if (!btn) return;
-  btn.classList.toggle('configured', !!getApiKey());
-  btn.textContent = getApiKey() ? '✓ AI Key Set' : '⚙️ AI Settings';
-}
-
 /* ── State ── */
 let currentReg = 'RBI';
 let currentTabIdx = 0;
 let allRows = [];
 let filteredRows = [];
 let dataCache = {};
-let summaryCache = {};
+
 
 /* ── Time ── */
 function updateTime() {
@@ -763,13 +684,12 @@ function renderRows() {
   const tbody = document.getElementById('tableBody');
   tbody.innerHTML = '';
   if (!filteredRows.length) {
-    tbody.innerHTML = '<tr class="state-row"><td colspan="6">No results found.</td></tr>';
+    tbody.innerHTML = '<tr class="state-row"><td colspan="5">No results found.</td></tr>';
     document.getElementById('footerInfo').textContent = '0 items';
     return;
   }
   filteredRows.forEach((r, idx) => {
     const tr = document.createElement('tr');
-    const summaryKey = (r.link || r.title).substring(0,120);
     tr.innerHTML = `
       <td class="sr">${String(idx+1).padStart(2,'0')}</td>
       <td class="date-col">${r.date}</td>
@@ -778,96 +698,12 @@ function renderRows() {
         <span class="title-main">${esc(r.title)}</span>
         ${r.desc ? `<span class="title-desc">${esc(r.desc.substring(0,160))}</span>` : ''}
       </td>
-      <td class="summary-col" id="sum-${idx}">
-        <div class="ai-summary-loading"><div class="ai-dot-spin"></div>Generating…</div>
-      </td>
       <td class="link-col">${r.link ? `<a class="link-open" href="${esc(r.link)}" target="_blank">Open</a>` : '—'}</td>
     `;
     tbody.appendChild(tr);
-    // Fire AI summary (with a slight stagger to avoid rate-limiting)
-    setTimeout(() => generateSummary(idx, r, summaryKey), idx * 300);
   });
   document.getElementById('footerInfo').textContent = `${filteredRows.length} of ${allRows.length} items`;
   document.getElementById('footerTime').textContent = 'Updated: ' + new Date().toLocaleTimeString('en-IN',{hour:'2-digit',minute:'2-digit'});
-}
-
-/* ── AI Summary via Anthropic API ── */
-async function generateSummary(idx, row, cacheKey) {
-  const cell = document.getElementById('sum-' + idx);
-  if (!cell) return;
-
-  // Use cache if available
-  if (summaryCache[cacheKey]) {
-    cell.innerHTML = renderSummaryHTML(summaryCache[cacheKey]);
-    return;
-  }
-
-  const apiKey = getApiKey();
-  if (!apiKey) {
-    cell.innerHTML = '<span class="ai-error">No API key set.</span><button class="ai-retry" onclick="openSettings()">Add key</button>';
-    return;
-  }
-
-  const prompt = `You are a regulatory compliance expert for Bajaj Finserv's Secretarial & Legal team.
-Analyse the following regulatory update and respond with EXACTLY 2 sentences:
-• Sentence 1: What this update is about (subject matter, key directive).
-• Sentence 2: Compliance action or impact for Bajaj Finserv (NBFC / listed company / insurance entity as relevant).
-
-Regulator / Category: ${currentReg} – ${row.cat}
-Title: ${row.title}
-${row.desc ? 'Additional context: ' + row.desc : ''}
-
-Rules: Plain prose only. No bullet points, no headings, no markdown. Max 60 words total.`;
-
-  try {
-    const response = await fetch('https://api.anthropic.com/v1/messages', {
-      method: 'POST',
-      headers: {
-        'Content-Type': 'application/json',
-        'anthropic-dangerous-direct-browser-access': 'true',
-        'anthropic-version': '2023-06-01',
-        'x-api-key': apiKey,
-      },
-      body: JSON.stringify({
-        model: 'claude-sonnet-4-6',
-        max_tokens: 1000,
-        messages: [{ role: 'user', content: prompt }]
-      })
-    });
-    if (!response.ok) {
-      let msg = 'HTTP ' + response.status;
-      try { const errJson = await response.json(); msg = errJson?.error?.message || msg; } catch(e) {}
-      if (response.status === 401) {
-        cell.innerHTML = '<span class="ai-error">Invalid API key.</span><button class="ai-retry" onclick="openSettings()">Fix key</button>';
-        return;
-      }
-      throw new Error(msg);
-    }
-    const data = await response.json();
-    const text = data.content?.[0]?.text?.trim() || '';
-    if (text) {
-      summaryCache[cacheKey] = text;
-      if (cell) cell.innerHTML = renderSummaryHTML(text);
-    } else {
-      if (cell) cell.innerHTML = '<span class="ai-error">Summary unavailable</span>';
-    }
-  } catch(e) {
-    if (cell) cell.innerHTML = `<span class="ai-error">${esc((e.message||'Error').substring(0,60))}</span><button class="ai-retry" onclick="retrySummary(${idx})">Retry</button>`;
-  }
-}
-
-function retrySummary(idx) {
-  const row = filteredRows[idx];
-  if (!row) return;
-  const cell = document.getElementById('sum-' + idx);
-  if (cell) cell.innerHTML = '<div class="ai-summary-loading"><div class="ai-dot-spin"></div>Retrying…</div>';
-  const key = (row.link || row.title).substring(0,120);
-  delete summaryCache[key];
-  generateSummary(idx, row, key);
-}
-
-function renderSummaryHTML(text) {
-  return `<div class="ai-summary-wrap"><span class="ai-badge">✦ AI Summary</span><span class="ai-summary-text">${esc(text)}</span></div>`;
 }
 
 function tagClass(cat) {
@@ -891,7 +727,7 @@ function setLoading(on) {
   document.getElementById('refreshBtn').classList.toggle('spinning', on);
   if (on) {
     document.getElementById('tableBody').innerHTML =
-      '<tr class="state-row"><td colspan="6"><div class="spinner-wrap"><div class="mini-spin"></div>Loading live data…</div></td></tr>';
+      '<tr class="state-row"><td colspan="5"><div class="spinner-wrap"><div class="mini-spin"></div>Loading live data…</div></td></tr>';
   }
 }
 
@@ -919,7 +755,6 @@ function populateAllCounts() {
 setInterval(() => loadTab(true), 30 * 60 * 1000);
 
 /* ── Bootstrap ── */
-updateSettingsBtnState();
 renderSubtabs();
 
 if (DATA_JSON_URL.includes('YOUR_GITHUB_USERNAME')) {
