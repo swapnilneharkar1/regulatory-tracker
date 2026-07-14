@@ -747,6 +747,82 @@ async function fetchViaHeadlessBrowser(url, timeoutMs = 45000, opts = {}) {
   }
 }
 
+/* ── New-item detection + email notification ──
+   Compares this run's rows against the previous run's rows (already loaded above) to find
+   genuinely new items, then emails a digest if any were found. Only diffs a tab when BOTH
+   the previous and current run succeeded with real rows — this avoids a false "everything
+   is new" flood after a transient scrape failure wipes a tab down to 0 rows and it recovers
+   the next run (a real failure mode we hit repeatedly while building this scraper). */
+function findNewItems(previous, output) {
+  const newByRegulator = {};
+  for (const [regKey, reg] of Object.entries(REGULATORS)) {
+    for (const tab of reg.tabs) {
+      const cur = output[tab.key];
+      const prev = previous[tab.key];
+      if (!cur || !cur.ok || !cur.rows.length) continue;
+      if (!prev || !prev.ok || !prev.rows.length) continue; // no reliable baseline — skip, don't flood
+
+      const prevKeys = new Set(prev.rows.map(r => r.link || `${r.title}|${r.date}`));
+      const fresh = cur.rows.filter(r => !prevKeys.has(r.link || `${r.title}|${r.date}`));
+      if (fresh.length) {
+        if (!newByRegulator[regKey]) newByRegulator[regKey] = { name: reg.name, tabs: {} };
+        newByRegulator[regKey].tabs[tab.label] = fresh;
+      }
+    }
+  }
+  return newByRegulator;
+}
+
+async function sendNotificationEmail(newByRegulator) {
+  const { SMTP_HOST, SMTP_PORT, SMTP_USER, SMTP_PASS, NOTIFY_RECIPIENTS, TRACKER_URL } = process.env;
+  if (!SMTP_USER || !SMTP_PASS || !NOTIFY_RECIPIENTS) {
+    console.log('  [notify] Skipping email — SMTP_USER / SMTP_PASS / NOTIFY_RECIPIENTS not set as secrets.');
+    return;
+  }
+
+  const totalCount = Object.values(newByRegulator).reduce(
+    (sum, reg) => sum + Object.values(reg.tabs).reduce((s, rows) => s + rows.length, 0), 0
+  );
+
+  let bodyHtml = `<h2 style="font-family:sans-serif;">Regulatory Updates Tracker — ${totalCount} new item${totalCount === 1 ? '' : 's'}</h2>`;
+  for (const [regKey, reg] of Object.entries(newByRegulator)) {
+    bodyHtml += `<h3 style="font-family:sans-serif;color:#1e3a8a;">${reg.name}</h3><ul style="font-family:sans-serif;">`;
+    for (const [tabLabel, rows] of Object.entries(reg.tabs)) {
+      for (const r of rows) {
+        bodyHtml += `<li><strong>[${esc(tabLabel)}]</strong> ${esc(r.date || '')} — <a href="${esc(r.link || '#')}">${esc(r.title)}</a></li>`;
+      }
+    }
+    bodyHtml += `</ul>`;
+  }
+  if (TRACKER_URL) bodyHtml += `<p style="font-family:sans-serif;"><a href="${esc(TRACKER_URL)}">Open the full tracker →</a></p>`;
+
+  const nodemailer = require('nodemailer');
+  const transporter = nodemailer.createTransport({
+    host: SMTP_HOST || 'smtp.office365.com',
+    port: Number(SMTP_PORT) || 587,
+    secure: false, // STARTTLS on port 587
+    auth: { user: SMTP_USER, pass: SMTP_PASS }
+  });
+
+  try {
+    await transporter.sendMail({
+      from: SMTP_USER,
+      to: NOTIFY_RECIPIENTS, // comma-separated list
+      subject: `Regulatory Updates — ${totalCount} new item${totalCount === 1 ? '' : 's'} (${new Date().toLocaleDateString('en-IN')})`,
+      html: bodyHtml
+    });
+    console.log(`  [notify] Email sent to ${NOTIFY_RECIPIENTS} (${totalCount} new items).`);
+  } catch (e) {
+    // Never fail the whole scrape run just because email delivery had a problem —
+    // the data itself is still valid and should still be committed.
+    console.log(`  [notify] FAILED to send email: ${e.message}`);
+  }
+}
+
+function esc(s) {
+  return String(s == null ? '' : s).replace(/[&<>"']/g, c => ({ '&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;' }[c]));
+}
+
 async function main() {
   // Load previous output so a source that fails this run doesn't wipe out
   // the last good data — we keep serving stale-but-real data over nothing.
@@ -773,6 +849,17 @@ async function main() {
       // Be polite / avoid tripping rate limits — small delay between requests
       await new Promise(r => setTimeout(r, 1200));
     }
+  }
+
+  const newByRegulator = findNewItems(previous, output);
+  const newCount = Object.values(newByRegulator).reduce(
+    (sum, reg) => sum + Object.values(reg.tabs).reduce((s, rows) => s + rows.length, 0), 0
+  );
+  if (newCount > 0) {
+    console.log(`\nFound ${newCount} new item(s) since last run.`);
+    await sendNotificationEmail(newByRegulator);
+  } else {
+    console.log('\nNo new items since last run — skipping notification email.');
   }
 
   const final = { generatedAt: new Date().toISOString(), data: output };
