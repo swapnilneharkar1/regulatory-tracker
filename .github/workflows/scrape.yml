@@ -1,26 +1,21 @@
 name: Scrape Regulatory Data
-
 on:
   schedule:
-    - cron: '0 */1 * * *'   # every 3 hours, UTC
+    - cron: '0 */3 * * *'   # every 3 hours, UTC
   workflow_dispatch: {}      # lets you trigger it manually from the Actions tab
-
 permissions:
   contents: write
-
 jobs:
   scrape:
     runs-on: ubuntu-latest
-    timeout-minutes: 20   # headless rendering (BSE, PCAOB) is slower than plain HTTP fetches
+    timeout-minutes: 40   # headless rendering (BSE, PCAOB, IEPFA, MCA incl. filter-click waits) is slower than plain HTTP fetches
     steps:
       - name: Checkout repo
         uses: actions/checkout@v4
-
       - name: Set up Node
         uses: actions/setup-node@v4
         with:
           node-version: '20'
-
       - name: Install Chromium system dependencies (for Puppeteer)
         run: |
           sudo apt-get update
@@ -33,15 +28,19 @@ jobs:
             lsb-release wget xdg-utils || true
           # '|| true' because package names occasionally shift between Ubuntu runner
           # images; a missing optional lib usually doesn't stop Chromium from launching.
-
       - name: Install dependencies
         working-directory: scraper
         run: npm install
-
       - name: Run scraper
         working-directory: scraper
+        env:
+          SMTP_HOST: ${{ secrets.SMTP_HOST }}
+          SMTP_PORT: ${{ secrets.SMTP_PORT }}
+          SMTP_USER: ${{ secrets.SMTP_USER }}
+          SMTP_PASS: ${{ secrets.SMTP_PASS }}
+          NOTIFY_RECIPIENTS: ${{ secrets.NOTIFY_RECIPIENTS }}
+          TRACKER_URL: ${{ secrets.TRACKER_URL }}
         run: node scraper.js
-
       - name: Commit and push data if changed
         run: |
           git config user.name "regulatory-tracker-bot"
@@ -57,7 +56,6 @@ jobs:
           git status
           git diff --staged --quiet || git commit -m "Update regulatory data ($(date -u +%Y-%m-%dT%H:%M:%SZ))"
           git push
-
       - name: Purge jsDelivr CDN cache
         # jsDelivr caches files served from @main and does NOT reliably refresh just because
         # the underlying GitHub file changed — without this, the tracker frontend (which reads
