@@ -523,7 +523,7 @@
 			}
 		};
 
-		Liferay.authToken = 'pNKgUxBj';
+		Liferay.authToken = 'cxj5VWJQ';
 
 		
 
@@ -1211,7 +1211,7 @@ color : blue !important;
 
 
 
-	<nav aria-label="Quick Links" class="quick-access-nav" id="dzbi_quickAccessNav">
+	<nav aria-label="Quick Links" class="quick-access-nav" id="owct_quickAccessNav">
 		<h1 class="hide-accessible">Navigation</h1>
 
 		<ul>
@@ -8490,20 +8490,6 @@ July 03, 2026
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 	
 
 	
@@ -8820,52 +8806,6 @@ border-radius: 4px;
 
 	Liferay.on('socialBookmarks:share', onShare);
 	Liferay.on('destroyPortlet', onDestroyPortlet);
-})();(function() {var $ = AUI.$;var _ = AUI._;
-	function showDialog(uri, title) {
-		Liferay.Util.openModal({
-			id: 'sharingDialog',
-			iframeBodyCssClass: 'sharing-dialog',
-			height: 475,
-			size: 'md',
-			title: Liferay.Util.escapeHTML(title),
-			url: uri,
-		});
-	}
-
-	var Sharing = {
-		manageCollaborators: function (classNameId, classPK) {
-			var manageCollaboratorsParameters = {
-				classNameId: classNameId,
-				classPK: classPK,
-			};
-
-			var manageCollaboratorsURL = Liferay.Util.PortletURL.createPortletURL(
-				'https://irdai.gov.in/group/guest/~/control_panel/manage?p_p_id=com_liferay_sharing_web_portlet_ManageCollaboratorsPortlet&p_p_lifecycle=0&p_p_state=pop_up&p_p_auth=rDoFh7Vm',
-				manageCollaboratorsParameters
-			);
-
-			showDialog(
-				manageCollaboratorsURL.toString(),
-				'Manage Collaborators'
-			);
-		},
-
-		share: function (classNameId, classPK, title) {
-			var sharingParameters = {
-				classNameId: classNameId,
-				classPK: classPK,
-			};
-
-			var sharingURL = Liferay.Util.PortletURL.createPortletURL(
-				'https://irdai.gov.in/group/guest/~/control_panel/manage?p_p_id=com_liferay_sharing_web_portlet_SharingPortlet&p_p_lifecycle=0&p_p_state=pop_up&p_p_auth=xXZKjbXx',
-				sharingParameters
-			);
-
-			showDialog(sharingURL.toString(), title);
-		},
-	};
-
-	Liferay.Sharing = Sharing;
 })();
 	if (window.svg4everybody && Liferay.Data.ICONS_INLINE_SVG) {
 		svg4everybody(
