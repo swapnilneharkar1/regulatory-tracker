@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-20T21:07:54.284Z",
+  "generatedAt": "2026-07-21T00:26:38.707Z",
   "data": {
     "SEBI_0": {
       "rows": [
@@ -1331,7 +1331,7 @@
           "link": "https://www.rbi.org.in/scripts/NotificationUser.aspx?Id=13572&Mode=0"
         }
       ],
-      "ts": 1784581396132,
+      "ts": 1784593324573,
       "ok": true
     },
     "RBI_1": {
@@ -1877,7 +1877,7 @@
           "link": "https://www.rbi.org.in/Scripts/BS_ViewMasDirections.aspx?id=13118"
         }
       ],
-      "ts": 1784581399289,
+      "ts": 1784593327790,
       "ok": true
     },
     "RBI_2": {
@@ -2144,7 +2144,7 @@
           "link": ""
         }
       ],
-      "ts": 1784581401566,
+      "ts": 1784593330281,
       "ok": true
     },
     "RBI_3": {
@@ -2393,7 +2393,7 @@
           "link": ""
         }
       ],
-      "ts": 1784581403888,
+      "ts": 1784593332535,
       "ok": true
     },
     "BSE_0": {
@@ -2624,7 +2624,7 @@
           "link": "https://www.bseindia.com/markets/MarketInfo/DispNewNoticesCirculars?page=20251222-26"
         }
       ],
-      "ts": 1784581410458,
+      "ts": 1784593339340,
       "ok": true
     },
     "NSE_0": {
@@ -3693,7 +3693,7 @@
           "link": "https://www.iepf.gov.in/content/iepf/global/master/Home/Notifications/rules.html#"
         }
       ],
-      "ts": 1784581595861,
+      "ts": 1784593524593,
       "ok": true
     },
     "IEPFA_1": {
@@ -3744,7 +3744,7 @@
           "link": "https://www.iepf.gov.in/content/iepf/global/master/Home/Notifications/notices-and-circulars.html#"
         }
       ],
-      "ts": 1784581600599,
+      "ts": 1784593529379,
       "ok": true
     },
     "IEPFA_2": {
@@ -3781,7 +3781,7 @@
           "date": "21 Feb 2024",
           "year": 2024,
           "cat": "Orders",
-          "title": "List of Claim SRNs liable for rejection under rule 7(7) where company has not filed revised VR | 683 KB",
+          "title": "List of Claim SRNs liable for rejection under rule 7(3) where company has not filed any VR | 1 MB",
           "desc": "",
           "link": "https://www.iepf.gov.in/content/iepf/global/master/Home/Notifications/notices-and-orders-under-rule-7-3----7-7-.html#"
         },
@@ -3790,12 +3790,12 @@
           "date": "21 Feb 2024",
           "year": 2024,
           "cat": "Orders",
-          "title": "List of Claim SRNs liable for rejection under rule 7(3) where company has not filed any VR | 1 MB",
+          "title": "List of Claim SRNs liable for rejection under rule 7(7) where company has not filed revised VR | 683 KB",
           "desc": "",
           "link": "https://www.iepf.gov.in/content/iepf/global/master/Home/Notifications/notices-and-orders-under-rule-7-3----7-7-.html#"
         }
       ],
-      "ts": 1784581605296,
+      "ts": 1784593534134,
       "ok": true
     },
     "MCA_0": {
@@ -3819,7 +3819,7 @@
           "link": "https://www.mca.gov.in/content/mca/global/en/home.html"
         }
       ],
-      "ts": 1784581611724,
+      "ts": 1784593541127,
       "ok": true
     },
     "MCA_1": {
@@ -3834,7 +3834,7 @@
           "link": "https://www.mca.gov.in/content/dam/mca/pdf/open-house-20260709.pdf"
         }
       ],
-      "ts": 1784581618388,
+      "ts": 1784593550881,
       "ok": true
     },
     "MCA_2": {
@@ -3849,7 +3849,7 @@
           "link": "https://www.mca.gov.in/content/dam/mca/pdf/open-house-20260709.pdf"
         }
       ],
-      "ts": 1784581625323,
+      "ts": 1784593559429,
       "ok": true
     },
     "MCA_3": {
@@ -3864,22 +3864,12 @@
           "link": "https://www.mca.gov.in/content/dam/mca/pdf/open-house-20260709.pdf"
         }
       ],
-      "ts": 1784581634987,
+      "ts": 1784593567601,
       "ok": true
     },
     "MCA_4": {
-      "rows": [
-        {
-          "sr": 1,
-          "date": "01 Jul 2026",
-          "year": 2026,
-          "cat": "Orders",
-          "title": "The Open House Session Regarding the Registration/Compliance of Foreign Companies in India",
-          "desc": "",
-          "link": "https://www.mca.gov.in/content/dam/mca/pdf/open-house-20260709.pdf"
-        }
-      ],
-      "ts": 1784581642968,
+      "rows": [],
+      "ts": 1784593575044,
       "ok": true
     },
     "NFRA_0": {
@@ -3939,7 +3929,7 @@
           "link": "https://cdnbbsr.s3waas.gov.in/s3e2ad76f2326fbc6b56a45a56c59fafdb/uploads/2023/02/2023020650.pdf"
         }
       ],
-      "ts": 1784581645770,
+      "ts": 1784593577716,
       "ok": true
     },
     "NFRA_1": {
@@ -4053,7 +4043,7 @@
           "link": "https://cdnbbsr.s3waas.gov.in/s3e2ad76f2326fbc6b56a45a56c59fafdb/uploads/2024/06/202406211115088640.pdf"
         }
       ],
-      "ts": 1784581648577,
+      "ts": 1784593579190,
       "ok": true
     },
     "NFRA_2": {
@@ -4158,7 +4148,7 @@
           "link": "https://cdnbbsr.s3waas.gov.in/s3e2ad76f2326fbc6b56a45a56c59fafdb/uploads/2023/02/2023020735.pdf"
         }
       ],
-      "ts": 1784581650070,
+      "ts": 1784593580659,
       "ok": true
     },
     "NFRA_3": {
@@ -4272,7 +4262,7 @@
           "link": "https://cdnbbsr.s3waas.gov.in/s3e2ad76f2326fbc6b56a45a56c59fafdb/uploads/2025/03/202503281699084526.pdf"
         }
       ],
-      "ts": 1784581651566,
+      "ts": 1784593582123,
       "ok": true
     },
     "PCAOB_0": {
@@ -4458,7 +4448,7 @@
           "link": "https://pcaobus.org/news-events/news-releases/news-release-detail/pcaob-investor-advisory-group-to-meet-on-april-29"
         }
       ],
-      "ts": 1784581658453,
+      "ts": 1784593588720,
       "ok": true
     },
     "PCAOB_1": {
@@ -4644,7 +4634,7 @@
           "link": "http://pcaobus.org/news-events/news-releases/news-release-detail/pcaob-sanctions-former-partner-for-violations-of-pcaob-rules-and-standards--including-failure-to-cooperate-with-an-inspection"
         }
       ],
-      "ts": 1784581664466,
+      "ts": 1784593595110,
       "ok": true
     },
     "PCAOB_2": {
@@ -5010,7 +5000,7 @@
           "link": "https://assets.pcaobus.org/pcaob-dev/docs/default-source/inspections/reports/documents/104-2026-009-ey-netherlands.pdf?sfvrsn=a21e729b_2"
         }
       ],
-      "ts": 1784581666580,
+      "ts": 1784593597506,
       "ok": true
     }
   }
