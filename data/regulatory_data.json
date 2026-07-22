@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-22T10:09:48.925Z",
+  "generatedAt": "2026-07-22T10:37:22.976Z",
   "data": {
     "SEBI_0": {
       "rows": [
@@ -229,7 +229,7 @@
           "link": "https://www.sebi.gov.in/legal/circulars/apr-2026/nism-certification-for-social-impact-assessors_100911.html"
         }
       ],
-      "ts": 1784714858136,
+      "ts": 1784716477952,
       "ok": true
     },
     "SEBI_1": {
@@ -460,7 +460,7 @@
           "link": "https://www.sebi.gov.in/legal/master-circulars/nov-2024/master-circular-for-issue-of-capital-and-disclosure-requirements_88398.html"
         }
       ],
-      "ts": 1784714859959,
+      "ts": 1784716479731,
       "ok": true
     },
     "SEBI_2": {
@@ -691,7 +691,7 @@
           "link": "https://www.sebi.gov.in/enforcement/informal-guidance/apr-2025/informal-guidance-application-received-from-pakka-limited-seeking-interpretation-of-regulation-6-of-the-sebi-listing-obligations-and-disclosure-requirements-regulations-2015_93277.html"
         }
       ],
-      "ts": 1784714861701,
+      "ts": 1784716481702,
       "ok": true
     },
     "SEBI_3": {
@@ -922,7 +922,7 @@
           "link": "https://www.sebi.gov.in/reports-and-statistics/reports/apr-2026/consultation-paper-on-review-of-variable-net-worth-for-stock-brokers-_101092.html"
         }
       ],
-      "ts": 1784714863396,
+      "ts": 1784716483510,
       "ok": true
     },
     "SEBI_4": {
@@ -1288,7 +1288,7 @@
           "link": "https://www.sebi.gov.in/sebiweb/home/HomeAction.do?doListingAll=yes&cid=24"
         }
       ],
-      "ts": 1784714866114,
+      "ts": 1784716486233,
       "ok": true
     },
     "SEBI_5": {
@@ -1312,13 +1312,22 @@
           "link": "https://www.sebi.gov.in/enforcement/clarifications-on-insider-trading/oct-2022/compilation-of-informal-guidance-relating-to-sebi-pit-regulations-2015-for-the-period-oct-2015-sept-2022_64336.html"
         }
       ],
-      "ts": 1784714867803,
+      "ts": 1784716488015,
       "ok": true
     },
     "SEBI_6": {
       "rows": [
         {
           "sr": 1,
+          "date": "22 Jul 2026",
+          "year": 2026,
+          "cat": "Orders",
+          "title": "Adjudication Order in the matter of Front Running of trades of Axis Mutual Fund by certain clients of Pace Stock Broking Services Private Limited",
+          "desc": "",
+          "link": "https://www.sebi.gov.in/enforcement/orders/jul-2026/adjudication-order-in-the-matter-of-front-running-of-trades-of-axis-mutual-fund-by-certain-clients-of-pace-stock-broking-services-private-limited_102994.html"
+        },
+        {
+          "sr": 2,
           "date": "20 Jul 2026",
           "year": 2026,
           "cat": "Orders",
@@ -1327,7 +1336,7 @@
           "link": "https://www.sebi.gov.in/enforcement/orders/jul-2026/adjudication-order-in-the-matter-of-central-depository-services-india-limited-malware-attack-on-november-18-2022_102967.html"
         },
         {
-          "sr": 2,
+          "sr": 3,
           "date": "17 Jul 2026",
           "year": 2026,
           "cat": "Orders",
@@ -1336,7 +1345,7 @@
           "link": "https://www.sebi.gov.in/enforcement/orders/jul-2026/adjudication-order-in-respect-of-sonia-chadha-in-the-matter-of-illiquid-stock-options-at-bse_102916.html"
         },
         {
-          "sr": 3,
+          "sr": 4,
           "date": "15 Jul 2026",
           "year": 2026,
           "cat": "Orders",
@@ -1345,7 +1354,7 @@
           "link": "https://www.sebi.gov.in/enforcement/orders/jul-2026/adjudication-order-in-respect-of-jitendra-kumar-nahta-huf-in-the-matter-of-illiquid-stock-options-at-bse_102867.html"
         },
         {
-          "sr": 4,
+          "sr": 5,
           "date": "14 Jul 2026",
           "year": 2026,
           "cat": "Orders",
@@ -1354,7 +1363,7 @@
           "link": "https://www.sebi.gov.in/enforcement/orders/jul-2026/corrigendum-order-in-the-matter-of-dealings-in-illiquid-stock-options-iso-at-bse-late-ms-anju-rani_102855.html"
         },
         {
-          "sr": 5,
+          "sr": 6,
           "date": "14 Jul 2026",
           "year": 2026,
           "cat": "Orders",
@@ -1363,7 +1372,7 @@
           "link": "https://www.sebi.gov.in/enforcement/orders/jul-2026/adjudication-order-in-respect-of-late-ms-anju-rani-in-the-matter-of-dealings-in-illiquid-stock-options-at-bse_102814.html"
         },
         {
-          "sr": 6,
+          "sr": 7,
           "date": "13 Jul 2026",
           "year": 2026,
           "cat": "Orders",
@@ -1372,7 +1381,7 @@
           "link": "https://www.sebi.gov.in/enforcement/orders/jul-2026/adjudication-order-in-respect-of-excel-technovation-pvt-ltd-in-the-matter-of-illiquid-stock-options_102782.html"
         },
         {
-          "sr": 7,
+          "sr": 8,
           "date": "08 Jul 2026",
           "year": 2026,
           "cat": "Orders",
@@ -1381,7 +1390,7 @@
           "link": "https://www.sebi.gov.in/enforcement/orders/jul-2026/adjudication-order-in-respect-of-late-padma-singhwani-in-the-matter-of-dealings-in-illiquid-stock-options-at-bse_102693.html"
         },
         {
-          "sr": 8,
+          "sr": 9,
           "date": "07 Jul 2026",
           "year": 2026,
           "cat": "Orders",
@@ -1390,7 +1399,7 @@
           "link": "https://www.sebi.gov.in/enforcement/orders/jul-2026/adjudication-order-in-the-matter-of-insider-trading-activities-in-the-scrip-of-rhi-magnesita-india-ltd-_102636.html"
         },
         {
-          "sr": 9,
+          "sr": 10,
           "date": "30 Jun 2026",
           "year": 2026,
           "cat": "Orders",
@@ -1399,7 +1408,7 @@
           "link": "https://www.sebi.gov.in/enforcement/orders/jun-2026/adjudication-order-in-the-matter-of-citrus-check-inns-limited_102465.html"
         },
         {
-          "sr": 10,
+          "sr": 11,
           "date": "30 Jun 2026",
           "year": 2026,
           "cat": "Orders",
@@ -1408,7 +1417,7 @@
           "link": "https://www.sebi.gov.in/enforcement/orders/jun-2026/adjudication-order-in-respect-of-bhavin-sureshbhai-thakkar-in-the-matter-of-evexia-lifecare-limited_102459.html"
         },
         {
-          "sr": 11,
+          "sr": 12,
           "date": "30 Jun 2026",
           "year": 2026,
           "cat": "Orders",
@@ -1417,7 +1426,7 @@
           "link": "https://www.sebi.gov.in/enforcement/orders/jun-2026/adjudication-order-in-respect-of-late-sudha-v-thakkar-in-the-matter-of-dealings-in-illiquid-stock-options-at-bse_102457.html"
         },
         {
-          "sr": 12,
+          "sr": 13,
           "date": "25 Jun 2026",
           "year": 2026,
           "cat": "Orders",
@@ -1426,7 +1435,7 @@
           "link": "https://www.sebi.gov.in/enforcement/orders/jun-2026/adjudication-order-in-the-matter-of-exfinity-technology-fund_102418.html"
         },
         {
-          "sr": 13,
+          "sr": 14,
           "date": "16 Jun 2026",
           "year": 2026,
           "cat": "Orders",
@@ -1435,7 +1444,7 @@
           "link": "https://www.sebi.gov.in/enforcement/orders/jun-2026/adjudication-order-in-the-matter-of-onepaper-research-analysts-private-limited_102170.html"
         },
         {
-          "sr": 14,
+          "sr": 15,
           "date": "16 Jun 2026",
           "year": 2026,
           "cat": "Orders",
@@ -1444,7 +1453,7 @@
           "link": "https://www.sebi.gov.in/enforcement/orders/jun-2026/adjudication-order-in-the-matter-of-prime-focus-limited-_102163.html"
         },
         {
-          "sr": 15,
+          "sr": 16,
           "date": "05 Jun 2026",
           "year": 2026,
           "cat": "Orders",
@@ -1453,7 +1462,7 @@
           "link": "https://www.sebi.gov.in/enforcement/orders/jun-2026/adjudication-order-in-respect-of-kavita-didwania-in-the-matter-of-illiquid-stock-options-at-bse_101896.html"
         },
         {
-          "sr": 16,
+          "sr": 17,
           "date": "05 Jun 2026",
           "year": 2026,
           "cat": "Orders",
@@ -1462,7 +1471,7 @@
           "link": "https://www.sebi.gov.in/enforcement/orders/jun-2026/adjudication-order-in-respect-of-the-ellenbarrie-tea-company-limited-in-the-matter-of-illiquid-stock-options-at-bse-_101894.html"
         },
         {
-          "sr": 17,
+          "sr": 18,
           "date": "03 Jun 2026",
           "year": 2026,
           "cat": "Orders",
@@ -1471,7 +1480,7 @@
           "link": "https://www.sebi.gov.in/enforcement/orders/jun-2026/adjudication-order-in-respect-of-ranika-investments-pvt-ltd-in-the-matter-of-illiquid-stock-options_101815.html"
         },
         {
-          "sr": 18,
+          "sr": 19,
           "date": "29 May 2026",
           "year": 2026,
           "cat": "Orders",
@@ -1480,7 +1489,7 @@
           "link": "https://www.sebi.gov.in/enforcement/orders/may-2026/adjudication-order-in-the-matter-of-new-delhi-television-limited_101705.html"
         },
         {
-          "sr": 19,
+          "sr": 20,
           "date": "29 May 2026",
           "year": 2026,
           "cat": "Orders",
@@ -1489,7 +1498,7 @@
           "link": "https://www.sebi.gov.in/enforcement/orders/may-2026/adjudication-order-in-respect-of-saachi-overseas-in-the-matter-of-illiquid-stock-options-on-bse_101702.html"
         },
         {
-          "sr": 20,
+          "sr": 21,
           "date": "27 May 2026",
           "year": 2026,
           "cat": "Orders",
@@ -1498,7 +1507,7 @@
           "link": "https://www.sebi.gov.in/enforcement/orders/may-2026/adjudication-order-in-respect-of-idbi-trusteeship-services-limited-in-the-matter-of-thematic-inspection-of-debenture-trustees-with-respect-to-action-taken-in-the-event-of-default-by-issuers_101658.html"
         },
         {
-          "sr": 21,
+          "sr": 22,
           "date": "27 May 2026",
           "year": 2026,
           "cat": "Orders",
@@ -1507,7 +1516,7 @@
           "link": "https://www.sebi.gov.in/enforcement/orders/may-2026/adjudication-order-in-the-matter-of-thematic-inspection-of-rajiv-sharma-proprietor-capital-life-market-research_101656.html"
         },
         {
-          "sr": 22,
+          "sr": 23,
           "date": "26 May 2026",
           "year": 2026,
           "cat": "Orders",
@@ -1516,7 +1525,7 @@
           "link": "https://www.sebi.gov.in/enforcement/orders/may-2026/adjudication-order-in-respect-of-ambition-plaza-llp-in-the-matter-of-illiquid-stock-options-at-bse-_101646.html"
         },
         {
-          "sr": 23,
+          "sr": 24,
           "date": "26 May 2026",
           "year": 2026,
           "cat": "Orders",
@@ -1525,76 +1534,22 @@
           "link": "https://www.sebi.gov.in/enforcement/orders/may-2026/adjudication-order-in-respect-of-dinbandhu-construction-private-limited-in-the-matter-of-trading-in-illiquid-stock-options-at-bse-_101648.html"
         },
         {
-          "sr": 24,
+          "sr": 25,
           "date": "25 May 2026",
           "year": 2026,
           "cat": "Orders",
           "title": "Adjudication Order in respect of Catalyst Trusteeship Limited in the matter of thematic inspection of debenture trustees with respect to action taken in the event of default by issuers",
           "desc": "",
           "link": "https://www.sebi.gov.in/enforcement/orders/may-2026/adjudication-order-in-respect-of-catalyst-trusteeship-limited-in-the-matter-of-thematic-inspection-of-debenture-trustees-with-respect-to-action-taken-in-the-event-of-default-by-issuers_101609.html"
-        },
-        {
-          "sr": 25,
-          "date": "22 May 2026",
-          "year": 2026,
-          "cat": "Orders",
-          "title": "Adjudication Order in respect of Gayatri Devi Choudhary in the matter of Illiquid Stock Options at BSE.",
-          "desc": "",
-          "link": "https://www.sebi.gov.in/enforcement/orders/may-2026/adjudication-order-in-respect-of-gayatri-devi-choudhary-in-the-matter-of-illiquid-stock-options-at-bse-_101593.html"
         }
       ],
-      "ts": 1784714869924,
+      "ts": 1784716490143,
       "ok": true
     },
     "RBI_0": {
       "rows": [
         {
           "sr": 1,
-          "date": "",
-          "year": null,
-          "cat": "Notifications",
-          "title": "Draft Notifications/ Guidelines",
-          "desc": "",
-          "link": "https://www.rbi.org.in/Scripts/DraftNotificationsGuildelines.aspx"
-        },
-        {
-          "sr": 2,
-          "date": "",
-          "year": null,
-          "cat": "Notifications",
-          "title": "Draft Directions (RE-wise)",
-          "desc": "",
-          "link": "https://www.rbi.org.in/Scripts/BS_ViewREwiseDraftDirections.aspx"
-        },
-        {
-          "sr": 3,
-          "date": "",
-          "year": null,
-          "cat": "Notifications",
-          "title": "Index to RBI Circulars",
-          "desc": "",
-          "link": "https://www.rbi.org.in/Scripts/BS_CircularIndexDisplay.aspx"
-        },
-        {
-          "sr": 4,
-          "date": "",
-          "year": null,
-          "cat": "Notifications",
-          "title": "Standalone Circulars",
-          "desc": "",
-          "link": "https://www.rbi.org.in/Scripts/BS_ViewListofstandalonecirculars.aspx"
-        },
-        {
-          "sr": 5,
-          "date": "",
-          "year": null,
-          "cat": "Notifications",
-          "title": "Circulars Withdrawn",
-          "desc": "",
-          "link": "https://www.rbi.org.in/Scripts/NotificationUserWithdrawnCircular.aspx"
-        },
-        {
-          "sr": 6,
           "date": "17 Jul 2026",
           "year": 2026,
           "cat": "Notifications",
@@ -1603,7 +1558,7 @@
           "link": "https://www.rbi.org.in/Scripts/NotificationUser.aspx?Id=13581&amp;Mode=0"
         },
         {
-          "sr": 7,
+          "sr": 2,
           "date": "16 Jul 2026",
           "year": 2026,
           "cat": "Notifications",
@@ -1612,7 +1567,7 @@
           "link": "https://www.rbi.org.in/Scripts/NotificationUser.aspx?Id=13580&amp;Mode=0"
         },
         {
-          "sr": 8,
+          "sr": 3,
           "date": "16 Jul 2026",
           "year": 2026,
           "cat": "Notifications",
@@ -1621,7 +1576,7 @@
           "link": "https://www.rbi.org.in/Scripts/NotificationUser.aspx?Id=13579&amp;Mode=0"
         },
         {
-          "sr": 9,
+          "sr": 4,
           "date": "16 Jul 2026",
           "year": 2026,
           "cat": "Notifications",
@@ -1630,7 +1585,7 @@
           "link": "https://www.rbi.org.in/Scripts/NotificationUser.aspx?Id=13578&amp;Mode=0"
         },
         {
-          "sr": 10,
+          "sr": 5,
           "date": "16 Jul 2026",
           "year": 2026,
           "cat": "Notifications",
@@ -1639,7 +1594,7 @@
           "link": "https://www.rbi.org.in/Scripts/NotificationUser.aspx?Id=13577&amp;Mode=0"
         },
         {
-          "sr": 11,
+          "sr": 6,
           "date": "16 Jul 2026",
           "year": 2026,
           "cat": "Notifications",
@@ -1648,7 +1603,7 @@
           "link": "https://www.rbi.org.in/Scripts/NotificationUser.aspx?Id=13576&amp;Mode=0"
         },
         {
-          "sr": 12,
+          "sr": 7,
           "date": "16 Jul 2026",
           "year": 2026,
           "cat": "Notifications",
@@ -1657,7 +1612,7 @@
           "link": "https://www.rbi.org.in/Scripts/NotificationUser.aspx?Id=13575&amp;Mode=0"
         },
         {
-          "sr": 13,
+          "sr": 8,
           "date": "16 Jul 2026",
           "year": 2026,
           "cat": "Notifications",
@@ -1666,7 +1621,7 @@
           "link": "https://www.rbi.org.in/Scripts/NotificationUser.aspx?Id=13574&amp;Mode=0"
         },
         {
-          "sr": 14,
+          "sr": 9,
           "date": "16 Jul 2026",
           "year": 2026,
           "cat": "Notifications",
@@ -1675,7 +1630,7 @@
           "link": "https://www.rbi.org.in/Scripts/NotificationUser.aspx?Id=13573&amp;Mode=0"
         },
         {
-          "sr": 15,
+          "sr": 10,
           "date": "16 Jul 2026",
           "year": 2026,
           "cat": "Notifications",
@@ -1684,7 +1639,7 @@
           "link": "https://www.rbi.org.in/Scripts/NotificationUser.aspx?Id=13572&amp;Mode=0"
         },
         {
-          "sr": 16,
+          "sr": 11,
           "date": "16 Jul 2026",
           "year": 2026,
           "cat": "Notifications",
@@ -1693,7 +1648,7 @@
           "link": "https://www.rbi.org.in/Scripts/NotificationUser.aspx?Id=13571&amp;Mode=0"
         },
         {
-          "sr": 17,
+          "sr": 12,
           "date": "16 Jul 2026",
           "year": 2026,
           "cat": "Notifications",
@@ -1702,7 +1657,7 @@
           "link": "https://www.rbi.org.in/Scripts/NotificationUser.aspx?Id=13570&amp;Mode=0"
         },
         {
-          "sr": 18,
+          "sr": 13,
           "date": "16 Jul 2026",
           "year": 2026,
           "cat": "Notifications",
@@ -1711,7 +1666,7 @@
           "link": "https://www.rbi.org.in/Scripts/NotificationUser.aspx?Id=13569&amp;Mode=0"
         },
         {
-          "sr": 19,
+          "sr": 14,
           "date": "16 Jul 2026",
           "year": 2026,
           "cat": "Notifications",
@@ -1720,7 +1675,7 @@
           "link": "https://www.rbi.org.in/Scripts/NotificationUser.aspx?Id=13568&amp;Mode=0"
         },
         {
-          "sr": 20,
+          "sr": 15,
           "date": "16 Jul 2026",
           "year": 2026,
           "cat": "Notifications",
@@ -1729,7 +1684,7 @@
           "link": "https://www.rbi.org.in/Scripts/NotificationUser.aspx?Id=13567&amp;Mode=0"
         },
         {
-          "sr": 21,
+          "sr": 16,
           "date": "16 Jul 2026",
           "year": 2026,
           "cat": "Notifications",
@@ -1738,7 +1693,7 @@
           "link": "https://www.rbi.org.in/Scripts/NotificationUser.aspx?Id=13566&amp;Mode=0"
         },
         {
-          "sr": 22,
+          "sr": 17,
           "date": "16 Jul 2026",
           "year": 2026,
           "cat": "Notifications",
@@ -1747,7 +1702,7 @@
           "link": "https://www.rbi.org.in/Scripts/NotificationUser.aspx?Id=13565&amp;Mode=0"
         },
         {
-          "sr": 23,
+          "sr": 18,
           "date": "15 Jul 2026",
           "year": 2026,
           "cat": "Notifications",
@@ -1756,7 +1711,7 @@
           "link": "https://www.rbi.org.in/Scripts/NotificationUser.aspx?Id=13564&amp;Mode=0"
         },
         {
-          "sr": 24,
+          "sr": 19,
           "date": "15 Jul 2026",
           "year": 2026,
           "cat": "Notifications",
@@ -1765,7 +1720,7 @@
           "link": "https://www.rbi.org.in/Scripts/NotificationUser.aspx?Id=13563&amp;Mode=0"
         },
         {
-          "sr": 25,
+          "sr": 20,
           "date": "15 Jul 2026",
           "year": 2026,
           "cat": "Notifications",
@@ -1774,7 +1729,7 @@
           "link": "https://www.rbi.org.in/Scripts/NotificationUser.aspx?Id=13562&amp;Mode=0"
         },
         {
-          "sr": 26,
+          "sr": 21,
           "date": "15 Jul 2026",
           "year": 2026,
           "cat": "Notifications",
@@ -1783,7 +1738,7 @@
           "link": "https://www.rbi.org.in/Scripts/NotificationUser.aspx?Id=13561&amp;Mode=0"
         },
         {
-          "sr": 27,
+          "sr": 22,
           "date": "15 Jul 2026",
           "year": 2026,
           "cat": "Notifications",
@@ -1792,7 +1747,7 @@
           "link": "https://www.rbi.org.in/Scripts/NotificationUser.aspx?Id=13560&amp;Mode=0"
         },
         {
-          "sr": 28,
+          "sr": 23,
           "date": "15 Jul 2026",
           "year": 2026,
           "cat": "Notifications",
@@ -1801,7 +1756,7 @@
           "link": "https://www.rbi.org.in/Scripts/NotificationUser.aspx?Id=13559&amp;Mode=0"
         },
         {
-          "sr": 29,
+          "sr": 24,
           "date": "14 Jul 2026",
           "year": 2026,
           "cat": "Notifications",
@@ -1810,7 +1765,7 @@
           "link": "https://www.rbi.org.in/Scripts/NotificationUser.aspx?Id=13557&amp;Mode=0"
         },
         {
-          "sr": 30,
+          "sr": 25,
           "date": "14 Jul 2026",
           "year": 2026,
           "cat": "Notifications",
@@ -1819,7 +1774,7 @@
           "link": "https://www.rbi.org.in/Scripts/NotificationUser.aspx?Id=13558&amp;Mode=0"
         },
         {
-          "sr": 31,
+          "sr": 26,
           "date": "14 Jul 2026",
           "year": 2026,
           "cat": "Notifications",
@@ -1828,7 +1783,7 @@
           "link": "https://www.rbi.org.in/Scripts/NotificationUser.aspx?Id=13556&amp;Mode=0"
         },
         {
-          "sr": 32,
+          "sr": 27,
           "date": "14 Jul 2026",
           "year": 2026,
           "cat": "Notifications",
@@ -1837,7 +1792,7 @@
           "link": "https://www.rbi.org.in/Scripts/NotificationUser.aspx?Id=13555&amp;Mode=0"
         },
         {
-          "sr": 33,
+          "sr": 28,
           "date": "09 Jul 2026",
           "year": 2026,
           "cat": "Notifications",
@@ -1846,7 +1801,7 @@
           "link": "https://www.rbi.org.in/Scripts/NotificationUser.aspx?Id=13554&amp;Mode=0"
         },
         {
-          "sr": 34,
+          "sr": 29,
           "date": "29 Jun 2026",
           "year": 2026,
           "cat": "Notifications",
@@ -1855,7 +1810,7 @@
           "link": "https://www.rbi.org.in/Scripts/NotificationUser.aspx?Id=13553&amp;Mode=0"
         },
         {
-          "sr": 35,
+          "sr": 30,
           "date": "25 Jun 2026",
           "year": 2026,
           "cat": "Notifications",
@@ -1864,7 +1819,7 @@
           "link": "https://www.rbi.org.in/Scripts/NotificationUser.aspx?Id=13552&amp;Mode=0"
         },
         {
-          "sr": 36,
+          "sr": 31,
           "date": "25 Jun 2026",
           "year": 2026,
           "cat": "Notifications",
@@ -1873,7 +1828,7 @@
           "link": "https://www.rbi.org.in/Scripts/NotificationUser.aspx#"
         },
         {
-          "sr": 37,
+          "sr": 32,
           "date": "25 Jun 2026",
           "year": 2026,
           "cat": "Notifications",
@@ -1882,7 +1837,7 @@
           "link": ""
         }
       ],
-      "ts": 1784714872243,
+      "ts": 1784716492383,
       "ok": true
     },
     "RBI_1": {
@@ -2428,121 +2383,13 @@
           "link": "https://www.rbi.org.in/Scripts/BS_ViewMasDirections.aspx?id=13118"
         }
       ],
-      "ts": 1784714875352,
+      "ts": 1784716495323,
       "ok": true
     },
     "RBI_2": {
       "rows": [
         {
           "sr": 1,
-          "date": "",
-          "year": null,
-          "cat": "Master Circulars",
-          "title": "Banker and Debt Manager to Government",
-          "desc": "",
-          "link": "https://www.rbi.org.in/scripts/BS_ViewMasterCirculardetails.aspx?did=334"
-        },
-        {
-          "sr": 2,
-          "date": "",
-          "year": null,
-          "cat": "Master Circulars",
-          "title": "Banker to Banks",
-          "desc": "",
-          "link": "https://www.rbi.org.in/scripts/BS_ViewMasterCirculardetails.aspx?did=370"
-        },
-        {
-          "sr": 3,
-          "date": "",
-          "year": null,
-          "cat": "Master Circulars",
-          "title": "Banker to Governments and Banks",
-          "desc": "",
-          "link": "https://www.rbi.org.in/scripts/BS_ViewMasterCirculardetails.aspx?did=386"
-        },
-        {
-          "sr": 4,
-          "date": "",
-          "year": null,
-          "cat": "Master Circulars",
-          "title": "Co-operative Banking",
-          "desc": "",
-          "link": "https://www.rbi.org.in/scripts/BS_ViewMasterCirculardetails.aspx?did=340"
-        },
-        {
-          "sr": 5,
-          "date": "",
-          "year": null,
-          "cat": "Master Circulars",
-          "title": "Commercial Banking",
-          "desc": "",
-          "link": "https://www.rbi.org.in/scripts/BS_ViewMasterCirculardetails.aspx?did=342"
-        },
-        {
-          "sr": 6,
-          "date": "",
-          "year": null,
-          "cat": "Master Circulars",
-          "title": "Financial Inclusion and Development",
-          "desc": "",
-          "link": "https://www.rbi.org.in/scripts/BS_ViewMasterCirculardetails.aspx?did=343"
-        },
-        {
-          "sr": 7,
-          "date": "",
-          "year": null,
-          "cat": "Master Circulars",
-          "title": "Financial Market",
-          "desc": "",
-          "link": "https://www.rbi.org.in/scripts/BS_ViewMasterCirculardetails.aspx?did=336"
-        },
-        {
-          "sr": 8,
-          "date": "",
-          "year": null,
-          "cat": "Master Circulars",
-          "title": "Foreign Exchange Management",
-          "desc": "",
-          "link": "https://www.rbi.org.in/scripts/BS_ViewMasterCirculardetails.aspx?did=335"
-        },
-        {
-          "sr": 9,
-          "date": "",
-          "year": null,
-          "cat": "Master Circulars",
-          "title": "Issuer of Currency",
-          "desc": "",
-          "link": "https://www.rbi.org.in/scripts/BS_ViewMasterCirculardetails.aspx?did=339"
-        },
-        {
-          "sr": 10,
-          "date": "",
-          "year": null,
-          "cat": "Master Circulars",
-          "title": "Non-banking",
-          "desc": "",
-          "link": "https://www.rbi.org.in/scripts/BS_ViewMasterCirculardetails.aspx?did=333"
-        },
-        {
-          "sr": 11,
-          "date": "",
-          "year": null,
-          "cat": "Master Circulars",
-          "title": "Payment and Settlement System",
-          "desc": "",
-          "link": "https://www.rbi.org.in/scripts/BS_ViewMasterCirculardetails.aspx?did=344"
-        },
-        {
-          "sr": 12,
-          "date": "",
-          "year": null,
-          "cat": "Master Circulars",
-          "title": "Primary Dealers",
-          "desc": "",
-          "link": "https://www.rbi.org.in/scripts/BS_ViewMasterCirculardetails.aspx?did=332"
-        },
-        {
-          "sr": 13,
           "date": "01 Apr 2025",
           "year": 2025,
           "cat": "Master Circulars",
@@ -2551,7 +2398,7 @@
           "link": "https://www.rbi.org.in/scripts/BS_ViewMasCirculardetails.aspx?id=12828"
         },
         {
-          "sr": 14,
+          "sr": 2,
           "date": "01 Apr 2025",
           "year": 2025,
           "cat": "Master Circulars",
@@ -2560,7 +2407,7 @@
           "link": "https://www.rbi.org.in/scripts/BS_ViewMasCirculardetails.aspx?id=12827"
         },
         {
-          "sr": 15,
+          "sr": 3,
           "date": "01 Apr 2025",
           "year": 2025,
           "cat": "Master Circulars",
@@ -2569,7 +2416,7 @@
           "link": "https://www.rbi.org.in/scripts/BS_ViewMasCirculardetails.aspx?id=12826"
         },
         {
-          "sr": 16,
+          "sr": 4,
           "date": "01 Apr 2025",
           "year": 2025,
           "cat": "Master Circulars",
@@ -2578,7 +2425,7 @@
           "link": "https://www.rbi.org.in/scripts/BS_ViewMasCirculardetails.aspx?id=12821"
         },
         {
-          "sr": 17,
+          "sr": 5,
           "date": "01 Apr 2025",
           "year": 2025,
           "cat": "Master Circulars",
@@ -2587,7 +2434,7 @@
           "link": "https://www.rbi.org.in/scripts/BS_ViewMasCirculardetails.aspx?id=12819"
         },
         {
-          "sr": 18,
+          "sr": 6,
           "date": "01 Apr 2025",
           "year": 2025,
           "cat": "Master Circulars",
@@ -2596,7 +2443,7 @@
           "link": "https://www.rbi.org.in/scripts/BS_ViewMasCirculardetails.aspx?id=12816"
         },
         {
-          "sr": 19,
+          "sr": 7,
           "date": "01 Apr 2025",
           "year": 2025,
           "cat": "Master Circulars",
@@ -2605,7 +2452,7 @@
           "link": "https://www.rbi.org.in/scripts/BS_ViewMasCirculardetails.aspx?id=12813"
         },
         {
-          "sr": 20,
+          "sr": 8,
           "date": "01 Apr 2025",
           "year": 2025,
           "cat": "Master Circulars",
@@ -2614,7 +2461,7 @@
           "link": "https://www.rbi.org.in/scripts/BS_ViewMasCirculardetails.aspx?id=12824"
         },
         {
-          "sr": 21,
+          "sr": 9,
           "date": "01 Apr 2025",
           "year": 2025,
           "cat": "Master Circulars",
@@ -2623,7 +2470,7 @@
           "link": "https://www.rbi.org.in/scripts/BS_ViewMasCirculardetails.aspx?id=12823"
         },
         {
-          "sr": 22,
+          "sr": 10,
           "date": "01 Apr 2025",
           "year": 2025,
           "cat": "Master Circulars",
@@ -2632,7 +2479,7 @@
           "link": "https://www.rbi.org.in/scripts/BS_ViewMasCirculardetails.aspx?id=12822"
         },
         {
-          "sr": 23,
+          "sr": 11,
           "date": "01 Apr 2025",
           "year": 2025,
           "cat": "Master Circulars",
@@ -2641,7 +2488,7 @@
           "link": "https://www.rbi.org.in/scripts/BS_ViewMasCirculardetails.aspx?id=12820"
         },
         {
-          "sr": 24,
+          "sr": 12,
           "date": "01 Apr 2025",
           "year": 2025,
           "cat": "Master Circulars",
@@ -2650,7 +2497,7 @@
           "link": "https://www.rbi.org.in/scripts/BS_ViewMasCirculardetails.aspx?id=12815"
         },
         {
-          "sr": 25,
+          "sr": 13,
           "date": "16 Jun 2025",
           "year": 2025,
           "cat": "Master Circulars",
@@ -2659,7 +2506,7 @@
           "link": "https://www.rbi.org.in/scripts/BS_ViewMasCirculardetails.aspx?id=12869"
         },
         {
-          "sr": 26,
+          "sr": 14,
           "date": "01 Apr 2025",
           "year": 2025,
           "cat": "Master Circulars",
@@ -2668,7 +2515,7 @@
           "link": "https://www.rbi.org.in/scripts/BS_ViewMasCirculardetails.aspx?id=12808"
         },
         {
-          "sr": 27,
+          "sr": 15,
           "date": "01 Apr 2025",
           "year": 2025,
           "cat": "Master Circulars",
@@ -2677,7 +2524,7 @@
           "link": "https://www.rbi.org.in/scripts/BS_ViewMasCirculardetails.aspx?id=12806"
         },
         {
-          "sr": 28,
+          "sr": 16,
           "date": "01 Apr 2025",
           "year": 2025,
           "cat": "Master Circulars",
@@ -2686,7 +2533,7 @@
           "link": "https://www.rbi.org.in/scripts/BS_ViewMasCirculardetails.aspx?id=12805"
         },
         {
-          "sr": 29,
+          "sr": 17,
           "date": "01 Apr 2025",
           "year": 2025,
           "cat": "Master Circulars",
@@ -2695,58 +2542,13 @@
           "link": ""
         }
       ],
-      "ts": 1784714877637,
+      "ts": 1784716497149,
       "ok": true
     },
     "RBI_3": {
       "rows": [
         {
           "sr": 1,
-          "date": "",
-          "year": null,
-          "cat": "Draft Notifications",
-          "title": "Draft Notifications/ Guidelines",
-          "desc": "",
-          "link": "https://www.rbi.org.in/Scripts/DraftNotificationsGuildelines.aspx"
-        },
-        {
-          "sr": 2,
-          "date": "",
-          "year": null,
-          "cat": "Draft Notifications",
-          "title": "Draft Directions (RE-wise)",
-          "desc": "",
-          "link": "https://www.rbi.org.in/Scripts/BS_ViewREwiseDraftDirections.aspx"
-        },
-        {
-          "sr": 3,
-          "date": "",
-          "year": null,
-          "cat": "Draft Notifications",
-          "title": "Index to RBI Circulars",
-          "desc": "",
-          "link": "https://www.rbi.org.in/Scripts/BS_CircularIndexDisplay.aspx"
-        },
-        {
-          "sr": 4,
-          "date": "",
-          "year": null,
-          "cat": "Draft Notifications",
-          "title": "Standalone Circulars",
-          "desc": "",
-          "link": "https://www.rbi.org.in/Scripts/BS_ViewListofstandalonecirculars.aspx"
-        },
-        {
-          "sr": 5,
-          "date": "",
-          "year": null,
-          "cat": "Draft Notifications",
-          "title": "Circulars Withdrawn",
-          "desc": "",
-          "link": "https://www.rbi.org.in/Scripts/NotificationUserWithdrawnCircular.aspx"
-        },
-        {
-          "sr": 6,
           "date": "21 Jul 2026",
           "year": 2026,
           "cat": "Draft Notifications",
@@ -2755,7 +2557,7 @@
           "link": "https://www.rbi.org.in/Scripts/BS_PressReleaseDisplay.aspx?prid=63204"
         },
         {
-          "sr": 7,
+          "sr": 2,
           "date": "15 Jul 2026",
           "year": 2026,
           "cat": "Draft Notifications",
@@ -2764,7 +2566,7 @@
           "link": "https://www.rbi.org.in/Scripts/BS_PressReleaseDisplay.aspx?prid=63155"
         },
         {
-          "sr": 8,
+          "sr": 3,
           "date": "14 Jul 2026",
           "year": 2026,
           "cat": "Draft Notifications",
@@ -2773,7 +2575,7 @@
           "link": "https://www.rbi.org.in/Scripts/BS_PressReleaseDisplay.aspx?prid=63145"
         },
         {
-          "sr": 9,
+          "sr": 4,
           "date": "25 Jun 2026",
           "year": 2026,
           "cat": "Draft Notifications",
@@ -2782,7 +2584,7 @@
           "link": "https://www.rbi.org.in/Scripts/BS_PressReleaseDisplay.aspx?prid=63023"
         },
         {
-          "sr": 10,
+          "sr": 5,
           "date": "25 Jun 2026",
           "year": 2026,
           "cat": "Draft Notifications",
@@ -2791,7 +2593,7 @@
           "link": "https://www.rbi.org.in/Scripts/BS_PressReleaseDisplay.aspx?prid=63019"
         },
         {
-          "sr": 11,
+          "sr": 6,
           "date": "24 Jun 2026",
           "year": 2026,
           "cat": "Draft Notifications",
@@ -2800,7 +2602,7 @@
           "link": "https://www.rbi.org.in/Scripts/BS_PressReleaseDisplay.aspx?prid=63006"
         },
         {
-          "sr": 12,
+          "sr": 7,
           "date": "10 Jun 2026",
           "year": 2026,
           "cat": "Draft Notifications",
@@ -2809,7 +2611,7 @@
           "link": "https://www.rbi.org.in/Scripts/BS_PressReleaseDisplay.aspx?prid=62909"
         },
         {
-          "sr": 13,
+          "sr": 8,
           "date": "10 Jun 2026",
           "year": 2026,
           "cat": "Draft Notifications",
@@ -2818,7 +2620,7 @@
           "link": "https://www.rbi.org.in/Scripts/BS_PressReleaseDisplay.aspx?prid=62908"
         },
         {
-          "sr": 14,
+          "sr": 9,
           "date": "05 Jun 2026",
           "year": 2026,
           "cat": "Draft Notifications",
@@ -2827,7 +2629,7 @@
           "link": "https://www.rbi.org.in/Scripts/BS_PressReleaseDisplay.aspx?prid=62877"
         },
         {
-          "sr": 15,
+          "sr": 10,
           "date": "20 May 2026",
           "year": 2026,
           "cat": "Draft Notifications",
@@ -2836,7 +2638,7 @@
           "link": "https://www.rbi.org.in/Scripts/BS_PressReleaseDisplay.aspx?prid=62776"
         },
         {
-          "sr": 16,
+          "sr": 11,
           "date": "19 May 2026",
           "year": 2026,
           "cat": "Draft Notifications",
@@ -2845,7 +2647,7 @@
           "link": "https://www.rbi.org.in/Scripts/BS_PressReleaseDisplay.aspx?prid=62768"
         },
         {
-          "sr": 17,
+          "sr": 12,
           "date": "22 Apr 2026",
           "year": 2026,
           "cat": "Draft Notifications",
@@ -2854,7 +2656,7 @@
           "link": "https://www.rbi.org.in/Scripts/BS_PressReleaseDisplay.aspx?prid=62602"
         },
         {
-          "sr": 18,
+          "sr": 13,
           "date": "10 Apr 2026",
           "year": 2026,
           "cat": "Draft Notifications",
@@ -2863,7 +2665,7 @@
           "link": "https://www.rbi.org.in/Scripts/BS_PressReleaseDisplay.aspx?prid=62545"
         },
         {
-          "sr": 19,
+          "sr": 14,
           "date": "08 Apr 2026",
           "year": 2026,
           "cat": "Draft Notifications",
@@ -2872,7 +2674,7 @@
           "link": "https://www.rbi.org.in/Scripts/BS_PressReleaseDisplay.aspx?prid=62526"
         },
         {
-          "sr": 20,
+          "sr": 15,
           "date": "08 Apr 2026",
           "year": 2026,
           "cat": "Draft Notifications",
@@ -2881,7 +2683,7 @@
           "link": "https://www.rbi.org.in/Scripts/BS_PressReleaseDisplay.aspx?prid=62525"
         },
         {
-          "sr": 21,
+          "sr": 16,
           "date": "08 Apr 2026",
           "year": 2026,
           "cat": "Draft Notifications",
@@ -2890,7 +2692,7 @@
           "link": "https://www.rbi.org.in/Scripts/BS_PressReleaseDisplay.aspx?prid=62522"
         },
         {
-          "sr": 22,
+          "sr": 17,
           "date": "08 Apr 2026",
           "year": 2026,
           "cat": "Draft Notifications",
@@ -2899,7 +2701,7 @@
           "link": "https://www.rbi.org.in/Scripts/BS_PressReleaseDisplay.aspx?prid=62523"
         },
         {
-          "sr": 23,
+          "sr": 18,
           "date": "06 Apr 2026",
           "year": 2026,
           "cat": "Draft Notifications",
@@ -2908,7 +2710,7 @@
           "link": "https://www.rbi.org.in/Scripts/BS_PressReleaseDisplay.aspx?prid=62505"
         },
         {
-          "sr": 24,
+          "sr": 19,
           "date": "06 Mar 2026",
           "year": 2026,
           "cat": "Draft Notifications",
@@ -2917,7 +2719,7 @@
           "link": "https://www.rbi.org.in/Scripts/BS_PressReleaseDisplay.aspx?prid=62340"
         },
         {
-          "sr": 25,
+          "sr": 20,
           "date": "17 Feb 2026",
           "year": 2026,
           "cat": "Draft Notifications",
@@ -2926,7 +2728,7 @@
           "link": "https://www.rbi.org.in/Scripts/BS_PressReleaseDisplay.aspx?prid=62246"
         },
         {
-          "sr": 26,
+          "sr": 21,
           "date": "17 Feb 2026",
           "year": 2026,
           "cat": "Draft Notifications",
@@ -2935,7 +2737,7 @@
           "link": "https://www.rbi.org.in/Scripts/DraftNotificationsGuildelines.aspx#"
         },
         {
-          "sr": 27,
+          "sr": 22,
           "date": "17 Feb 2026",
           "year": 2026,
           "cat": "Draft Notifications",
@@ -2944,157 +2746,13 @@
           "link": ""
         }
       ],
-      "ts": 1784714879893,
+      "ts": 1784716499304,
       "ok": true
     },
     "BSE_0": {
       "rows": [
         {
           "sr": 1,
-          "date": "19 Jun 2026",
-          "year": 2026,
-          "cat": "Circular",
-          "title": "Update of single filing system through API-based integration between Stock Exchanges.",
-          "desc": "",
-          "link": "https://www.bseindia.com/downloads/UploadDocs/Notices/20260619-11/20260619-11.pdf"
-        },
-        {
-          "sr": 2,
-          "date": "12 Jun 2026",
-          "year": 2026,
-          "cat": "Circular",
-          "title": "Frequently Asked Questions (FAQs) on the submission of the Quarterly Integrated Filing – Governance",
-          "desc": "",
-          "link": "https://www.bseindia.com/downloads/UploadDocs/Notices/20260612-13/20260612-13.pdf"
-        },
-        {
-          "sr": 3,
-          "date": "01 Jun 2026",
-          "year": 2026,
-          "cat": "Circular",
-          "title": "MCA Notifications relating to Corporate Social Responsibility (CSR) and Social Stock Exchange",
-          "desc": "",
-          "link": "https://www.bseindia.com/downloads/UploadDocs/Notices/20260601-37/20260601-37.pdf"
-        },
-        {
-          "sr": 4,
-          "date": "01 Jun 2026",
-          "year": 2026,
-          "cat": "Circular",
-          "title": "Pre-Packaged Insolvency Resolution Process under Section 54L of the Insolvency and Bankruptcy Code, 2016",
-          "desc": "",
-          "link": "https://www.bseindia.com/downloads/UploadDocs/Notices/20260601-34/20260601-34.pdf"
-        },
-        {
-          "sr": 5,
-          "date": "29 May 2026",
-          "year": 2026,
-          "cat": "Circular",
-          "title": "Update of single filing system through API-based integration between Stock Exchanges",
-          "desc": "",
-          "link": "https://www.bseindia.com/downloads/UploadDocs/Notices/20260529-28/20260529-28.pdf"
-        },
-        {
-          "sr": 6,
-          "date": "20 May 2026",
-          "year": 2026,
-          "cat": "Circular",
-          "title": "Status of SPVs post conclusion or termination of Concession Agreement",
-          "desc": "",
-          "link": "https://www.bseindia.com/downloads/UploadDocs/Notices/20260520-10/20260520-10.pdf"
-        },
-        {
-          "sr": 7,
-          "date": "20 May 2026",
-          "year": 2026,
-          "cat": "Circular",
-          "title": "Permitted use of fresh borrowings for InvITs where Net Borrowings exceeds forty-nine percent of the value of InvIT assets",
-          "desc": "",
-          "link": "https://www.bseindia.com/downloads/UploadDocs/Notices/20260520-8/20260520-8.pdf"
-        },
-        {
-          "sr": 8,
-          "date": "06 May 2026",
-          "year": 2026,
-          "cat": "Circular",
-          "title": "Extension of timeline for compliance with terms and conditions by\nDebenture Trustees for carrying out activities outside the purview of\nSEBI",
-          "desc": "",
-          "link": "https://www.bseindia.com/downloads/UploadDocs/Notices/20260506-37/20260506-37.pdf"
-        },
-        {
-          "sr": 9,
-          "date": "04 May 2026",
-          "year": 2026,
-          "cat": "Circular",
-          "title": "XBRL based filing for Violations related to Code of Conduct (CoC) under SEBI PIT Regulations, 2015",
-          "desc": "",
-          "link": "https://www.bseindia.com/downloads/UploadDocs/Notices/20260504-17/20260504-17.pdf"
-        },
-        {
-          "sr": 10,
-          "date": "04 May 2026",
-          "year": 2026,
-          "cat": "Circular",
-          "title": "Update of single filing system through API-based integration between Stock Exchanges",
-          "desc": "",
-          "link": "https://www.bseindia.com/downloads/UploadDocs/Notices/20260504-16/20260504-16.pdf"
-        },
-        {
-          "sr": 11,
-          "date": "30 Apr 2026",
-          "year": 2026,
-          "cat": "Circular",
-          "title": "Master Circular - Listing Compliance",
-          "desc": "",
-          "link": "https://www.bseindia.com/downloads/UploadDocs/Notices/20260430-29/20260430-29.pdf"
-        },
-        {
-          "sr": 12,
-          "date": "24 Apr 2026",
-          "year": 2026,
-          "cat": "Circular",
-          "title": "Update of single filing system through API-based integration between Stock Exchanges",
-          "desc": "",
-          "link": "https://www.bseindia.com/downloads/UploadDocs/Notices/20260424-25/20260424-25.pdf"
-        },
-        {
-          "sr": 13,
-          "date": "20 Apr 2026",
-          "year": 2026,
-          "cat": "Circular",
-          "title": "Update of single filing system through API-based integration between Stock Exchanges",
-          "desc": "",
-          "link": "https://www.bseindia.com/downloads/UploadDocs/Notices/20260420-31/20260420-31.pdf"
-        },
-        {
-          "sr": 14,
-          "date": "09 Apr 2026",
-          "year": 2026,
-          "cat": "Circular",
-          "title": "Master Circular for compliance with the provisions of the SEBI (LODR) Regulations, 2015 on non-compliance with the Minimum Public Shareholding (MPS) requirements",
-          "desc": "",
-          "link": "https://www.bseindia.com/downloads/UploadDocs/Notices/20260409-3/20260409-3.pdf"
-        },
-        {
-          "sr": 15,
-          "date": "30 Mar 2026",
-          "year": 2026,
-          "cat": "Circular",
-          "title": "Update on single filing system through API-based integration between Stock Exchanges",
-          "desc": "",
-          "link": "https://www.bseindia.com/downloads/UploadDocs/Notices/20260330-41/20260330-41.pdf"
-        },
-        {
-          "sr": 16,
-          "date": "23 Mar 2026",
-          "year": 2026,
-          "cat": "Circular",
-          "title": "Listing of Units of Raajmarg Infra Investment Trust",
-          "desc": "",
-          "link": "https://www.bseindia.com/downloads/UploadDocs/Notices/20260323-27/20260323-27.pdf"
-        },
-        {
-          "sr": 17,
           "date": "10 Mar 2026",
           "year": 2026,
           "cat": "Circular",
@@ -3103,7 +2761,7 @@
           "link": "https://www.bseindia.com/markets/MarketInfo/DispNewNoticesCirculars?page=20260310-1"
         },
         {
-          "sr": 18,
+          "sr": 2,
           "date": "06 Mar 2026",
           "year": 2026,
           "cat": "Circular",
@@ -3112,7 +2770,7 @@
           "link": "https://www.bseindia.com/markets/MarketInfo/DispNewNoticesCirculars?page=20260306-25"
         },
         {
-          "sr": 19,
+          "sr": 3,
           "date": "20 Feb 2026",
           "year": 2026,
           "cat": "Circular",
@@ -3121,7 +2779,7 @@
           "link": "https://www.bseindia.com/markets/MarketInfo/DispNewNoticesCirculars?page=20260220-44"
         },
         {
-          "sr": 20,
+          "sr": 4,
           "date": "03 Feb 2026",
           "year": 2026,
           "cat": "Circular",
@@ -3130,7 +2788,7 @@
           "link": "https://www.bseindia.com/markets/MarketInfo/DispNewNoticesCirculars?page=20260203-14"
         },
         {
-          "sr": 21,
+          "sr": 5,
           "date": "03 Feb 2026",
           "year": 2026,
           "cat": "Circular",
@@ -3139,7 +2797,7 @@
           "link": "https://www.bseindia.com/markets/MarketInfo/DispNewNoticesCirculars?page=20260203-13"
         },
         {
-          "sr": 22,
+          "sr": 6,
           "date": "03 Feb 2026",
           "year": 2026,
           "cat": "Circular",
@@ -3148,7 +2806,7 @@
           "link": "https://www.bseindia.com/markets/MarketInfo/DispNewNoticesCirculars?page=20260203-12"
         },
         {
-          "sr": 23,
+          "sr": 7,
           "date": "02 Feb 2026",
           "year": 2026,
           "cat": "Circular",
@@ -3157,7 +2815,7 @@
           "link": "https://www.bseindia.com/markets/MarketInfo/DispNewNoticesCirculars?page=20260202-37"
         },
         {
-          "sr": 24,
+          "sr": 8,
           "date": "02 Jan 2026",
           "year": 2026,
           "cat": "Circular",
@@ -3166,16 +2824,160 @@
           "link": "https://www.bseindia.com/markets/MarketInfo/DispNewNoticesCirculars?page=20260102-23"
         },
         {
-          "sr": 25,
+          "sr": 9,
           "date": "22 Dec 2025",
           "year": 2025,
           "cat": "Circular",
           "title": "Modification in the conditions specified for reduction in denomination of debt securities",
           "desc": "",
           "link": "https://www.bseindia.com/markets/MarketInfo/DispNewNoticesCirculars?page=20251222-26"
+        },
+        {
+          "sr": 10,
+          "date": "22 Dec 2025",
+          "year": 2025,
+          "cat": "Circular",
+          "title": "Mandating periodic disclosure requirements- Securitised Debt  Instruments (SDIs).",
+          "desc": "",
+          "link": "https://www.bseindia.com/markets/MarketInfo/DispNewNoticesCirculars?page=20251222-25"
+        },
+        {
+          "sr": 11,
+          "date": "18 Dec 2025",
+          "year": 2025,
+          "cat": "Circular",
+          "title": "Reclassification of Real Estate Investment Trusts (REITs) as equity related instruments for facilitating enhanced participation by Mutual Funds and Specialized Investment Funds (SIFs).",
+          "desc": "",
+          "link": "https://www.bseindia.com/markets/MarketInfo/DispNewNoticesCirculars?page=20251218-23"
+        },
+        {
+          "sr": 12,
+          "date": "09 Dec 2025",
+          "year": 2025,
+          "cat": "Circular",
+          "title": "SEBI (Substantial Acquisition of Shares and Takeovers) (Amendment) Regulations, 2025",
+          "desc": "",
+          "link": "https://www.bseindia.com/markets/MarketInfo/DispNewNoticesCirculars?page=20251209-53"
+        },
+        {
+          "sr": 13,
+          "date": "27 Nov 2025",
+          "year": 2025,
+          "cat": "Circular",
+          "title": "Modifications to Chapter IV of the Master Circular for Debenture Trustees dated August 13, 2025.",
+          "desc": "",
+          "link": "https://www.bseindia.com/markets/MarketInfo/DispNewNoticesCirculars?page=20251127-66"
+        },
+        {
+          "sr": 14,
+          "date": "27 Nov 2025",
+          "year": 2025,
+          "cat": "Circular",
+          "title": "Specification of the terms and conditions for Debenture Trustees for carrying out activities outside the purview of SEBI.",
+          "desc": "",
+          "link": "https://www.bseindia.com/markets/MarketInfo/DispNewNoticesCirculars?page=20251127-65"
+        },
+        {
+          "sr": 15,
+          "date": "27 Nov 2025",
+          "year": 2025,
+          "cat": "Circular",
+          "title": "Timeline for submission of information by the Issuer to the Debenture Trustee(s)",
+          "desc": "",
+          "link": "https://www.bseindia.com/markets/MarketInfo/DispNewNoticesCirculars?page=20251127-64"
+        },
+        {
+          "sr": 16,
+          "date": "27 Nov 2025",
+          "year": 2025,
+          "cat": "Circular",
+          "title": "SEBI (Listing obligations and disclosure requirements) (Fifth amendment) regulations, 2025",
+          "desc": "",
+          "link": "https://www.bseindia.com/markets/MarketInfo/DispNewNoticesCirculars?page=20251127-63"
+        },
+        {
+          "sr": 17,
+          "date": "21 Nov 2025",
+          "year": 2025,
+          "cat": "Circular",
+          "title": "Master Circular for issue and listing of Non-convertible Securities, Securitised Debt Instruments, Security Receipts, Municipal Debt Securities and Commercial Paper.",
+          "desc": "",
+          "link": "https://www.bseindia.com/markets/MarketInfo/DispNewNoticesCirculars?page=20251121-73"
+        },
+        {
+          "sr": 18,
+          "date": "21 Nov 2025",
+          "year": 2025,
+          "cat": "Circular",
+          "title": "XBRL based filing of Regulation 50 for Entities which has listed its non-convertible securities",
+          "desc": "",
+          "link": "https://www.bseindia.com/markets/MarketInfo/DispNewNoticesCirculars?page=20251121-72"
+        },
+        {
+          "sr": 19,
+          "date": "17 Nov 2025",
+          "year": 2025,
+          "cat": "Circular",
+          "title": "Frequently Asked Questions (FAQ) for submission of financial results as required under Regulation 33 of SEBI (LODR) Regulations, 2015 & Master circular for compliance with the provisions of the SEBI (LODR) Regulations, 2015.",
+          "desc": "",
+          "link": "https://www.bseindia.com/markets/MarketInfo/DispNewNoticesCirculars?page=20251117-20"
+        },
+        {
+          "sr": 20,
+          "date": "14 Oct 2025",
+          "year": 2025,
+          "cat": "Circular",
+          "title": "SEBI Circular on “Minimum information to be provided to the Audit Committee and Shareholders for approval of Related Party Transactions.”",
+          "desc": "",
+          "link": "https://www.bseindia.com/markets/MarketInfo/DispNewNoticesCirculars?page=20251014-34"
+        },
+        {
+          "sr": 21,
+          "date": "09 Oct 2025",
+          "year": 2025,
+          "cat": "Circular",
+          "title": "Filing of Financial Results by REITs & InvITs in XBRL Mode",
+          "desc": "",
+          "link": "https://www.bseindia.com/markets/MarketInfo/DispNewNoticesCirculars?page=20251009-62"
+        },
+        {
+          "sr": 22,
+          "date": "26 Sept 2025",
+          "year": 2025,
+          "cat": "Circular",
+          "title": "Framework on Social Stock Exchange (“SSE”)",
+          "desc": "",
+          "link": "https://www.bseindia.com/markets/MarketInfo/DispNewNoticesCirculars?page=20250926-67"
+        },
+        {
+          "sr": 23,
+          "date": "24 Sept 2025",
+          "year": 2025,
+          "cat": "Circular",
+          "title": "Listing of further securities issued by the companies under ESOP/ESOS",
+          "desc": "",
+          "link": "https://www.bseindia.com/markets/MarketInfo/DispNewNoticesCirculars?page=20250924-42"
+        },
+        {
+          "sr": 24,
+          "date": "12 Sept 2025",
+          "year": 2025,
+          "cat": "Circular",
+          "title": "Update on single filing system through API-based integration between Stock Exchanges",
+          "desc": "",
+          "link": "https://www.bseindia.com/markets/MarketInfo/DispNewNoticesCirculars?page=20250912-89"
+        },
+        {
+          "sr": 25,
+          "date": "11 Sept 2025",
+          "year": 2025,
+          "cat": "Circular",
+          "title": "SEBI (LODR) (Third Amendment) Regulations, 2025",
+          "desc": "",
+          "link": "https://www.bseindia.com/markets/MarketInfo/DispNewNoticesCirculars?page=20250911-86"
         }
       ],
-      "ts": 1784714886730,
+      "ts": 1784716509084,
       "ok": true
     },
     "NSE_0": {
@@ -3631,7 +3433,7 @@
           "link": "https://nsearchives.nseindia.com//web/sites/default/files/inline-files/Circular_0.pdf"
         }
       ],
-      "ts": 1784714890238,
+      "ts": 1784716511320,
       "ok": true
     },
     "IRDAI_0": {
@@ -3817,7 +3619,7 @@
           "link": "https://irdai.gov.in/documents/37343/370706/%E0%A4%B5%E0%A4%BF%E0%A4%A4%E0%A5%8D%E0%A4%A4%E0%A5%80%E0%A4%AF+%E0%A4%B5%E0%A4%B0%E0%A5%8D%E0%A4%B7+2021-22+%E0%A4%95%E0%A5%87+%E0%A4%B2%E0%A4%BF%E0%A4%8F+%E0%A4%85%E0%A4%A8%E0%A4%BF%E0%A4%B5%E0%A4%BE%E0%A4%B0%E0%A5%8D%E0%A4%AF+%E0%A4%85%E0%A4%A7%E0%A5%8D%E0%A4%AF%E0%A4%AA%E0%A4%B0%E0%A5%8D%E0%A4%A3+_+Obligatory+Cession+for+the+financial+year+2021-22.pdf/1d9d69ca-4c19-6270-12bf-97c98263d2de?version=1.3&t=1688453069110&download=true"
         }
       ],
-      "ts": 1784714893497,
+      "ts": 1784716514644,
       "ok": true
     },
     "IRDAI_1": {
@@ -4003,7 +3805,7 @@
           "link": "https://irdai.gov.in/documents/37343/365525/%E0%A4%AA%E0%A5%89%E0%A4%B2%E0%A4%BF%E0%A4%B8%E0%A5%80%E0%A4%A7%E0%A4%BE%E0%A4%B0%E0%A4%95%E0%A5%8B%E0%A4%82+%E0%A4%95%E0%A5%80+%E0%A4%B8%E0%A4%B0%E0%A5%8D%E0%A4%B5%E0%A4%BF%E0%A4%B8%E0%A4%BF%E0%A4%82%E0%A4%97-+%E0%A4%9A%E0%A4%BE%E0%A4%B2%E0%A5%82+%E0%A4%B5%E0%A4%BF%E0%A4%A4%E0%A5%8D%E0%A4%A4%E0%A5%80%E0%A4%AF+%E0%A4%B5%E0%A4%B0%E0%A5%8D%E0%A4%B7+2024-25+%E0%A4%95%E0%A5%87+%E0%A4%B2%E0%A4%BF%E0%A4%8F+%E0%A4%B5%E0%A4%BF%E0%A4%B6%E0%A5%87%E0%A4%B7+%E0%A4%89%E0%A4%AA%E0%A4%BE%E0%A4%AF+_+Servicing+to+the+policyholder+-+Special+measure+for+FY+2024-25.pdf/e829051f-29de-4174-4892-37489943d755?version=2.0&t=1742204749546&download=true"
         }
       ],
-      "ts": 1784714897031,
+      "ts": 1784716518062,
       "ok": true
     },
     "IRDAI_2": {
@@ -4189,7 +3991,7 @@
           "link": "https://irdai.gov.in/documents/37343/366029/Guidelines+for+Practical+Training+for+Surveyors+and+Loss+Assessors.pdf/a6bf771d-06cb-182f-6b70-f49179a9241d?version=1.0&t=1631531743569&download=true"
         }
       ],
-      "ts": 1784714900626,
+      "ts": 1784716521420,
       "ok": true
     },
     "IEPFA_0": {
@@ -4240,7 +4042,7 @@
           "link": "https://www.iepf.gov.in/content/iepf/global/master/Home/Notifications/rules.html#"
         }
       ],
-      "ts": 1784714911872,
+      "ts": 1784716531925,
       "ok": true
     },
     "IEPFA_1": {
@@ -4291,7 +4093,7 @@
           "link": "https://www.iepf.gov.in/content/iepf/global/master/Home/Notifications/notices-and-circulars.html#"
         }
       ],
-      "ts": 1784714916668,
+      "ts": 1784716536752,
       "ok": true
     },
     "IEPFA_2": {
@@ -4342,7 +4144,7 @@
           "link": "https://www.iepf.gov.in/content/iepf/global/master/Home/Notifications/notices-and-orders-under-rule-7-3----7-7-.html#"
         }
       ],
-      "ts": 1784714921461,
+      "ts": 1784716541513,
       "ok": true
     },
     "MCA_0": {
@@ -4366,7 +4168,7 @@
           "link": "https://www.mca.gov.in/content/mca/global/en/home.html"
         }
       ],
-      "ts": 1784714928574,
+      "ts": 1784716551004,
       "ok": true
     },
     "MCA_1": {
@@ -4381,58 +4183,22 @@
           "link": "https://www.mca.gov.in/content/dam/mca/pdf/open-house-20260709.pdf"
         }
       ],
-      "ts": 1784714935678,
+      "ts": 1784716569895,
       "ok": true
     },
     "MCA_2": {
       "rows": [
         {
           "sr": 1,
-          "date": "24 Jun 2026",
+          "date": "01 Jul 2026",
           "year": 2026,
           "cat": "Orders",
-          "title": "ADJUDICATION ORDER FOR VIOLATION OF SECTION 134 R/W RULE 8 OF THE COMPANIES ACT, 2013 IN THE MATTER OF M/s.SDU WINERY PRIVATE LIMITED | 6 MB",
+          "title": "The Open House Session Regarding the Registration/Compliance of Foreign Companies in India",
           "desc": "",
-          "link": "https://www.mca.gov.in/content/mca/global/en/data-and-reports/rd-roc-info/roc-adjudication-orders/archive.html#"
-        },
-        {
-          "sr": 2,
-          "date": "24 Jun 2026",
-          "year": 2026,
-          "cat": "Orders",
-          "title": "ADJUDICATION ORDER FOR VIOLATION OF SECTION 180 OF THE COMPANIES ACT, 2013 IN THE MATTER OF M/s.SDU WINERY PRIVATE LIMITED | 5 MB",
-          "desc": "",
-          "link": "https://www.mca.gov.in/content/mca/global/en/data-and-reports/rd-roc-info/roc-adjudication-orders/archive.html#"
-        },
-        {
-          "sr": 3,
-          "date": "24 Jun 2026",
-          "year": 2026,
-          "cat": "Orders",
-          "title": "ADJUDICATION ORDER FOR VIOLATION OF SECTION 179 OF THE COMPANIES ACT, 2013 IN THE MATTER OF M/s.SDU WINERY PRIVATE LIMITED | 2 MB",
-          "desc": "",
-          "link": "https://www.mca.gov.in/content/mca/global/en/data-and-reports/rd-roc-info/roc-adjudication-orders/archive.html#"
-        },
-        {
-          "sr": 4,
-          "date": "24 Jun 2026",
-          "year": 2026,
-          "cat": "Orders",
-          "title": "ADJUDICATION ORDER FOR VIOLATION OF SECTION 134 R/W 118 OF THE COMPANIES ACT, 2013 IN THE MATTER OF M/s. SDU WINERY PRIVATE LIMITED | 335 KB",
-          "desc": "",
-          "link": "https://www.mca.gov.in/content/mca/global/en/data-and-reports/rd-roc-info/roc-adjudication-orders/archive.html#"
-        },
-        {
-          "sr": 5,
-          "date": "24 Jun 2026",
-          "year": 2026,
-          "cat": "Orders",
-          "title": "ADJUDICATION ORDER FOR VIOLATION OF SECTION 143 OF THE COMPANIES ACT, 2013 IN THE MATTER OF M/s. SDU WINERY PRIVATE LIMITED - GUNASHEELA & ASSOCIATES, CHARTERED ACCOUNTANTS | 158 KB",
-          "desc": "",
-          "link": "https://www.mca.gov.in/content/mca/global/en/data-and-reports/rd-roc-info/roc-adjudication-orders/archive.html#"
+          "link": "https://www.mca.gov.in/content/dam/mca/pdf/open-house-20260709.pdf"
         }
       ],
-      "ts": 1784714941421,
+      "ts": 1784716585386,
       "ok": true
     },
     "MCA_3": {
@@ -4447,22 +4213,58 @@
           "link": "https://www.mca.gov.in/content/dam/mca/pdf/open-house-20260709.pdf"
         }
       ],
-      "ts": 1784714950333,
+      "ts": 1784716604232,
       "ok": true
     },
     "MCA_4": {
       "rows": [
         {
           "sr": 1,
-          "date": "01 Jul 2026",
-          "year": 2026,
+          "date": "18 Nov 2025",
+          "year": 2025,
           "cat": "Orders",
-          "title": "The Open House Session Regarding the Registration/Compliance of Foreign Companies in India",
+          "title": "Adjudication order for violation of section 29 of Companies Act, 2013 in the matter of M/s. Kanoria Plaschem Limited. | 26 KB",
           "desc": "",
-          "link": "https://www.mca.gov.in/content/dam/mca/pdf/open-house-20260709.pdf"
+          "link": "https://www.mca.gov.in/content/mca/global/en/data-and-reports/rd-roc-info/rd-adjudication-orders/archive.html#"
+        },
+        {
+          "sr": 2,
+          "date": "18 Nov 2025",
+          "year": 2025,
+          "cat": "Orders",
+          "title": "Adjudication order for violation of section 203 of Companies Act, 2013 in the matter of M/s. Kanoria Plaschem Ltd | 27 KB",
+          "desc": "",
+          "link": "https://www.mca.gov.in/content/mca/global/en/data-and-reports/rd-roc-info/rd-adjudication-orders/archive.html#"
+        },
+        {
+          "sr": 3,
+          "date": "18 Nov 2025",
+          "year": 2025,
+          "cat": "Orders",
+          "title": "Adjudication order for violation of section 203 of Companies Act, 2013 in the matter of M/s. Zerodh asset management Pvt Ltd | 44 KB",
+          "desc": "",
+          "link": "https://www.mca.gov.in/content/mca/global/en/data-and-reports/rd-roc-info/rd-adjudication-orders/archive.html#"
+        },
+        {
+          "sr": 4,
+          "date": "18 Nov 2025",
+          "year": 2025,
+          "cat": "Orders",
+          "title": "Adjudication order for violation of section 143 of Companies Act, 2013 in the matter of M/s.KAPIL PROPERTY DEVELOPERS LIMITED | 32 KB",
+          "desc": "",
+          "link": "https://www.mca.gov.in/content/mca/global/en/data-and-reports/rd-roc-info/rd-adjudication-orders/archive.html#"
+        },
+        {
+          "sr": 5,
+          "date": "18 Nov 2025",
+          "year": 2025,
+          "cat": "Orders",
+          "title": "Adjudication order for violation of section 118(10) of Companies Act, 2013 in the matter of M/s. Stanley Lifestyles Limited | 33 KB",
+          "desc": "",
+          "link": "https://www.mca.gov.in/content/mca/global/en/data-and-reports/rd-roc-info/rd-adjudication-orders/archive.html#"
         }
       ],
-      "ts": 1784714957698,
+      "ts": 1784716613318,
       "ok": true
     },
     "NFRA_0": {
@@ -4522,7 +4324,7 @@
           "link": "https://cdnbbsr.s3waas.gov.in/s3e2ad76f2326fbc6b56a45a56c59fafdb/uploads/2023/02/2023020650.pdf"
         }
       ],
-      "ts": 1784714960719,
+      "ts": 1784716616219,
       "ok": true
     },
     "NFRA_1": {
@@ -4636,7 +4438,7 @@
           "link": "https://cdnbbsr.s3waas.gov.in/s3e2ad76f2326fbc6b56a45a56c59fafdb/uploads/2024/06/202406211115088640.pdf"
         }
       ],
-      "ts": 1784714962235,
+      "ts": 1784716617732,
       "ok": true
     },
     "NFRA_2": {
@@ -4741,7 +4543,7 @@
           "link": "https://cdnbbsr.s3waas.gov.in/s3e2ad76f2326fbc6b56a45a56c59fafdb/uploads/2023/02/2023020735.pdf"
         }
       ],
-      "ts": 1784714963717,
+      "ts": 1784716619246,
       "ok": true
     },
     "NFRA_3": {
@@ -4855,7 +4657,7 @@
           "link": "https://cdnbbsr.s3waas.gov.in/s3e2ad76f2326fbc6b56a45a56c59fafdb/uploads/2025/03/202503281699084526.pdf"
         }
       ],
-      "ts": 1784714965196,
+      "ts": 1784716620756,
       "ok": true
     },
     "PCAOB_0": {
@@ -5041,7 +4843,7 @@
           "link": "https://pcaobus.org/news-events/news-releases/news-release-detail/pcaob-investor-advisory-group-to-meet-on-april-29"
         }
       ],
-      "ts": 1784714972333,
+      "ts": 1784716627190,
       "ok": true
     },
     "PCAOB_1": {
@@ -5227,7 +5029,7 @@
           "link": "http://pcaobus.org/news-events/news-releases/news-release-detail/pcaob-sanctions-former-partner-for-violations-of-pcaob-rules-and-standards--including-failure-to-cooperate-with-an-inspection"
         }
       ],
-      "ts": 1784714978826,
+      "ts": 1784716633571,
       "ok": true
     },
     "PCAOB_2": {
@@ -5593,7 +5395,7 @@
           "link": "https://assets.pcaobus.org/pcaob-dev/docs/default-source/inspections/reports/documents/104-2026-009-ey-netherlands.pdf?sfvrsn=a21e729b_2"
         }
       ],
-      "ts": 1784714981089,
+      "ts": 1784716635828,
       "ok": true
     }
   }
