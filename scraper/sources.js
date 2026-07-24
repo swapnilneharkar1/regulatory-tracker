@@ -3,7 +3,55 @@
 // a source here, also update the matching entry in regulatory_tracker_live.html
 // (used there only for labels / "Visit Source" links, not for fetching anymore).
 
+// Shared keyword list for the NEWSLETTER sources below — matches articles about NBFCs and
+// India's major banks specifically, out of each outlet's much broader general business feed.
+// Extend this list any time a specific bank/NBFC needs to be tracked that isn't covered yet.
+const BANK_NBFC_KEYWORDS = [
+  'nbfc', 'non-banking financial', 'non banking financial',
+  'rbi', 'reserve bank of india', 'monetary policy', 'repo rate',
+  'state bank of india', ' sbi ', 'hdfc bank', 'hdfc ltd', 'icici bank',
+  'axis bank', 'kotak mahindra bank', 'indusind bank', 'yes bank',
+  'idfc first bank', 'idbi bank', 'canara bank', 'punjab national bank',
+  'union bank of india', 'bank of baroda', 'bank of india', 'uco bank',
+  'central bank of india', 'federal bank', 'south indian bank', 'karur vysya',
+  'rbl bank', 'au small finance', 'equitas', 'ujjivan',
+  'bajaj finance', 'bajaj finserv', 'muthoot finance', 'muthoot capital',
+  'shriram finance', 'l&t finance', 'cholamandalam investment',
+  'mahindra finance', 'tata capital', 'poonawalla fincorp',
+  'aditya birla finance', 'piramal finance', 'manappuram finance',
+  'housing finance', 'gold loan', 'microfinance', 'mfi sector',
+  'psu bank', 'public sector bank', 'private sector bank', 'nbfc-mfi',
+];
+
 module.exports = {
+  NEWSLETTER: {
+    tabs: [
+      {
+        key: 'NEWSLETTER_0', label: 'Indian Express', cat: 'News',
+        rss: 'https://indianexpress.com/feed/',
+        src: 'https://indianexpress.com/section/business/banking-and-finance/',
+        htmlParse: 'generic', keywordFilter: BANK_NBFC_KEYWORDS,
+      },
+      {
+        key: 'NEWSLETTER_1', label: 'Times Now', cat: 'News',
+        rss: null,
+        src: 'https://www.timesnownews.com/business-economy',
+        htmlParse: 'generic', headless: true, keywordFilter: BANK_NBFC_KEYWORDS,
+      },
+      {
+        key: 'NEWSLETTER_2', label: 'Economic Times', cat: 'News',
+        rss: 'https://economictimes.indiatimes.com/rssfeedsdefault.cms',
+        src: 'https://economictimes.indiatimes.com/industry/banking/finance/banking',
+        htmlParse: 'generic', keywordFilter: BANK_NBFC_KEYWORDS,
+      },
+      {
+        key: 'NEWSLETTER_3', label: 'Business Standard', cat: 'News',
+        rss: 'https://www.business-standard.com/rss/finance-103.rss',
+        src: 'https://www.business-standard.com/finance',
+        htmlParse: 'generic', keywordFilter: BANK_NBFC_KEYWORDS,
+      },
+    ]
+  },
   SEBI: {
     tabs: [
       { key: 'SEBI_0', label: 'Circulars',           cat: 'Circulars',          sebiPaginate: 12, preferHtml: true, rss: 'https://www.sebi.gov.in/sebirss.xml', linkFilter: '/legal/circulars/',        src: 'https://www.sebi.gov.in/sebiweb/home/HomeAction.do?doListing=yes&sid=1&ssid=7&smid=0' },

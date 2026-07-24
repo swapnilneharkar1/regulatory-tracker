@@ -900,6 +900,24 @@ async function fetchViaHeadlessBrowser(url, timeoutMs = 45000, opts = {}) {
   }
 }
 
+/* ── Keyword filtering (e.g. NEWSLETTER sources) ──
+   General news RSS feeds (Indian Express, Economic Times, etc.) aren't scoped to banking —
+   they cover everything. Rather than needing a perfectly-targeted "banking section" RSS URL
+   for every single outlet (which not all publishers even offer), pull from each outlet's
+   broader business/finance feed and filter down to rows whose title or description mentions
+   a bank/NBFC-relevant keyword. Applied once, generically, after whichever fetch path
+   (RSS or HTML) succeeded — rather than duplicated inside every individual parser. */
+function applyKeywordFilter(rows, keywords) {
+  if (!keywords || !keywords.length) return rows;
+  const lc = keywords.map(k => k.toLowerCase());
+  return rows
+    .filter(r => {
+      const text = ((r.title || '') + ' ' + (r.desc || '')).toLowerCase();
+      return lc.some(k => text.includes(k));
+    })
+    .map((r, i) => ({ ...r, sr: i + 1 }));
+}
+
 /* ── New-item detection + email notification ──
    Compares this run's rows against the previous run's rows (already loaded above) to find
    genuinely new items, then emails a digest if any were found. Only diffs a tab when BOTH
@@ -987,7 +1005,8 @@ async function main() {
     for (const tab of reg.tabs) {
       process.stdout.write(`Scraping ${tab.key} (${tab.label})... `);
       try {
-        const rows = await scrapeTab(tab, tab.cat);
+        let rows = await scrapeTab(tab, tab.cat);
+        if (tab.keywordFilter) rows = applyKeywordFilter(rows, tab.keywordFilter);
         output[tab.key] = { rows, ts: Date.now(), ok: true };
         console.log(`OK (${rows.length} rows)`);
       } catch (e) {
