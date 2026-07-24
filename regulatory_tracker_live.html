@@ -22,6 +22,7 @@
     --accent-mca: #16a085;
     --accent-nfra: #6d28d9;
     --accent-pcaob: #0f766e;
+    --accent-newsletter: #7c3aed;
     --tag-notif: #e8f4fd;
     --tag-notif-text: #1a56db;
     --tag-circular: #fff4e5;
@@ -105,6 +106,7 @@
   .reg-mca   { color: var(--accent-mca); }
   .reg-nfra  { color: var(--accent-nfra); }
   .reg-pcaob { color: var(--accent-pcaob); }
+  .reg-newsletter { color: var(--accent-newsletter); }
 
   .content-panel {
     background: var(--surface);
@@ -321,6 +323,11 @@
       <span class="reg-full">Public Company Accounting Oversight Board</span>
       <span class="reg-count" id="count-PCAOB">—</span>
     </button>
+    <button class="reg-btn reg-newsletter" data-reg="NEWSLETTER" onclick="selectReg('NEWSLETTER')">
+      <span class="reg-name">Newsletter</span>
+      <span class="reg-full">Bank &amp; NBFC News</span>
+      <span class="reg-count" id="count-NEWSLETTER">—</span>
+    </button>
   </div>
 
   <div class="content-panel">
@@ -481,6 +488,18 @@ const REGULATORS = {
       { label: 'Updates & News',     cat: 'News',              rss: null, src: 'https://pcaobus.org/all-updates-and-news-releases', parser: 'generic' },
       { label: 'Enforcement',        cat: 'Enforcement',       rss: null, src: 'https://pcaobus.org/all-enforcement-updates',       parser: 'generic' },
       { label: 'Inspection Reports', cat: 'Inspection Report', rss: null, src: 'https://pcaobus.org/oversight/inspections/firm-inspection-reports', parser: 'generic' },
+    ]
+  },
+  NEWSLETTER: {
+    name: 'Newsletter — Bank & NBFC News',
+    color: '#7c3aed',
+    tabs: [
+      // Order must match scraper/sources.js NEWSLETTER.tabs exactly — the data.json key for
+      // each tab is built as "NEWSLETTER_" + array index (e.g. NEWSLETTER_0 = Indian Express).
+      { label: 'Indian Express',    cat: 'News', rss: 'https://indianexpress.com/feed/', src: 'https://indianexpress.com/section/business/banking-and-finance/', parser: 'generic' },
+      { label: 'Times Now',         cat: 'News', rss: null,                                                                    src: 'https://www.timesnownews.com/business-economy',                    parser: 'generic' },
+      { label: 'Economic Times',    cat: 'News', rss: 'https://economictimes.indiatimes.com/rssfeedsdefault.cms',             src: 'https://economictimes.indiatimes.com/industry/banking/finance/banking', parser: 'generic' },
+      { label: 'Business Standard', cat: 'News', rss: 'https://www.business-standard.com/rss/finance-103.rss',                src: 'https://www.business-standard.com/finance',                        parser: 'generic' },
     ]
   }
 };
