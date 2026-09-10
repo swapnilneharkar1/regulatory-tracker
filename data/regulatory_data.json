@@ -1,14 +1,14 @@
 {
-  "generatedAt": "2026-09-09T23:07:48.132Z",
+  "generatedAt": "2026-09-10T03:53:05.518Z",
   "data": {
     "TAXATION_0": {
       "rows": [],
-      "ts": 1788994875865,
+      "ts": 1789011396816,
       "ok": true
     },
     "TAXATION_1": {
       "rows": [],
-      "ts": 1788994892407,
+      "ts": 1789011413700,
       "ok": true
     },
     "TAXATION_2": {
@@ -124,7 +124,7 @@
           "isNew": false
         }
       ],
-      "ts": 1788994901966,
+      "ts": 1789011424514,
       "ok": true,
       "newCount": 0
     },
@@ -232,8 +232,9 @@
         }
       ],
       "ts": 1788994910448,
-      "ok": true,
-      "newCount": 0
+      "ok": false,
+      "newCount": 0,
+      "error": "Navigation timeout of 45000 ms exceeded"
     },
     "TAXATION_4": {
       "rows": [
@@ -259,8 +260,9 @@
         }
       ],
       "ts": 1788994918316,
-      "ok": true,
-      "newCount": 0
+      "ok": false,
+      "newCount": 0,
+      "error": "net::ERR_CONNECTION_TIMED_OUT at https://cbic-gst.gov.in/"
     },
     "TAXATION_5": {
       "rows": [
@@ -605,7 +607,7 @@
           "isNew": false
         }
       ],
-      "ts": 1788994921613,
+      "ts": 1789011562220,
       "ok": true,
       "newCount": 0
     },
@@ -1612,7 +1614,7 @@
           "isNew": false
         }
       ],
-      "ts": 1788994923896,
+      "ts": 1789011564790,
       "ok": true,
       "newCount": 0
     },
@@ -1656,7 +1658,7 @@
     },
     "NEWSLETTER_1": {
       "rows": [],
-      "ts": 1788994951180,
+      "ts": 1789011593957,
       "ok": true
     },
     "NEWSLETTER_2": {
@@ -1730,39 +1732,9 @@
           "desc": "",
           "link": "https://economictimes.indiatimes.com/news/economy/finance/rbi-announces-record-30-day-vrrr-auction-to-absorb-rs-7-lakh-crore-excess-liquidity-amid-inflation-concerns/articleshow/133768714.cms",
           "isNew": false
-        },
-        {
-          "sr": 8,
-          "date": "04 Sept 2026",
-          "year": 2026,
-          "cat": "News",
-          "title": "RBI mops up Rs 6.02 lakh crore through VRRR auctions against a Rs 8.50 lakh crore plan",
-          "desc": "",
-          "link": "https://economictimes.indiatimes.com/news/economy/finance/rbi-mops-up-rs-6-02-lakh-crore-through-vrrr-auctions-against-rs-8-5-lakh-crore-intent/articleshow/133761441.cms",
-          "isNew": false
-        },
-        {
-          "sr": 9,
-          "date": "04 Sept 2026",
-          "year": 2026,
-          "cat": "News",
-          "title": "India's balance of payments likely to post $60-65 bn surplus in FY27 despite wider CAD: HDFC Bank",
-          "desc": "",
-          "link": "https://economictimes.indiatimes.com/news/economy/finance/indias-bop-likely-to-post-60-65-bn-surplus-in-fy27-despite-wider-cad-hdfc-bank/articleshow/133755358.cms",
-          "isNew": false
-        },
-        {
-          "sr": 10,
-          "date": "04 Sept 2026",
-          "year": 2026,
-          "cat": "News",
-          "title": "Centre sees no cost pain for RBI on dollar deluge",
-          "desc": "",
-          "link": "https://economictimes.indiatimes.com/news/economy/finance/centre-sees-no-cost-pain-for-rbi-on-dollar-deluge/articleshow/133745238.cms",
-          "isNew": false
         }
       ],
-      "ts": 1788994952928,
+      "ts": 1789011595599,
       "ok": true,
       "newCount": 0
     },
@@ -1770,6 +1742,46 @@
       "rows": [
         {
           "sr": 1,
+          "date": "10 Sept 2026",
+          "year": 2026,
+          "cat": "News",
+          "title": "Axis Bank's AI push signals slower hiring ahead as it scales up business",
+          "desc": "The lender opened about 400 branches in FY26 even as its net headcount fell 3%, with CEO Amitabh Chaudhry expecting technology investments to support further growth without similar staff expansion",
+          "link": "https://www.business-standard.com/companies/news/axis-bank-s-ai-push-signals-slower-hiring-ahead-as-it-scales-up-business-126091000129_1.html",
+          "isNew": true
+        },
+        {
+          "sr": 2,
+          "date": "10 Sept 2026",
+          "year": 2026,
+          "cat": "News",
+          "title": "Asian stocks slide as oil tops $100, investors brace for US inflation data",
+          "desc": "MSCI's Asia-Pacific index fell 1 per cent, while Japan's Nikkei and South Korea's KOSPI dropped more than 1 per cent as investors weighed higher oil prices and the outlook for US monetary policy",
+          "link": "https://www.business-standard.com/markets/news/asian-stocks-slide-as-oil-tops-100-investors-brace-for-us-inflation-data-126091000105_1.html",
+          "isNew": true
+        },
+        {
+          "sr": 3,
+          "date": "10 Sept 2026",
+          "year": 2026,
+          "cat": "News",
+          "title": "Stocks to watch: ICICI Pru AMC, Meesho, Wipro, Shakti Pumps, Hindustan Zinc",
+          "desc": "Stocks to watch: ICICI Pru AMC, Meesho, Wipro, Shakti Pumps, Hindustan Zinc, Sun Pharma, Bank of Baroda, Axis Bank, MCX, among others, will be in focus today.",
+          "link": "https://www.business-standard.com/markets/news/stocks-to-watch-icici-pru-amc-meesho-wipro-shakti-pumps-hindustan-zinc-126091000109_1.html",
+          "isNew": true
+        },
+        {
+          "sr": 4,
+          "date": "10 Sept 2026",
+          "year": 2026,
+          "cat": "News",
+          "title": "The next war could begin in orbit",
+          "desc": "India is building technology and resilience for a strategic frontier",
+          "link": "https://www.business-standard.com/blueprint-defence-magazine/reports/the-next-war-could-begin-in-orbit-126090800987_1.html",
+          "isNew": true
+        },
+        {
+          "sr": 5,
           "date": "09 Sept 2026",
           "year": 2026,
           "cat": "News",
@@ -1779,7 +1791,7 @@
           "isNew": false
         },
         {
-          "sr": 2,
+          "sr": 6,
           "date": "09 Sept 2026",
           "year": 2026,
           "cat": "News",
@@ -1789,7 +1801,7 @@
           "isNew": false
         },
         {
-          "sr": 3,
+          "sr": 7,
           "date": "09 Sept 2026",
           "year": 2026,
           "cat": "News",
@@ -1799,7 +1811,7 @@
           "isNew": false
         },
         {
-          "sr": 4,
+          "sr": 8,
           "date": "09 Sept 2026",
           "year": 2026,
           "cat": "News",
@@ -1807,75 +1819,36 @@
           "desc": "Policy should provide room for innovation to grow while ensuring that accountability and resilience grow alongside it, RBI Deputy Governor Rohit Jain said on Wednesday.\nThe objective of policy, theref",
           "link": "https://www.business-standard.com/india-news/policy-must-balance-innovation-with-accountability-resilience-rbi-dy-guv-126090901187_1.html",
           "isNew": false
-        },
-        {
-          "sr": 5,
-          "date": "09 Sept 2026",
-          "year": 2026,
-          "cat": "News",
-          "title": "Reliance on common tech providers raises contagion risk: RBI deputy guv",
-          "desc": "RBI Deputy Governor Rohit Jain cautioned that reliance on a small group of cloud, technology and AI model providers could transmit disruptions across financial institutions",
-          "link": "https://www.business-standard.com/india-news/common-tech-dependencies-could-amplify-financial-system-risks-rbi-dg-126090901399_1.html",
-          "isNew": false
-        },
-        {
-          "sr": 6,
-          "date": "09 Sept 2026",
-          "year": 2026,
-          "cat": "News",
-          "title": "Oil tops $100, rupee breaches 95/$ as stocks reel on US-Iran tensions",
-          "desc": "The rupee touched a low of 95.23 against the dollar before settling at 95.11 as Brent crude topped $100 a barrel; dealers cited RBI intervention in spot and swap markets",
-          "link": "https://www.business-standard.com/india-news/rupee-falls-past-95-as-crude-surges-rbi-steps-in-with-dollar-sales-126090901376_1.html",
-          "isNew": false
-        },
-        {
-          "sr": 7,
-          "date": "09 Sept 2026",
-          "year": 2026,
-          "cat": "News",
-          "title": "Indus Waters dispute tests State sovereignty against international law",
-          "desc": "India's rejection of the 2026 Indus Waters arbitration ruling has sharpened a fundamental legal question: can a state disregard an award if it contests the tribunal's very jurisdiction?",
-          "link": "https://www.business-standard.com/india-news/indus-waters-treaty-india-pakistan-arbitration-sovereignty-international-law-126090901356_1.html",
-          "isNew": false
-        },
-        {
-          "sr": 8,
-          "date": "09 Sept 2026",
-          "year": 2026,
-          "cat": "News",
-          "title": "FCNR(B) inflows could lead to 'abnormal lending': Axis Bank MD & CEO",
-          "desc": "Axis Bank MD & CEO Amitabh Chaudhry cautioned banks over deploying excess liquidity, while flagging the possibility of an interest rate hike in the near future",
-          "link": "https://www.business-standard.com/companies/people/fcnr-b-fund-deluge-could-fuel-abnormal-lending-cautions-axis-bank-ceo-126090901310_1.html",
-          "isNew": false
-        },
-        {
-          "sr": 9,
-          "date": "09 Sept 2026",
-          "year": 2026,
-          "cat": "News",
-          "title": "Axis Bank may split staff across Mumbai as it rebuilds headquarters tower",
-          "desc": "The lender has failed to find a single office large enough for the roughly 3,000 people currently housed at the eight-storey Axis House building in Worli",
-          "link": "https://www.business-standard.com/companies/news/axis-bank-may-split-staff-across-mumbai-as-it-rebuilds-headquarters-tower-126090900945_1.html",
-          "isNew": false
         }
       ],
-      "ts": 1788994954330,
+      "ts": 1789011597040,
+      "ok": true,
+      "newCount": 4
+    },
+    "NEWSLETTER_4": {
+      "rows": [
+        {
+          "sr": 1,
+          "date": "08 Sept 2026",
+          "year": 2026,
+          "cat": "News",
+          "title": "Bank of America Is Bullish on SK hynix Stock as the Memory Chip Market Stays Tight",
+          "desc": "",
+          "link": "https://finance.yahoo.com/markets/stocks/articles/bank-america-bullish-sk-hynix-153622945.html"
+        }
+      ],
+      "ts": 1789011598293,
       "ok": true,
       "newCount": 0
     },
-    "NEWSLETTER_4": {
-      "rows": [],
-      "ts": 1788994955587,
-      "ok": true
-    },
     "NEWSLETTER_5": {
       "rows": [],
-      "ts": 1788994966307,
+      "ts": 1789011599902,
       "ok": true
     },
     "NEWSLETTER_6": {
       "rows": [],
-      "ts": 1788994972583,
+      "ts": 1789011606967,
       "ok": true
     },
     "SEBI_0": {
@@ -4872,8 +4845,9 @@
         }
       ],
       "ts": 1788995006975,
-      "ok": true,
-      "newCount": 0
+      "ok": false,
+      "newCount": 0,
+      "error": "fetch failed"
     },
     "SEBI_1": {
       "rows": [
@@ -6209,8 +6183,9 @@
         }
       ],
       "ts": 1788995026039,
-      "ok": true,
-      "newCount": 0
+      "ok": false,
+      "newCount": 0,
+      "error": "fetch failed"
     },
     "SEBI_2": {
       "rows": [
@@ -6466,8 +6441,9 @@
         }
       ],
       "ts": 1788995028320,
-      "ok": true,
-      "newCount": 0
+      "ok": false,
+      "newCount": 0,
+      "error": "fetch failed"
     },
     "SEBI_3": {
       "rows": [
@@ -9433,8 +9409,9 @@
         }
       ],
       "ts": 1788995063189,
-      "ok": true,
-      "newCount": 0
+      "ok": false,
+      "newCount": 0,
+      "error": "fetch failed"
     },
     "SEBI_4": {
       "rows": [
@@ -10700,8 +10677,9 @@
         }
       ],
       "ts": 1788995066146,
-      "ok": true,
-      "newCount": 0
+      "ok": false,
+      "newCount": 0,
+      "error": "fetch failed"
     },
     "SEBI_5": {
       "rows": [
@@ -10727,8 +10705,9 @@
         }
       ],
       "ts": 1788995067841,
-      "ok": true,
-      "newCount": 0
+      "ok": false,
+      "newCount": 0,
+      "error": "fetch failed"
     },
     "SEBI_6": {
       "rows": [
@@ -13734,8 +13713,9 @@
         }
       ],
       "ts": 1788995104929,
-      "ok": true,
-      "newCount": 0
+      "ok": false,
+      "newCount": 0,
+      "error": "fetch failed"
     },
     "RBI_0": {
       "rows": [
@@ -13950,7 +13930,7 @@
           "isNew": false
         }
       ],
-      "ts": 1788995107147,
+      "ts": 1789012228019,
       "ok": true,
       "newCount": 0
     },
@@ -16957,7 +16937,7 @@
           "isNew": false
         }
       ],
-      "ts": 1788995110077,
+      "ts": 1789012230680,
       "ok": true,
       "newCount": 0
     },
@@ -17124,7 +17104,7 @@
           "isNew": false
         }
       ],
-      "ts": 1788995112302,
+      "ts": 1789012233012,
       "ok": true,
       "newCount": 0
     },
@@ -17331,7 +17311,7 @@
           "isNew": false
         }
       ],
-      "ts": 1788995114523,
+      "ts": 1789012235261,
       "ok": true,
       "newCount": 0
     },
@@ -17588,7 +17568,7 @@
           "isNew": false
         }
       ],
-      "ts": 1788995123527,
+      "ts": 1789012244286,
       "ok": true,
       "newCount": 0
     },
@@ -20595,7 +20575,7 @@
           "isNew": false
         }
       ],
-      "ts": 1788995125848,
+      "ts": 1789012246875,
       "ok": true,
       "newCount": 0
     },
@@ -20802,7 +20782,7 @@
           "isNew": false
         }
       ],
-      "ts": 1788995129769,
+      "ts": 1789012250656,
       "ok": true,
       "newCount": 0
     },
@@ -21009,7 +20989,7 @@
           "isNew": false
         }
       ],
-      "ts": 1788995133250,
+      "ts": 1789012254180,
       "ok": true,
       "newCount": 0
     },
@@ -21216,7 +21196,7 @@
           "isNew": false
         }
       ],
-      "ts": 1788995137025,
+      "ts": 1789012257463,
       "ok": true,
       "newCount": 0
     },
@@ -21273,7 +21253,7 @@
           "isNew": false
         }
       ],
-      "ts": 1788995148669,
+      "ts": 1789012269522,
       "ok": true,
       "newCount": 0
     },
@@ -21330,7 +21310,7 @@
           "isNew": false
         }
       ],
-      "ts": 1788995153618,
+      "ts": 1789012274533,
       "ok": true,
       "newCount": 0
     },
@@ -21387,7 +21367,7 @@
           "isNew": false
         }
       ],
-      "ts": 1788995158434,
+      "ts": 1789012279303,
       "ok": true,
       "newCount": 0
     },
@@ -21404,29 +21384,76 @@
           "isNew": false
         }
       ],
-      "ts": 1788995169846,
+      "ts": 1789012289787,
       "ok": true,
       "newCount": 0
     },
     "MCA_1": {
       "rows": [],
-      "ts": 1788995189962,
+      "ts": 1789012309693,
       "ok": true
     },
     "MCA_2": {
       "rows": [],
-      "ts": 1788995209361,
+      "ts": 1789012323354,
       "ok": true
     },
     "MCA_3": {
       "rows": [],
-      "ts": 1788995227806,
+      "ts": 1789012339653,
       "ok": true
     },
     "MCA_4": {
-      "rows": [],
-      "ts": 1788995244767,
-      "ok": true
+      "rows": [
+        {
+          "sr": 1,
+          "date": "18 Nov 2025",
+          "year": 2025,
+          "cat": "Orders",
+          "title": "Adjudication order for violation of section 29 of Companies Act, 2013 in the matter of M/s. Kanoria Plaschem Limited. | 26 KB",
+          "desc": "",
+          "link": "https://www.mca.gov.in/content/mca/global/en/data-and-reports/rd-roc-info/rd-adjudication-orders/archive.html#"
+        },
+        {
+          "sr": 2,
+          "date": "18 Nov 2025",
+          "year": 2025,
+          "cat": "Orders",
+          "title": "Adjudication order for violation of section 203 of Companies Act, 2013 in the matter of M/s. Kanoria Plaschem Ltd | 27 KB",
+          "desc": "",
+          "link": "https://www.mca.gov.in/content/mca/global/en/data-and-reports/rd-roc-info/rd-adjudication-orders/archive.html#"
+        },
+        {
+          "sr": 3,
+          "date": "18 Nov 2025",
+          "year": 2025,
+          "cat": "Orders",
+          "title": "Adjudication order for violation of section 203 of Companies Act, 2013 in the matter of M/s. Zerodh asset management Pvt Ltd | 44 KB",
+          "desc": "",
+          "link": "https://www.mca.gov.in/content/mca/global/en/data-and-reports/rd-roc-info/rd-adjudication-orders/archive.html#"
+        },
+        {
+          "sr": 4,
+          "date": "18 Nov 2025",
+          "year": 2025,
+          "cat": "Orders",
+          "title": "Adjudication order for violation of section 143 of Companies Act, 2013 in the matter of M/s.KAPIL PROPERTY DEVELOPERS LIMITED | 32 KB",
+          "desc": "",
+          "link": "https://www.mca.gov.in/content/mca/global/en/data-and-reports/rd-roc-info/rd-adjudication-orders/archive.html#"
+        },
+        {
+          "sr": 5,
+          "date": "18 Nov 2025",
+          "year": 2025,
+          "cat": "Orders",
+          "title": "Adjudication order for violation of section 118(10) of Companies Act, 2013 in the matter of M/s. Stanley Lifestyles Limited | 33 KB",
+          "desc": "",
+          "link": "https://www.mca.gov.in/content/mca/global/en/data-and-reports/rd-roc-info/rd-adjudication-orders/archive.html#"
+        }
+      ],
+      "ts": 1789012353947,
+      "ok": true,
+      "newCount": 0
     },
     "NFRA_0": {
       "rows": [
@@ -21491,7 +21518,7 @@
           "isNew": false
         }
       ],
-      "ts": 1788995247385,
+      "ts": 1789012356611,
       "ok": true,
       "newCount": 0
     },
@@ -21618,7 +21645,7 @@
           "isNew": false
         }
       ],
-      "ts": 1788995248843,
+      "ts": 1789012359030,
       "ok": true,
       "newCount": 0
     },
@@ -21735,7 +21762,7 @@
           "isNew": false
         }
       ],
-      "ts": 1788995250287,
+      "ts": 1789012360494,
       "ok": true,
       "newCount": 0
     },
@@ -21862,7 +21889,7 @@
           "isNew": false
         }
       ],
-      "ts": 1788995251737,
+      "ts": 1789012361967,
       "ok": true,
       "newCount": 0
     },
@@ -22069,7 +22096,7 @@
           "isNew": false
         }
       ],
-      "ts": 1788995258273,
+      "ts": 1789012369124,
       "ok": true,
       "newCount": 0
     },
@@ -22276,7 +22303,7 @@
           "isNew": false
         }
       ],
-      "ts": 1788995264590,
+      "ts": 1789012375504,
       "ok": true,
       "newCount": 0
     },
@@ -25283,7 +25310,7 @@
           "isNew": false
         }
       ],
-      "ts": 1788995266928,
+      "ts": 1789012377800,
       "ok": true,
       "newCount": 0
     }
