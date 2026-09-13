@@ -1,15 +1,14 @@
 {
-  "generatedAt": "2026-09-13T09:22:55.441Z",
+  "generatedAt": "2026-09-13T14:16:14.839Z",
   "data": {
     "TAXATION_0": {
       "rows": [],
-      "ts": 1789271204326,
-      "ok": false,
-      "error": "Navigation timeout of 45000 ms exceeded"
+      "ts": 1789308580797,
+      "ok": true
     },
     "TAXATION_1": {
       "rows": [],
-      "ts": 1789290985085,
+      "ts": 1789308599507,
       "ok": true
     },
     "TAXATION_2": {
@@ -125,7 +124,7 @@
           "isNew": false
         }
       ],
-      "ts": 1789290994585,
+      "ts": 1789308609609,
       "ok": true,
       "newCount": 0
     },
@@ -232,7 +231,7 @@
           "isNew": false
         }
       ],
-      "ts": 1789291003220,
+      "ts": 1789308618385,
       "ok": true,
       "newCount": 0
     },
@@ -259,7 +258,7 @@
           "isNew": false
         }
       ],
-      "ts": 1789291010858,
+      "ts": 1789308626854,
       "ok": true,
       "newCount": 0
     },
@@ -273,7 +272,7 @@
           "title": "Goods and Services Tax | Biometric Aadhaar Authentication Mandatory for New GST Registrations: Delhi HC",
           "desc": "Delhi High Court directs mandatory biometric Aadhaar authentication for all new GST registrations nationwide amid fraudulent registration concerns.The post Biometric Aadhaar Authentication Mandatory f",
           "link": "https://taxguru.in/goods-and-service-tax/biometric-aadhaar-authentication-mandatory-gst-registrations-delhi-hc.html",
-          "isNew": true
+          "isNew": false
         },
         {
           "sr": 2,
@@ -536,9 +535,9 @@
           "isNew": false
         }
       ],
-      "ts": 1789291013119,
+      "ts": 1789308629746,
       "ok": true,
-      "newCount": 1
+      "newCount": 0
     },
     "TAXATION_6": {
       "rows": [
@@ -550,7 +549,7 @@
           "title": "Goods and Services Tax | Biometric Aadhaar Authentication Mandatory for New GST Registrations: Delhi HC",
           "desc": "Delhi High Court directs mandatory biometric Aadhaar authentication for all new GST registrations nationwide amid fraudulent registration concerns.The post Biometric Aadhaar Authentication Mandatory f",
           "link": "https://taxguru.in/goods-and-service-tax/biometric-aadhaar-authentication-mandatory-gst-registrations-delhi-hc.html",
-          "isNew": true
+          "isNew": false
         },
         {
           "sr": 2,
@@ -560,7 +559,7 @@
           "title": "Income Tax | P&#038;H HC Strikes Down Section 147A, Holds JAO Cannot Issue Section 148 Notice",
           "desc": "Punjab &#038; Haryana HC strikes down Section 147A and quashes JAO-issued Section 148 notices for breach of the faceless reassessment scheme.The post P&#038;H HC Strikes Down Section 147A, Holds JAO C",
           "link": "https://taxguru.in/income-tax/punjab-haryana-hc-strikes-section-147a-holds-jao-cannot-issue-section-148-notice.html",
-          "isNew": true
+          "isNew": false
         },
         {
           "sr": 3,
@@ -570,7 +569,7 @@
           "title": "CA, CS, CMA | UAE Corporate Tax Exempt Income: Participation, PE and Transport Rules",
           "desc": "Understand UAE Corporate Tax exemptions under Articles 22–25, including participation exemption, foreign PE income and international transportation.The post UAE Corporate Tax Exempt Income: Participat",
           "link": "https://taxguru.in/chartered-accountant/uae-corporate-tax-exempt-income-participation-pe-transport-rules.html",
-          "isNew": true
+          "isNew": false
         },
         {
           "sr": 4,
@@ -1543,9 +1542,9 @@
           "isNew": false
         }
       ],
-      "ts": 1789291015342,
+      "ts": 1789308632023,
       "ok": true,
-      "newCount": 3
+      "newCount": 0
     },
     "NEWSLETTER_0": {
       "rows": [
@@ -1592,9 +1591,9 @@
           "date": "13 Sept 2026",
           "year": 2026,
           "cat": "News",
-          "title": "RBI Listing Order: Setback To New Tata Boss Noel TataSep 13, 2026, 13:21 IST",
+          "title": "RBI Asks Tata Sons To List: Will It Unlock Wealth For CommonersSep 13, 2026, 13:31 IST",
           "desc": "",
-          "link": "https://www.timesnownews.com/business-economy/companies/rbi-listing-setback-to-new-tata-boss-noel-tata-article-156148978",
+          "link": "https://www.timesnownews.com/business-economy/companies/rbi-asks-tata-sons-to-list-will-it-unlock-wealth-for-commoners-article-156149284",
           "isNew": true
         },
         {
@@ -1602,33 +1601,43 @@
           "date": "13 Sept 2026",
           "year": 2026,
           "cat": "News",
-          "title": "HDFC Bank MD And CEO Race Intensifies, Board Shares Two Names To RBISep 13, 2026, 11:40 IST",
+          "title": "RBI Listing Order: Setback To New Tata Boss Noel TataSep 13, 2026, 13:21 IST",
           "desc": "",
-          "link": "https://www.timesnownews.com/business-economy/companies/hdfc-bank-md-and-ceo-race-intensifies-board-shares-two-names-to-rbi-article-156148927",
-          "isNew": true
+          "link": "https://www.timesnownews.com/business-economy/companies/rbi-listing-setback-to-new-tata-boss-noel-tata-article-156148978",
+          "isNew": false
         },
         {
           "sr": 3,
           "date": "13 Sept 2026",
           "year": 2026,
           "cat": "News",
-          "title": "Tata Sons IPO: What RBI’s Order To List Publicly MeansSep 13, 2026, 14:16 IST",
+          "title": "HDFC Bank MD And CEO Race Intensifies, Board Shares Two Names To RBISep 13, 2026, 11:40 IST",
           "desc": "",
-          "link": "https://www.timesnownews.com/business-economy/companies/tata-sons-ipo-what-rbis-order-to-list-publicly-means-article-156148865",
-          "isNew": true
+          "link": "https://www.timesnownews.com/business-economy/companies/hdfc-bank-md-and-ceo-race-intensifies-board-shares-two-names-to-rbi-article-156148927",
+          "isNew": false
         },
         {
           "sr": 4,
           "date": "13 Sept 2026",
           "year": 2026,
           "cat": "News",
-          "title": "RBI Rejects Tata Sons' Request To Stay Private, Orders It To List PubliclySep 13, 2026, 10:02 IST",
+          "title": "Tata Sons IPO: What RBI’s Order To List Publicly MeansSep 13, 2026, 14:16 IST",
           "desc": "",
-          "link": "https://www.timesnownews.com/business-economy/companies/rbi-reject-tata-sons-application-to-deregister-as-core-investment-co-article-156146189",
-          "isNew": true
+          "link": "https://www.timesnownews.com/business-economy/companies/tata-sons-ipo-what-rbis-order-to-list-publicly-means-article-156148865",
+          "isNew": false
         },
         {
           "sr": 5,
+          "date": "13 Sept 2026",
+          "year": 2026,
+          "cat": "News",
+          "title": "RBI Rejects Tata Sons' Request To Stay Private, Orders It To List PubliclySep 13, 2026, 10:02 IST",
+          "desc": "",
+          "link": "https://www.timesnownews.com/business-economy/companies/rbi-reject-tata-sons-application-to-deregister-as-core-investment-co-article-156146189",
+          "isNew": false
+        },
+        {
+          "sr": 6,
           "date": "12 Sept 2026",
           "year": 2026,
           "cat": "News",
@@ -1638,7 +1647,7 @@
           "isNew": false
         },
         {
-          "sr": 6,
+          "sr": 7,
           "date": "11 Sept 2026",
           "year": 2026,
           "cat": "News",
@@ -1648,9 +1657,9 @@
           "isNew": false
         }
       ],
-      "ts": 1789291042125,
+      "ts": 1789308659058,
       "ok": true,
-      "newCount": 4
+      "newCount": 1
     },
     "NEWSLETTER_2": {
       "rows": [
@@ -1725,7 +1734,7 @@
           "isNew": false
         }
       ],
-      "ts": 1789291043463,
+      "ts": 1789308660799,
       "ok": true,
       "newCount": 0
     },
@@ -1739,7 +1748,7 @@
           "title": "RBI asks Tata Sons to list: A timeline of the long regulatory tussle",
           "desc": "RBI's directive for an immediate listing marks a turning point in a dispute spanning Tata Sons' private status, upper-layer NBFC classification and failed deregistration bid",
           "link": "https://www.business-standard.com/companies/news/tata-sons-listing-rbi-cic-registration-nbfc-timeline-126091300142_1.html",
-          "isNew": true
+          "isNew": false
         },
         {
           "sr": 2,
@@ -1749,7 +1758,7 @@
           "title": "Ban on flexi-loans: Should RBI be flexible?",
           "desc": "The defining feature of a flexi-loan is amortisation, not revolveability. Instead of a blanket ban, the regulator may consider certain structural safeguards against evergreening",
           "link": "https://www.business-standard.com/opinion/columns/ban-on-flexi-loans-should-rbi-be-flexible-126091300119_1.html",
-          "isNew": true
+          "isNew": false
         },
         {
           "sr": 3,
@@ -1782,45 +1791,23 @@
           "isNew": false
         }
       ],
-      "ts": 1789291044846,
+      "ts": 1789308662163,
       "ok": true,
-      "newCount": 2
+      "newCount": 0
     },
     "NEWSLETTER_4": {
-      "rows": [
-        {
-          "sr": 1,
-          "date": "12 Sept 2026",
-          "year": 2026,
-          "cat": "News",
-          "title": "York Water’s (YORW) Rate Hike Just Rewrote Its Earnings Picture",
-          "desc": "",
-          "link": "https://finance.yahoo.com/markets/stocks/articles/york-water-yorw-rate-hike-095848522.html",
-          "isNew": true
-        },
-        {
-          "sr": 2,
-          "date": "12 Sept 2026",
-          "year": 2026,
-          "cat": "News",
-          "title": "Mortgage and refinance interest rates today, Saturday, September 12, 2026: Mortgage rates up for the second straight day",
-          "desc": "",
-          "link": "https://finance.yahoo.com/personal-finance/mortgages/article/mortgage-and-refinance-interest-rates-today-saturday-september-12-2026-mortgage-rates-up-for-the-second-straight-day-100000822.html",
-          "isNew": true
-        }
-      ],
-      "ts": 1789291046105,
-      "ok": true,
-      "newCount": 2
+      "rows": [],
+      "ts": 1789308663518,
+      "ok": true
     },
     "NEWSLETTER_5": {
       "rows": [],
-      "ts": 1789291047455,
+      "ts": 1789308664831,
       "ok": true
     },
     "NEWSLETTER_6": {
       "rows": [],
-      "ts": 1789291053556,
+      "ts": 1789308671279,
       "ok": true
     },
     "SEBI_0": {
@@ -2077,16 +2064,6 @@
         },
         {
           "sr": 26,
-          "date": "16 Jun 2026",
-          "year": 2026,
-          "cat": "Circulars",
-          "title": "Guidelines for winding up of AIFs with respect to retention of proceeds and  ‘Inoperative Fund’ status",
-          "desc": "",
-          "link": "https://www.sebi.gov.in/legal/circulars/jun-2026/guidelines-for-winding-up-of-aifs-with-respect-to-retention-of-proceeds-and-inoperative-fund-status_102171.html",
-          "isNew": false
-        },
-        {
-          "sr": 27,
           "date": "15 Jun 2026",
           "year": 2026,
           "cat": "Circulars",
@@ -2096,7 +2073,7 @@
           "isNew": false
         },
         {
-          "sr": 28,
+          "sr": 27,
           "date": "11 Jun 2026",
           "year": 2026,
           "cat": "Circulars",
@@ -2106,7 +2083,7 @@
           "isNew": false
         },
         {
-          "sr": 29,
+          "sr": 28,
           "date": "29 May 2026",
           "year": 2026,
           "cat": "Circulars",
@@ -2116,7 +2093,7 @@
           "isNew": false
         },
         {
-          "sr": 30,
+          "sr": 29,
           "date": "19 May 2026",
           "year": 2026,
           "cat": "Circulars",
@@ -2126,7 +2103,7 @@
           "isNew": false
         },
         {
-          "sr": 31,
+          "sr": 30,
           "date": "15 May 2026",
           "year": 2026,
           "cat": "Circulars",
@@ -2136,7 +2113,7 @@
           "isNew": false
         },
         {
-          "sr": 32,
+          "sr": 31,
           "date": "15 May 2026",
           "year": 2026,
           "cat": "Circulars",
@@ -2146,7 +2123,7 @@
           "isNew": false
         },
         {
-          "sr": 33,
+          "sr": 32,
           "date": "08 May 2026",
           "year": 2026,
           "cat": "Circulars",
@@ -2156,7 +2133,7 @@
           "isNew": false
         },
         {
-          "sr": 34,
+          "sr": 33,
           "date": "07 May 2026",
           "year": 2026,
           "cat": "Circulars",
@@ -2166,7 +2143,7 @@
           "isNew": false
         },
         {
-          "sr": 35,
+          "sr": 34,
           "date": "05 May 2026",
           "year": 2026,
           "cat": "Circulars",
@@ -2176,7 +2153,7 @@
           "isNew": false
         },
         {
-          "sr": 36,
+          "sr": 35,
           "date": "05 May 2026",
           "year": 2026,
           "cat": "Circulars",
@@ -2186,7 +2163,7 @@
           "isNew": false
         },
         {
-          "sr": 37,
+          "sr": 36,
           "date": "30 Apr 2026",
           "year": 2026,
           "cat": "Circulars",
@@ -2196,7 +2173,7 @@
           "isNew": false
         },
         {
-          "sr": 38,
+          "sr": 37,
           "date": "29 Apr 2026",
           "year": 2026,
           "cat": "Circulars",
@@ -2206,7 +2183,7 @@
           "isNew": false
         },
         {
-          "sr": 39,
+          "sr": 38,
           "date": "28 Apr 2026",
           "year": 2026,
           "cat": "Circulars",
@@ -2216,7 +2193,7 @@
           "isNew": false
         },
         {
-          "sr": 40,
+          "sr": 39,
           "date": "24 Apr 2026",
           "year": 2026,
           "cat": "Circulars",
@@ -2226,7 +2203,7 @@
           "isNew": false
         },
         {
-          "sr": 41,
+          "sr": 40,
           "date": "15 Apr 2026",
           "year": 2026,
           "cat": "Circulars",
@@ -2236,7 +2213,7 @@
           "isNew": false
         },
         {
-          "sr": 42,
+          "sr": 41,
           "date": "13 Apr 2026",
           "year": 2026,
           "cat": "Circulars",
@@ -2246,7 +2223,7 @@
           "isNew": false
         },
         {
-          "sr": 43,
+          "sr": 42,
           "date": "08 Apr 2026",
           "year": 2026,
           "cat": "Circulars",
@@ -2256,7 +2233,7 @@
           "isNew": false
         },
         {
-          "sr": 44,
+          "sr": 43,
           "date": "07 Apr 2026",
           "year": 2026,
           "cat": "Circulars",
@@ -2266,7 +2243,7 @@
           "isNew": false
         },
         {
-          "sr": 45,
+          "sr": 44,
           "date": "07 Apr 2026",
           "year": 2026,
           "cat": "Circulars",
@@ -2276,7 +2253,7 @@
           "isNew": false
         },
         {
-          "sr": 46,
+          "sr": 45,
           "date": "25 Mar 2026",
           "year": 2026,
           "cat": "Circulars",
@@ -2286,7 +2263,7 @@
           "isNew": false
         },
         {
-          "sr": 47,
+          "sr": 46,
           "date": "25 Mar 2026",
           "year": 2026,
           "cat": "Circulars",
@@ -2296,7 +2273,7 @@
           "isNew": false
         },
         {
-          "sr": 48,
+          "sr": 47,
           "date": "25 Mar 2026",
           "year": 2026,
           "cat": "Circulars",
@@ -2306,7 +2283,7 @@
           "isNew": false
         },
         {
-          "sr": 49,
+          "sr": 48,
           "date": "23 Mar 2026",
           "year": 2026,
           "cat": "Circulars",
@@ -2316,13 +2293,23 @@
           "isNew": false
         },
         {
-          "sr": 50,
+          "sr": 49,
           "date": "16 Mar 2026",
           "year": 2026,
           "cat": "Circulars",
           "title": "Review of Coverage of Settlement Guarantee Fund for Commodity Derivatives Segment",
           "desc": "",
           "link": "https://www.sebi.gov.in/legal/circulars/mar-2026/review-of-coverage-of-settlement-guarantee-fund-for-commodity-derivatives-segment_100400.html",
+          "isNew": false
+        },
+        {
+          "sr": 50,
+          "date": "13 Mar 2026",
+          "year": 2026,
+          "cat": "Circulars",
+          "title": "Borrowing by Mutual Funds",
+          "desc": "",
+          "link": "https://www.sebi.gov.in/legal/circulars/mar-2026/borrowing-by-mutual-funds_100329.html",
           "isNew": false
         },
         {
@@ -4057,16 +4044,6 @@
         },
         {
           "sr": 224,
-          "date": "03 Dec 2024",
-          "year": 2024,
-          "cat": "Circulars",
-          "title": "SMS and E-mail alerts to investors by stock exchanges",
-          "desc": "",
-          "link": "https://www.sebi.gov.in/legal/circulars/dec-2024/sms-and-e-mail-alerts-to-investors-by-stock-exchanges_89241.html",
-          "isNew": false
-        },
-        {
-          "sr": 225,
           "date": "28 Nov 2024",
           "year": 2024,
           "cat": "Circulars",
@@ -4076,7 +4053,7 @@
           "isNew": false
         },
         {
-          "sr": 226,
+          "sr": 225,
           "date": "26 Nov 2024",
           "year": 2024,
           "cat": "Circulars",
@@ -4086,7 +4063,7 @@
           "isNew": false
         },
         {
-          "sr": 227,
+          "sr": 226,
           "date": "22 Nov 2024",
           "year": 2024,
           "cat": "Circulars",
@@ -4096,7 +4073,7 @@
           "isNew": false
         },
         {
-          "sr": 228,
+          "sr": 227,
           "date": "21 Nov 2024",
           "year": 2024,
           "cat": "Circulars",
@@ -4106,7 +4083,7 @@
           "isNew": false
         },
         {
-          "sr": 229,
+          "sr": 228,
           "date": "18 Nov 2024",
           "year": 2024,
           "cat": "Circulars",
@@ -4116,7 +4093,7 @@
           "isNew": false
         },
         {
-          "sr": 230,
+          "sr": 229,
           "date": "13 Nov 2024",
           "year": 2024,
           "cat": "Circulars",
@@ -4126,7 +4103,7 @@
           "isNew": false
         },
         {
-          "sr": 231,
+          "sr": 230,
           "date": "13 Nov 2024",
           "year": 2024,
           "cat": "Circulars",
@@ -4136,7 +4113,7 @@
           "isNew": false
         },
         {
-          "sr": 232,
+          "sr": 231,
           "date": "12 Nov 2024",
           "year": 2024,
           "cat": "Circulars",
@@ -4146,7 +4123,7 @@
           "isNew": false
         },
         {
-          "sr": 233,
+          "sr": 232,
           "date": "11 Nov 2024",
           "year": 2024,
           "cat": "Circulars",
@@ -4156,7 +4133,7 @@
           "isNew": false
         },
         {
-          "sr": 234,
+          "sr": 233,
           "date": "11 Nov 2024",
           "year": 2024,
           "cat": "Circulars",
@@ -4166,7 +4143,7 @@
           "isNew": false
         },
         {
-          "sr": 235,
+          "sr": 234,
           "date": "05 Nov 2024",
           "year": 2024,
           "cat": "Circulars",
@@ -4176,7 +4153,7 @@
           "isNew": false
         },
         {
-          "sr": 236,
+          "sr": 235,
           "date": "04 Nov 2024",
           "year": 2024,
           "cat": "Circulars",
@@ -4186,7 +4163,7 @@
           "isNew": false
         },
         {
-          "sr": 237,
+          "sr": 236,
           "date": "25 Oct 2024",
           "year": 2024,
           "cat": "Circulars",
@@ -4196,7 +4173,7 @@
           "isNew": false
         },
         {
-          "sr": 238,
+          "sr": 237,
           "date": "25 Oct 2024",
           "year": 2024,
           "cat": "Circulars",
@@ -4206,7 +4183,7 @@
           "isNew": false
         },
         {
-          "sr": 239,
+          "sr": 238,
           "date": "24 Oct 2024",
           "year": 2024,
           "cat": "Circulars",
@@ -4216,7 +4193,7 @@
           "isNew": false
         },
         {
-          "sr": 240,
+          "sr": 239,
           "date": "22 Oct 2024",
           "year": 2024,
           "cat": "Circulars",
@@ -4226,7 +4203,7 @@
           "isNew": false
         },
         {
-          "sr": 241,
+          "sr": 240,
           "date": "22 Oct 2024",
           "year": 2024,
           "cat": "Circulars",
@@ -4236,7 +4213,7 @@
           "isNew": false
         },
         {
-          "sr": 242,
+          "sr": 241,
           "date": "22 Oct 2024",
           "year": 2024,
           "cat": "Circulars",
@@ -4246,7 +4223,7 @@
           "isNew": false
         },
         {
-          "sr": 243,
+          "sr": 242,
           "date": "18 Oct 2024",
           "year": 2024,
           "cat": "Circulars",
@@ -4256,7 +4233,7 @@
           "isNew": false
         },
         {
-          "sr": 244,
+          "sr": 243,
           "date": "16 Oct 2024",
           "year": 2024,
           "cat": "Circulars",
@@ -4266,7 +4243,7 @@
           "isNew": false
         },
         {
-          "sr": 245,
+          "sr": 244,
           "date": "15 Oct 2024",
           "year": 2024,
           "cat": "Circulars",
@@ -4276,7 +4253,7 @@
           "isNew": false
         },
         {
-          "sr": 246,
+          "sr": 245,
           "date": "14 Oct 2024",
           "year": 2024,
           "cat": "Circulars",
@@ -4286,7 +4263,7 @@
           "isNew": false
         },
         {
-          "sr": 247,
+          "sr": 246,
           "date": "14 Oct 2024",
           "year": 2024,
           "cat": "Circulars",
@@ -4296,13 +4273,23 @@
           "isNew": false
         },
         {
-          "sr": 248,
+          "sr": 247,
           "date": "10 Oct 2024",
           "year": 2024,
           "cat": "Circulars",
           "title": "Change in timing for securities payout in the Activity schedule for T+1 Rolling Settlement",
           "desc": "",
           "link": "https://www.sebi.gov.in/legal/circulars/oct-2024/change-in-timing-for-securities-payout-in-the-activity-schedule-for-t-1-rolling-settlement_87512.html",
+          "isNew": false
+        },
+        {
+          "sr": 248,
+          "date": "10 Oct 2024",
+          "year": 2024,
+          "cat": "Circulars",
+          "title": "Extension of timeline for implementation of SEBI Circular SEBI/HO/MIRSD/MIRSD-PoD1/P/CIR/2024/75 dated June 05, 2024",
+          "desc": "",
+          "link": "https://www.sebi.gov.in/legal/circulars/oct-2024/extension-of-timeline-for-implementation-of-sebi-circular-sebi-ho-mirsd-mirsd-pod1-p-cir-2024-75-dated-june-05-2024_87508.html",
           "isNew": false
         },
         {
@@ -4796,7 +4783,7 @@
           "isNew": false
         }
       ],
-      "ts": 1789291088093,
+      "ts": 1789308707144,
       "ok": true,
       "newCount": 0
     },
@@ -6133,7 +6120,7 @@
           "isNew": false
         }
       ],
-      "ts": 1789291107177,
+      "ts": 1789308726862,
       "ok": true,
       "newCount": 0
     },
@@ -6390,7 +6377,7 @@
           "isNew": false
         }
       ],
-      "ts": 1789291109387,
+      "ts": 1789308730393,
       "ok": true,
       "newCount": 0
     },
@@ -6741,13 +6728,23 @@
           "date": "12 May 2026",
           "year": 2026,
           "cat": "Consultation Paper",
+          "title": "Consultation paper on review of position limits for clients and penalty provision for violation / breach of position limits for Commodity Derivatives Segment. Click here to provide your comments",
+          "desc": "",
+          "link": "https://www.sebi.gov.in/reports-and-statistics/reports/may-2026/consultation-paper-on-review-of-position-limits-for-clients-and-penalty-provision-for-violation-breach-of-position-limits-for-commodity-derivatives-segment-_101384.html",
+          "isNew": false
+        },
+        {
+          "sr": 36,
+          "date": "12 May 2026",
+          "year": 2026,
+          "cat": "Consultation Paper",
           "title": "Consultation Paper on ‘Phased Introduction of Physical Settlement in Select Agricultural Commodity Derivatives Contracts'. Click here to provide your comments",
           "desc": "",
           "link": "https://www.sebi.gov.in/reports-and-statistics/reports/may-2026/consultation-paper-on-phased-introduction-of-physical-settlement-in-select-agricultural-commodity-derivatives-contracts-_101380.html",
           "isNew": false
         },
         {
-          "sr": 36,
+          "sr": 37,
           "date": "11 May 2026",
           "year": 2026,
           "cat": "Consultation Paper",
@@ -6757,7 +6754,7 @@
           "isNew": false
         },
         {
-          "sr": 37,
+          "sr": 38,
           "date": "11 May 2026",
           "year": 2026,
           "cat": "Consultation Paper",
@@ -6767,7 +6764,7 @@
           "isNew": false
         },
         {
-          "sr": 38,
+          "sr": 39,
           "date": "08 May 2026",
           "year": 2026,
           "cat": "Consultation Paper",
@@ -6777,7 +6774,17 @@
           "isNew": false
         },
         {
-          "sr": 39,
+          "sr": 40,
+          "date": "05 May 2026",
+          "year": 2026,
+          "cat": "Consultation Paper",
+          "title": "Consultation Paper on Draft Circular on Clarification with respect to Applicability of the benefit of Early Pay-In in Commodity Derivatives Segment  Click here to provide your comments",
+          "desc": "",
+          "link": "https://www.sebi.gov.in/reports-and-statistics/reports/may-2026/consultation-paper-on-draft-circular-on-clarification-with-respect-to-applicability-of-the-benefit-of-early-pay-in-in-commodity-derivatives-segment_101257.html",
+          "isNew": false
+        },
+        {
+          "sr": 41,
           "date": "05 May 2026",
           "year": 2026,
           "cat": "Consultation Paper",
@@ -6787,7 +6794,7 @@
           "isNew": false
         },
         {
-          "sr": 40,
+          "sr": 42,
           "date": "04 May 2026",
           "year": 2026,
           "cat": "Consultation Paper",
@@ -6797,7 +6804,7 @@
           "isNew": false
         },
         {
-          "sr": 41,
+          "sr": 43,
           "date": "24 Apr 2026",
           "year": 2026,
           "cat": "Consultation Paper",
@@ -6807,7 +6814,7 @@
           "isNew": false
         },
         {
-          "sr": 42,
+          "sr": 44,
           "date": "24 Apr 2026",
           "year": 2026,
           "cat": "Consultation Paper",
@@ -6817,7 +6824,7 @@
           "isNew": false
         },
         {
-          "sr": 43,
+          "sr": 45,
           "date": "02 Apr 2026",
           "year": 2026,
           "cat": "Consultation Paper",
@@ -6827,7 +6834,7 @@
           "isNew": false
         },
         {
-          "sr": 44,
+          "sr": 46,
           "date": "25 Mar 2026",
           "year": 2026,
           "cat": "Consultation Paper",
@@ -6837,7 +6844,7 @@
           "isNew": false
         },
         {
-          "sr": 45,
+          "sr": 47,
           "date": "24 Mar 2026",
           "year": 2026,
           "cat": "Consultation Paper",
@@ -6847,7 +6854,7 @@
           "isNew": false
         },
         {
-          "sr": 46,
+          "sr": 48,
           "date": "17 Mar 2026",
           "year": 2026,
           "cat": "Consultation Paper",
@@ -6857,7 +6864,7 @@
           "isNew": false
         },
         {
-          "sr": 47,
+          "sr": 49,
           "date": "12 Mar 2026",
           "year": 2026,
           "cat": "Consultation Paper",
@@ -6867,33 +6874,13 @@
           "isNew": false
         },
         {
-          "sr": 48,
+          "sr": 50,
           "date": "13 Feb 2026",
           "year": 2026,
           "cat": "Consultation Paper",
           "title": "Consultation Paper on Review of provisions related to Base Price and Price Bands for Exchange Traded Funds (ETFs). Click here to provide your comments",
           "desc": "",
           "link": "https://www.sebi.gov.in/reports-and-statistics/reports/feb-2026/consultation-paper-on-review-of-provisions-related-to-base-price-and-price-bands-for-exchange-traded-funds-etfs-_99760.html",
-          "isNew": false
-        },
-        {
-          "sr": 49,
-          "date": "13 Feb 2026",
-          "year": 2026,
-          "cat": "Consultation Paper",
-          "title": "Consultation paper on Ease of doing business-Relaxations in the reporting requirements for stock brokers. Click here to provide your comments",
-          "desc": "",
-          "link": "https://www.sebi.gov.in/reports-and-statistics/reports/feb-2026/consultation-paper-on-ease-of-doing-business-relaxations-in-the-reporting-requirements-for-stock-brokers-_99758.html",
-          "isNew": false
-        },
-        {
-          "sr": 50,
-          "date": "09 Feb 2026",
-          "year": 2026,
-          "cat": "Consultation Paper",
-          "title": "Review of minimum value of investment by individual investors in Social Impact Fund under SEBI AIF Regulations, 2012 and review of requirements related to registration period of NPOs and minimum subscription under SEBI ICDR Regulations, 2018  Click here to provide your comments",
-          "desc": "",
-          "link": "https://www.sebi.gov.in/reports-and-statistics/reports/feb-2026/review-of-minimum-value-of-investment-by-individual-investors-in-social-impact-fund-under-sebi-aif-regulations-2012-and-review-of-requirements-related-to-registration-period-of-npos-and-minimum-subsc-_99628.html",
           "isNew": false
         },
         {
@@ -7378,6 +7365,26 @@
         },
         {
           "sr": 99,
+          "date": "25 Jul 2025",
+          "year": 2025,
+          "cat": "Consultation Paper",
+          "title": "Consultation paper for review of LODR Regulations - measures towards Ease of Doing Business  Click here to provide your comments",
+          "desc": "",
+          "link": "https://www.sebi.gov.in/reports-and-statistics/reports/jul-2025/consultation-paper-for-review-of-lodr-regulations-measures-towards-ease-of-doing-business_95604.html",
+          "isNew": false
+        },
+        {
+          "sr": 100,
+          "date": "18 Jul 2025",
+          "year": 2025,
+          "cat": "Consultation Paper",
+          "title": "Consultation Paper on Categorization and Rationalization of Mutual Fund Schemes  Click here to provide your comments",
+          "desc": "",
+          "link": "https://www.sebi.gov.in/reports-and-statistics/reports/jul-2025/consultation-paper-on-categorization-and-rationalization-of-mutual-fund-schemes_95419.html",
+          "isNew": false
+        },
+        {
+          "sr": 101,
           "date": "16 Jul 2025",
           "year": 2025,
           "cat": "Consultation Paper",
@@ -7387,7 +7394,7 @@
           "isNew": false
         },
         {
-          "sr": 100,
+          "sr": 102,
           "date": "09 Jul 2025",
           "year": 2025,
           "cat": "Consultation Paper",
@@ -7397,7 +7404,7 @@
           "isNew": false
         },
         {
-          "sr": 101,
+          "sr": 103,
           "date": "07 Jul 2025",
           "year": 2025,
           "cat": "Consultation Paper",
@@ -7407,7 +7414,7 @@
           "isNew": false
         },
         {
-          "sr": 102,
+          "sr": 104,
           "date": "03 Jul 2025",
           "year": 2025,
           "cat": "Consultation Paper",
@@ -7417,7 +7424,7 @@
           "isNew": false
         },
         {
-          "sr": 103,
+          "sr": 105,
           "date": "01 Jul 2025",
           "year": 2025,
           "cat": "Consultation Paper",
@@ -7427,7 +7434,7 @@
           "isNew": false
         },
         {
-          "sr": 104,
+          "sr": 106,
           "date": "30 Jun 2025",
           "year": 2025,
           "cat": "Consultation Paper",
@@ -7437,7 +7444,7 @@
           "isNew": false
         },
         {
-          "sr": 105,
+          "sr": 107,
           "date": "24 Jun 2025",
           "year": 2025,
           "cat": "Consultation Paper",
@@ -7447,7 +7454,7 @@
           "isNew": false
         },
         {
-          "sr": 106,
+          "sr": 108,
           "date": "20 Jun 2025",
           "year": 2025,
           "cat": "Consultation Paper",
@@ -7457,7 +7464,7 @@
           "isNew": false
         },
         {
-          "sr": 107,
+          "sr": 109,
           "date": "20 Jun 2025",
           "year": 2025,
           "cat": "Consultation Paper",
@@ -7467,7 +7474,7 @@
           "isNew": false
         },
         {
-          "sr": 108,
+          "sr": 110,
           "date": "17 Jun 2025",
           "year": 2025,
           "cat": "Consultation Paper",
@@ -7477,7 +7484,7 @@
           "isNew": false
         },
         {
-          "sr": 109,
+          "sr": 111,
           "date": "16 Jun 2025",
           "year": 2025,
           "cat": "Consultation Paper",
@@ -7487,7 +7494,7 @@
           "isNew": false
         },
         {
-          "sr": 110,
+          "sr": 112,
           "date": "09 Jun 2025",
           "year": 2025,
           "cat": "Consultation Paper",
@@ -7497,7 +7504,7 @@
           "isNew": false
         },
         {
-          "sr": 111,
+          "sr": 113,
           "date": "13 May 2025",
           "year": 2025,
           "cat": "Consultation Paper",
@@ -7507,7 +7514,7 @@
           "isNew": false
         },
         {
-          "sr": 112,
+          "sr": 114,
           "date": "09 May 2025",
           "year": 2025,
           "cat": "Consultation Paper",
@@ -7517,7 +7524,7 @@
           "isNew": false
         },
         {
-          "sr": 113,
+          "sr": 115,
           "date": "09 May 2025",
           "year": 2025,
           "cat": "Consultation Paper",
@@ -7527,7 +7534,7 @@
           "isNew": false
         },
         {
-          "sr": 114,
+          "sr": 116,
           "date": "09 May 2025",
           "year": 2025,
           "cat": "Consultation Paper",
@@ -7537,7 +7544,7 @@
           "isNew": false
         },
         {
-          "sr": 115,
+          "sr": 117,
           "date": "06 May 2025",
           "year": 2025,
           "cat": "Consultation Paper",
@@ -7547,7 +7554,7 @@
           "isNew": false
         },
         {
-          "sr": 116,
+          "sr": 118,
           "date": "02 May 2025",
           "year": 2025,
           "cat": "Consultation Paper",
@@ -7557,7 +7564,7 @@
           "isNew": false
         },
         {
-          "sr": 117,
+          "sr": 119,
           "date": "02 May 2025",
           "year": 2025,
           "cat": "Consultation Paper",
@@ -7567,7 +7574,7 @@
           "isNew": false
         },
         {
-          "sr": 118,
+          "sr": 120,
           "date": "30 Apr 2025",
           "year": 2025,
           "cat": "Consultation Paper",
@@ -7577,7 +7584,7 @@
           "isNew": false
         },
         {
-          "sr": 119,
+          "sr": 121,
           "date": "29 Apr 2025",
           "year": 2025,
           "cat": "Consultation Paper",
@@ -7587,7 +7594,7 @@
           "isNew": false
         },
         {
-          "sr": 120,
+          "sr": 122,
           "date": "21 Apr 2025",
           "year": 2025,
           "cat": "Consultation Paper",
@@ -7597,33 +7604,13 @@
           "isNew": false
         },
         {
-          "sr": 121,
+          "sr": 123,
           "date": "21 Apr 2025",
           "year": 2025,
           "cat": "Consultation Paper",
           "title": "Draft Circular on 'Amendments to Master Circular on Online Resolution of Disputes in the Indian Securities Market'  Click here to provide your comments",
           "desc": "",
           "link": "https://www.sebi.gov.in/reports-and-statistics/reports/apr-2025/draft-circular-on-amendments-to-master-circular-on-online-resolution-of-disputes-in-the-indian-securities-market-_93496.html",
-          "isNew": false
-        },
-        {
-          "sr": 122,
-          "date": "17 Apr 2025",
-          "year": 2025,
-          "cat": "Consultation Paper",
-          "title": "Consultation Paper on investment by Mutual Funds in REITs and InvITs  Click here to provide your comments",
-          "desc": "",
-          "link": "https://www.sebi.gov.in/reports-and-statistics/reports/apr-2025/consultation-paper-on-investment-by-mutual-funds-in-reits-and-invits_93488.html",
-          "isNew": false
-        },
-        {
-          "sr": 123,
-          "date": "11 Apr 2025",
-          "year": 2025,
-          "cat": "Consultation Paper",
-          "title": "Investor Charter for Registrars to an Issue and Share Transfer Agents (RTAs)  Click here to provide your comments",
-          "desc": "",
-          "link": "https://www.sebi.gov.in/reports-and-statistics/reports/apr-2025/investor-charter-for-registrars-to-an-issue-and-share-transfer-agents-rtas-_93423.html",
           "isNew": false
         },
         {
@@ -9335,29 +9322,9 @@
           "desc": "",
           "link": "https://www.sebi.gov.in/reports-and-statistics/reports/feb-2023/consultation-paper-on-streamlining-disclosures-by-listed-entities-and-strengthening-compliance-with-sebi-listing-obligations-and-disclosure-requirements-regulations-2015_68194.html",
           "isNew": false
-        },
-        {
-          "sr": 295,
-          "date": "20 Feb 2023",
-          "year": 2023,
-          "cat": "Consultation Paper",
-          "title": "Consultation Paper on ESG Disclosures, Ratings and Investing",
-          "desc": "",
-          "link": "https://www.sebi.gov.in/reports-and-statistics/reports/feb-2023/consultation-paper-on-esg-disclosures-ratings-and-investing_68193.html",
-          "isNew": false
-        },
-        {
-          "sr": 296,
-          "date": "09 Feb 2023",
-          "year": 2023,
-          "cat": "Consultation Paper",
-          "title": "Consultation paper on proposal for introduction of the concept of General Information Document (GID) and Key Information Document (KID), mandatory listing of debt securities of listed issuers and other reforms under the NCS Regulations",
-          "desc": "",
-          "link": "https://www.sebi.gov.in/reports-and-statistics/reports/feb-2023/consultation-paper-on-proposal-for-introduction-of-the-concept-of-general-information-document-gid-and-key-information-document-kid-mandatory-listing-of-debt-securities-of-listed-issuers-and-othe-_67948.html",
-          "isNew": false
         }
       ],
-      "ts": 1789291144176,
+      "ts": 1789308766804,
       "ok": true,
       "newCount": 0
     },
@@ -10624,7 +10591,7 @@
           "isNew": false
         }
       ],
-      "ts": 1789291147229,
+      "ts": 1789308770124,
       "ok": true,
       "newCount": 0
     },
@@ -10651,7 +10618,7 @@
           "isNew": false
         }
       ],
-      "ts": 1789291148885,
+      "ts": 1789308771840,
       "ok": true,
       "newCount": 0
     },
@@ -13658,7 +13625,7 @@
           "isNew": false
         }
       ],
-      "ts": 1789291185750,
+      "ts": 1789308810580,
       "ok": true,
       "newCount": 0
     },
@@ -13885,7 +13852,7 @@
           "isNew": false
         }
       ],
-      "ts": 1789291188066,
+      "ts": 1789308812944,
       "ok": true,
       "newCount": 0
     },
@@ -16892,7 +16859,7 @@
           "isNew": false
         }
       ],
-      "ts": 1789291193251,
+      "ts": 1789308816584,
       "ok": true,
       "newCount": 0
     },
@@ -17059,7 +17026,7 @@
           "isNew": false
         }
       ],
-      "ts": 1789291195364,
+      "ts": 1789308818824,
       "ok": true,
       "newCount": 0
     },
@@ -17266,7 +17233,7 @@
           "isNew": false
         }
       ],
-      "ts": 1789291197277,
+      "ts": 1789308821135,
       "ok": true,
       "newCount": 0
     },
@@ -17523,7 +17490,7 @@
           "isNew": false
         }
       ],
-      "ts": 1789291222147,
+      "ts": 1789308829658,
       "ok": true,
       "newCount": 0
     },
@@ -20530,7 +20497,7 @@
           "isNew": false
         }
       ],
-      "ts": 1789291224391,
+      "ts": 1789308831857,
       "ok": true,
       "newCount": 0
     },
@@ -20737,7 +20704,7 @@
           "isNew": false
         }
       ],
-      "ts": 1789291227576,
+      "ts": 1789308835568,
       "ok": true,
       "newCount": 0
     },
@@ -20944,7 +20911,7 @@
           "isNew": false
         }
       ],
-      "ts": 1789291230613,
+      "ts": 1789308838927,
       "ok": true,
       "newCount": 0
     },
@@ -21151,7 +21118,7 @@
           "isNew": false
         }
       ],
-      "ts": 1789291233846,
+      "ts": 1789308842404,
       "ok": true,
       "newCount": 0
     },
@@ -21208,7 +21175,7 @@
           "isNew": false
         }
       ],
-      "ts": 1789291245595,
+      "ts": 1789308851598,
       "ok": true,
       "newCount": 0
     },
@@ -21265,7 +21232,7 @@
           "isNew": false
         }
       ],
-      "ts": 1789291250410,
+      "ts": 1789308856441,
       "ok": true,
       "newCount": 0
     },
@@ -21322,7 +21289,7 @@
           "isNew": false
         }
       ],
-      "ts": 1789291255193,
+      "ts": 1789308861275,
       "ok": true,
       "newCount": 0
     },
@@ -21339,75 +21306,28 @@
           "isNew": false
         }
       ],
-      "ts": 1789291267719,
+      "ts": 1789308873965,
       "ok": true,
       "newCount": 0
     },
     "MCA_1": {
       "rows": [],
-      "ts": 1789291293136,
+      "ts": 1789308889527,
       "ok": true
     },
     "MCA_2": {
-      "rows": [
-        {
-          "sr": 1,
-          "date": "20 Aug 2026",
-          "year": 2026,
-          "cat": "Orders",
-          "title": "Adjudication Order under Section 42 of the Companies Act, 2013 in the Matter of M/s.Hindustan Coca-Cola Holdings Private Limited. | 4 MB",
-          "desc": "",
-          "link": "https://www.mca.gov.in/content/mca/global/en/data-and-reports/rd-roc-info/roc-adjudication-orders/archive.html#"
-        },
-        {
-          "sr": 2,
-          "date": "17 Aug 2026",
-          "year": 2026,
-          "cat": "Orders",
-          "title": "ADJUDICATION ORDER FOR VIOLATION OF SECTION 134 OF THE COMPANIES ACT, 2013 IN THE MATTER OF M/s.SDU INVESTMENTS PRIVATE LIMITED | 428 KB",
-          "desc": "",
-          "link": "https://www.mca.gov.in/content/mca/global/en/data-and-reports/rd-roc-info/roc-adjudication-orders/archive.html#"
-        },
-        {
-          "sr": 3,
-          "date": "17 Aug 2026",
-          "year": 2026,
-          "cat": "Orders",
-          "title": "ADJUDICATION ORDER FOR VIOLATION OF SECTION 134 OF THE COMPANIES ACT, 2013 IN THE MATTER OF M/s.SDU PROJECTS PRIVATE LIMITED | 394 KB",
-          "desc": "",
-          "link": "https://www.mca.gov.in/content/mca/global/en/data-and-reports/rd-roc-info/roc-adjudication-orders/archive.html#"
-        },
-        {
-          "sr": 4,
-          "date": "17 Aug 2026",
-          "year": 2026,
-          "cat": "Orders",
-          "title": "ADJUDICATION ORDER FOR VIOLATION OF SECTION 179 OF THE COMPANIES ACT, 2013 IN THE MATTER OF M/s.SDU PROJECTS PRIVATE LIMITED | 424 KB",
-          "desc": "",
-          "link": "https://www.mca.gov.in/content/mca/global/en/data-and-reports/rd-roc-info/roc-adjudication-orders/archive.html#"
-        },
-        {
-          "sr": 5,
-          "date": "16 Aug 2026",
-          "year": 2026,
-          "cat": "Orders",
-          "title": "ADJUDICATION ORDER FOR VIOLATION OF SECTION 143(12) OF THE COMPANIES ACT, 2013 IN THE MATTER OF M/s.SDU TRAVELS PRIVATE LIMITED (TP SHIVAPRASAD) | 882 KB",
-          "desc": "",
-          "link": "https://www.mca.gov.in/content/mca/global/en/data-and-reports/rd-roc-info/roc-adjudication-orders/archive.html#"
-        }
-      ],
-      "ts": 1789291308963,
-      "ok": true,
-      "newCount": 0
+      "rows": [],
+      "ts": 1789308905630,
+      "ok": true
     },
     "MCA_3": {
       "rows": [],
-      "ts": 1789291326800,
+      "ts": 1789308924579,
       "ok": true
     },
     "MCA_4": {
       "rows": [],
-      "ts": 1789291346389,
+      "ts": 1789308943495,
       "ok": true
     },
     "NFRA_0": {
@@ -21473,7 +21393,7 @@
           "isNew": false
         }
       ],
-      "ts": 1789291349012,
+      "ts": 1789308946523,
       "ok": true,
       "newCount": 0
     },
@@ -21600,7 +21520,7 @@
           "isNew": false
         }
       ],
-      "ts": 1789291350479,
+      "ts": 1789308948021,
       "ok": true,
       "newCount": 0
     },
@@ -21717,7 +21637,7 @@
           "isNew": false
         }
       ],
-      "ts": 1789291351944,
+      "ts": 1789308949505,
       "ok": true,
       "newCount": 0
     },
@@ -21844,7 +21764,7 @@
           "isNew": false
         }
       ],
-      "ts": 1789291353401,
+      "ts": 1789308950990,
       "ok": true,
       "newCount": 0
     },
@@ -22051,7 +21971,7 @@
           "isNew": false
         }
       ],
-      "ts": 1789291360054,
+      "ts": 1789308958059,
       "ok": true,
       "newCount": 0
     },
@@ -22258,7 +22178,7 @@
           "isNew": false
         }
       ],
-      "ts": 1789291366261,
+      "ts": 1789308964419,
       "ok": true,
       "newCount": 0
     },
@@ -25265,7 +25185,7 @@
           "isNew": false
         }
       ],
-      "ts": 1789291368455,
+      "ts": 1789308967088,
       "ok": true,
       "newCount": 0
     }
