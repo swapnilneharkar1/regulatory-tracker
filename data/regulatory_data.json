@@ -1,14 +1,14 @@
 {
-  "generatedAt": "2026-10-17T15:19:02.219Z",
+  "generatedAt": "2026-10-17T18:31:19.843Z",
   "data": {
     "TAXATION_0": {
       "rows": [],
-      "ts": 1792249822069,
+      "ts": 1792260951346,
       "ok": true
     },
     "TAXATION_1": {
       "rows": [],
-      "ts": 1792249839046,
+      "ts": 1792260968144,
       "ok": true
     },
     "TAXATION_2": {
@@ -124,7 +124,7 @@
           "isNew": false
         }
       ],
-      "ts": 1792249848191,
+      "ts": 1792260978317,
       "ok": true,
       "newCount": 0
     },
@@ -231,14 +231,15 @@
           "isNew": false
         }
       ],
-      "ts": 1792249873452,
+      "ts": 1792260990088,
       "ok": true,
       "newCount": 0
     },
     "TAXATION_4": {
       "rows": [],
       "ts": 1792249885764,
-      "ok": true
+      "ok": false,
+      "error": "net::ERR_CONNECTION_RESET at https://cbic-gst.gov.in/"
     },
     "TAXATION_5": {
       "rows": [
@@ -247,9 +248,9 @@
           "date": "17 Oct 2026",
           "year": 2026,
           "cat": "Case Law",
-          "title": "Goods and Services Tax | Audit Objection Alone Cannot Justify Section 74 Penalty for Suppression: GSTAT Thiruvananthapuram",
-          "desc": "GSTAT holds audit detection alone cannot prove wilful suppression under Section 74. Tax and interest remain payable, but penalty is set aside.The post Audit Objection Alone Cannot Justify Section 74 P",
-          "link": "https://taxguru.in/goods-and-service-tax/audit-objection-cannot-justify-section-74-penalty-suppression-gstat-thiruvananthapuram.html",
+          "title": "Goods and Services Tax | GST Appeal Cannot Be Rejected Mechanically Without Speaking Order: Himachal Pradesh HC",
+          "desc": "Himachal Pradesh HC holds that delayed GST appeals cannot be rejected mechanically; appellate authorities must hear parties and pass speaking orders.The post GST Appeal Cannot Be Rejected Mechanically",
+          "link": "https://taxguru.in/goods-and-service-tax/gst-appeal-cannot-rejected-mechanically-without-speaking-order-himachal-pradesh-hc.html",
           "isNew": true
         },
         {
@@ -257,13 +258,33 @@
           "date": "17 Oct 2026",
           "year": 2026,
           "cat": "Case Law",
-          "title": "Goods and Services Tax | ITC Reversal After 180 Days Does Not Automatically Attract Section 74 Penalty: GSTAT Thiruvananthapuram",
-          "desc": "GSTAT sets aside Section 74 penalty on delayed supplier payments, holding that audit detection and vague allegations do not prove wilful suppression.The post ITC Reversal After 180 Days Does Not Autom",
-          "link": "https://taxguru.in/goods-and-service-tax/itc-reversal-180-days-not-automatically-attract-section-74-penalty-gstat-thiruvananthapuram.html",
+          "title": "Goods and Services Tax | GIDC Leasehold Rights Assignment Not Liable to GST: GSTAT Surat",
+          "desc": "GSTAT Surat holds that assignment of GIDC plot leasehold rights is not liable to GST and dismisses Revenue appeals following Gujarat HC precedent.The post GIDC Leasehold Rights Assignment Not Liable t",
+          "link": "https://taxguru.in/goods-and-service-tax/gidc-leasehold-rights-assignment-not-liable-gst-gstat-surat.html",
           "isNew": true
         },
         {
           "sr": 3,
+          "date": "17 Oct 2026",
+          "year": 2026,
+          "cat": "Case Law",
+          "title": "Goods and Services Tax | Audit Objection Alone Cannot Justify Section 74 Penalty for Suppression: GSTAT Thiruvananthapuram",
+          "desc": "GSTAT holds audit detection alone cannot prove wilful suppression under Section 74. Tax and interest remain payable, but penalty is set aside.The post Audit Objection Alone Cannot Justify Section 74 P",
+          "link": "https://taxguru.in/goods-and-service-tax/audit-objection-cannot-justify-section-74-penalty-suppression-gstat-thiruvananthapuram.html",
+          "isNew": false
+        },
+        {
+          "sr": 4,
+          "date": "17 Oct 2026",
+          "year": 2026,
+          "cat": "Case Law",
+          "title": "Goods and Services Tax | ITC Reversal After 180 Days Does Not Automatically Attract Section 74 Penalty: GSTAT Thiruvananthapuram",
+          "desc": "GSTAT sets aside Section 74 penalty on delayed supplier payments, holding that audit detection and vague allegations do not prove wilful suppression.The post ITC Reversal After 180 Days Does Not Autom",
+          "link": "https://taxguru.in/goods-and-service-tax/itc-reversal-180-days-not-automatically-attract-section-74-penalty-gstat-thiruvananthapuram.html",
+          "isNew": false
+        },
+        {
+          "sr": 5,
           "date": "17 Oct 2026",
           "year": 2026,
           "cat": "Case Law",
@@ -273,7 +294,7 @@
           "isNew": false
         },
         {
-          "sr": 4,
+          "sr": 6,
           "date": "17 Oct 2026",
           "year": 2026,
           "cat": "Case Law",
@@ -283,7 +304,7 @@
           "isNew": false
         },
         {
-          "sr": 5,
+          "sr": 7,
           "date": "17 Oct 2026",
           "year": 2026,
           "cat": "Case Law",
@@ -293,7 +314,7 @@
           "isNew": false
         },
         {
-          "sr": 6,
+          "sr": 8,
           "date": "17 Oct 2026",
           "year": 2026,
           "cat": "Case Law",
@@ -303,7 +324,7 @@
           "isNew": false
         },
         {
-          "sr": 7,
+          "sr": 9,
           "date": "17 Oct 2026",
           "year": 2026,
           "cat": "Case Law",
@@ -313,7 +334,7 @@
           "isNew": false
         },
         {
-          "sr": 8,
+          "sr": 10,
           "date": "17 Oct 2026",
           "year": 2026,
           "cat": "Case Law",
@@ -323,7 +344,7 @@
           "isNew": false
         },
         {
-          "sr": 9,
+          "sr": 11,
           "date": "17 Oct 2026",
           "year": 2026,
           "cat": "Case Law",
@@ -333,7 +354,7 @@
           "isNew": false
         },
         {
-          "sr": 10,
+          "sr": 12,
           "date": "17 Oct 2026",
           "year": 2026,
           "cat": "Case Law",
@@ -343,7 +364,7 @@
           "isNew": false
         },
         {
-          "sr": 11,
+          "sr": 13,
           "date": "17 Oct 2026",
           "year": 2026,
           "cat": "Case Law",
@@ -353,7 +374,7 @@
           "isNew": false
         },
         {
-          "sr": 12,
+          "sr": 14,
           "date": "17 Oct 2026",
           "year": 2026,
           "cat": "Case Law",
@@ -363,7 +384,7 @@
           "isNew": false
         },
         {
-          "sr": 13,
+          "sr": 15,
           "date": "17 Oct 2026",
           "year": 2026,
           "cat": "Case Law",
@@ -373,7 +394,7 @@
           "isNew": false
         },
         {
-          "sr": 14,
+          "sr": 16,
           "date": "17 Oct 2026",
           "year": 2026,
           "cat": "Case Law",
@@ -383,7 +404,7 @@
           "isNew": false
         },
         {
-          "sr": 15,
+          "sr": 17,
           "date": "17 Oct 2026",
           "year": 2026,
           "cat": "Case Law",
@@ -393,7 +414,7 @@
           "isNew": false
         },
         {
-          "sr": 16,
+          "sr": 18,
           "date": "17 Oct 2026",
           "year": 2026,
           "cat": "Case Law",
@@ -403,7 +424,7 @@
           "isNew": false
         },
         {
-          "sr": 17,
+          "sr": 19,
           "date": "17 Oct 2026",
           "year": 2026,
           "cat": "Case Law",
@@ -413,7 +434,7 @@
           "isNew": false
         },
         {
-          "sr": 18,
+          "sr": 20,
           "date": "17 Oct 2026",
           "year": 2026,
           "cat": "Case Law",
@@ -423,7 +444,7 @@
           "isNew": false
         },
         {
-          "sr": 19,
+          "sr": 21,
           "date": "17 Oct 2026",
           "year": 2026,
           "cat": "Case Law",
@@ -433,7 +454,7 @@
           "isNew": false
         },
         {
-          "sr": 20,
+          "sr": 22,
           "date": "17 Oct 2026",
           "year": 2026,
           "cat": "Case Law",
@@ -443,7 +464,7 @@
           "isNew": false
         },
         {
-          "sr": 21,
+          "sr": 23,
           "date": "17 Oct 2026",
           "year": 2026,
           "cat": "Case Law",
@@ -451,49 +472,9 @@
           "desc": "GSTAT dismisses ₹10.63 lakh departmental GST appeal below ₹20 lakh limit as Revenue failed to establish any recognised exception.The post GSTAT Ghaziabad Rejects ₹10.63 Lakh GST Departmental Appeal Be",
           "link": "https://taxguru.in/goods-and-service-tax/gstat-ghaziabad-rejects-rs-10-63-lakh-gst-departmental-appeal-rs-20-lakh-monetary-limit.html",
           "isNew": false
-        },
-        {
-          "sr": 22,
-          "date": "17 Oct 2026",
-          "year": 2026,
-          "cat": "Case Law",
-          "title": "Income Tax | Revenue’s SLP Against Jurisdiction-Based Assessment Invalidation Dismissed: SC Declines Interference",
-          "desc": "Supreme Court refuses to interfere with Calcutta HC order in Rohit Baid reassessment dispute and dismisses Revenue's SLP.The post Revenue’s SLP Against Jurisdiction-Based Assessment Invalidation Dismi",
-          "link": "https://taxguru.in/income-tax/revenues-slp-against-jurisdiction-based-assessment-invalidation-dismissed-sc-declines-interference.html",
-          "isNew": false
-        },
-        {
-          "sr": 23,
-          "date": "17 Oct 2026",
-          "year": 2026,
-          "cat": "Case Law",
-          "title": "Income Tax | Section 143(2) Notice by Non-Jurisdictional AO Cannot Sustain Assessment: Calcutta HC",
-          "desc": "Calcutta High Court dismisses Revenue appeal challenging invalid reassessment under Section 147 due to jurisdictional defects.The post Section 143(2) Notice by Non-Jurisdictional AO Cannot Sustain Ass",
-          "link": "https://taxguru.in/income-tax/section-143-2-notice-non-jurisdictional-ao-cannot-sustain-assessment-calcutta-hc.html",
-          "isNew": false
-        },
-        {
-          "sr": 24,
-          "date": "17 Oct 2026",
-          "year": 2026,
-          "cat": "Case Law",
-          "title": "Income Tax | Post-April 2021 Notices Render AY 2015-16 Assessment Orders Unsustainable: Andhra Pradesh HC",
-          "desc": "Andhra Pradesh HC sets aside AY 2015-16 assessment orders arising from notices issued after 1 April 2021, applying Supreme Court rulings.The post Post-April 2021 Notices Render AY 2015-16 Assessment O",
-          "link": "https://taxguru.in/income-tax/post-april-2021-notices-render-ay-2015-16-assessment-orders-unsustainable-andhra-pradesh-hc.html",
-          "isNew": false
-        },
-        {
-          "sr": 25,
-          "date": "17 Oct 2026",
-          "year": 2026,
-          "cat": "Case Law",
-          "title": "Income Tax | CGAS Non-Deposit Defeats Remaining Section 54 Exemption Claim: ITAT Mumbai",
-          "desc": "ITAT Mumbai upheld denial of ₹32.17 lakh Section 54 exemption for CGAS non-deposit, following binding Bombay High Court precedent.The post CGAS Non-Deposit Defeats Remaining Section 54 Exemption Claim",
-          "link": "https://taxguru.in/income-tax/cgas-non-deposit-defeats-remaining-section-54-exemption-claim-itat-mumbai.html",
-          "isNew": false
         }
       ],
-      "ts": 1792249888426,
+      "ts": 1792260996849,
       "ok": true,
       "newCount": 2
     },
@@ -504,9 +485,9 @@
           "date": "17 Oct 2026",
           "year": 2026,
           "cat": "Law Update",
-          "title": "Business | Yes Bank reports 65% rise in net profit for Q2FY27 amid strong asset quality",
-          "desc": "Read the Yes Bank Limited announcement filed with the NSE, with the key figures and what it means for shareholders.The post Yes Bank reports 65% rise in net profit for Q2FY27 amid strong asset quality",
-          "link": "https://taxguru.in/finance/business/yes-bank-reports-65-rise-in-net-profit-for-q2fy27-amid-strong-asset-quality.html",
+          "title": "Income Tax | ITAT Delhi Quashes Six Assessments of Vintage Distillers Over Jurisdictional Defects",
+          "desc": "ITAT Delhi quashes six assessments of Vintage Distillers over defective Section 148 notices, Section 149 limitation and non-compliance with Section 148B.The post ITAT Delhi Quashes Six Assessments of ",
+          "link": "https://taxguru.in/income-tax/itat-delhi-quashes-assessments-vintage-distillers-jurisdictional-defects.html",
           "isNew": true
         },
         {
@@ -514,9 +495,9 @@
           "date": "17 Oct 2026",
           "year": 2026,
           "cat": "Law Update",
-          "title": "DGFT | DGFT Notifies India–New Zealand FTA TRQ Import Procedure",
-          "desc": "DGFT notifies TRQ import procedures for apples, kiwifruit, albumins and Mānuka honey under the India–New Zealand FTA from 20 October 2026.The post DGFT Notifies India–New Zealand FTA TRQ Import Proced",
-          "link": "https://taxguru.in/dgft/dgft-notifies-india-zealand-fta-trq-import-procedure.html",
+          "title": "Corporate Law | Highway Eviction Writs Fall Within Group I Land Matters: Calcutta HC",
+          "desc": "Calcutta HC upheld Group I classification of highway eviction writs and recognised petitioners’ choice where roster groups overlap; appeal dismissed.The post Highway Eviction Writs Fall Within Group I",
+          "link": "https://taxguru.in/corporate-law/highway-eviction-writs-fall-group-land-matters-calcutta-hc.html",
           "isNew": true
         },
         {
@@ -524,9 +505,9 @@
           "date": "17 Oct 2026",
           "year": 2026,
           "cat": "Law Update",
-          "title": "Income Tax | Income-tax Act 2025 vs 1961: Section Mapping Cheat Sheet for Sections You Use Every Day",
-          "desc": "Compare Income-tax Act 1961 and 2025 section numbers for deductions, TDS, TCS, capital gains, tax audit, returns, exemptions and more.The post Income-tax Act 2025 vs 1961: Section Mapping Cheat Sheet ",
-          "link": "https://taxguru.in/income-tax/income-tax-act-2025-1961-section-mapping-cheat-sheet-sections-day.html",
+          "title": "Income Tax | Foreign Bank Cannot Claim Domestic Company Tax Rate: Calcutta HC",
+          "desc": "Calcutta HC rules against a foreign bank on domestic tax rates, head office interest deduction without TDS and exclusion of interest receipts.The post Foreign Bank Cannot Claim Domestic Company Tax Ra",
+          "link": "https://taxguru.in/income-tax/foreign-bank-cannot-claim-domestic-company-tax-rate-calcutta-hc.html",
           "isNew": true
         },
         {
@@ -534,9 +515,9 @@
           "date": "17 Oct 2026",
           "year": 2026,
           "cat": "Law Update",
-          "title": "Goods and Services Tax | Audit Objection Alone Cannot Justify Section 74 Penalty for Suppression: GSTAT Thiruvananthapuram",
-          "desc": "GSTAT holds audit detection alone cannot prove wilful suppression under Section 74. Tax and interest remain payable, but penalty is set aside.The post Audit Objection Alone Cannot Justify Section 74 P",
-          "link": "https://taxguru.in/goods-and-service-tax/audit-objection-cannot-justify-section-74-penalty-suppression-gstat-thiruvananthapuram.html",
+          "title": "Corporate Law | NCLT Guwahati Dismisses SREI Section 7 Petition Against Kitply Industries",
+          "desc": "NCLT Guwahati rejects SREI’s ₹333.59 crore Section 7 petition against Kitply amid disputed loan transactions; Section 65 penalty refused.The post NCLT Guwahati Dismisses SREI Section 7 Petition Agains",
+          "link": "https://taxguru.in/corporate-law/nclt-guwahati-dismisses-srei-section-7-petition-against-kitply-industries.html",
           "isNew": true
         },
         {
@@ -544,9 +525,9 @@
           "date": "17 Oct 2026",
           "year": 2026,
           "cat": "Law Update",
-          "title": "Goods and Services Tax | ITC Reversal After 180 Days Does Not Automatically Attract Section 74 Penalty: GSTAT Thiruvananthapuram",
-          "desc": "GSTAT sets aside Section 74 penalty on delayed supplier payments, holding that audit detection and vague allegations do not prove wilful suppression.The post ITC Reversal After 180 Days Does Not Autom",
-          "link": "https://taxguru.in/goods-and-service-tax/itc-reversal-180-days-not-automatically-attract-section-74-penalty-gstat-thiruvananthapuram.html",
+          "title": "Corporate Law | Wilful Defaulter Show-Cause Notice Cannot Ordinarily Be Challenged Prematurely: Calcutta HC",
+          "desc": "Calcutta HC dismisses Kaustuv Ray appeal against IDBI Bank’s wilful defaulter notice, holding judicial interference premature before committee review.The post Wilful Defaulter Show-Cause Notice Cannot",
+          "link": "https://taxguru.in/corporate-law/wilful-defaulter-show-notice-cannot-ordinarily-challenged-prematurely-calcutta-hc.html",
           "isNew": true
         },
         {
@@ -554,9 +535,9 @@
           "date": "17 Oct 2026",
           "year": 2026,
           "cat": "Law Update",
-          "title": "Income Tax | Non-Compliance Does Not End an Income-Tax Appeal: CIT(A) Must Pass a Reasoned Order on Merits",
-          "desc": "ITAT Raipur restores ex parte appeal over ₹10.29 lakh disallowance, directing CIT(A) to grant a final opportunity and pass a speaking order.The post Non-Compliance Does Not End an Income-Tax Appeal: C",
-          "link": "https://taxguru.in/income-tax/itat-raipur-grants-final-opportunity-rs-10-29-lakh-disallowance-appeal.html",
+          "title": "Goods and Services Tax | GST Appeal Cannot Be Rejected Mechanically Without Speaking Order: Himachal Pradesh HC",
+          "desc": "Himachal Pradesh HC holds that delayed GST appeals cannot be rejected mechanically; appellate authorities must hear parties and pass speaking orders.The post GST Appeal Cannot Be Rejected Mechanically",
+          "link": "https://taxguru.in/goods-and-service-tax/gst-appeal-cannot-rejected-mechanically-without-speaking-order-himachal-pradesh-hc.html",
           "isNew": true
         },
         {
@@ -564,9 +545,9 @@
           "date": "17 Oct 2026",
           "year": 2026,
           "cat": "Law Update",
-          "title": "Corporate Law | Failed Conditional OTS Cannot Defeat Pending Section 7 Insolvency Petition: NCLT Mumbai",
-          "desc": "NCLT Mumbai admits CIRP against Silver Jubilee Motors, holding failed conditional OTS and later part-payments cannot defeat a valid Section 7 petition.The post Failed Conditional OTS Cannot Defeat Pen",
-          "link": "https://taxguru.in/corporate-law/failed-conditional-ots-cannot-defeat-pending-section-7-insolvency-petition-nclt-mumbai.html",
+          "title": "Goods and Services Tax | GIDC Leasehold Rights Assignment Not Liable to GST: GSTAT Surat",
+          "desc": "GSTAT Surat holds that assignment of GIDC plot leasehold rights is not liable to GST and dismisses Revenue appeals following Gujarat HC precedent.The post GIDC Leasehold Rights Assignment Not Liable t",
+          "link": "https://taxguru.in/goods-and-service-tax/gidc-leasehold-rights-assignment-not-liable-gst-gstat-surat.html",
           "isNew": true
         },
         {
@@ -574,13 +555,83 @@
           "date": "17 Oct 2026",
           "year": 2026,
           "cat": "Law Update",
-          "title": "Income Tax | ITAT Deletes ₹28.18 Lakh Addition Against Dissolved Partnership Firm",
-          "desc": "ITAT Ahmedabad deletes ₹28.18 lakh addition and ₹5,000 penalty against dissolved firm; unchanged bank account number cannot establish its income.The post ITAT Deletes ₹28.18 Lakh Addition Against Diss",
-          "link": "https://taxguru.in/income-tax/itat-deletes-rs-28-18-lakh-addition-against-dissolved-partnership-firm.html",
-          "isNew": true
+          "title": "Business | Yes Bank reports 65% rise in net profit for Q2FY27 amid strong asset quality",
+          "desc": "Read the Yes Bank Limited announcement filed with the NSE, with the key figures and what it means for shareholders.The post Yes Bank reports 65% rise in net profit for Q2FY27 amid strong asset quality",
+          "link": "https://taxguru.in/finance/business/yes-bank-reports-65-rise-in-net-profit-for-q2fy27-amid-strong-asset-quality.html",
+          "isNew": false
         },
         {
           "sr": 9,
+          "date": "17 Oct 2026",
+          "year": 2026,
+          "cat": "Law Update",
+          "title": "DGFT | DGFT Notifies India–New Zealand FTA TRQ Import Procedure",
+          "desc": "DGFT notifies TRQ import procedures for apples, kiwifruit, albumins and Mānuka honey under the India–New Zealand FTA from 20 October 2026.The post DGFT Notifies India–New Zealand FTA TRQ Import Proced",
+          "link": "https://taxguru.in/dgft/dgft-notifies-india-zealand-fta-trq-import-procedure.html",
+          "isNew": false
+        },
+        {
+          "sr": 10,
+          "date": "17 Oct 2026",
+          "year": 2026,
+          "cat": "Law Update",
+          "title": "Income Tax | Income-tax Act 2025 vs 1961: Section Mapping Cheat Sheet for Sections You Use Every Day",
+          "desc": "Compare Income-tax Act 1961 and 2025 section numbers for deductions, TDS, TCS, capital gains, tax audit, returns, exemptions and more.The post Income-tax Act 2025 vs 1961: Section Mapping Cheat Sheet ",
+          "link": "https://taxguru.in/income-tax/income-tax-act-2025-1961-section-mapping-cheat-sheet-sections-day.html",
+          "isNew": false
+        },
+        {
+          "sr": 11,
+          "date": "17 Oct 2026",
+          "year": 2026,
+          "cat": "Law Update",
+          "title": "Goods and Services Tax | Audit Objection Alone Cannot Justify Section 74 Penalty for Suppression: GSTAT Thiruvananthapuram",
+          "desc": "GSTAT holds audit detection alone cannot prove wilful suppression under Section 74. Tax and interest remain payable, but penalty is set aside.The post Audit Objection Alone Cannot Justify Section 74 P",
+          "link": "https://taxguru.in/goods-and-service-tax/audit-objection-cannot-justify-section-74-penalty-suppression-gstat-thiruvananthapuram.html",
+          "isNew": false
+        },
+        {
+          "sr": 12,
+          "date": "17 Oct 2026",
+          "year": 2026,
+          "cat": "Law Update",
+          "title": "Goods and Services Tax | ITC Reversal After 180 Days Does Not Automatically Attract Section 74 Penalty: GSTAT Thiruvananthapuram",
+          "desc": "GSTAT sets aside Section 74 penalty on delayed supplier payments, holding that audit detection and vague allegations do not prove wilful suppression.The post ITC Reversal After 180 Days Does Not Autom",
+          "link": "https://taxguru.in/goods-and-service-tax/itc-reversal-180-days-not-automatically-attract-section-74-penalty-gstat-thiruvananthapuram.html",
+          "isNew": false
+        },
+        {
+          "sr": 13,
+          "date": "17 Oct 2026",
+          "year": 2026,
+          "cat": "Law Update",
+          "title": "Income Tax | Non-Compliance Does Not End an Income-Tax Appeal: CIT(A) Must Pass a Reasoned Order on Merits",
+          "desc": "ITAT Raipur restores ex parte appeal over ₹10.29 lakh disallowance, directing CIT(A) to grant a final opportunity and pass a speaking order.The post Non-Compliance Does Not End an Income-Tax Appeal: C",
+          "link": "https://taxguru.in/income-tax/itat-raipur-grants-final-opportunity-rs-10-29-lakh-disallowance-appeal.html",
+          "isNew": false
+        },
+        {
+          "sr": 14,
+          "date": "17 Oct 2026",
+          "year": 2026,
+          "cat": "Law Update",
+          "title": "Corporate Law | Failed Conditional OTS Cannot Defeat Pending Section 7 Insolvency Petition: NCLT Mumbai",
+          "desc": "NCLT Mumbai admits CIRP against Silver Jubilee Motors, holding failed conditional OTS and later part-payments cannot defeat a valid Section 7 petition.The post Failed Conditional OTS Cannot Defeat Pen",
+          "link": "https://taxguru.in/corporate-law/failed-conditional-ots-cannot-defeat-pending-section-7-insolvency-petition-nclt-mumbai.html",
+          "isNew": false
+        },
+        {
+          "sr": 15,
+          "date": "17 Oct 2026",
+          "year": 2026,
+          "cat": "Law Update",
+          "title": "Income Tax | ITAT Deletes ₹28.18 Lakh Addition Against Dissolved Partnership Firm",
+          "desc": "ITAT Ahmedabad deletes ₹28.18 lakh addition and ₹5,000 penalty against dissolved firm; unchanged bank account number cannot establish its income.The post ITAT Deletes ₹28.18 Lakh Addition Against Diss",
+          "link": "https://taxguru.in/income-tax/itat-deletes-rs-28-18-lakh-addition-against-dissolved-partnership-firm.html",
+          "isNew": false
+        },
+        {
+          "sr": 16,
           "date": "17 Oct 2026",
           "year": 2026,
           "cat": "Law Update",
@@ -590,7 +641,7 @@
           "isNew": false
         },
         {
-          "sr": 10,
+          "sr": 17,
           "date": "17 Oct 2026",
           "year": 2026,
           "cat": "Law Update",
@@ -600,7 +651,7 @@
           "isNew": false
         },
         {
-          "sr": 11,
+          "sr": 18,
           "date": "17 Oct 2026",
           "year": 2026,
           "cat": "Law Update",
@@ -610,7 +661,7 @@
           "isNew": false
         },
         {
-          "sr": 12,
+          "sr": 19,
           "date": "17 Oct 2026",
           "year": 2026,
           "cat": "Law Update",
@@ -620,7 +671,7 @@
           "isNew": false
         },
         {
-          "sr": 13,
+          "sr": 20,
           "date": "17 Oct 2026",
           "year": 2026,
           "cat": "Law Update",
@@ -630,7 +681,7 @@
           "isNew": false
         },
         {
-          "sr": 14,
+          "sr": 21,
           "date": "17 Oct 2026",
           "year": 2026,
           "cat": "Law Update",
@@ -640,7 +691,7 @@
           "isNew": false
         },
         {
-          "sr": 15,
+          "sr": 22,
           "date": "17 Oct 2026",
           "year": 2026,
           "cat": "Law Update",
@@ -650,7 +701,7 @@
           "isNew": false
         },
         {
-          "sr": 16,
+          "sr": 23,
           "date": "17 Oct 2026",
           "year": 2026,
           "cat": "Law Update",
@@ -660,7 +711,7 @@
           "isNew": false
         },
         {
-          "sr": 17,
+          "sr": 24,
           "date": "17 Oct 2026",
           "year": 2026,
           "cat": "Law Update",
@@ -670,7 +721,7 @@
           "isNew": false
         },
         {
-          "sr": 18,
+          "sr": 25,
           "date": "17 Oct 2026",
           "year": 2026,
           "cat": "Law Update",
@@ -680,7 +731,7 @@
           "isNew": false
         },
         {
-          "sr": 19,
+          "sr": 26,
           "date": "17 Oct 2026",
           "year": 2026,
           "cat": "Law Update",
@@ -690,7 +741,7 @@
           "isNew": false
         },
         {
-          "sr": 20,
+          "sr": 27,
           "date": "17 Oct 2026",
           "year": 2026,
           "cat": "Law Update",
@@ -700,7 +751,7 @@
           "isNew": false
         },
         {
-          "sr": 21,
+          "sr": 28,
           "date": "17 Oct 2026",
           "year": 2026,
           "cat": "Law Update",
@@ -710,7 +761,7 @@
           "isNew": false
         },
         {
-          "sr": 22,
+          "sr": 29,
           "date": "17 Oct 2026",
           "year": 2026,
           "cat": "Law Update",
@@ -720,7 +771,7 @@
           "isNew": false
         },
         {
-          "sr": 23,
+          "sr": 30,
           "date": "17 Oct 2026",
           "year": 2026,
           "cat": "Law Update",
@@ -730,7 +781,7 @@
           "isNew": false
         },
         {
-          "sr": 24,
+          "sr": 31,
           "date": "17 Oct 2026",
           "year": 2026,
           "cat": "Law Update",
@@ -740,7 +791,7 @@
           "isNew": false
         },
         {
-          "sr": 25,
+          "sr": 32,
           "date": "17 Oct 2026",
           "year": 2026,
           "cat": "Law Update",
@@ -750,7 +801,7 @@
           "isNew": false
         },
         {
-          "sr": 26,
+          "sr": 33,
           "date": "17 Oct 2026",
           "year": 2026,
           "cat": "Law Update",
@@ -760,7 +811,7 @@
           "isNew": false
         },
         {
-          "sr": 27,
+          "sr": 34,
           "date": "17 Oct 2026",
           "year": 2026,
           "cat": "Law Update",
@@ -770,7 +821,7 @@
           "isNew": false
         },
         {
-          "sr": 28,
+          "sr": 35,
           "date": "17 Oct 2026",
           "year": 2026,
           "cat": "Law Update",
@@ -780,7 +831,7 @@
           "isNew": false
         },
         {
-          "sr": 29,
+          "sr": 36,
           "date": "17 Oct 2026",
           "year": 2026,
           "cat": "Law Update",
@@ -790,7 +841,7 @@
           "isNew": false
         },
         {
-          "sr": 30,
+          "sr": 37,
           "date": "17 Oct 2026",
           "year": 2026,
           "cat": "Law Update",
@@ -800,7 +851,7 @@
           "isNew": false
         },
         {
-          "sr": 31,
+          "sr": 38,
           "date": "17 Oct 2026",
           "year": 2026,
           "cat": "Law Update",
@@ -810,7 +861,7 @@
           "isNew": false
         },
         {
-          "sr": 32,
+          "sr": 39,
           "date": "17 Oct 2026",
           "year": 2026,
           "cat": "Law Update",
@@ -820,7 +871,7 @@
           "isNew": false
         },
         {
-          "sr": 33,
+          "sr": 40,
           "date": "17 Oct 2026",
           "year": 2026,
           "cat": "Law Update",
@@ -830,7 +881,7 @@
           "isNew": false
         },
         {
-          "sr": 34,
+          "sr": 41,
           "date": "17 Oct 2026",
           "year": 2026,
           "cat": "Law Update",
@@ -840,7 +891,7 @@
           "isNew": false
         },
         {
-          "sr": 35,
+          "sr": 42,
           "date": "17 Oct 2026",
           "year": 2026,
           "cat": "Law Update",
@@ -850,7 +901,7 @@
           "isNew": false
         },
         {
-          "sr": 36,
+          "sr": 43,
           "date": "17 Oct 2026",
           "year": 2026,
           "cat": "Law Update",
@@ -860,7 +911,7 @@
           "isNew": false
         },
         {
-          "sr": 37,
+          "sr": 44,
           "date": "17 Oct 2026",
           "year": 2026,
           "cat": "Law Update",
@@ -870,7 +921,7 @@
           "isNew": false
         },
         {
-          "sr": 38,
+          "sr": 45,
           "date": "17 Oct 2026",
           "year": 2026,
           "cat": "Law Update",
@@ -880,7 +931,7 @@
           "isNew": false
         },
         {
-          "sr": 39,
+          "sr": 46,
           "date": "17 Oct 2026",
           "year": 2026,
           "cat": "Law Update",
@@ -890,7 +941,7 @@
           "isNew": false
         },
         {
-          "sr": 40,
+          "sr": 47,
           "date": "17 Oct 2026",
           "year": 2026,
           "cat": "Law Update",
@@ -900,7 +951,7 @@
           "isNew": false
         },
         {
-          "sr": 41,
+          "sr": 48,
           "date": "17 Oct 2026",
           "year": 2026,
           "cat": "Law Update",
@@ -910,7 +961,7 @@
           "isNew": false
         },
         {
-          "sr": 42,
+          "sr": 49,
           "date": "17 Oct 2026",
           "year": 2026,
           "cat": "Law Update",
@@ -920,7 +971,7 @@
           "isNew": false
         },
         {
-          "sr": 43,
+          "sr": 50,
           "date": "17 Oct 2026",
           "year": 2026,
           "cat": "Law Update",
@@ -930,7 +981,7 @@
           "isNew": false
         },
         {
-          "sr": 44,
+          "sr": 51,
           "date": "17 Oct 2026",
           "year": 2026,
           "cat": "Law Update",
@@ -940,7 +991,7 @@
           "isNew": false
         },
         {
-          "sr": 45,
+          "sr": 52,
           "date": "17 Oct 2026",
           "year": 2026,
           "cat": "Law Update",
@@ -950,7 +1001,7 @@
           "isNew": false
         },
         {
-          "sr": 46,
+          "sr": 53,
           "date": "17 Oct 2026",
           "year": 2026,
           "cat": "Law Update",
@@ -960,7 +1011,7 @@
           "isNew": false
         },
         {
-          "sr": 47,
+          "sr": 54,
           "date": "17 Oct 2026",
           "year": 2026,
           "cat": "Law Update",
@@ -970,7 +1021,7 @@
           "isNew": false
         },
         {
-          "sr": 48,
+          "sr": 55,
           "date": "17 Oct 2026",
           "year": 2026,
           "cat": "Law Update",
@@ -980,7 +1031,7 @@
           "isNew": false
         },
         {
-          "sr": 49,
+          "sr": 56,
           "date": "17 Oct 2026",
           "year": 2026,
           "cat": "Law Update",
@@ -990,7 +1041,7 @@
           "isNew": false
         },
         {
-          "sr": 50,
+          "sr": 57,
           "date": "17 Oct 2026",
           "year": 2026,
           "cat": "Law Update",
@@ -1000,7 +1051,7 @@
           "isNew": false
         },
         {
-          "sr": 51,
+          "sr": 58,
           "date": "17 Oct 2026",
           "year": 2026,
           "cat": "Law Update",
@@ -1010,7 +1061,7 @@
           "isNew": false
         },
         {
-          "sr": 52,
+          "sr": 59,
           "date": "17 Oct 2026",
           "year": 2026,
           "cat": "Law Update",
@@ -1020,7 +1071,7 @@
           "isNew": false
         },
         {
-          "sr": 53,
+          "sr": 60,
           "date": "17 Oct 2026",
           "year": 2026,
           "cat": "Law Update",
@@ -1030,7 +1081,7 @@
           "isNew": false
         },
         {
-          "sr": 54,
+          "sr": 61,
           "date": "17 Oct 2026",
           "year": 2026,
           "cat": "Law Update",
@@ -1040,7 +1091,7 @@
           "isNew": false
         },
         {
-          "sr": 55,
+          "sr": 62,
           "date": "17 Oct 2026",
           "year": 2026,
           "cat": "Law Update",
@@ -1050,7 +1101,7 @@
           "isNew": false
         },
         {
-          "sr": 56,
+          "sr": 63,
           "date": "17 Oct 2026",
           "year": 2026,
           "cat": "Law Update",
@@ -1060,7 +1111,7 @@
           "isNew": false
         },
         {
-          "sr": 57,
+          "sr": 64,
           "date": "17 Oct 2026",
           "year": 2026,
           "cat": "Law Update",
@@ -1070,7 +1121,7 @@
           "isNew": false
         },
         {
-          "sr": 58,
+          "sr": 65,
           "date": "17 Oct 2026",
           "year": 2026,
           "cat": "Law Update",
@@ -1080,7 +1131,7 @@
           "isNew": false
         },
         {
-          "sr": 59,
+          "sr": 66,
           "date": "17 Oct 2026",
           "year": 2026,
           "cat": "Law Update",
@@ -1090,7 +1141,7 @@
           "isNew": false
         },
         {
-          "sr": 60,
+          "sr": 67,
           "date": "17 Oct 2026",
           "year": 2026,
           "cat": "Law Update",
@@ -1100,7 +1151,7 @@
           "isNew": false
         },
         {
-          "sr": 61,
+          "sr": 68,
           "date": "17 Oct 2026",
           "year": 2026,
           "cat": "Law Update",
@@ -1110,7 +1161,7 @@
           "isNew": false
         },
         {
-          "sr": 62,
+          "sr": 69,
           "date": "17 Oct 2026",
           "year": 2026,
           "cat": "Law Update",
@@ -1120,7 +1171,7 @@
           "isNew": false
         },
         {
-          "sr": 63,
+          "sr": 70,
           "date": "17 Oct 2026",
           "year": 2026,
           "cat": "Law Update",
@@ -1130,7 +1181,7 @@
           "isNew": false
         },
         {
-          "sr": 64,
+          "sr": 71,
           "date": "17 Oct 2026",
           "year": 2026,
           "cat": "Law Update",
@@ -1140,7 +1191,7 @@
           "isNew": false
         },
         {
-          "sr": 65,
+          "sr": 72,
           "date": "17 Oct 2026",
           "year": 2026,
           "cat": "Law Update",
@@ -1150,7 +1201,7 @@
           "isNew": false
         },
         {
-          "sr": 66,
+          "sr": 73,
           "date": "17 Oct 2026",
           "year": 2026,
           "cat": "Law Update",
@@ -1160,7 +1211,7 @@
           "isNew": false
         },
         {
-          "sr": 67,
+          "sr": 74,
           "date": "17 Oct 2026",
           "year": 2026,
           "cat": "Law Update",
@@ -1170,7 +1221,7 @@
           "isNew": false
         },
         {
-          "sr": 68,
+          "sr": 75,
           "date": "17 Oct 2026",
           "year": 2026,
           "cat": "Law Update",
@@ -1178,81 +1229,11 @@
           "desc": "ITAT Mumbai deleted a ₹1.39 lakh Section 271AAA penalty as diamond stock shortage alone did not prove unrecorded sales or undisclosed income.The post Diamond Stock Shortage Alone Cannot Sustain Sectio",
           "link": "https://taxguru.in/income-tax/diamond-stock-shortage-cannot-sustain-section-271aaa-penalty-itat-mumbai.html",
           "isNew": false
-        },
-        {
-          "sr": 69,
-          "date": "17 Oct 2026",
-          "year": 2026,
-          "cat": "Law Update",
-          "title": "Income Tax | ITAT Pune Remands ₹92.76 Lakh Capital Gains Addition and Related Penalties",
-          "desc": "ITAT Pune directs Section 50C valuation as of 1996 agreement date instead of 2015 registration; capital gains and penalties remanded.The post ITAT Pune Remands ₹92.76 Lakh Capital Gains Addition and R",
-          "link": "https://taxguru.in/income-tax/itat-pune-remands-rs-92-76-lakh-capital-gains-addition-related-penalties.html",
-          "isNew": false
-        },
-        {
-          "sr": 70,
-          "date": "17 Oct 2026",
-          "year": 2026,
-          "cat": "Law Update",
-          "title": "Income Tax | Revenue’s SLP Against Jurisdiction-Based Assessment Invalidation Dismissed: SC Declines Interference",
-          "desc": "Supreme Court refuses to interfere with Calcutta HC order in Rohit Baid reassessment dispute and dismisses Revenue's SLP.The post Revenue’s SLP Against Jurisdiction-Based Assessment Invalidation Dismi",
-          "link": "https://taxguru.in/income-tax/revenues-slp-against-jurisdiction-based-assessment-invalidation-dismissed-sc-declines-interference.html",
-          "isNew": false
-        },
-        {
-          "sr": 71,
-          "date": "17 Oct 2026",
-          "year": 2026,
-          "cat": "Law Update",
-          "title": "Income Tax | 80G Renewal Rejection Set Aside for Failure to Compute Religious Expenditure",
-          "desc": "ITAT Agra remands trust's 80G renewal rejection, directing verification of religious expenditure against the 5% total-income limit.The post 80G Renewal Rejection Set Aside for Failure to Compute Relig",
-          "link": "https://taxguru.in/income-tax/80g-renewal-rejection-set-failure-compute-religious-expenditure.html",
-          "isNew": false
-        },
-        {
-          "sr": 72,
-          "date": "17 Oct 2026",
-          "year": 2026,
-          "cat": "Law Update",
-          "title": "Income Tax | Section 143(2) Notice by Non-Jurisdictional AO Cannot Sustain Assessment: Calcutta HC",
-          "desc": "Calcutta High Court dismisses Revenue appeal challenging invalid reassessment under Section 147 due to jurisdictional defects.The post Section 143(2) Notice by Non-Jurisdictional AO Cannot Sustain Ass",
-          "link": "https://taxguru.in/income-tax/section-143-2-notice-non-jurisdictional-ao-cannot-sustain-assessment-calcutta-hc.html",
-          "isNew": false
-        },
-        {
-          "sr": 73,
-          "date": "17 Oct 2026",
-          "year": 2026,
-          "cat": "Law Update",
-          "title": "Income Tax | Co-operative Bank Remains a Society for Section 80P(2)(d) Interest Deduction: Gujarat HC",
-          "desc": "Gujarat HC dismissed Revenue’s appeal, upholding section 80P(2)(d) deduction on co-operative bank interest for AY 2017–18.The post Co-operative Bank Remains a Society for Section 80P(2)(d) Interest De",
-          "link": "https://taxguru.in/income-tax/operative-bank-remains-society-section-80p-2-interest-deduction-gujarat-hc.html",
-          "isNew": false
-        },
-        {
-          "sr": 74,
-          "date": "17 Oct 2026",
-          "year": 2026,
-          "cat": "Law Update",
-          "title": "Income Tax | Post-April 2021 Notices Render AY 2015-16 Assessment Orders Unsustainable: Andhra Pradesh HC",
-          "desc": "Andhra Pradesh HC sets aside AY 2015-16 assessment orders arising from notices issued after 1 April 2021, applying Supreme Court rulings.The post Post-April 2021 Notices Render AY 2015-16 Assessment O",
-          "link": "https://taxguru.in/income-tax/post-april-2021-notices-render-ay-2015-16-assessment-orders-unsustainable-andhra-pradesh-hc.html",
-          "isNew": false
-        },
-        {
-          "sr": 75,
-          "date": "17 Oct 2026",
-          "year": 2026,
-          "cat": "Law Update",
-          "title": "Income Tax | CGAS Non-Deposit Defeats Remaining Section 54 Exemption Claim: ITAT Mumbai",
-          "desc": "ITAT Mumbai upheld denial of ₹32.17 lakh Section 54 exemption for CGAS non-deposit, following binding Bombay High Court precedent.The post CGAS Non-Deposit Defeats Remaining Section 54 Exemption Claim",
-          "link": "https://taxguru.in/income-tax/cgas-non-deposit-defeats-remaining-section-54-exemption-claim-itat-mumbai.html",
-          "isNew": false
         }
       ],
-      "ts": 1792249890801,
+      "ts": 1792260999176,
       "ok": true,
-      "newCount": 8
+      "newCount": 7
     },
     "NEWSLETTER_0": {
       "rows": [
@@ -1302,7 +1283,7 @@
           "title": "HDFC Bank Q2 2026 Results: Net Profit Rises 5% To Rs 19,509.96 Crore YoYOct 17, 2026, 17:22 IST",
           "desc": "",
           "link": "https://www.timesnownews.com/business-economy/companies/hdfc-bank-q2-2026-results-net-profit-rises-5-to-rs-19509-96-crore-yoy-article-156356368",
-          "isNew": true
+          "isNew": false
         },
         {
           "sr": 2,
@@ -1312,7 +1293,7 @@
           "title": "Axis Bank Q2 Results 2026: Net Profit Surges 38% To Rs 7,003 Crore YoYOct 17, 2026, 15:55 IST",
           "desc": "",
           "link": "https://www.timesnownews.com/business-economy/markets/axis-bank-q2-results-2026-net-profit-surges-38-to-rs-7003-crore-yoy-article-156355780",
-          "isNew": true
+          "isNew": false
         },
         {
           "sr": 3,
@@ -1325,9 +1306,9 @@
           "isNew": false
         }
       ],
-      "ts": 1792249917973,
+      "ts": 1792261026624,
       "ok": true,
-      "newCount": 2
+      "newCount": 0
     },
     "NEWSLETTER_2": {
       "rows": [
@@ -1372,7 +1353,7 @@
           "isNew": false
         }
       ],
-      "ts": 1792249919550,
+      "ts": 1792261028439,
       "ok": true,
       "newCount": 0
     },
@@ -1383,10 +1364,10 @@
           "date": "17 Oct 2026",
           "year": 2026,
           "cat": "News",
-          "title": "YES Bank Q2 profit up 65% on NII; AT1 ruling impact not yet reflected",
+          "title": "YES Bank Q2 profit up 65% at ₹1,080 cr; AT1 ruling impact not yet reflected",
           "desc": "On a pro forma basis, the SC ruling on AT1 bonds would result in a net loss of ₹5,217 crore for the quarter and Rs 4,146 crore for the half-year",
           "link": "https://www.business-standard.com/companies/quarterly-results/yes-bank-q2-profit-up-65-on-nii-at1-ruling-impact-not-yet-reflected-126101700861_1.html",
-          "isNew": true
+          "isNew": false
         },
         {
           "sr": 2,
@@ -1396,7 +1377,7 @@
           "title": "IDBI Bank Q2 profit falls 39% to ₹2,205 crore on high base of NSDL gains",
           "desc": "IDBI Bank's Q2FY27 net profit declined 39% to ₹2,205 crore due to a high base from an NSDL stake sale gain. Excluding the one-off, profit rose 14%",
           "link": "https://www.business-standard.com/companies/quarterly-results/idbi-bank-q2-profit-falls-39-to-2-205-crore-on-high-base-of-nsdl-gains-126101700811_1.html",
-          "isNew": true
+          "isNew": false
         },
         {
           "sr": 3,
@@ -1406,7 +1387,7 @@
           "title": "Central Bank of India Q2 profit rises 21% to ₹1,469 cr on strong NII growth",
           "desc": "Interest income increased 18.45 per cent Y-o-Y to ₹10,357 crore, supported by a 27.6 per cent rise in interest earned on advances to ₹7,231 crore. Interest expenses rose 13.7 per cent to ₹6,211 crore",
           "link": "https://www.business-standard.com/companies/quarterly-results/central-bank-of-india-q2-profit-rises-21-to-1-469-cr-on-strong-nii-growth-126101700794_1.html",
-          "isNew": true
+          "isNew": false
         },
         {
           "sr": 4,
@@ -1416,7 +1397,7 @@
           "title": "Kaizad Bharucha to exit HDFC Bank at end of December after three decades",
           "desc": "Bharucha, 60, was among the contenders for the bank's top job, with the board recommending him as its internal candidate for the position of managing director and chief executive officer (MD & CEO)",
           "link": "https://www.business-standard.com/companies/news/kaizad-bharucha-to-exit-hdfc-bank-at-end-of-december-after-three-decades-126101700674_1.html",
-          "isNew": true
+          "isNew": false
         },
         {
           "sr": 5,
@@ -1497,21 +1478,11 @@
           "desc": "Bajaj Housing Finance reported an 18% rise in Q2 FY27 net profit to ₹757 crore, while total income grew 18.3% to ₹3,251 crore and assets under management increased 25% to ₹1.58 trillion.",
           "link": "https://www.business-standard.com/companies/quarterly-results/bajaj-housing-finance-q2-profit-rises-18-to-757-cr-income-up-18-3-126101601423_1.html",
           "isNew": false
-        },
-        {
-          "sr": 13,
-          "date": "16 Oct 2026",
-          "year": 2026,
-          "cat": "News",
-          "title": "L&T Finance cautious on rural loans amid weather risks, eyes urban growth",
-          "desc": "The NBFC expects loan-book growth of over 20 per cent in H2FY27, driven by urban finance and festive demand, while monitoring crop output, rural liquidity and weather-related risks",
-          "link": "https://www.business-standard.com/finance/news/l-t-finance-cautious-on-rural-loans-amid-weather-risks-eyes-urban-growth-126101601299_1.html",
-          "isNew": false
         }
       ],
-      "ts": 1792249921018,
+      "ts": 1792261029852,
       "ok": true,
-      "newCount": 4
+      "newCount": 0
     },
     "NEWSLETTER_4": {
       "rows": [],
@@ -1521,12 +1492,12 @@
     },
     "NEWSLETTER_5": {
       "rows": [],
-      "ts": 1792249942141,
+      "ts": 1792261051228,
       "ok": true
     },
     "NEWSLETTER_6": {
       "rows": [],
-      "ts": 1792249949574,
+      "ts": 1792261057945,
       "ok": true
     },
     "SEBI_0": {
@@ -4533,8 +4504,9 @@
         }
       ],
       "ts": 1792249985791,
-      "ok": true,
-      "newCount": 0
+      "ok": false,
+      "newCount": 0,
+      "error": "fetch failed"
     },
     "SEBI_1": {
       "rows": [
@@ -5880,8 +5852,9 @@
         }
       ],
       "ts": 1792250005253,
-      "ok": true,
-      "newCount": 0
+      "ok": false,
+      "newCount": 0,
+      "error": "fetch failed"
     },
     "SEBI_2": {
       "rows": [
@@ -6137,8 +6110,9 @@
         }
       ],
       "ts": 1792250008405,
-      "ok": true,
-      "newCount": 0
+      "ok": false,
+      "newCount": 0,
+      "error": "fetch failed"
     },
     "SEBI_3": {
       "rows": [
@@ -9104,8 +9078,9 @@
         }
       ],
       "ts": 1792250043398,
-      "ok": true,
-      "newCount": 0
+      "ok": false,
+      "newCount": 0,
+      "error": "fetch failed"
     },
     "SEBI_4": {
       "rows": [
@@ -10311,8 +10286,9 @@
         }
       ],
       "ts": 1792250046237,
-      "ok": true,
-      "newCount": 0
+      "ok": false,
+      "newCount": 0,
+      "error": "fetch failed"
     },
     "SEBI_5": {
       "rows": [
@@ -10338,8 +10314,9 @@
         }
       ],
       "ts": 1792250047911,
-      "ok": true,
-      "newCount": 0
+      "ok": false,
+      "newCount": 0,
+      "error": "fetch failed"
     },
     "SEBI_6": {
       "rows": [
@@ -13345,8 +13322,9 @@
         }
       ],
       "ts": 1792250084755,
-      "ok": true,
-      "newCount": 0
+      "ok": false,
+      "newCount": 0,
+      "error": "fetch failed"
     },
     "RBI_0": {
       "rows": [
@@ -13591,7 +13569,7 @@
           "isNew": false
         }
       ],
-      "ts": 1792250086066,
+      "ts": 1792261635601,
       "ok": true,
       "newCount": 0
     },
@@ -16598,7 +16576,7 @@
           "isNew": false
         }
       ],
-      "ts": 1792250089468,
+      "ts": 1792261638780,
       "ok": true,
       "newCount": 0
     },
@@ -16615,7 +16593,7 @@
           "isNew": false
         }
       ],
-      "ts": 1792250091344,
+      "ts": 1792261640842,
       "ok": true,
       "newCount": 0
     },
@@ -16822,7 +16800,7 @@
           "isNew": false
         }
       ],
-      "ts": 1792250093751,
+      "ts": 1792261643225,
       "ok": true,
       "newCount": 0
     },
@@ -17079,7 +17057,7 @@
           "isNew": false
         }
       ],
-      "ts": 1792250102457,
+      "ts": 1792261652505,
       "ok": true,
       "newCount": 0
     },
@@ -20086,7 +20064,7 @@
           "isNew": false
         }
       ],
-      "ts": 1792250104887,
+      "ts": 1792261654956,
       "ok": true,
       "newCount": 0
     },
@@ -20293,7 +20271,7 @@
           "isNew": false
         }
       ],
-      "ts": 1792250108147,
+      "ts": 1792261658373,
       "ok": true,
       "newCount": 0
     },
@@ -20500,7 +20478,7 @@
           "isNew": false
         }
       ],
-      "ts": 1792250111508,
+      "ts": 1792261660147,
       "ok": true,
       "newCount": 0
     },
@@ -20707,7 +20685,7 @@
           "isNew": false
         }
       ],
-      "ts": 1792250114824,
+      "ts": 1792261661762,
       "ok": true,
       "newCount": 0
     },
@@ -20764,7 +20742,7 @@
           "isNew": false
         }
       ],
-      "ts": 1792250128144,
+      "ts": 1792261677512,
       "ok": true,
       "newCount": 0
     },
@@ -20821,7 +20799,7 @@
           "isNew": false
         }
       ],
-      "ts": 1792250133020,
+      "ts": 1792261682274,
       "ok": true,
       "newCount": 0
     },
@@ -20878,7 +20856,7 @@
           "isNew": false
         }
       ],
-      "ts": 1792250137923,
+      "ts": 1792261687039,
       "ok": true,
       "newCount": 0
     },
@@ -20895,28 +20873,28 @@
           "isNew": false
         }
       ],
-      "ts": 1792250159416,
+      "ts": 1792261706620,
       "ok": true,
       "newCount": 0
     },
     "MCA_1": {
       "rows": [],
-      "ts": 1792250199374,
+      "ts": 1792261740922,
       "ok": true
     },
     "MCA_2": {
       "rows": [],
-      "ts": 1792250230649,
+      "ts": 1792261773875,
       "ok": true
     },
     "MCA_3": {
       "rows": [],
-      "ts": 1792250267838,
+      "ts": 1792261805508,
       "ok": true
     },
     "MCA_4": {
       "rows": [],
-      "ts": 1792250301338,
+      "ts": 1792261844068,
       "ok": true
     },
     "NFRA_0": {
@@ -20982,7 +20960,7 @@
           "isNew": false
         }
       ],
-      "ts": 1792250304002,
+      "ts": 1792261847268,
       "ok": true,
       "newCount": 0
     },
@@ -21109,7 +21087,7 @@
           "isNew": false
         }
       ],
-      "ts": 1792250305482,
+      "ts": 1792261848773,
       "ok": true,
       "newCount": 0
     },
@@ -21226,7 +21204,7 @@
           "isNew": false
         }
       ],
-      "ts": 1792250306947,
+      "ts": 1792261850278,
       "ok": true,
       "newCount": 0
     },
@@ -21353,7 +21331,7 @@
           "isNew": false
         }
       ],
-      "ts": 1792250308410,
+      "ts": 1792261851775,
       "ok": true,
       "newCount": 0
     },
