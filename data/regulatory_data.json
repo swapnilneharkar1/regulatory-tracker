@@ -1,14 +1,14 @@
 {
-  "generatedAt": "2026-10-19T23:33:20.989Z",
+  "generatedAt": "2026-10-20T04:03:23.399Z",
   "data": {
     "TAXATION_0": {
       "rows": [],
-      "ts": 1792452290805,
+      "ts": 1792468518909,
       "ok": true
     },
     "TAXATION_1": {
       "rows": [],
-      "ts": 1792452308043,
+      "ts": 1792468536200,
       "ok": true
     },
     "TAXATION_2": {
@@ -124,7 +124,7 @@
           "isNew": false
         }
       ],
-      "ts": 1792452317855,
+      "ts": 1792468546875,
       "ok": true,
       "newCount": 0
     },
@@ -231,19 +231,29 @@
           "isNew": false
         }
       ],
-      "ts": 1792452326959,
+      "ts": 1792468555663,
       "ok": true,
       "newCount": 0
     },
     "TAXATION_4": {
       "rows": [],
-      "ts": 1792452338081,
+      "ts": 1792468566426,
       "ok": true
     },
     "TAXATION_5": {
       "rows": [
         {
           "sr": 1,
+          "date": "20 Oct 2026",
+          "year": 2026,
+          "cat": "Case Law",
+          "title": "Goods and Services Tax | Death of Advocate Is Sufficient Cause for GST Appeal Delay: Tamil Nadu AAAR",
+          "desc": "Tamil Nadu GST AAAR condones six-day appeal delay under Section 100(2) after counsel’s death; Pooja Rose Water classification to be heard.The post Death of Advocate Is Sufficient Cause for GST Appeal ",
+          "link": "https://taxguru.in/goods-and-service-tax/death-advocate-sufficient-gst-appeal-delay-tamil-nadu-aaar.html",
+          "isNew": true
+        },
+        {
+          "sr": 2,
           "date": "19 Oct 2026",
           "year": 2026,
           "cat": "Case Law",
@@ -253,7 +263,7 @@
           "isNew": false
         },
         {
-          "sr": 2,
+          "sr": 3,
           "date": "19 Oct 2026",
           "year": 2026,
           "cat": "Case Law",
@@ -263,7 +273,7 @@
           "isNew": false
         },
         {
-          "sr": 3,
+          "sr": 4,
           "date": "19 Oct 2026",
           "year": 2026,
           "cat": "Case Law",
@@ -273,7 +283,7 @@
           "isNew": false
         },
         {
-          "sr": 4,
+          "sr": 5,
           "date": "19 Oct 2026",
           "year": 2026,
           "cat": "Case Law",
@@ -283,7 +293,7 @@
           "isNew": false
         },
         {
-          "sr": 5,
+          "sr": 6,
           "date": "19 Oct 2026",
           "year": 2026,
           "cat": "Case Law",
@@ -293,7 +303,7 @@
           "isNew": false
         },
         {
-          "sr": 6,
+          "sr": 7,
           "date": "19 Oct 2026",
           "year": 2026,
           "cat": "Case Law",
@@ -303,7 +313,7 @@
           "isNew": false
         },
         {
-          "sr": 7,
+          "sr": 8,
           "date": "19 Oct 2026",
           "year": 2026,
           "cat": "Case Law",
@@ -313,7 +323,7 @@
           "isNew": false
         },
         {
-          "sr": 8,
+          "sr": 9,
           "date": "19 Oct 2026",
           "year": 2026,
           "cat": "Case Law",
@@ -323,7 +333,7 @@
           "isNew": false
         },
         {
-          "sr": 9,
+          "sr": 10,
           "date": "19 Oct 2026",
           "year": 2026,
           "cat": "Case Law",
@@ -333,7 +343,7 @@
           "isNew": false
         },
         {
-          "sr": 10,
+          "sr": 11,
           "date": "19 Oct 2026",
           "year": 2026,
           "cat": "Case Law",
@@ -343,7 +353,7 @@
           "isNew": false
         },
         {
-          "sr": 11,
+          "sr": 12,
           "date": "19 Oct 2026",
           "year": 2026,
           "cat": "Case Law",
@@ -353,7 +363,7 @@
           "isNew": false
         },
         {
-          "sr": 12,
+          "sr": 13,
           "date": "19 Oct 2026",
           "year": 2026,
           "cat": "Case Law",
@@ -363,7 +373,7 @@
           "isNew": false
         },
         {
-          "sr": 13,
+          "sr": 14,
           "date": "19 Oct 2026",
           "year": 2026,
           "cat": "Case Law",
@@ -373,7 +383,7 @@
           "isNew": false
         },
         {
-          "sr": 14,
+          "sr": 15,
           "date": "19 Oct 2026",
           "year": 2026,
           "cat": "Case Law",
@@ -383,14 +393,24 @@
           "isNew": false
         }
       ],
-      "ts": 1792452340971,
+      "ts": 1792468568883,
       "ok": true,
-      "newCount": 0
+      "newCount": 1
     },
     "TAXATION_6": {
       "rows": [
         {
           "sr": 1,
+          "date": "20 Oct 2026",
+          "year": 2026,
+          "cat": "Law Update",
+          "title": "Goods and Services Tax | Death of Advocate Is Sufficient Cause for GST Appeal Delay: Tamil Nadu AAAR",
+          "desc": "Tamil Nadu GST AAAR condones six-day appeal delay under Section 100(2) after counsel’s death; Pooja Rose Water classification to be heard.The post Death of Advocate Is Sufficient Cause for GST Appeal ",
+          "link": "https://taxguru.in/goods-and-service-tax/death-advocate-sufficient-gst-appeal-delay-tamil-nadu-aaar.html",
+          "isNew": true
+        },
+        {
+          "sr": 2,
           "date": "19 Oct 2026",
           "year": 2026,
           "cat": "Law Update",
@@ -400,7 +420,7 @@
           "isNew": false
         },
         {
-          "sr": 2,
+          "sr": 3,
           "date": "19 Oct 2026",
           "year": 2026,
           "cat": "Law Update",
@@ -410,7 +430,7 @@
           "isNew": false
         },
         {
-          "sr": 3,
+          "sr": 4,
           "date": "19 Oct 2026",
           "year": 2026,
           "cat": "Law Update",
@@ -420,7 +440,7 @@
           "isNew": false
         },
         {
-          "sr": 4,
+          "sr": 5,
           "date": "19 Oct 2026",
           "year": 2026,
           "cat": "Law Update",
@@ -430,7 +450,7 @@
           "isNew": false
         },
         {
-          "sr": 5,
+          "sr": 6,
           "date": "19 Oct 2026",
           "year": 2026,
           "cat": "Law Update",
@@ -440,7 +460,7 @@
           "isNew": false
         },
         {
-          "sr": 6,
+          "sr": 7,
           "date": "19 Oct 2026",
           "year": 2026,
           "cat": "Law Update",
@@ -450,7 +470,7 @@
           "isNew": false
         },
         {
-          "sr": 7,
+          "sr": 8,
           "date": "19 Oct 2026",
           "year": 2026,
           "cat": "Law Update",
@@ -460,7 +480,7 @@
           "isNew": false
         },
         {
-          "sr": 8,
+          "sr": 9,
           "date": "19 Oct 2026",
           "year": 2026,
           "cat": "Law Update",
@@ -470,7 +490,7 @@
           "isNew": false
         },
         {
-          "sr": 9,
+          "sr": 10,
           "date": "19 Oct 2026",
           "year": 2026,
           "cat": "Law Update",
@@ -480,7 +500,7 @@
           "isNew": false
         },
         {
-          "sr": 10,
+          "sr": 11,
           "date": "19 Oct 2026",
           "year": 2026,
           "cat": "Law Update",
@@ -490,7 +510,7 @@
           "isNew": false
         },
         {
-          "sr": 11,
+          "sr": 12,
           "date": "19 Oct 2026",
           "year": 2026,
           "cat": "Law Update",
@@ -500,7 +520,7 @@
           "isNew": false
         },
         {
-          "sr": 12,
+          "sr": 13,
           "date": "19 Oct 2026",
           "year": 2026,
           "cat": "Law Update",
@@ -510,7 +530,7 @@
           "isNew": false
         },
         {
-          "sr": 13,
+          "sr": 14,
           "date": "19 Oct 2026",
           "year": 2026,
           "cat": "Law Update",
@@ -520,7 +540,7 @@
           "isNew": false
         },
         {
-          "sr": 14,
+          "sr": 15,
           "date": "19 Oct 2026",
           "year": 2026,
           "cat": "Law Update",
@@ -530,7 +550,7 @@
           "isNew": false
         },
         {
-          "sr": 15,
+          "sr": 16,
           "date": "19 Oct 2026",
           "year": 2026,
           "cat": "Law Update",
@@ -540,7 +560,7 @@
           "isNew": false
         },
         {
-          "sr": 16,
+          "sr": 17,
           "date": "19 Oct 2026",
           "year": 2026,
           "cat": "Law Update",
@@ -550,7 +570,7 @@
           "isNew": false
         },
         {
-          "sr": 17,
+          "sr": 18,
           "date": "19 Oct 2026",
           "year": 2026,
           "cat": "Law Update",
@@ -560,7 +580,7 @@
           "isNew": false
         },
         {
-          "sr": 18,
+          "sr": 19,
           "date": "19 Oct 2026",
           "year": 2026,
           "cat": "Law Update",
@@ -570,7 +590,7 @@
           "isNew": false
         },
         {
-          "sr": 19,
+          "sr": 20,
           "date": "19 Oct 2026",
           "year": 2026,
           "cat": "Law Update",
@@ -580,7 +600,7 @@
           "isNew": false
         },
         {
-          "sr": 20,
+          "sr": 21,
           "date": "19 Oct 2026",
           "year": 2026,
           "cat": "Law Update",
@@ -590,7 +610,7 @@
           "isNew": false
         },
         {
-          "sr": 21,
+          "sr": 22,
           "date": "19 Oct 2026",
           "year": 2026,
           "cat": "Law Update",
@@ -600,7 +620,7 @@
           "isNew": false
         },
         {
-          "sr": 22,
+          "sr": 23,
           "date": "19 Oct 2026",
           "year": 2026,
           "cat": "Law Update",
@@ -610,7 +630,7 @@
           "isNew": false
         },
         {
-          "sr": 23,
+          "sr": 24,
           "date": "19 Oct 2026",
           "year": 2026,
           "cat": "Law Update",
@@ -620,7 +640,7 @@
           "isNew": false
         },
         {
-          "sr": 24,
+          "sr": 25,
           "date": "19 Oct 2026",
           "year": 2026,
           "cat": "Law Update",
@@ -630,7 +650,7 @@
           "isNew": false
         },
         {
-          "sr": 25,
+          "sr": 26,
           "date": "19 Oct 2026",
           "year": 2026,
           "cat": "Law Update",
@@ -640,7 +660,7 @@
           "isNew": false
         },
         {
-          "sr": 26,
+          "sr": 27,
           "date": "19 Oct 2026",
           "year": 2026,
           "cat": "Law Update",
@@ -650,7 +670,7 @@
           "isNew": false
         },
         {
-          "sr": 27,
+          "sr": 28,
           "date": "19 Oct 2026",
           "year": 2026,
           "cat": "Law Update",
@@ -660,7 +680,7 @@
           "isNew": false
         },
         {
-          "sr": 28,
+          "sr": 29,
           "date": "19 Oct 2026",
           "year": 2026,
           "cat": "Law Update",
@@ -670,7 +690,7 @@
           "isNew": false
         },
         {
-          "sr": 29,
+          "sr": 30,
           "date": "19 Oct 2026",
           "year": 2026,
           "cat": "Law Update",
@@ -680,7 +700,7 @@
           "isNew": false
         },
         {
-          "sr": 30,
+          "sr": 31,
           "date": "19 Oct 2026",
           "year": 2026,
           "cat": "Law Update",
@@ -690,7 +710,7 @@
           "isNew": false
         },
         {
-          "sr": 31,
+          "sr": 32,
           "date": "19 Oct 2026",
           "year": 2026,
           "cat": "Law Update",
@@ -700,7 +720,7 @@
           "isNew": false
         },
         {
-          "sr": 32,
+          "sr": 33,
           "date": "19 Oct 2026",
           "year": 2026,
           "cat": "Law Update",
@@ -710,7 +730,7 @@
           "isNew": false
         },
         {
-          "sr": 33,
+          "sr": 34,
           "date": "19 Oct 2026",
           "year": 2026,
           "cat": "Law Update",
@@ -720,7 +740,7 @@
           "isNew": false
         },
         {
-          "sr": 34,
+          "sr": 35,
           "date": "19 Oct 2026",
           "year": 2026,
           "cat": "Law Update",
@@ -730,7 +750,7 @@
           "isNew": false
         },
         {
-          "sr": 35,
+          "sr": 36,
           "date": "19 Oct 2026",
           "year": 2026,
           "cat": "Law Update",
@@ -740,7 +760,7 @@
           "isNew": false
         },
         {
-          "sr": 36,
+          "sr": 37,
           "date": "19 Oct 2026",
           "year": 2026,
           "cat": "Law Update",
@@ -750,7 +770,7 @@
           "isNew": false
         },
         {
-          "sr": 37,
+          "sr": 38,
           "date": "19 Oct 2026",
           "year": 2026,
           "cat": "Law Update",
@@ -760,7 +780,7 @@
           "isNew": false
         },
         {
-          "sr": 38,
+          "sr": 39,
           "date": "19 Oct 2026",
           "year": 2026,
           "cat": "Law Update",
@@ -770,7 +790,7 @@
           "isNew": false
         },
         {
-          "sr": 39,
+          "sr": 40,
           "date": "19 Oct 2026",
           "year": 2026,
           "cat": "Law Update",
@@ -780,7 +800,7 @@
           "isNew": false
         },
         {
-          "sr": 40,
+          "sr": 41,
           "date": "19 Oct 2026",
           "year": 2026,
           "cat": "Law Update",
@@ -790,7 +810,7 @@
           "isNew": false
         },
         {
-          "sr": 41,
+          "sr": 42,
           "date": "19 Oct 2026",
           "year": 2026,
           "cat": "Law Update",
@@ -800,7 +820,7 @@
           "isNew": false
         },
         {
-          "sr": 42,
+          "sr": 43,
           "date": "19 Oct 2026",
           "year": 2026,
           "cat": "Law Update",
@@ -810,7 +830,7 @@
           "isNew": false
         },
         {
-          "sr": 43,
+          "sr": 44,
           "date": "19 Oct 2026",
           "year": 2026,
           "cat": "Law Update",
@@ -820,7 +840,7 @@
           "isNew": false
         },
         {
-          "sr": 44,
+          "sr": 45,
           "date": "19 Oct 2026",
           "year": 2026,
           "cat": "Law Update",
@@ -830,7 +850,7 @@
           "isNew": false
         },
         {
-          "sr": 45,
+          "sr": 46,
           "date": "19 Oct 2026",
           "year": 2026,
           "cat": "Law Update",
@@ -840,7 +860,7 @@
           "isNew": false
         },
         {
-          "sr": 46,
+          "sr": 47,
           "date": "19 Oct 2026",
           "year": 2026,
           "cat": "Law Update",
@@ -850,7 +870,7 @@
           "isNew": false
         },
         {
-          "sr": 47,
+          "sr": 48,
           "date": "19 Oct 2026",
           "year": 2026,
           "cat": "Law Update",
@@ -860,7 +880,7 @@
           "isNew": false
         },
         {
-          "sr": 48,
+          "sr": 49,
           "date": "19 Oct 2026",
           "year": 2026,
           "cat": "Law Update",
@@ -870,7 +890,7 @@
           "isNew": false
         },
         {
-          "sr": 49,
+          "sr": 50,
           "date": "19 Oct 2026",
           "year": 2026,
           "cat": "Law Update",
@@ -880,7 +900,7 @@
           "isNew": false
         },
         {
-          "sr": 50,
+          "sr": 51,
           "date": "19 Oct 2026",
           "year": 2026,
           "cat": "Law Update",
@@ -890,7 +910,7 @@
           "isNew": false
         },
         {
-          "sr": 51,
+          "sr": 52,
           "date": "19 Oct 2026",
           "year": 2026,
           "cat": "Law Update",
@@ -900,7 +920,7 @@
           "isNew": false
         },
         {
-          "sr": 52,
+          "sr": 53,
           "date": "19 Oct 2026",
           "year": 2026,
           "cat": "Law Update",
@@ -910,7 +930,7 @@
           "isNew": false
         },
         {
-          "sr": 53,
+          "sr": 54,
           "date": "19 Oct 2026",
           "year": 2026,
           "cat": "Law Update",
@@ -920,7 +940,7 @@
           "isNew": false
         },
         {
-          "sr": 54,
+          "sr": 55,
           "date": "19 Oct 2026",
           "year": 2026,
           "cat": "Law Update",
@@ -930,7 +950,7 @@
           "isNew": false
         },
         {
-          "sr": 55,
+          "sr": 56,
           "date": "19 Oct 2026",
           "year": 2026,
           "cat": "Law Update",
@@ -940,7 +960,7 @@
           "isNew": false
         },
         {
-          "sr": 56,
+          "sr": 57,
           "date": "19 Oct 2026",
           "year": 2026,
           "cat": "Law Update",
@@ -950,7 +970,7 @@
           "isNew": false
         },
         {
-          "sr": 57,
+          "sr": 58,
           "date": "19 Oct 2026",
           "year": 2026,
           "cat": "Law Update",
@@ -960,7 +980,7 @@
           "isNew": false
         },
         {
-          "sr": 58,
+          "sr": 59,
           "date": "19 Oct 2026",
           "year": 2026,
           "cat": "Law Update",
@@ -970,7 +990,7 @@
           "isNew": false
         },
         {
-          "sr": 59,
+          "sr": 60,
           "date": "19 Oct 2026",
           "year": 2026,
           "cat": "Law Update",
@@ -980,7 +1000,7 @@
           "isNew": false
         },
         {
-          "sr": 60,
+          "sr": 61,
           "date": "19 Oct 2026",
           "year": 2026,
           "cat": "Law Update",
@@ -990,7 +1010,7 @@
           "isNew": false
         },
         {
-          "sr": 61,
+          "sr": 62,
           "date": "19 Oct 2026",
           "year": 2026,
           "cat": "Law Update",
@@ -1000,7 +1020,7 @@
           "isNew": false
         },
         {
-          "sr": 62,
+          "sr": 63,
           "date": "19 Oct 2026",
           "year": 2026,
           "cat": "Law Update",
@@ -1010,7 +1030,7 @@
           "isNew": false
         },
         {
-          "sr": 63,
+          "sr": 64,
           "date": "19 Oct 2026",
           "year": 2026,
           "cat": "Law Update",
@@ -1020,7 +1040,7 @@
           "isNew": false
         },
         {
-          "sr": 64,
+          "sr": 65,
           "date": "19 Oct 2026",
           "year": 2026,
           "cat": "Law Update",
@@ -1030,7 +1050,7 @@
           "isNew": false
         },
         {
-          "sr": 65,
+          "sr": 66,
           "date": "19 Oct 2026",
           "year": 2026,
           "cat": "Law Update",
@@ -1040,7 +1060,7 @@
           "isNew": false
         },
         {
-          "sr": 66,
+          "sr": 67,
           "date": "19 Oct 2026",
           "year": 2026,
           "cat": "Law Update",
@@ -1050,7 +1070,7 @@
           "isNew": false
         },
         {
-          "sr": 67,
+          "sr": 68,
           "date": "19 Oct 2026",
           "year": 2026,
           "cat": "Law Update",
@@ -1060,7 +1080,7 @@
           "isNew": false
         },
         {
-          "sr": 68,
+          "sr": 69,
           "date": "19 Oct 2026",
           "year": 2026,
           "cat": "Law Update",
@@ -1070,7 +1090,7 @@
           "isNew": false
         },
         {
-          "sr": 69,
+          "sr": 70,
           "date": "19 Oct 2026",
           "year": 2026,
           "cat": "Law Update",
@@ -1080,7 +1100,7 @@
           "isNew": false
         },
         {
-          "sr": 70,
+          "sr": 71,
           "date": "19 Oct 2026",
           "year": 2026,
           "cat": "Law Update",
@@ -1090,7 +1110,7 @@
           "isNew": false
         },
         {
-          "sr": 71,
+          "sr": 72,
           "date": "19 Oct 2026",
           "year": 2026,
           "cat": "Law Update",
@@ -1100,7 +1120,7 @@
           "isNew": false
         },
         {
-          "sr": 72,
+          "sr": 73,
           "date": "19 Oct 2026",
           "year": 2026,
           "cat": "Law Update",
@@ -1110,7 +1130,7 @@
           "isNew": false
         },
         {
-          "sr": 73,
+          "sr": 74,
           "date": "19 Oct 2026",
           "year": 2026,
           "cat": "Law Update",
@@ -1120,7 +1140,7 @@
           "isNew": false
         },
         {
-          "sr": 74,
+          "sr": 75,
           "date": "19 Oct 2026",
           "year": 2026,
           "cat": "Law Update",
@@ -1128,21 +1148,11 @@
           "desc": "ITAT Agra reduced an LIC agent’s expense disallowance from ₹5,89,869 to ₹2 lakh after examining cash payments and supporting vouchers.The post LIC Agent Gets ₹3.90 Lakh Relief in Ad Hoc Expense Disall",
           "link": "https://taxguru.in/income-tax/lic-agent-rs-3-90-lakh-relief-ad-hoc-expense-disallowance.html",
           "isNew": false
-        },
-        {
-          "sr": 75,
-          "date": "19 Oct 2026",
-          "year": 2026,
-          "cat": "Law Update",
-          "title": "Income Tax | Cash Deposits Above ₹50 Lakh Alone Cannot Justify Reassessment: ITAT Agra",
-          "desc": "ITAT Agra quashes reassessment where cash deposits exceeded ₹50 lakh but AO failed to establish escaped income meeting Section 149(1)(b).The post Cash Deposits Above ₹50 Lakh Alone Cannot Justify Reas",
-          "link": "https://taxguru.in/income-tax/cash-deposits-rs-50-lakh-cannot-justify-reassessment-itat-agra.html",
-          "isNew": false
         }
       ],
-      "ts": 1792452343207,
+      "ts": 1792468571214,
       "ok": true,
-      "newCount": 0
+      "newCount": 1
     },
     "NEWSLETTER_0": {
       "rows": [
@@ -1215,7 +1225,7 @@
           "isNew": false
         }
       ],
-      "ts": 1792452370629,
+      "ts": 1792468599339,
       "ok": true,
       "newCount": 0
     },
@@ -1223,6 +1233,16 @@
       "rows": [
         {
           "sr": 1,
+          "date": "20 Oct 2026",
+          "year": 2026,
+          "cat": "News",
+          "title": "RBI injects Rs 1 lakh crore as liquidity tightens before festive season",
+          "desc": "",
+          "link": "https://economictimes.indiatimes.com/news/economy/finance/rbi-injects-rs-1-lakh-crore-as-liquidity-tightens-before-festive-season/articleshow/135055953.cms",
+          "isNew": true
+        },
+        {
+          "sr": 2,
           "date": "15 Oct 2026",
           "year": 2026,
           "cat": "News",
@@ -1232,7 +1252,7 @@
           "isNew": false
         },
         {
-          "sr": 2,
+          "sr": 3,
           "date": "15 Oct 2026",
           "year": 2026,
           "cat": "News",
@@ -1240,21 +1260,11 @@
           "desc": "",
           "link": "https://economictimes.indiatimes.com/news/economy/finance/rbi-issues-clarifications-on-forex-hedging-curbs-rupee-vs-dollar-rate/articleshow/134967399.cms",
           "isNew": false
-        },
-        {
-          "sr": 3,
-          "date": "14 Oct 2026",
-          "year": 2026,
-          "cat": "News",
-          "title": "Centre set to cross Rs 80000 cr disinvestment target for first time since FY19 after IDBI Bank stake sale",
-          "desc": "",
-          "link": "https://economictimes.indiatimes.com/news/economy/finance/centre-set-to-cross-rs-80000-cr-disinvestment-target-for-first-time-since-fy19-after-idbi-bank-stake-sale/articleshow/134943805.cms",
-          "isNew": false
         }
       ],
-      "ts": 1792452372403,
+      "ts": 1792468601167,
       "ok": true,
-      "newCount": 0
+      "newCount": 1
     },
     "NEWSLETTER_3": {
       "rows": [
@@ -1357,39 +1367,9 @@
           "desc": "Share price of Jana Small Finance Bank slumped 14% to ₹424.30 on the BSE in Monday's intraday deals amid reports that Federal Bank was not in active talks for a stake buy.",
           "link": "https://www.business-standard.com/markets/news/volume-shockers-jana-small-finance-tumbles-14-federal-bank-soars-5-126101900531_1.html",
           "isNew": false
-        },
-        {
-          "sr": 11,
-          "date": "19 Oct 2026",
-          "year": 2026,
-          "cat": "News",
-          "title": "Union Bank shares jump 5% as Q2 PAT rises 30% YoY, asset quality improves",
-          "desc": "So far this year, Union Bank of India's stock has risen 17 per cent, and 32 per cent in a year.",
-          "link": "https://www.business-standard.com/markets/news/union-bank-shares-jump-5-as-q2-pat-rises-30-yoy-asset-quality-improves-126101900455_1.html",
-          "isNew": false
-        },
-        {
-          "sr": 12,
-          "date": "19 Oct 2026",
-          "year": 2026,
-          "cat": "News",
-          "title": "Banks tap RBI's first cash auction in 3 months as market rates spike",
-          "desc": "The operation comes after several months of the central bank absorbing surplus liquidity that hit a record high ‌due to hefty inflows from diaspora deposits ​mobilised to defend a ​weak rupee",
-          "link": "https://www.business-standard.com/markets/news/banks-tap-rbi-s-first-cash-auction-in-3-months-as-market-rates-spike-126101900379_1.html",
-          "isNew": false
-        },
-        {
-          "sr": 13,
-          "date": "19 Oct 2026",
-          "year": 2026,
-          "cat": "News",
-          "title": "Union Bank of India Q2 net profit rises 30.3% to ₹5,537 cr on strong NII",
-          "desc": "Net interest income grew 20.09% to Rs 10,583 crore, while provisions remained largely unchanged and asset quality improved despite a decline in non-interest income",
-          "link": "https://www.business-standard.com/companies/quarterly-results/quarterly-results-union-bank-q2fy27-net-profit-nii-advances-results-126101900366_1.html",
-          "isNew": false
         }
       ],
-      "ts": 1792452375354,
+      "ts": 1792468603011,
       "ok": true,
       "newCount": 0
     },
@@ -1401,12 +1381,12 @@
     },
     "NEWSLETTER_5": {
       "rows": [],
-      "ts": 1792452406501,
+      "ts": 1792468624662,
       "ok": true
     },
     "NEWSLETTER_6": {
       "rows": [],
-      "ts": 1792452413032,
+      "ts": 1792468631361,
       "ok": true
     },
     "SEBI_0": {
@@ -4412,7 +4392,7 @@
           "isNew": false
         }
       ],
-      "ts": 1792452449540,
+      "ts": 1792468667350,
       "ok": true,
       "newCount": 0
     },
@@ -5040,7 +5020,7 @@
         },
         {
           "sr": 63,
-          "date": "04 Jul 2023",
+          "date": "03 Jul 2023",
           "year": 2023,
           "cat": "Master Circular",
           "title": "Master Circular for Credit Rating Agencies",
@@ -5260,7 +5240,7 @@
         },
         {
           "sr": 85,
-          "date": "29 Nov 2021",
+          "date": "30 Nov 2021",
           "year": 2021,
           "cat": "Master Circular",
           "title": "Master Circular for Infrastructure Investment Trusts (InvITs)",
@@ -5270,7 +5250,7 @@
         },
         {
           "sr": 86,
-          "date": "29 Nov 2021",
+          "date": "30 Nov 2021",
           "year": 2021,
           "cat": "Master Circular",
           "title": "Master Circular for Real Estate Investment Trusts (REITs)",
@@ -5759,7 +5739,7 @@
           "isNew": false
         }
       ],
-      "ts": 1792452469691,
+      "ts": 1792468687388,
       "ok": true,
       "newCount": 0
     },
@@ -6016,7 +5996,7 @@
           "isNew": false
         }
       ],
-      "ts": 1792452473274,
+      "ts": 1792468689822,
       "ok": true,
       "newCount": 0
     },
@@ -6097,9 +6077,9 @@
           "date": "27 Aug 2026",
           "year": 2026,
           "cat": "Consultation Paper",
-          "title": "Consultation paper on Exemption from the requirement of mandatory merchant banker appointment for Small-value debt through private placement by certain listed issuers",
+          "title": "Consultation paper on Exemption from the requirement of mandatory merchant banker appointment for Small-value debt through private placement by certain listed issuers Click here to provide your comments",
           "desc": "",
-          "link": "https://www.sebi.gov.in/reports-and-statistics/reports/aug-2026/exemption-from-the-requirement-of-mandatory-merchant-banker-appointment-for-small-value-debt-through-private-placement-by-certain-listed-issuers_104040.html",
+          "link": "https://www.sebi.gov.in/reports-and-statistics/reports/aug-2026/consultation-paper-on-exemption-from-the-requirement-of-mandatory-merchant-banker-appointment-for-small-value-debt-through-private-placement-by-certain-listed-issuers_104040.html",
           "isNew": false
         },
         {
@@ -6397,23 +6377,13 @@
           "date": "12 May 2026",
           "year": 2026,
           "cat": "Consultation Paper",
-          "title": "Consultation paper on review of position limits for clients and penalty provision for violation / breach of position limits for Commodity Derivatives Segment. Click here to provide your comments",
-          "desc": "",
-          "link": "https://www.sebi.gov.in/reports-and-statistics/reports/may-2026/consultation-paper-on-review-of-position-limits-for-clients-and-penalty-provision-for-violation-breach-of-position-limits-for-commodity-derivatives-segment-_101384.html",
-          "isNew": false
-        },
-        {
-          "sr": 39,
-          "date": "12 May 2026",
-          "year": 2026,
-          "cat": "Consultation Paper",
           "title": "Consultation Paper on ‘Phased Introduction of Physical Settlement in Select Agricultural Commodity Derivatives Contracts'. Click here to provide your comments",
           "desc": "",
           "link": "https://www.sebi.gov.in/reports-and-statistics/reports/may-2026/consultation-paper-on-phased-introduction-of-physical-settlement-in-select-agricultural-commodity-derivatives-contracts-_101380.html",
           "isNew": false
         },
         {
-          "sr": 40,
+          "sr": 39,
           "date": "11 May 2026",
           "year": 2026,
           "cat": "Consultation Paper",
@@ -6423,7 +6393,7 @@
           "isNew": false
         },
         {
-          "sr": 41,
+          "sr": 40,
           "date": "11 May 2026",
           "year": 2026,
           "cat": "Consultation Paper",
@@ -6433,7 +6403,7 @@
           "isNew": false
         },
         {
-          "sr": 42,
+          "sr": 41,
           "date": "08 May 2026",
           "year": 2026,
           "cat": "Consultation Paper",
@@ -6443,17 +6413,7 @@
           "isNew": false
         },
         {
-          "sr": 43,
-          "date": "05 May 2026",
-          "year": 2026,
-          "cat": "Consultation Paper",
-          "title": "Consultation Paper on Draft Circular on Clarification with respect to Applicability of the benefit of Early Pay-In in Commodity Derivatives Segment  Click here to provide your comments",
-          "desc": "",
-          "link": "https://www.sebi.gov.in/reports-and-statistics/reports/may-2026/consultation-paper-on-draft-circular-on-clarification-with-respect-to-applicability-of-the-benefit-of-early-pay-in-in-commodity-derivatives-segment_101257.html",
-          "isNew": false
-        },
-        {
-          "sr": 44,
+          "sr": 42,
           "date": "05 May 2026",
           "year": 2026,
           "cat": "Consultation Paper",
@@ -6463,7 +6423,7 @@
           "isNew": false
         },
         {
-          "sr": 45,
+          "sr": 43,
           "date": "04 May 2026",
           "year": 2026,
           "cat": "Consultation Paper",
@@ -6473,7 +6433,7 @@
           "isNew": false
         },
         {
-          "sr": 46,
+          "sr": 44,
           "date": "24 Apr 2026",
           "year": 2026,
           "cat": "Consultation Paper",
@@ -6483,7 +6443,7 @@
           "isNew": false
         },
         {
-          "sr": 47,
+          "sr": 45,
           "date": "24 Apr 2026",
           "year": 2026,
           "cat": "Consultation Paper",
@@ -6493,7 +6453,7 @@
           "isNew": false
         },
         {
-          "sr": 48,
+          "sr": 46,
           "date": "02 Apr 2026",
           "year": 2026,
           "cat": "Consultation Paper",
@@ -6503,7 +6463,7 @@
           "isNew": false
         },
         {
-          "sr": 49,
+          "sr": 47,
           "date": "25 Mar 2026",
           "year": 2026,
           "cat": "Consultation Paper",
@@ -6513,7 +6473,7 @@
           "isNew": false
         },
         {
-          "sr": 50,
+          "sr": 48,
           "date": "24 Mar 2026",
           "year": 2026,
           "cat": "Consultation Paper",
@@ -6523,7 +6483,7 @@
           "isNew": false
         },
         {
-          "sr": 51,
+          "sr": 49,
           "date": "17 Mar 2026",
           "year": 2026,
           "cat": "Consultation Paper",
@@ -6533,7 +6493,7 @@
           "isNew": false
         },
         {
-          "sr": 52,
+          "sr": 50,
           "date": "12 Mar 2026",
           "year": 2026,
           "cat": "Consultation Paper",
@@ -6543,7 +6503,7 @@
           "isNew": false
         },
         {
-          "sr": 53,
+          "sr": 51,
           "date": "13 Feb 2026",
           "year": 2026,
           "cat": "Consultation Paper",
@@ -6553,7 +6513,7 @@
           "isNew": false
         },
         {
-          "sr": 54,
+          "sr": 52,
           "date": "13 Feb 2026",
           "year": 2026,
           "cat": "Consultation Paper",
@@ -6563,7 +6523,7 @@
           "isNew": false
         },
         {
-          "sr": 55,
+          "sr": 53,
           "date": "09 Feb 2026",
           "year": 2026,
           "cat": "Consultation Paper",
@@ -6573,7 +6533,7 @@
           "isNew": false
         },
         {
-          "sr": 56,
+          "sr": 54,
           "date": "05 Feb 2026",
           "year": 2026,
           "cat": "Consultation Paper",
@@ -6583,7 +6543,7 @@
           "isNew": false
         },
         {
-          "sr": 57,
+          "sr": 55,
           "date": "05 Feb 2026",
           "year": 2026,
           "cat": "Consultation Paper",
@@ -6593,7 +6553,7 @@
           "isNew": false
         },
         {
-          "sr": 58,
+          "sr": 56,
           "date": "05 Feb 2026",
           "year": 2026,
           "cat": "Consultation Paper",
@@ -6603,7 +6563,7 @@
           "isNew": false
         },
         {
-          "sr": 59,
+          "sr": 57,
           "date": "05 Feb 2026",
           "year": 2026,
           "cat": "Consultation Paper",
@@ -6613,7 +6573,7 @@
           "isNew": false
         },
         {
-          "sr": 60,
+          "sr": 58,
           "date": "04 Feb 2026",
           "year": 2026,
           "cat": "Consultation Paper",
@@ -6623,7 +6583,7 @@
           "isNew": false
         },
         {
-          "sr": 61,
+          "sr": 59,
           "date": "19 Jan 2026",
           "year": 2026,
           "cat": "Consultation Paper",
@@ -6633,7 +6593,7 @@
           "isNew": false
         },
         {
-          "sr": 62,
+          "sr": 60,
           "date": "16 Jan 2026",
           "year": 2026,
           "cat": "Consultation Paper",
@@ -6643,7 +6603,7 @@
           "isNew": false
         },
         {
-          "sr": 63,
+          "sr": 61,
           "date": "16 Jan 2026",
           "year": 2026,
           "cat": "Consultation Paper",
@@ -6653,7 +6613,7 @@
           "isNew": false
         },
         {
-          "sr": 64,
+          "sr": 62,
           "date": "09 Jan 2026",
           "year": 2026,
           "cat": "Consultation Paper",
@@ -6663,7 +6623,7 @@
           "isNew": false
         },
         {
-          "sr": 65,
+          "sr": 63,
           "date": "06 Jan 2026",
           "year": 2026,
           "cat": "Consultation Paper",
@@ -6673,7 +6633,7 @@
           "isNew": false
         },
         {
-          "sr": 66,
+          "sr": 64,
           "date": "05 Dec 2025",
           "year": 2025,
           "cat": "Consultation Paper",
@@ -6683,7 +6643,7 @@
           "isNew": false
         },
         {
-          "sr": 67,
+          "sr": 65,
           "date": "04 Dec 2025",
           "year": 2025,
           "cat": "Consultation Paper",
@@ -6693,7 +6653,7 @@
           "isNew": false
         },
         {
-          "sr": 68,
+          "sr": 66,
           "date": "28 Nov 2025",
           "year": 2025,
           "cat": "Consultation Paper",
@@ -6703,7 +6663,7 @@
           "isNew": false
         },
         {
-          "sr": 69,
+          "sr": 67,
           "date": "25 Nov 2025",
           "year": 2025,
           "cat": "Consultation Paper",
@@ -6713,7 +6673,7 @@
           "isNew": false
         },
         {
-          "sr": 70,
+          "sr": 68,
           "date": "24 Nov 2025",
           "year": 2025,
           "cat": "Consultation Paper",
@@ -6723,7 +6683,7 @@
           "isNew": false
         },
         {
-          "sr": 71,
+          "sr": 69,
           "date": "19 Nov 2025",
           "year": 2025,
           "cat": "Consultation Paper",
@@ -6733,7 +6693,7 @@
           "isNew": false
         },
         {
-          "sr": 72,
+          "sr": 70,
           "date": "13 Nov 2025",
           "year": 2025,
           "cat": "Consultation Paper",
@@ -6743,7 +6703,7 @@
           "isNew": false
         },
         {
-          "sr": 73,
+          "sr": 71,
           "date": "07 Nov 2025",
           "year": 2025,
           "cat": "Consultation Paper",
@@ -6753,7 +6713,7 @@
           "isNew": false
         },
         {
-          "sr": 74,
+          "sr": 72,
           "date": "06 Nov 2025",
           "year": 2025,
           "cat": "Consultation Paper",
@@ -6763,7 +6723,7 @@
           "isNew": false
         },
         {
-          "sr": 75,
+          "sr": 73,
           "date": "28 Oct 2025",
           "year": 2025,
           "cat": "Consultation Paper",
@@ -6773,7 +6733,7 @@
           "isNew": false
         },
         {
-          "sr": 76,
+          "sr": 74,
           "date": "27 Oct 2025",
           "year": 2025,
           "cat": "Consultation Paper",
@@ -6783,7 +6743,7 @@
           "isNew": false
         },
         {
-          "sr": 77,
+          "sr": 75,
           "date": "27 Oct 2025",
           "year": 2025,
           "cat": "Consultation Paper",
@@ -6793,7 +6753,7 @@
           "isNew": false
         },
         {
-          "sr": 78,
+          "sr": 76,
           "date": "24 Oct 2025",
           "year": 2025,
           "cat": "Consultation Paper",
@@ -6803,7 +6763,7 @@
           "isNew": false
         },
         {
-          "sr": 79,
+          "sr": 77,
           "date": "23 Oct 2025",
           "year": 2025,
           "cat": "Consultation Paper",
@@ -6813,7 +6773,7 @@
           "isNew": false
         },
         {
-          "sr": 80,
+          "sr": 78,
           "date": "23 Oct 2025",
           "year": 2025,
           "cat": "Consultation Paper",
@@ -6823,7 +6783,7 @@
           "isNew": false
         },
         {
-          "sr": 81,
+          "sr": 79,
           "date": "17 Oct 2025",
           "year": 2025,
           "cat": "Consultation Paper",
@@ -6833,7 +6793,7 @@
           "isNew": false
         },
         {
-          "sr": 82,
+          "sr": 80,
           "date": "08 Oct 2025",
           "year": 2025,
           "cat": "Consultation Paper",
@@ -6843,7 +6803,7 @@
           "isNew": false
         },
         {
-          "sr": 83,
+          "sr": 81,
           "date": "22 Sept 2025",
           "year": 2025,
           "cat": "Consultation Paper",
@@ -6853,7 +6813,7 @@
           "isNew": false
         },
         {
-          "sr": 84,
+          "sr": 82,
           "date": "19 Sept 2025",
           "year": 2025,
           "cat": "Consultation Paper",
@@ -6863,7 +6823,7 @@
           "isNew": false
         },
         {
-          "sr": 85,
+          "sr": 83,
           "date": "12 Sept 2025",
           "year": 2025,
           "cat": "Consultation Paper",
@@ -6873,7 +6833,7 @@
           "isNew": false
         },
         {
-          "sr": 86,
+          "sr": 84,
           "date": "22 Aug 2025",
           "year": 2025,
           "cat": "Consultation Paper",
@@ -6883,7 +6843,7 @@
           "isNew": false
         },
         {
-          "sr": 87,
+          "sr": 85,
           "date": "22 Aug 2025",
           "year": 2025,
           "cat": "Consultation Paper",
@@ -6893,7 +6853,7 @@
           "isNew": false
         },
         {
-          "sr": 88,
+          "sr": 86,
           "date": "18 Aug 2025",
           "year": 2025,
           "cat": "Consultation Paper",
@@ -6903,7 +6863,7 @@
           "isNew": false
         },
         {
-          "sr": 89,
+          "sr": 87,
           "date": "18 Aug 2025",
           "year": 2025,
           "cat": "Consultation Paper",
@@ -6913,7 +6873,7 @@
           "isNew": false
         },
         {
-          "sr": 90,
+          "sr": 88,
           "date": "13 Aug 2025",
           "year": 2025,
           "cat": "Consultation Paper",
@@ -6923,7 +6883,7 @@
           "isNew": false
         },
         {
-          "sr": 91,
+          "sr": 89,
           "date": "12 Aug 2025",
           "year": 2025,
           "cat": "Consultation Paper",
@@ -6933,7 +6893,7 @@
           "isNew": false
         },
         {
-          "sr": 92,
+          "sr": 90,
           "date": "12 Aug 2025",
           "year": 2025,
           "cat": "Consultation Paper",
@@ -6943,7 +6903,7 @@
           "isNew": false
         },
         {
-          "sr": 93,
+          "sr": 91,
           "date": "08 Aug 2025",
           "year": 2025,
           "cat": "Consultation Paper",
@@ -6953,7 +6913,7 @@
           "isNew": false
         },
         {
-          "sr": 94,
+          "sr": 92,
           "date": "08 Aug 2025",
           "year": 2025,
           "cat": "Consultation Paper",
@@ -6963,7 +6923,7 @@
           "isNew": false
         },
         {
-          "sr": 95,
+          "sr": 93,
           "date": "08 Aug 2025",
           "year": 2025,
           "cat": "Consultation Paper",
@@ -6973,7 +6933,7 @@
           "isNew": false
         },
         {
-          "sr": 96,
+          "sr": 94,
           "date": "08 Aug 2025",
           "year": 2025,
           "cat": "Consultation Paper",
@@ -6983,7 +6943,7 @@
           "isNew": false
         },
         {
-          "sr": 97,
+          "sr": 95,
           "date": "07 Aug 2025",
           "year": 2025,
           "cat": "Consultation Paper",
@@ -6993,7 +6953,7 @@
           "isNew": false
         },
         {
-          "sr": 98,
+          "sr": 96,
           "date": "07 Aug 2025",
           "year": 2025,
           "cat": "Consultation Paper",
@@ -7003,7 +6963,7 @@
           "isNew": false
         },
         {
-          "sr": 99,
+          "sr": 97,
           "date": "04 Aug 2025",
           "year": 2025,
           "cat": "Consultation Paper",
@@ -7013,13 +6973,33 @@
           "isNew": false
         },
         {
-          "sr": 100,
+          "sr": 98,
           "date": "01 Aug 2025",
           "year": 2025,
           "cat": "Consultation Paper",
           "title": "Modification in the conditions specified for reduction in denomination of debt securities and non-convertible redeemable preference shares (NCRPS)  Click here to provide your comments",
           "desc": "",
           "link": "https://www.sebi.gov.in/reports-and-statistics/reports/aug-2025/modification-in-the-conditions-specified-for-reduction-in-denomination-of-debt-securities-and-non-convertible-redeemable-preference-shares-ncrps-_95769.html",
+          "isNew": false
+        },
+        {
+          "sr": 99,
+          "date": "01 Aug 2025",
+          "year": 2025,
+          "cat": "Consultation Paper",
+          "title": "Revised Norms for appointment of an independent third-party reviewer/ certifier for green debt security   Click here to provide your comments",
+          "desc": "",
+          "link": "https://www.sebi.gov.in/reports-and-statistics/reports/aug-2025/revised-norms-for-appointment-of-an-independent-third-party-reviewer-certifier-for-green-debt-security_95767.html",
+          "isNew": false
+        },
+        {
+          "sr": 100,
+          "date": "01 Aug 2025",
+          "year": 2025,
+          "cat": "Consultation Paper",
+          "title": "Consultation Paper on Amendment to the definition of Strategic Investor for REITs and InvITs   Click here to provide your comments",
+          "desc": "",
+          "link": "https://www.sebi.gov.in/reports-and-statistics/reports/aug-2025/consultation-paper-on-amendment-to-the-definition-of-strategic-investor-for-reits-and-invits_95764.html",
           "isNew": false
         },
         {
@@ -7254,26 +7234,6 @@
         },
         {
           "sr": 124,
-          "date": "29 Apr 2025",
-          "year": 2025,
-          "cat": "Consultation Paper",
-          "title": "Consultation paper on Framework for Orderly Winding Down of Critical Operations and Services of a KYC (Know Your Client) Registration Agency (KRA)  Click here to provide your comments",
-          "desc": "",
-          "link": "https://www.sebi.gov.in/reports-and-statistics/reports/apr-2025/consultation-paper-on-framework-for-orderly-winding-down-of-critical-operations-and-services-of-a-kyc-know-your-client-registration-agency-kra-_93696.html",
-          "isNew": false
-        },
-        {
-          "sr": 125,
-          "date": "21 Apr 2025",
-          "year": 2025,
-          "cat": "Consultation Paper",
-          "title": "DRAFT CIRCULAR FOR PUBLIC COMMENTS - Limited relaxation from compliance with certain provisions of the SEBI (Listing Obligations and Disclosure Requirements) Regulations, 2015  Click here to provide your comments",
-          "desc": "",
-          "link": "https://www.sebi.gov.in/reports-and-statistics/reports/apr-2025/draft-circular-for-public-comments-limited-relaxation-from-compliance-with-certain-provisions-of-the-sebi-listing-obligations-and-disclosure-requirements-regulations-2015_93498.html",
-          "isNew": false
-        },
-        {
-          "sr": 126,
           "date": "21 Apr 2025",
           "year": 2025,
           "cat": "Consultation Paper",
@@ -7283,7 +7243,7 @@
           "isNew": false
         },
         {
-          "sr": 127,
+          "sr": 125,
           "date": "17 Apr 2025",
           "year": 2025,
           "cat": "Consultation Paper",
@@ -7293,7 +7253,7 @@
           "isNew": false
         },
         {
-          "sr": 128,
+          "sr": 126,
           "date": "11 Apr 2025",
           "year": 2025,
           "cat": "Consultation Paper",
@@ -7303,7 +7263,7 @@
           "isNew": false
         },
         {
-          "sr": 129,
+          "sr": 127,
           "date": "11 Apr 2025",
           "year": 2025,
           "cat": "Consultation Paper",
@@ -7313,7 +7273,7 @@
           "isNew": false
         },
         {
-          "sr": 130,
+          "sr": 128,
           "date": "11 Apr 2025",
           "year": 2025,
           "cat": "Consultation Paper",
@@ -7323,7 +7283,7 @@
           "isNew": false
         },
         {
-          "sr": 131,
+          "sr": 129,
           "date": "04 Apr 2025",
           "year": 2025,
           "cat": "Consultation Paper",
@@ -7333,7 +7293,7 @@
           "isNew": false
         },
         {
-          "sr": 132,
+          "sr": 130,
           "date": "28 Mar 2025",
           "year": 2025,
           "cat": "Consultation Paper",
@@ -7343,7 +7303,7 @@
           "isNew": false
         },
         {
-          "sr": 133,
+          "sr": 131,
           "date": "27 Mar 2025",
           "year": 2025,
           "cat": "Consultation Paper",
@@ -7353,7 +7313,7 @@
           "isNew": false
         },
         {
-          "sr": 134,
+          "sr": 132,
           "date": "21 Mar 2025",
           "year": 2025,
           "cat": "Consultation Paper",
@@ -7363,7 +7323,7 @@
           "isNew": false
         },
         {
-          "sr": 135,
+          "sr": 133,
           "date": "20 Mar 2025",
           "year": 2025,
           "cat": "Consultation Paper",
@@ -7373,7 +7333,7 @@
           "isNew": false
         },
         {
-          "sr": 136,
+          "sr": 134,
           "date": "20 Mar 2025",
           "year": 2025,
           "cat": "Consultation Paper",
@@ -7383,7 +7343,7 @@
           "isNew": false
         },
         {
-          "sr": 137,
+          "sr": 135,
           "date": "07 Mar 2025",
           "year": 2025,
           "cat": "Consultation Paper",
@@ -7393,7 +7353,7 @@
           "isNew": false
         },
         {
-          "sr": 138,
+          "sr": 136,
           "date": "07 Mar 2025",
           "year": 2025,
           "cat": "Consultation Paper",
@@ -7403,7 +7363,7 @@
           "isNew": false
         },
         {
-          "sr": 139,
+          "sr": 137,
           "date": "28 Feb 2025",
           "year": 2025,
           "cat": "Consultation Paper",
@@ -7413,7 +7373,7 @@
           "isNew": false
         },
         {
-          "sr": 140,
+          "sr": 138,
           "date": "24 Feb 2025",
           "year": 2025,
           "cat": "Consultation Paper",
@@ -7423,7 +7383,7 @@
           "isNew": false
         },
         {
-          "sr": 141,
+          "sr": 139,
           "date": "21 Feb 2025",
           "year": 2025,
           "cat": "Consultation Paper",
@@ -7433,7 +7393,7 @@
           "isNew": false
         },
         {
-          "sr": 142,
+          "sr": 140,
           "date": "20 Feb 2025",
           "year": 2025,
           "cat": "Consultation Paper",
@@ -7443,7 +7403,7 @@
           "isNew": false
         },
         {
-          "sr": 143,
+          "sr": 141,
           "date": "18 Feb 2025",
           "year": 2025,
           "cat": "Consultation Paper",
@@ -7453,7 +7413,7 @@
           "isNew": false
         },
         {
-          "sr": 144,
+          "sr": 142,
           "date": "14 Feb 2025",
           "year": 2025,
           "cat": "Consultation Paper",
@@ -7463,7 +7423,7 @@
           "isNew": false
         },
         {
-          "sr": 145,
+          "sr": 143,
           "date": "13 Feb 2025",
           "year": 2025,
           "cat": "Consultation Paper",
@@ -7473,7 +7433,7 @@
           "isNew": false
         },
         {
-          "sr": 146,
+          "sr": 144,
           "date": "12 Feb 2025",
           "year": 2025,
           "cat": "Consultation Paper",
@@ -7483,7 +7443,7 @@
           "isNew": false
         },
         {
-          "sr": 147,
+          "sr": 145,
           "date": "12 Feb 2025",
           "year": 2025,
           "cat": "Consultation Paper",
@@ -7493,13 +7453,33 @@
           "isNew": false
         },
         {
-          "sr": 148,
+          "sr": 146,
           "date": "12 Feb 2025",
           "year": 2025,
           "cat": "Consultation Paper",
           "title": "Margin obligations to be given by way of Pledge / re-pledge in the Depository system  Click here to provide your comments",
           "desc": "",
           "link": "https://www.sebi.gov.in/reports-and-statistics/reports/feb-2025/margin-obligations-to-be-given-by-way-of-pledge-re-pledge-in-the-depository-system_91849.html",
+          "isNew": false
+        },
+        {
+          "sr": 147,
+          "date": "11 Feb 2025",
+          "year": 2025,
+          "cat": "Consultation Paper",
+          "title": "Consultation Paper on Treatment of unclaimed funds and securities of clients lying with Trading Members  Click here to provide your comments",
+          "desc": "",
+          "link": "https://www.sebi.gov.in/reports-and-statistics/reports/feb-2025/consultation-paper-on-treatment-of-unclaimed-funds-and-securities-of-clients-lying-with-trading-members_91811.html",
+          "isNew": false
+        },
+        {
+          "sr": 148,
+          "date": "07 Feb 2025",
+          "year": 2025,
+          "cat": "Consultation Paper",
+          "title": "Consultation Paper on aspects relating to Secretarial Compliance Report, Appointment of Auditors and Related Party Transactions of a Listed Entity  Click here to provide your comments",
+          "desc": "",
+          "link": "https://www.sebi.gov.in/reports-and-statistics/reports/feb-2025/consultation-paper-on-aspects-relating-to-secretarial-compliance-report-appointment-of-auditors-and-related-party-transactions-of-a-listed-entity_91740.html",
           "isNew": false
         },
         {
@@ -8487,13 +8467,33 @@
           "date": "02 Feb 2024",
           "year": 2024,
           "cat": "Consultation Paper",
+          "title": "Consultation paper on flexibility to Category I and II AIFs to create encumbrance on their holding of equity in infrastructure sector investee companies to facilitate raising of debt by such investee companies  Click here to provide your comments",
+          "desc": "",
+          "link": "https://www.sebi.gov.in/reports-and-statistics/reports/feb-2024/consultation-paper-on-flexibility-to-category-i-and-ii-aifs-to-create-encumbrance-on-their-holding-of-equity-in-infrastructure-sector-investee-companies-to-facilitate-raising-of-debt-by-such-investee-_81047.html",
+          "isNew": false
+        },
+        {
+          "sr": 248,
+          "date": "02 Feb 2024",
+          "year": 2024,
+          "cat": "Consultation Paper",
+          "title": "Addendum to Consultation Paper on Interim Recommendations of the Expert Committee for facilitating ease of doing business and harmonization of the provisions of ICDR and LODR Regulations",
+          "desc": "",
+          "link": "https://www.sebi.gov.in/reports-and-statistics/reports/feb-2024/addendum-to-consultation-paper-on-interim-recommendations-of-the-expert-committee-for-facilitating-ease-of-doing-business-and-harmonization-of-the-provisions-of-icdr-and-lodr-regulations_81040.html",
+          "isNew": false
+        },
+        {
+          "sr": 249,
+          "date": "02 Feb 2024",
+          "year": 2024,
+          "cat": "Consultation Paper",
           "title": "Consultation Paper to revise and revamp nomination facilities in the Indian Securities Market  Click here to provide your comments",
           "desc": "",
           "link": "https://www.sebi.gov.in/reports-and-statistics/reports/feb-2024/consultation-paper-to-revise-and-revamp-nomination-facilities-in-the-indian-securities-market_81023.html",
           "isNew": false
         },
         {
-          "sr": 248,
+          "sr": 250,
           "date": "19 Jan 2024",
           "year": 2024,
           "cat": "Consultation Paper",
@@ -8503,7 +8503,7 @@
           "isNew": false
         },
         {
-          "sr": 249,
+          "sr": 251,
           "date": "12 Jan 2024",
           "year": 2024,
           "cat": "Consultation Paper",
@@ -8513,7 +8513,7 @@
           "isNew": false
         },
         {
-          "sr": 250,
+          "sr": 252,
           "date": "11 Jan 2024",
           "year": 2024,
           "cat": "Consultation Paper",
@@ -8523,7 +8523,7 @@
           "isNew": false
         },
         {
-          "sr": 251,
+          "sr": 253,
           "date": "10 Jan 2024",
           "year": 2024,
           "cat": "Consultation Paper",
@@ -8533,7 +8533,7 @@
           "isNew": false
         },
         {
-          "sr": 252,
+          "sr": 254,
           "date": "28 Dec 2023",
           "year": 2023,
           "cat": "Consultation Paper",
@@ -8543,7 +8543,7 @@
           "isNew": false
         },
         {
-          "sr": 253,
+          "sr": 255,
           "date": "22 Dec 2023",
           "year": 2023,
           "cat": "Consultation Paper",
@@ -8553,7 +8553,7 @@
           "isNew": false
         },
         {
-          "sr": 254,
+          "sr": 256,
           "date": "09 Dec 2023",
           "year": 2023,
           "cat": "Consultation Paper",
@@ -8563,7 +8563,7 @@
           "isNew": false
         },
         {
-          "sr": 255,
+          "sr": 257,
           "date": "09 Dec 2023",
           "year": 2023,
           "cat": "Consultation Paper",
@@ -8573,7 +8573,7 @@
           "isNew": false
         },
         {
-          "sr": 256,
+          "sr": 258,
           "date": "28 Nov 2023",
           "year": 2023,
           "cat": "Consultation Paper",
@@ -8583,7 +8583,7 @@
           "isNew": false
         },
         {
-          "sr": 257,
+          "sr": 259,
           "date": "24 Nov 2023",
           "year": 2023,
           "cat": "Consultation Paper",
@@ -8593,7 +8593,7 @@
           "isNew": false
         },
         {
-          "sr": 258,
+          "sr": 260,
           "date": "31 Aug 2023",
           "year": 2023,
           "cat": "Consultation Paper",
@@ -8603,7 +8603,7 @@
           "isNew": false
         },
         {
-          "sr": 259,
+          "sr": 261,
           "date": "31 Aug 2023",
           "year": 2023,
           "cat": "Consultation Paper",
@@ -8613,7 +8613,7 @@
           "isNew": false
         },
         {
-          "sr": 260,
+          "sr": 262,
           "date": "29 Aug 2023",
           "year": 2023,
           "cat": "Consultation Paper",
@@ -8623,7 +8623,7 @@
           "isNew": false
         },
         {
-          "sr": 261,
+          "sr": 263,
           "date": "25 Aug 2023",
           "year": 2023,
           "cat": "Consultation Paper",
@@ -8633,7 +8633,7 @@
           "isNew": false
         },
         {
-          "sr": 262,
+          "sr": 264,
           "date": "25 Aug 2023",
           "year": 2023,
           "cat": "Consultation Paper",
@@ -8643,7 +8643,7 @@
           "isNew": false
         },
         {
-          "sr": 263,
+          "sr": 265,
           "date": "25 Aug 2023",
           "year": 2023,
           "cat": "Consultation Paper",
@@ -8653,7 +8653,7 @@
           "isNew": false
         },
         {
-          "sr": 264,
+          "sr": 266,
           "date": "22 Aug 2023",
           "year": 2023,
           "cat": "Consultation Paper",
@@ -8663,7 +8663,7 @@
           "isNew": false
         },
         {
-          "sr": 265,
+          "sr": 267,
           "date": "14 Aug 2023",
           "year": 2023,
           "cat": "Consultation Paper",
@@ -8673,7 +8673,7 @@
           "isNew": false
         },
         {
-          "sr": 266,
+          "sr": 268,
           "date": "10 Aug 2023",
           "year": 2023,
           "cat": "Consultation Paper",
@@ -8683,7 +8683,7 @@
           "isNew": false
         },
         {
-          "sr": 267,
+          "sr": 269,
           "date": "01 Aug 2023",
           "year": 2023,
           "cat": "Consultation Paper",
@@ -8693,7 +8693,7 @@
           "isNew": false
         },
         {
-          "sr": 268,
+          "sr": 270,
           "date": "21 Jul 2023",
           "year": 2023,
           "cat": "Consultation Paper",
@@ -8703,7 +8703,7 @@
           "isNew": false
         },
         {
-          "sr": 269,
+          "sr": 271,
           "date": "20 Jul 2023",
           "year": 2023,
           "cat": "Consultation Paper",
@@ -8713,7 +8713,7 @@
           "isNew": false
         },
         {
-          "sr": 270,
+          "sr": 272,
           "date": "05 Jul 2023",
           "year": 2023,
           "cat": "Consultation Paper",
@@ -8723,7 +8723,7 @@
           "isNew": false
         },
         {
-          "sr": 271,
+          "sr": 273,
           "date": "04 Jul 2023",
           "year": 2023,
           "cat": "Consultation Paper",
@@ -8733,7 +8733,7 @@
           "isNew": false
         },
         {
-          "sr": 272,
+          "sr": 274,
           "date": "01 Jun 2023",
           "year": 2023,
           "cat": "Consultation Paper",
@@ -8743,7 +8743,7 @@
           "isNew": false
         },
         {
-          "sr": 273,
+          "sr": 275,
           "date": "01 Jun 2023",
           "year": 2023,
           "cat": "Consultation Paper",
@@ -8753,7 +8753,7 @@
           "isNew": false
         },
         {
-          "sr": 274,
+          "sr": 276,
           "date": "31 May 2023",
           "year": 2023,
           "cat": "Consultation Paper",
@@ -8763,7 +8763,7 @@
           "isNew": false
         },
         {
-          "sr": 275,
+          "sr": 277,
           "date": "23 May 2023",
           "year": 2023,
           "cat": "Consultation Paper",
@@ -8773,7 +8773,7 @@
           "isNew": false
         },
         {
-          "sr": 276,
+          "sr": 278,
           "date": "20 May 2023",
           "year": 2023,
           "cat": "Consultation Paper",
@@ -8783,7 +8783,7 @@
           "isNew": false
         },
         {
-          "sr": 277,
+          "sr": 279,
           "date": "20 May 2023",
           "year": 2023,
           "cat": "Consultation Paper",
@@ -8793,7 +8793,7 @@
           "isNew": false
         },
         {
-          "sr": 278,
+          "sr": 280,
           "date": "20 May 2023",
           "year": 2023,
           "cat": "Consultation Paper",
@@ -8803,7 +8803,7 @@
           "isNew": false
         },
         {
-          "sr": 279,
+          "sr": 281,
           "date": "19 May 2023",
           "year": 2023,
           "cat": "Consultation Paper",
@@ -8813,7 +8813,7 @@
           "isNew": false
         },
         {
-          "sr": 280,
+          "sr": 282,
           "date": "19 May 2023",
           "year": 2023,
           "cat": "Consultation Paper",
@@ -8823,7 +8823,7 @@
           "isNew": false
         },
         {
-          "sr": 281,
+          "sr": 283,
           "date": "19 May 2023",
           "year": 2023,
           "cat": "Consultation Paper",
@@ -8833,7 +8833,7 @@
           "isNew": false
         },
         {
-          "sr": 282,
+          "sr": 284,
           "date": "18 May 2023",
           "year": 2023,
           "cat": "Consultation Paper",
@@ -8843,7 +8843,7 @@
           "isNew": false
         },
         {
-          "sr": 283,
+          "sr": 285,
           "date": "18 May 2023",
           "year": 2023,
           "cat": "Consultation Paper",
@@ -8853,7 +8853,7 @@
           "isNew": false
         },
         {
-          "sr": 284,
+          "sr": 286,
           "date": "18 May 2023",
           "year": 2023,
           "cat": "Consultation Paper",
@@ -8863,7 +8863,7 @@
           "isNew": false
         },
         {
-          "sr": 285,
+          "sr": 287,
           "date": "18 May 2023",
           "year": 2023,
           "cat": "Consultation Paper",
@@ -8873,7 +8873,7 @@
           "isNew": false
         },
         {
-          "sr": 286,
+          "sr": 288,
           "date": "18 May 2023",
           "year": 2023,
           "cat": "Consultation Paper",
@@ -8883,7 +8883,7 @@
           "isNew": false
         },
         {
-          "sr": 287,
+          "sr": 289,
           "date": "16 May 2023",
           "year": 2023,
           "cat": "Consultation Paper",
@@ -8893,7 +8893,7 @@
           "isNew": false
         },
         {
-          "sr": 288,
+          "sr": 290,
           "date": "16 May 2023",
           "year": 2023,
           "cat": "Consultation Paper",
@@ -8903,7 +8903,7 @@
           "isNew": false
         },
         {
-          "sr": 289,
+          "sr": 291,
           "date": "12 May 2023",
           "year": 2023,
           "cat": "Consultation Paper",
@@ -8913,7 +8913,7 @@
           "isNew": false
         },
         {
-          "sr": 290,
+          "sr": 292,
           "date": "12 May 2023",
           "year": 2023,
           "cat": "Consultation Paper",
@@ -8923,7 +8923,7 @@
           "isNew": false
         },
         {
-          "sr": 291,
+          "sr": 293,
           "date": "09 Mar 2023",
           "year": 2023,
           "cat": "Consultation Paper",
@@ -8933,7 +8933,7 @@
           "isNew": false
         },
         {
-          "sr": 292,
+          "sr": 294,
           "date": "08 Mar 2023",
           "year": 2023,
           "cat": "Consultation Paper",
@@ -8943,7 +8943,7 @@
           "isNew": false
         },
         {
-          "sr": 293,
+          "sr": 295,
           "date": "23 Feb 2023",
           "year": 2023,
           "cat": "Consultation Paper",
@@ -8953,7 +8953,7 @@
           "isNew": false
         },
         {
-          "sr": 294,
+          "sr": 296,
           "date": "22 Feb 2023",
           "year": 2023,
           "cat": "Consultation Paper",
@@ -8961,29 +8961,9 @@
           "desc": "",
           "link": "https://www.sebi.gov.in/reports-and-statistics/reports/feb-2023/consultation-paper-on-regulatory-framework-for-esg-rating-providers-erps-in-securities-market_68337.html",
           "isNew": false
-        },
-        {
-          "sr": 295,
-          "date": "22 Feb 2023",
-          "year": 2023,
-          "cat": "Consultation Paper",
-          "title": "Consultation Paper on certain Amendments to Securities and Exchange Board of India (Issue of Capital and Disclosure Requirements) Regulations, 2018, with the objective of increasing transparency and streamlining certain processes",
-          "desc": "",
-          "link": "https://www.sebi.gov.in/reports-and-statistics/reports/feb-2023/consultation-paper-on-certain-amendments-to-securities-and-exchange-board-of-india-issue-of-capital-and-disclosure-requirements-regulations-2018-with-the-objective-of-increasing-transparency-and-s-_68336.html",
-          "isNew": false
-        },
-        {
-          "sr": 296,
-          "date": "21 Feb 2023",
-          "year": 2023,
-          "cat": "Consultation Paper",
-          "title": "CONSULTATION PAPER ON STRENGTHENING CORPORATE GOVERNANCE AT LISTED ENTITIES BY EMPOWERING SHAREHOLDERS – AMENDMENTS TO THE SEBI (LODR) REGULATIONS, 2015",
-          "desc": "",
-          "link": "https://www.sebi.gov.in/reports-and-statistics/reports/feb-2023/consultation-paper-on-strengthening-corporate-governance-at-listed-entities-by-empowering-shareholders-amendments-to-the-sebi-lodr-regulations-2015_68261.html",
-          "isNew": false
         }
       ],
-      "ts": 1792452510107,
+      "ts": 1792468726258,
       "ok": true,
       "newCount": 0
     },
@@ -10190,7 +10170,7 @@
           "isNew": false
         }
       ],
-      "ts": 1792452514702,
+      "ts": 1792468729348,
       "ok": true,
       "newCount": 0
     },
@@ -10217,7 +10197,7 @@
           "isNew": false
         }
       ],
-      "ts": 1792452516457,
+      "ts": 1792468731071,
       "ok": true,
       "newCount": 0
     },
@@ -13224,7 +13204,7 @@
           "isNew": false
         }
       ],
-      "ts": 1792452555443,
+      "ts": 1792468769155,
       "ok": true,
       "newCount": 0
     },
@@ -13491,7 +13471,7 @@
           "isNew": false
         }
       ],
-      "ts": 1792452557858,
+      "ts": 1792468771712,
       "ok": true,
       "newCount": 0
     },
@@ -16498,7 +16478,7 @@
           "isNew": false
         }
       ],
-      "ts": 1792452561151,
+      "ts": 1792468775028,
       "ok": true,
       "newCount": 0
     },
@@ -16515,7 +16495,7 @@
           "isNew": false
         }
       ],
-      "ts": 1792452563256,
+      "ts": 1792468776869,
       "ok": true,
       "newCount": 0
     },
@@ -16722,7 +16702,7 @@
           "isNew": false
         }
       ],
-      "ts": 1792452565665,
+      "ts": 1792468778944,
       "ok": true,
       "newCount": 0
     },
@@ -16979,7 +16959,7 @@
           "isNew": false
         }
       ],
-      "ts": 1792452573848,
+      "ts": 1792468788230,
       "ok": true,
       "newCount": 0
     },
@@ -19986,7 +19966,7 @@
           "isNew": false
         }
       ],
-      "ts": 1792452576120,
+      "ts": 1792468790825,
       "ok": true,
       "newCount": 0
     },
@@ -20193,7 +20173,7 @@
           "isNew": false
         }
       ],
-      "ts": 1792452579500,
+      "ts": 1792468794248,
       "ok": true,
       "newCount": 0
     },
@@ -20206,7 +20186,8 @@
           "cat": "Circulars",
           "title": "राष्ट्रीय साइबर सुरक्षा जागरूकता माह (एनसीएसएएम) का अनुपालन - अक्टूबर 2026 Observance of National Cyber Security Awareness Month (NCSAM) – October 2026.pdf\n\t\t\t\t\t\t\t\t\t\t\t627 KB",
           "desc": "",
-          "link": "https://irdai.gov.in/documents/37343/365525/%E0%A4%B0%E0%A4%BE%E0%A4%B7%E0%A5%8D%E0%A4%9F%E0%A5%8D%E0%A4%B0%E0%A5%80%E0%A4%AF+%E0%A4%B8%E0%A4%BE%E0%A4%87%E0%A4%AC%E0%A4%B0+%E0%A4%B8%E0%A5%81%E0%A4%B0%E0%A4%95%E0%A5%8D%E0%A4%B7%E0%A4%BE+%E0%A4%9C%E0%A4%BE%E0%A4%97%E0%A4%B0%E0%A5%82%E0%A4%95%E0%A4%A4%E0%A4%BE+%E0%A4%AE%E0%A4%BE%E0%A4%B9+%28%E0%A4%8F%E0%A4%A8%E0%A4%B8%E0%A5%80%E0%A4%8F%E0%A4%B8%E0%A4%8F%E0%A4%8F%E0%A4%AE%29+%E0%A4%95%E0%A4%BE+%E0%A4%85%E0%A4%A8%E0%A5%81%E0%A4%AA%E0%A4%BE%E0%A4%B2%E0%A4%A8+-+%E0%A4%85%E0%A4%95%E0%A5%8D%E0%A4%9F%E0%A5%82%E0%A4%AC%E0%A4%B0+2026+Observance+of+National+Cyber+Security+Awareness+Month+%28NCSAM%29+%E2%80%93+October+2026.pdf/f81df8af-eb6e-93b9-7607-7414e17900cc?version=1.2&t=1792046597891&download=true"
+          "link": "https://irdai.gov.in/documents/37343/365525/%E0%A4%B0%E0%A4%BE%E0%A4%B7%E0%A5%8D%E0%A4%9F%E0%A5%8D%E0%A4%B0%E0%A5%80%E0%A4%AF+%E0%A4%B8%E0%A4%BE%E0%A4%87%E0%A4%AC%E0%A4%B0+%E0%A4%B8%E0%A5%81%E0%A4%B0%E0%A4%95%E0%A5%8D%E0%A4%B7%E0%A4%BE+%E0%A4%9C%E0%A4%BE%E0%A4%97%E0%A4%B0%E0%A5%82%E0%A4%95%E0%A4%A4%E0%A4%BE+%E0%A4%AE%E0%A4%BE%E0%A4%B9+%28%E0%A4%8F%E0%A4%A8%E0%A4%B8%E0%A5%80%E0%A4%8F%E0%A4%B8%E0%A4%8F%E0%A4%8F%E0%A4%AE%29+%E0%A4%95%E0%A4%BE+%E0%A4%85%E0%A4%A8%E0%A5%81%E0%A4%AA%E0%A4%BE%E0%A4%B2%E0%A4%A8+-+%E0%A4%85%E0%A4%95%E0%A5%8D%E0%A4%9F%E0%A5%82%E0%A4%AC%E0%A4%B0+2026+Observance+of+National+Cyber+Security+Awareness+Month+%28NCSAM%29+%E2%80%93+October+2026.pdf/f81df8af-eb6e-93b9-7607-7414e17900cc?version=1.2&t=1792046597891&download=true",
+          "isNew": false
         },
         {
           "sr": 2,
@@ -20215,7 +20196,8 @@
           "cat": "Circulars",
           "title": "Circular - Repeal of the ‘Guidelines on repatriation of dividends by insurance intermediaries having majority by foreign investors 22.09.2026.pdf\n\t\t\t\t\t\t\t\t\t\t\t269 KB",
           "desc": "",
-          "link": "https://irdai.gov.in/documents/37343/365525/Circular+-+Repeal+of+the+%E2%80%98Guidelines+on+repatriation+of+dividends+by+insurance+intermediaries+having+majority+by+foreign+investors+22.09.2026.pdf/5b499e5f-0546-c0e7-ebb7-3dd6ed7434d8?version=1.0&t=1790070596359&download=true"
+          "link": "https://irdai.gov.in/documents/37343/365525/Circular+-+Repeal+of+the+%E2%80%98Guidelines+on+repatriation+of+dividends+by+insurance+intermediaries+having+majority+by+foreign+investors+22.09.2026.pdf/5b499e5f-0546-c0e7-ebb7-3dd6ed7434d8?version=1.0&t=1790070596359&download=true",
+          "isNew": false
         },
         {
           "sr": 3,
@@ -20224,7 +20206,8 @@
           "cat": "Circulars",
           "title": "पुनर्बीमा विनियामक विवरणियों और अन्य पुनर्बीमा कार्यात्मकताओं का समन्वित व्यवसाय वैश्लेषिकी प्लेटफार्म (बीएपी) में अंतरण _ Migration of Reinsurance Regulatory Returns and Other Reinsurance Functionalities to the Integrated Business Analytics Platform(.pdf\n\t\t\t\t\t\t\t\t\t\t\t223 KB",
           "desc": "",
-          "link": "https://irdai.gov.in/documents/37343/365525/%E0%A4%AA%E0%A5%81%E0%A4%A8%E0%A4%B0%E0%A5%8D%E0%A4%AC%E0%A5%80%E0%A4%AE%E0%A4%BE+%E0%A4%B5%E0%A4%BF%E0%A4%A8%E0%A4%BF%E0%A4%AF%E0%A4%BE%E0%A4%AE%E0%A4%95+%E0%A4%B5%E0%A4%BF%E0%A4%B5%E0%A4%B0%E0%A4%A3%E0%A4%BF%E0%A4%AF%E0%A5%8B%E0%A4%82+%E0%A4%94%E0%A4%B0+%E0%A4%85%E0%A4%A8%E0%A5%8D%E0%A4%AF+%E0%A4%AA%E0%A5%81%E0%A4%A8%E0%A4%B0%E0%A5%8D%E0%A4%AC%E0%A5%80%E0%A4%AE%E0%A4%BE+%E0%A4%95%E0%A4%BE%E0%A4%B0%E0%A5%8D%E0%A4%AF%E0%A4%BE%E0%A4%A4%E0%A5%8D%E0%A4%AE%E0%A4%95%E0%A4%A4%E0%A4%BE%E0%A4%93%E0%A4%82+%E0%A4%95%E0%A4%BE+%E0%A4%B8%E0%A4%AE%E0%A4%A8%E0%A5%8D%E0%A4%B5%E0%A4%BF%E0%A4%A4+%E0%A4%B5%E0%A5%8D%E0%A4%AF%E0%A4%B5%E0%A4%B8%E0%A4%BE%E0%A4%AF+%E0%A4%B5%E0%A5%88%E0%A4%B6%E0%A5%8D%E0%A4%B2%E0%A5%87%E0%A4%B7%E0%A4%BF%E0%A4%95%E0%A5%80+%E0%A4%AA%E0%A5%8D%E0%A4%B2%E0%A5%87%E0%A4%9F%E0%A4%AB%E0%A4%BE%E0%A4%B0%E0%A5%8D%E0%A4%AE+%28%E0%A4%AC%E0%A5%80%E0%A4%8F%E0%A4%AA%E0%A5%80%29+%E0%A4%AE%E0%A5%87%E0%A4%82+%E0%A4%85%E0%A4%82%E0%A4%A4%E0%A4%B0%E0%A4%A3+_+Migration+of+Reinsurance+Regulatory+Returns+and+Other+Reinsurance+Functionalities+to+the+Integrated+Business+Analytics+Platform%28.pdf/9256c887-a9e3-8baa-154d-d7fbcf2b0fe1?version=3.0&t=1788416228695&download=true"
+          "link": "https://irdai.gov.in/documents/37343/365525/%E0%A4%AA%E0%A5%81%E0%A4%A8%E0%A4%B0%E0%A5%8D%E0%A4%AC%E0%A5%80%E0%A4%AE%E0%A4%BE+%E0%A4%B5%E0%A4%BF%E0%A4%A8%E0%A4%BF%E0%A4%AF%E0%A4%BE%E0%A4%AE%E0%A4%95+%E0%A4%B5%E0%A4%BF%E0%A4%B5%E0%A4%B0%E0%A4%A3%E0%A4%BF%E0%A4%AF%E0%A5%8B%E0%A4%82+%E0%A4%94%E0%A4%B0+%E0%A4%85%E0%A4%A8%E0%A5%8D%E0%A4%AF+%E0%A4%AA%E0%A5%81%E0%A4%A8%E0%A4%B0%E0%A5%8D%E0%A4%AC%E0%A5%80%E0%A4%AE%E0%A4%BE+%E0%A4%95%E0%A4%BE%E0%A4%B0%E0%A5%8D%E0%A4%AF%E0%A4%BE%E0%A4%A4%E0%A5%8D%E0%A4%AE%E0%A4%95%E0%A4%A4%E0%A4%BE%E0%A4%93%E0%A4%82+%E0%A4%95%E0%A4%BE+%E0%A4%B8%E0%A4%AE%E0%A4%A8%E0%A5%8D%E0%A4%B5%E0%A4%BF%E0%A4%A4+%E0%A4%B5%E0%A5%8D%E0%A4%AF%E0%A4%B5%E0%A4%B8%E0%A4%BE%E0%A4%AF+%E0%A4%B5%E0%A5%88%E0%A4%B6%E0%A5%8D%E0%A4%B2%E0%A5%87%E0%A4%B7%E0%A4%BF%E0%A4%95%E0%A5%80+%E0%A4%AA%E0%A5%8D%E0%A4%B2%E0%A5%87%E0%A4%9F%E0%A4%AB%E0%A4%BE%E0%A4%B0%E0%A5%8D%E0%A4%AE+%28%E0%A4%AC%E0%A5%80%E0%A4%8F%E0%A4%AA%E0%A5%80%29+%E0%A4%AE%E0%A5%87%E0%A4%82+%E0%A4%85%E0%A4%82%E0%A4%A4%E0%A4%B0%E0%A4%A3+_+Migration+of+Reinsurance+Regulatory+Returns+and+Other+Reinsurance+Functionalities+to+the+Integrated+Business+Analytics+Platform%28.pdf/9256c887-a9e3-8baa-154d-d7fbcf2b0fe1?version=3.0&t=1788416228695&download=true",
+          "isNew": false
         },
         {
           "sr": 4,
@@ -20233,7 +20216,8 @@
           "cat": "Circulars",
           "title": "न्यू डेवलपमेंट बैंक (एनडीबी) द्वारा जारी किये गये महाराजा आईएनआर बांडों में निवेश _ Investment in Maharajah INR Bonds issued by New Development Bank (NDB).pdf\n\t\t\t\t\t\t\t\t\t\t\t277 KB",
           "desc": "",
-          "link": "https://irdai.gov.in/documents/37343/365525/%E0%A4%A8%E0%A5%8D%E0%A4%AF%E0%A5%82+%E0%A4%A1%E0%A5%87%E0%A4%B5%E0%A4%B2%E0%A4%AA%E0%A4%AE%E0%A5%87%E0%A4%82%E0%A4%9F+%E0%A4%AC%E0%A5%88%E0%A4%82%E0%A4%95+%28%E0%A4%8F%E0%A4%A8%E0%A4%A1%E0%A5%80%E0%A4%AC%E0%A5%80%29+%E0%A4%A6%E0%A5%8D%E0%A4%B5%E0%A4%BE%E0%A4%B0%E0%A4%BE+%E0%A4%9C%E0%A4%BE%E0%A4%B0%E0%A5%80+%E0%A4%95%E0%A4%BF%E0%A4%AF%E0%A5%87+%E0%A4%97%E0%A4%AF%E0%A5%87+%E0%A4%AE%E0%A4%B9%E0%A4%BE%E0%A4%B0%E0%A4%BE%E0%A4%9C%E0%A4%BE+%E0%A4%86%E0%A4%88%E0%A4%8F%E0%A4%A8%E0%A4%86%E0%A4%B0+%E0%A4%AC%E0%A4%BE%E0%A4%82%E0%A4%A1%E0%A5%8B%E0%A4%82+%E0%A4%AE%E0%A5%87%E0%A4%82+%E0%A4%A8%E0%A4%BF%E0%A4%B5%E0%A5%87%E0%A4%B6+_+Investment+in+Maharajah+INR+Bonds+issued+by+New+Development+Bank+%28NDB%29.pdf/fc5a9231-359a-edb6-e75a-d17dced79fe9?version=1.0&t=1787833781677&download=true"
+          "link": "https://irdai.gov.in/documents/37343/365525/%E0%A4%A8%E0%A5%8D%E0%A4%AF%E0%A5%82+%E0%A4%A1%E0%A5%87%E0%A4%B5%E0%A4%B2%E0%A4%AA%E0%A4%AE%E0%A5%87%E0%A4%82%E0%A4%9F+%E0%A4%AC%E0%A5%88%E0%A4%82%E0%A4%95+%28%E0%A4%8F%E0%A4%A8%E0%A4%A1%E0%A5%80%E0%A4%AC%E0%A5%80%29+%E0%A4%A6%E0%A5%8D%E0%A4%B5%E0%A4%BE%E0%A4%B0%E0%A4%BE+%E0%A4%9C%E0%A4%BE%E0%A4%B0%E0%A5%80+%E0%A4%95%E0%A4%BF%E0%A4%AF%E0%A5%87+%E0%A4%97%E0%A4%AF%E0%A5%87+%E0%A4%AE%E0%A4%B9%E0%A4%BE%E0%A4%B0%E0%A4%BE%E0%A4%9C%E0%A4%BE+%E0%A4%86%E0%A4%88%E0%A4%8F%E0%A4%A8%E0%A4%86%E0%A4%B0+%E0%A4%AC%E0%A4%BE%E0%A4%82%E0%A4%A1%E0%A5%8B%E0%A4%82+%E0%A4%AE%E0%A5%87%E0%A4%82+%E0%A4%A8%E0%A4%BF%E0%A4%B5%E0%A5%87%E0%A4%B6+_+Investment+in+Maharajah+INR+Bonds+issued+by+New+Development+Bank+%28NDB%29.pdf/fc5a9231-359a-edb6-e75a-d17dced79fe9?version=1.0&t=1787833781677&download=true",
+          "isNew": false
         },
         {
           "sr": 5,
@@ -20242,7 +20226,8 @@
           "cat": "Circulars",
           "title": "सेवा उत्पादन के सूचकांक के प्रयोजन के लिए मासिक आधार पर बीमाकर्ताओं के द्वारा सूचना का प्रस्तुतीकरण _ Submission of information by insurers on monthly basis for the purpose of Index of Service Production.pdf\n\t\t\t\t\t\t\t\t\t\t\t148 KB",
           "desc": "",
-          "link": "https://irdai.gov.in/documents/37343/365525/%E0%A4%B8%E0%A5%87%E0%A4%B5%E0%A4%BE+%E0%A4%89%E0%A4%A4%E0%A5%8D%E0%A4%AA%E0%A4%BE%E0%A4%A6%E0%A4%A8+%E0%A4%95%E0%A5%87+%E0%A4%B8%E0%A5%82%E0%A4%9A%E0%A4%95%E0%A4%BE%E0%A4%82%E0%A4%95+%E0%A4%95%E0%A5%87+%E0%A4%AA%E0%A5%8D%E0%A4%B0%E0%A4%AF%E0%A5%8B%E0%A4%9C%E0%A4%A8+%E0%A4%95%E0%A5%87+%E0%A4%B2%E0%A4%BF%E0%A4%8F+%E0%A4%AE%E0%A4%BE%E0%A4%B8%E0%A4%BF%E0%A4%95+%E0%A4%86%E0%A4%A7%E0%A4%BE%E0%A4%B0+%E0%A4%AA%E0%A4%B0+%E0%A4%AC%E0%A5%80%E0%A4%AE%E0%A4%BE%E0%A4%95%E0%A4%B0%E0%A5%8D%E0%A4%A4%E0%A4%BE%E0%A4%93%E0%A4%82+%E0%A4%95%E0%A5%87+%E0%A4%A6%E0%A5%8D%E0%A4%B5%E0%A4%BE%E0%A4%B0%E0%A4%BE+%E0%A4%B8%E0%A5%82%E0%A4%9A%E0%A4%A8%E0%A4%BE+%E0%A4%95%E0%A4%BE+%E0%A4%AA%E0%A5%8D%E0%A4%B0%E0%A4%B8%E0%A5%8D%E0%A4%A4%E0%A5%81%E0%A4%A4%E0%A5%80%E0%A4%95%E0%A4%B0%E0%A4%A3+_+Submission+of+information+by+insurers+on+monthly+basis+for+the+purpose+of+Index+of+Service+Production.pdf/20abad53-2ffb-d147-6011-cba2a2e67a39?version=2.0&t=1786443118589&download=true"
+          "link": "https://irdai.gov.in/documents/37343/365525/%E0%A4%B8%E0%A5%87%E0%A4%B5%E0%A4%BE+%E0%A4%89%E0%A4%A4%E0%A5%8D%E0%A4%AA%E0%A4%BE%E0%A4%A6%E0%A4%A8+%E0%A4%95%E0%A5%87+%E0%A4%B8%E0%A5%82%E0%A4%9A%E0%A4%95%E0%A4%BE%E0%A4%82%E0%A4%95+%E0%A4%95%E0%A5%87+%E0%A4%AA%E0%A5%8D%E0%A4%B0%E0%A4%AF%E0%A5%8B%E0%A4%9C%E0%A4%A8+%E0%A4%95%E0%A5%87+%E0%A4%B2%E0%A4%BF%E0%A4%8F+%E0%A4%AE%E0%A4%BE%E0%A4%B8%E0%A4%BF%E0%A4%95+%E0%A4%86%E0%A4%A7%E0%A4%BE%E0%A4%B0+%E0%A4%AA%E0%A4%B0+%E0%A4%AC%E0%A5%80%E0%A4%AE%E0%A4%BE%E0%A4%95%E0%A4%B0%E0%A5%8D%E0%A4%A4%E0%A4%BE%E0%A4%93%E0%A4%82+%E0%A4%95%E0%A5%87+%E0%A4%A6%E0%A5%8D%E0%A4%B5%E0%A4%BE%E0%A4%B0%E0%A4%BE+%E0%A4%B8%E0%A5%82%E0%A4%9A%E0%A4%A8%E0%A4%BE+%E0%A4%95%E0%A4%BE+%E0%A4%AA%E0%A5%8D%E0%A4%B0%E0%A4%B8%E0%A5%8D%E0%A4%A4%E0%A5%81%E0%A4%A4%E0%A5%80%E0%A4%95%E0%A4%B0%E0%A4%A3+_+Submission+of+information+by+insurers+on+monthly+basis+for+the+purpose+of+Index+of+Service+Production.pdf/20abad53-2ffb-d147-6011-cba2a2e67a39?version=2.0&t=1786443118589&download=true",
+          "isNew": false
         },
         {
           "sr": 6,
@@ -20251,7 +20236,8 @@
           "cat": "Circulars",
           "title": "असम के चार ज़िलों को प्रभावित करने वाली प्राकृतिक आपदा के संबंध में परिपत्र _ Circular on natural disaster affecting four districts of Assam.pdf\n\t\t\t\t\t\t\t\t\t\t\t829 KB",
           "desc": "",
-          "link": "https://irdai.gov.in/documents/37343/365525/%E0%A4%85%E0%A4%B8%E0%A4%AE+%E0%A4%95%E0%A5%87+%E0%A4%9A%E0%A4%BE%E0%A4%B0+%E0%A4%9C%E0%A4%BC%E0%A4%BF%E0%A4%B2%E0%A5%8B%E0%A4%82+%E0%A4%95%E0%A5%8B+%E0%A4%AA%E0%A5%8D%E0%A4%B0%E0%A4%AD%E0%A4%BE%E0%A4%B5%E0%A4%BF%E0%A4%A4+%E0%A4%95%E0%A4%B0%E0%A4%A8%E0%A5%87+%E0%A4%B5%E0%A4%BE%E0%A4%B2%E0%A5%80+%E0%A4%AA%E0%A5%8D%E0%A4%B0%E0%A4%BE%E0%A4%95%E0%A5%83%E0%A4%A4%E0%A4%BF%E0%A4%95+%E0%A4%86%E0%A4%AA%E0%A4%A6%E0%A4%BE+%E0%A4%95%E0%A5%87+%E0%A4%B8%E0%A4%82%E0%A4%AC%E0%A4%82%E0%A4%A7+%E0%A4%AE%E0%A5%87%E0%A4%82+%E0%A4%AA%E0%A4%B0%E0%A4%BF%E0%A4%AA%E0%A4%A4%E0%A5%8D%E0%A4%B0+_+Circular+on+natural+disaster+affecting+four+districts+of+Assam.pdf/0264342d-3900-16f7-0e54-1be498c2aeb0?version=1.1&t=1785848026619&download=true"
+          "link": "https://irdai.gov.in/documents/37343/365525/%E0%A4%85%E0%A4%B8%E0%A4%AE+%E0%A4%95%E0%A5%87+%E0%A4%9A%E0%A4%BE%E0%A4%B0+%E0%A4%9C%E0%A4%BC%E0%A4%BF%E0%A4%B2%E0%A5%8B%E0%A4%82+%E0%A4%95%E0%A5%8B+%E0%A4%AA%E0%A5%8D%E0%A4%B0%E0%A4%AD%E0%A4%BE%E0%A4%B5%E0%A4%BF%E0%A4%A4+%E0%A4%95%E0%A4%B0%E0%A4%A8%E0%A5%87+%E0%A4%B5%E0%A4%BE%E0%A4%B2%E0%A5%80+%E0%A4%AA%E0%A5%8D%E0%A4%B0%E0%A4%BE%E0%A4%95%E0%A5%83%E0%A4%A4%E0%A4%BF%E0%A4%95+%E0%A4%86%E0%A4%AA%E0%A4%A6%E0%A4%BE+%E0%A4%95%E0%A5%87+%E0%A4%B8%E0%A4%82%E0%A4%AC%E0%A4%82%E0%A4%A7+%E0%A4%AE%E0%A5%87%E0%A4%82+%E0%A4%AA%E0%A4%B0%E0%A4%BF%E0%A4%AA%E0%A4%A4%E0%A5%8D%E0%A4%B0+_+Circular+on+natural+disaster+affecting+four+districts+of+Assam.pdf/0264342d-3900-16f7-0e54-1be498c2aeb0?version=1.1&t=1785848026619&download=true",
+          "isNew": false
         },
         {
           "sr": 7,
@@ -20260,7 +20246,8 @@
           "cat": "Circulars",
           "title": "बीमा लोकपालों के कार्यालय को स्वतःपूर्ण नोट और संबंधित दस्तावेजों का प्रस्तुतीकरण _ Submission of Self-Contained Note and other related documents to the Office of the Insurance Ombudsmen.pdf\n\t\t\t\t\t\t\t\t\t\t\t241 KB",
           "desc": "",
-          "link": "https://irdai.gov.in/documents/37343/365525/%E0%A4%AC%E0%A5%80%E0%A4%AE%E0%A4%BE+%E0%A4%B2%E0%A5%8B%E0%A4%95%E0%A4%AA%E0%A4%BE%E0%A4%B2%E0%A5%8B%E0%A4%82+%E0%A4%95%E0%A5%87+%E0%A4%95%E0%A4%BE%E0%A4%B0%E0%A5%8D%E0%A4%AF%E0%A4%BE%E0%A4%B2%E0%A4%AF+%E0%A4%95%E0%A5%8B+%E0%A4%B8%E0%A5%8D%E0%A4%B5%E0%A4%A4%E0%A4%83%E0%A4%AA%E0%A5%82%E0%A4%B0%E0%A5%8D%E0%A4%A3+%E0%A4%A8%E0%A5%8B%E0%A4%9F+%E0%A4%94%E0%A4%B0+%E0%A4%B8%E0%A4%82%E0%A4%AC%E0%A4%82%E0%A4%A7%E0%A4%BF%E0%A4%A4+%E0%A4%A6%E0%A4%B8%E0%A5%8D%E0%A4%A4%E0%A4%BE%E0%A4%B5%E0%A5%87%E0%A4%9C%E0%A5%8B%E0%A4%82+%E0%A4%95%E0%A4%BE+%E0%A4%AA%E0%A5%8D%E0%A4%B0%E0%A4%B8%E0%A5%8D%E0%A4%A4%E0%A5%81%E0%A4%A4%E0%A5%80%E0%A4%95%E0%A4%B0%E0%A4%A3+_+Submission+of+Self-Contained+Note+and+other+related+documents+to+the+Office+of+the+Insurance+Ombudsmen.pdf/5b3409ab-4802-666e-e3db-d1990bfb370b?version=1.0&t=1784874677670&download=true"
+          "link": "https://irdai.gov.in/documents/37343/365525/%E0%A4%AC%E0%A5%80%E0%A4%AE%E0%A4%BE+%E0%A4%B2%E0%A5%8B%E0%A4%95%E0%A4%AA%E0%A4%BE%E0%A4%B2%E0%A5%8B%E0%A4%82+%E0%A4%95%E0%A5%87+%E0%A4%95%E0%A4%BE%E0%A4%B0%E0%A5%8D%E0%A4%AF%E0%A4%BE%E0%A4%B2%E0%A4%AF+%E0%A4%95%E0%A5%8B+%E0%A4%B8%E0%A5%8D%E0%A4%B5%E0%A4%A4%E0%A4%83%E0%A4%AA%E0%A5%82%E0%A4%B0%E0%A5%8D%E0%A4%A3+%E0%A4%A8%E0%A5%8B%E0%A4%9F+%E0%A4%94%E0%A4%B0+%E0%A4%B8%E0%A4%82%E0%A4%AC%E0%A4%82%E0%A4%A7%E0%A4%BF%E0%A4%A4+%E0%A4%A6%E0%A4%B8%E0%A5%8D%E0%A4%A4%E0%A4%BE%E0%A4%B5%E0%A5%87%E0%A4%9C%E0%A5%8B%E0%A4%82+%E0%A4%95%E0%A4%BE+%E0%A4%AA%E0%A5%8D%E0%A4%B0%E0%A4%B8%E0%A5%8D%E0%A4%A4%E0%A5%81%E0%A4%A4%E0%A5%80%E0%A4%95%E0%A4%B0%E0%A4%A3+_+Submission+of+Self-Contained+Note+and+other+related+documents+to+the+Office+of+the+Insurance+Ombudsmen.pdf/5b3409ab-4802-666e-e3db-d1990bfb370b?version=1.0&t=1784874677670&download=true",
+          "isNew": false
         },
         {
           "sr": 8,
@@ -20269,7 +20256,8 @@
           "cat": "Circulars",
           "title": "भारतीय लेखांकन मानकों के कार्यान्वयन संबंधी स्पष्टीकरण _ Clarifications on implementation of Indian Accounting Standards.pdf\n\t\t\t\t\t\t\t\t\t\t\t342 KB",
           "desc": "",
-          "link": "https://irdai.gov.in/documents/37343/365525/%E0%A4%AD%E0%A4%BE%E0%A4%B0%E0%A4%A4%E0%A5%80%E0%A4%AF+%E0%A4%B2%E0%A5%87%E0%A4%96%E0%A4%BE%E0%A4%82%E0%A4%95%E0%A4%A8+%E0%A4%AE%E0%A4%BE%E0%A4%A8%E0%A4%95%E0%A5%8B%E0%A4%82+%E0%A4%95%E0%A5%87+%E0%A4%95%E0%A4%BE%E0%A4%B0%E0%A5%8D%E0%A4%AF%E0%A4%BE%E0%A4%A8%E0%A5%8D%E0%A4%B5%E0%A4%AF%E0%A4%A8+%E0%A4%B8%E0%A4%82%E0%A4%AC%E0%A4%82%E0%A4%A7%E0%A5%80+%E0%A4%B8%E0%A5%8D%E0%A4%AA%E0%A4%B7%E0%A5%8D%E0%A4%9F%E0%A5%80%E0%A4%95%E0%A4%B0%E0%A4%A3+_+Clarifications+on+implementation+of+Indian+Accounting+Standards.pdf/d7e15821-ed60-d8a7-1794-6f6f2d4d2c39?version=4.0&t=1786622562631&download=true"
+          "link": "https://irdai.gov.in/documents/37343/365525/%E0%A4%AD%E0%A4%BE%E0%A4%B0%E0%A4%A4%E0%A5%80%E0%A4%AF+%E0%A4%B2%E0%A5%87%E0%A4%96%E0%A4%BE%E0%A4%82%E0%A4%95%E0%A4%A8+%E0%A4%AE%E0%A4%BE%E0%A4%A8%E0%A4%95%E0%A5%8B%E0%A4%82+%E0%A4%95%E0%A5%87+%E0%A4%95%E0%A4%BE%E0%A4%B0%E0%A5%8D%E0%A4%AF%E0%A4%BE%E0%A4%A8%E0%A5%8D%E0%A4%B5%E0%A4%AF%E0%A4%A8+%E0%A4%B8%E0%A4%82%E0%A4%AC%E0%A4%82%E0%A4%A7%E0%A5%80+%E0%A4%B8%E0%A5%8D%E0%A4%AA%E0%A4%B7%E0%A5%8D%E0%A4%9F%E0%A5%80%E0%A4%95%E0%A4%B0%E0%A4%A3+_+Clarifications+on+implementation+of+Indian+Accounting+Standards.pdf/d7e15821-ed60-d8a7-1794-6f6f2d4d2c39?version=4.0&t=1786622562631&download=true",
+          "isNew": false
         },
         {
           "sr": 9,
@@ -20278,7 +20266,8 @@
           "cat": "Circulars",
           "title": "सेबी(सूचीबद्धता दायित्व और प्रकटीकरण अपेक्षाएँ)विनियम,2015(एलओडीआर विनियम,2015) के अंतर्गत अपेक्षित रूप में वित्तीय परिणाम प्रकाशित करने हेतु फार्मेट_Formats for publishing financial results as reqd under the SEBI(Listing Obligations and Disclosure Re.pdf\n\t\t\t\t\t\t\t\t\t\t\t214 KB",
           "desc": "",
-          "link": "https://irdai.gov.in/documents/37343/365525/%E0%A4%B8%E0%A5%87%E0%A4%AC%E0%A5%80%28%E0%A4%B8%E0%A5%82%E0%A4%9A%E0%A5%80%E0%A4%AC%E0%A4%A6%E0%A5%8D%E0%A4%A7%E0%A4%A4%E0%A4%BE+%E0%A4%A6%E0%A4%BE%E0%A4%AF%E0%A4%BF%E0%A4%A4%E0%A5%8D%E0%A4%B5+%E0%A4%94%E0%A4%B0+%E0%A4%AA%E0%A5%8D%E0%A4%B0%E0%A4%95%E0%A4%9F%E0%A5%80%E0%A4%95%E0%A4%B0%E0%A4%A3+%E0%A4%85%E0%A4%AA%E0%A5%87%E0%A4%95%E0%A5%8D%E0%A4%B7%E0%A4%BE%E0%A4%8F%E0%A4%81%29%E0%A4%B5%E0%A4%BF%E0%A4%A8%E0%A4%BF%E0%A4%AF%E0%A4%AE%2C2015%28%E0%A4%8F%E0%A4%B2%E0%A4%93%E0%A4%A1%E0%A5%80%E0%A4%86%E0%A4%B0+%E0%A4%B5%E0%A4%BF%E0%A4%A8%E0%A4%BF%E0%A4%AF%E0%A4%AE%2C2015%29+%E0%A4%95%E0%A5%87+%E0%A4%85%E0%A4%82%E0%A4%A4%E0%A4%B0%E0%A5%8D%E0%A4%97%E0%A4%A4+%E0%A4%85%E0%A4%AA%E0%A5%87%E0%A4%95%E0%A5%8D%E0%A4%B7%E0%A4%BF%E0%A4%A4+%E0%A4%B0%E0%A5%82%E0%A4%AA+%E0%A4%AE%E0%A5%87%E0%A4%82+%E0%A4%B5%E0%A4%BF%E0%A4%A4%E0%A5%8D%E0%A4%A4%E0%A5%80%E0%A4%AF+%E0%A4%AA%E0%A4%B0%E0%A4%BF%E0%A4%A3%E0%A4%BE%E0%A4%AE+%E0%A4%AA%E0%A5%8D%E0%A4%B0%E0%A4%95%E0%A4%BE%E0%A4%B6%E0%A4%BF%E0%A4%A4+%E0%A4%95%E0%A4%B0%E0%A4%A8%E0%A5%87+%E0%A4%B9%E0%A5%87%E0%A4%A4%E0%A5%81+%E0%A4%AB%E0%A4%BE%E0%A4%B0%E0%A5%8D%E0%A4%AE%E0%A5%87%E0%A4%9F_Formats+for+publishing+financial+results+as+reqd+under+the+SEBI%28Listing+Obligations+and+Disclosure+Re.pdf/a33b69e4-a508-9944-f517-d11eea780aed?version=2.0&t=1783688032525&download=true"
+          "link": "https://irdai.gov.in/documents/37343/365525/%E0%A4%B8%E0%A5%87%E0%A4%AC%E0%A5%80%28%E0%A4%B8%E0%A5%82%E0%A4%9A%E0%A5%80%E0%A4%AC%E0%A4%A6%E0%A5%8D%E0%A4%A7%E0%A4%A4%E0%A4%BE+%E0%A4%A6%E0%A4%BE%E0%A4%AF%E0%A4%BF%E0%A4%A4%E0%A5%8D%E0%A4%B5+%E0%A4%94%E0%A4%B0+%E0%A4%AA%E0%A5%8D%E0%A4%B0%E0%A4%95%E0%A4%9F%E0%A5%80%E0%A4%95%E0%A4%B0%E0%A4%A3+%E0%A4%85%E0%A4%AA%E0%A5%87%E0%A4%95%E0%A5%8D%E0%A4%B7%E0%A4%BE%E0%A4%8F%E0%A4%81%29%E0%A4%B5%E0%A4%BF%E0%A4%A8%E0%A4%BF%E0%A4%AF%E0%A4%AE%2C2015%28%E0%A4%8F%E0%A4%B2%E0%A4%93%E0%A4%A1%E0%A5%80%E0%A4%86%E0%A4%B0+%E0%A4%B5%E0%A4%BF%E0%A4%A8%E0%A4%BF%E0%A4%AF%E0%A4%AE%2C2015%29+%E0%A4%95%E0%A5%87+%E0%A4%85%E0%A4%82%E0%A4%A4%E0%A4%B0%E0%A5%8D%E0%A4%97%E0%A4%A4+%E0%A4%85%E0%A4%AA%E0%A5%87%E0%A4%95%E0%A5%8D%E0%A4%B7%E0%A4%BF%E0%A4%A4+%E0%A4%B0%E0%A5%82%E0%A4%AA+%E0%A4%AE%E0%A5%87%E0%A4%82+%E0%A4%B5%E0%A4%BF%E0%A4%A4%E0%A5%8D%E0%A4%A4%E0%A5%80%E0%A4%AF+%E0%A4%AA%E0%A4%B0%E0%A4%BF%E0%A4%A3%E0%A4%BE%E0%A4%AE+%E0%A4%AA%E0%A5%8D%E0%A4%B0%E0%A4%95%E0%A4%BE%E0%A4%B6%E0%A4%BF%E0%A4%A4+%E0%A4%95%E0%A4%B0%E0%A4%A8%E0%A5%87+%E0%A4%B9%E0%A5%87%E0%A4%A4%E0%A5%81+%E0%A4%AB%E0%A4%BE%E0%A4%B0%E0%A5%8D%E0%A4%AE%E0%A5%87%E0%A4%9F_Formats+for+publishing+financial+results+as+reqd+under+the+SEBI%28Listing+Obligations+and+Disclosure+Re.pdf/a33b69e4-a508-9944-f517-d11eea780aed?version=2.0&t=1783688032525&download=true",
+          "isNew": false
         },
         {
           "sr": 10,
@@ -20287,7 +20276,8 @@
           "cat": "Circulars",
           "title": "वार्षिक शुल्क के भुगतान और पंजीकरण प्रमाणपत्र के निर्गमन के लिए परिवर्ती व्यवस्था का विस्तार _ Extension of Transitional Arrangements for Payment of Annual Fee and Issuance of Certificate of Registration.pdf\n\t\t\t\t\t\t\t\t\t\t\t176 KB",
           "desc": "",
-          "link": "https://irdai.gov.in/documents/37343/365525/%E0%A4%B5%E0%A4%BE%E0%A4%B0%E0%A5%8D%E0%A4%B7%E0%A4%BF%E0%A4%95+%E0%A4%B6%E0%A5%81%E0%A4%B2%E0%A5%8D%E0%A4%95+%E0%A4%95%E0%A5%87+%E0%A4%AD%E0%A5%81%E0%A4%97%E0%A4%A4%E0%A4%BE%E0%A4%A8+%E0%A4%94%E0%A4%B0+%E0%A4%AA%E0%A4%82%E0%A4%9C%E0%A5%80%E0%A4%95%E0%A4%B0%E0%A4%A3+%E0%A4%AA%E0%A5%8D%E0%A4%B0%E0%A4%AE%E0%A4%BE%E0%A4%A3%E0%A4%AA%E0%A4%A4%E0%A5%8D%E0%A4%B0+%E0%A4%95%E0%A5%87+%E0%A4%A8%E0%A4%BF%E0%A4%B0%E0%A5%8D%E0%A4%97%E0%A4%AE%E0%A4%A8+%E0%A4%95%E0%A5%87+%E0%A4%B2%E0%A4%BF%E0%A4%8F+%E0%A4%AA%E0%A4%B0%E0%A4%BF%E0%A4%B5%E0%A4%B0%E0%A5%8D%E0%A4%A4%E0%A5%80+%E0%A4%B5%E0%A5%8D%E0%A4%AF%E0%A4%B5%E0%A4%B8%E0%A5%8D%E0%A4%A5%E0%A4%BE+%E0%A4%95%E0%A4%BE+%E0%A4%B5%E0%A4%BF%E0%A4%B8%E0%A5%8D%E0%A4%A4%E0%A4%BE%E0%A4%B0+_+Extension+of+Transitional+Arrangements+for+Payment+of+Annual+Fee+and+Issuance+of+Certificate+of+Registration.pdf/dcbdf531-a720-34ef-544a-31a52d5d7a7b?version=1.0&t=1782992160826&download=true"
+          "link": "https://irdai.gov.in/documents/37343/365525/%E0%A4%B5%E0%A4%BE%E0%A4%B0%E0%A5%8D%E0%A4%B7%E0%A4%BF%E0%A4%95+%E0%A4%B6%E0%A5%81%E0%A4%B2%E0%A5%8D%E0%A4%95+%E0%A4%95%E0%A5%87+%E0%A4%AD%E0%A5%81%E0%A4%97%E0%A4%A4%E0%A4%BE%E0%A4%A8+%E0%A4%94%E0%A4%B0+%E0%A4%AA%E0%A4%82%E0%A4%9C%E0%A5%80%E0%A4%95%E0%A4%B0%E0%A4%A3+%E0%A4%AA%E0%A5%8D%E0%A4%B0%E0%A4%AE%E0%A4%BE%E0%A4%A3%E0%A4%AA%E0%A4%A4%E0%A5%8D%E0%A4%B0+%E0%A4%95%E0%A5%87+%E0%A4%A8%E0%A4%BF%E0%A4%B0%E0%A5%8D%E0%A4%97%E0%A4%AE%E0%A4%A8+%E0%A4%95%E0%A5%87+%E0%A4%B2%E0%A4%BF%E0%A4%8F+%E0%A4%AA%E0%A4%B0%E0%A4%BF%E0%A4%B5%E0%A4%B0%E0%A5%8D%E0%A4%A4%E0%A5%80+%E0%A4%B5%E0%A5%8D%E0%A4%AF%E0%A4%B5%E0%A4%B8%E0%A5%8D%E0%A4%A5%E0%A4%BE+%E0%A4%95%E0%A4%BE+%E0%A4%B5%E0%A4%BF%E0%A4%B8%E0%A5%8D%E0%A4%A4%E0%A4%BE%E0%A4%B0+_+Extension+of+Transitional+Arrangements+for+Payment+of+Annual+Fee+and+Issuance+of+Certificate+of+Registration.pdf/dcbdf531-a720-34ef-544a-31a52d5d7a7b?version=1.0&t=1782992160826&download=true",
+          "isNew": false
         },
         {
           "sr": 11,
@@ -20296,7 +20286,8 @@
           "cat": "Circulars",
           "title": "प्रबंधन के प्रमुख व्यक्तियों (केएमपीएस) को पारिश्रमिक _ Remuneration to Key Management Persons (KMPs).pdf\n\t\t\t\t\t\t\t\t\t\t\t460 KB",
           "desc": "",
-          "link": "https://irdai.gov.in/documents/37343/365525/%E0%A4%AA%E0%A5%8D%E0%A4%B0%E0%A4%AC%E0%A4%82%E0%A4%A7%E0%A4%A8+%E0%A4%95%E0%A5%87+%E0%A4%AA%E0%A5%8D%E0%A4%B0%E0%A4%AE%E0%A5%81%E0%A4%96+%E0%A4%B5%E0%A5%8D%E0%A4%AF%E0%A4%95%E0%A5%8D%E0%A4%A4%E0%A4%BF%E0%A4%AF%E0%A5%8B%E0%A4%82+%28%E0%A4%95%E0%A5%87%E0%A4%8F%E0%A4%AE%E0%A4%AA%E0%A5%80%E0%A4%8F%E0%A4%B8%29+%E0%A4%95%E0%A5%8B+%E0%A4%AA%E0%A4%BE%E0%A4%B0%E0%A4%BF%E0%A4%B6%E0%A5%8D%E0%A4%B0%E0%A4%AE%E0%A4%BF%E0%A4%95+_+Remuneration+to+Key+Management+Persons+%28KMPs%29.pdf/9d5a30f4-538e-e7fa-c1ba-7e9f01ebdf27?version=3.0&t=1779887395196&download=true"
+          "link": "https://irdai.gov.in/documents/37343/365525/%E0%A4%AA%E0%A5%8D%E0%A4%B0%E0%A4%AC%E0%A4%82%E0%A4%A7%E0%A4%A8+%E0%A4%95%E0%A5%87+%E0%A4%AA%E0%A5%8D%E0%A4%B0%E0%A4%AE%E0%A5%81%E0%A4%96+%E0%A4%B5%E0%A5%8D%E0%A4%AF%E0%A4%95%E0%A5%8D%E0%A4%A4%E0%A4%BF%E0%A4%AF%E0%A5%8B%E0%A4%82+%28%E0%A4%95%E0%A5%87%E0%A4%8F%E0%A4%AE%E0%A4%AA%E0%A5%80%E0%A4%8F%E0%A4%B8%29+%E0%A4%95%E0%A5%8B+%E0%A4%AA%E0%A4%BE%E0%A4%B0%E0%A4%BF%E0%A4%B6%E0%A5%8D%E0%A4%B0%E0%A4%AE%E0%A4%BF%E0%A4%95+_+Remuneration+to+Key+Management+Persons+%28KMPs%29.pdf/9d5a30f4-538e-e7fa-c1ba-7e9f01ebdf27?version=3.0&t=1779887395196&download=true",
+          "isNew": false
         },
         {
           "sr": 12,
@@ -20305,7 +20296,8 @@
           "cat": "Circulars",
           "title": "परिपत्र - सर्वेक्षकों और हानि निर्धारकों के लिए वार्षिक शुल्क भुगतान संबंधी स्पष्टीकरण _ Circular - Surveyors and Loss Assessors clarification regarding payment of Annual Fees.pdf\n\t\t\t\t\t\t\t\t\t\t\t607 KB",
           "desc": "",
-          "link": "https://irdai.gov.in/documents/37343/365525/%E0%A4%AA%E0%A4%B0%E0%A4%BF%E0%A4%AA%E0%A4%A4%E0%A5%8D%E0%A4%B0+-+%E0%A4%B8%E0%A4%B0%E0%A5%8D%E0%A4%B5%E0%A5%87%E0%A4%95%E0%A5%8D%E0%A4%B7%E0%A4%95%E0%A5%8B%E0%A4%82+%E0%A4%94%E0%A4%B0+%E0%A4%B9%E0%A4%BE%E0%A4%A8%E0%A4%BF+%E0%A4%A8%E0%A4%BF%E0%A4%B0%E0%A5%8D%E0%A4%A7%E0%A4%BE%E0%A4%B0%E0%A4%95%E0%A5%8B%E0%A4%82+%E0%A4%95%E0%A5%87+%E0%A4%B2%E0%A4%BF%E0%A4%8F+%E0%A4%B5%E0%A4%BE%E0%A4%B0%E0%A5%8D%E0%A4%B7%E0%A4%BF%E0%A4%95+%E0%A4%B6%E0%A5%81%E0%A4%B2%E0%A5%8D%E0%A4%95+%E0%A4%AD%E0%A5%81%E0%A4%97%E0%A4%A4%E0%A4%BE%E0%A4%A8+%E0%A4%B8%E0%A4%82%E0%A4%AC%E0%A4%82%E0%A4%A7%E0%A5%80+%E0%A4%B8%E0%A5%8D%E0%A4%AA%E0%A4%B7%E0%A5%8D%E0%A4%9F%E0%A5%80%E0%A4%95%E0%A4%B0%E0%A4%A3+_+Circular+-+Surveyors+and+Loss+Assessors+clarification+regarding+payment+of+Annual+Fees.pdf/8b47078c-d4e8-9a3d-0ead-e4f0a515ea4f?version=1.0&t=1775642573794&download=true"
+          "link": "https://irdai.gov.in/documents/37343/365525/%E0%A4%AA%E0%A4%B0%E0%A4%BF%E0%A4%AA%E0%A4%A4%E0%A5%8D%E0%A4%B0+-+%E0%A4%B8%E0%A4%B0%E0%A5%8D%E0%A4%B5%E0%A5%87%E0%A4%95%E0%A5%8D%E0%A4%B7%E0%A4%95%E0%A5%8B%E0%A4%82+%E0%A4%94%E0%A4%B0+%E0%A4%B9%E0%A4%BE%E0%A4%A8%E0%A4%BF+%E0%A4%A8%E0%A4%BF%E0%A4%B0%E0%A5%8D%E0%A4%A7%E0%A4%BE%E0%A4%B0%E0%A4%95%E0%A5%8B%E0%A4%82+%E0%A4%95%E0%A5%87+%E0%A4%B2%E0%A4%BF%E0%A4%8F+%E0%A4%B5%E0%A4%BE%E0%A4%B0%E0%A5%8D%E0%A4%B7%E0%A4%BF%E0%A4%95+%E0%A4%B6%E0%A5%81%E0%A4%B2%E0%A5%8D%E0%A4%95+%E0%A4%AD%E0%A5%81%E0%A4%97%E0%A4%A4%E0%A4%BE%E0%A4%A8+%E0%A4%B8%E0%A4%82%E0%A4%AC%E0%A4%82%E0%A4%A7%E0%A5%80+%E0%A4%B8%E0%A5%8D%E0%A4%AA%E0%A4%B7%E0%A5%8D%E0%A4%9F%E0%A5%80%E0%A4%95%E0%A4%B0%E0%A4%A3+_+Circular+-+Surveyors+and+Loss+Assessors+clarification+regarding+payment+of+Annual+Fees.pdf/8b47078c-d4e8-9a3d-0ead-e4f0a515ea4f?version=1.0&t=1775642573794&download=true",
+          "isNew": false
         },
         {
           "sr": 13,
@@ -20314,7 +20306,8 @@
           "cat": "Circulars",
           "title": "भारतीय लेखांकन मानकों (इंड एएस) के कार्यान्वयन संबंधी स्पष्टीकरण _ Clarifications on implementation of Indian Accounting Standards (Ind AS).pdf\n\t\t\t\t\t\t\t\t\t\t\t301 KB",
           "desc": "",
-          "link": "https://irdai.gov.in/documents/37343/365525/%E0%A4%AD%E0%A4%BE%E0%A4%B0%E0%A4%A4%E0%A5%80%E0%A4%AF+%E0%A4%B2%E0%A5%87%E0%A4%96%E0%A4%BE%E0%A4%82%E0%A4%95%E0%A4%A8+%E0%A4%AE%E0%A4%BE%E0%A4%A8%E0%A4%95%E0%A5%8B%E0%A4%82+%28%E0%A4%87%E0%A4%82%E0%A4%A1+%E0%A4%8F%E0%A4%8F%E0%A4%B8%29+%E0%A4%95%E0%A5%87+%E0%A4%95%E0%A4%BE%E0%A4%B0%E0%A5%8D%E0%A4%AF%E0%A4%BE%E0%A4%A8%E0%A5%8D%E0%A4%B5%E0%A4%AF%E0%A4%A8+%E0%A4%B8%E0%A4%82%E0%A4%AC%E0%A4%82%E0%A4%A7%E0%A5%80+%E0%A4%B8%E0%A5%8D%E0%A4%AA%E0%A4%B7%E0%A5%8D%E0%A4%9F%E0%A5%80%E0%A4%95%E0%A4%B0%E0%A4%A3+_+Clarifications+on+implementation+of+Indian+Accounting+Standards+%28Ind+AS%29.pdf/75505922-46a0-cd6a-efc2-00b38d38f49c?version=3.0&t=1775558439491&download=true"
+          "link": "https://irdai.gov.in/documents/37343/365525/%E0%A4%AD%E0%A4%BE%E0%A4%B0%E0%A4%A4%E0%A5%80%E0%A4%AF+%E0%A4%B2%E0%A5%87%E0%A4%96%E0%A4%BE%E0%A4%82%E0%A4%95%E0%A4%A8+%E0%A4%AE%E0%A4%BE%E0%A4%A8%E0%A4%95%E0%A5%8B%E0%A4%82+%28%E0%A4%87%E0%A4%82%E0%A4%A1+%E0%A4%8F%E0%A4%8F%E0%A4%B8%29+%E0%A4%95%E0%A5%87+%E0%A4%95%E0%A4%BE%E0%A4%B0%E0%A5%8D%E0%A4%AF%E0%A4%BE%E0%A4%A8%E0%A5%8D%E0%A4%B5%E0%A4%AF%E0%A4%A8+%E0%A4%B8%E0%A4%82%E0%A4%AC%E0%A4%82%E0%A4%A7%E0%A5%80+%E0%A4%B8%E0%A5%8D%E0%A4%AA%E0%A4%B7%E0%A5%8D%E0%A4%9F%E0%A5%80%E0%A4%95%E0%A4%B0%E0%A4%A3+_+Clarifications+on+implementation+of+Indian+Accounting+Standards+%28Ind+AS%29.pdf/75505922-46a0-cd6a-efc2-00b38d38f49c?version=3.0&t=1775558439491&download=true",
+          "isNew": false
         },
         {
           "sr": 14,
@@ -20323,7 +20316,8 @@
           "cat": "Circulars",
           "title": "पॉलिसीधारकों को सेवाएं प्रदान करने हेतु- चालू वित्तीय वर्ष 2025-26 के लिए विशेष उपाय _ Servicing to the policyholders – Special Measure for the current Financial Year 2025-26.pdf\n\t\t\t\t\t\t\t\t\t\t\t182 KB",
           "desc": "",
-          "link": "https://irdai.gov.in/documents/37343/365525/%E0%A4%AA%E0%A5%89%E0%A4%B2%E0%A4%BF%E0%A4%B8%E0%A5%80%E0%A4%A7%E0%A4%BE%E0%A4%B0%E0%A4%95%E0%A5%8B%E0%A4%82+%E0%A4%95%E0%A5%8B+%E0%A4%B8%E0%A5%87%E0%A4%B5%E0%A4%BE%E0%A4%8F%E0%A4%82+%E0%A4%AA%E0%A5%8D%E0%A4%B0%E0%A4%A6%E0%A4%BE%E0%A4%A8+%E0%A4%95%E0%A4%B0%E0%A4%A8%E0%A5%87+%E0%A4%B9%E0%A5%87%E0%A4%A4%E0%A5%81-+%E0%A4%9A%E0%A4%BE%E0%A4%B2%E0%A5%82+%E0%A4%B5%E0%A4%BF%E0%A4%A4%E0%A5%8D%E0%A4%A4%E0%A5%80%E0%A4%AF+%E0%A4%B5%E0%A4%B0%E0%A5%8D%E0%A4%B7+2025-26+%E0%A4%95%E0%A5%87+%E0%A4%B2%E0%A4%BF%E0%A4%8F+%E0%A4%B5%E0%A4%BF%E0%A4%B6%E0%A5%87%E0%A4%B7+%E0%A4%89%E0%A4%AA%E0%A4%BE%E0%A4%AF+_+Servicing+to+the+policyholders+%E2%80%93+Special+Measure+for+the+current+Financial+Year+2025-26.pdf/a20f0d9f-d9b2-757f-8d12-30b5d1a845c1?version=1.0&t=1774444019239&download=true"
+          "link": "https://irdai.gov.in/documents/37343/365525/%E0%A4%AA%E0%A5%89%E0%A4%B2%E0%A4%BF%E0%A4%B8%E0%A5%80%E0%A4%A7%E0%A4%BE%E0%A4%B0%E0%A4%95%E0%A5%8B%E0%A4%82+%E0%A4%95%E0%A5%8B+%E0%A4%B8%E0%A5%87%E0%A4%B5%E0%A4%BE%E0%A4%8F%E0%A4%82+%E0%A4%AA%E0%A5%8D%E0%A4%B0%E0%A4%A6%E0%A4%BE%E0%A4%A8+%E0%A4%95%E0%A4%B0%E0%A4%A8%E0%A5%87+%E0%A4%B9%E0%A5%87%E0%A4%A4%E0%A5%81-+%E0%A4%9A%E0%A4%BE%E0%A4%B2%E0%A5%82+%E0%A4%B5%E0%A4%BF%E0%A4%A4%E0%A5%8D%E0%A4%A4%E0%A5%80%E0%A4%AF+%E0%A4%B5%E0%A4%B0%E0%A5%8D%E0%A4%B7+2025-26+%E0%A4%95%E0%A5%87+%E0%A4%B2%E0%A4%BF%E0%A4%8F+%E0%A4%B5%E0%A4%BF%E0%A4%B6%E0%A5%87%E0%A4%B7+%E0%A4%89%E0%A4%AA%E0%A4%BE%E0%A4%AF+_+Servicing+to+the+policyholders+%E2%80%93+Special+Measure+for+the+current+Financial+Year+2025-26.pdf/a20f0d9f-d9b2-757f-8d12-30b5d1a845c1?version=1.0&t=1774444019239&download=true",
+          "isNew": false
         },
         {
           "sr": 15,
@@ -20332,7 +20326,8 @@
           "cat": "Circulars",
           "title": "वार्षिक शुल्क के भुगतान और पंजीकरण प्रमाणपत्र के निर्गम के लिए परिवर्ती व्यवस्थाएँ (मध्यवर्तियों) _ Transitional arrangements for payment of Annual Fee and issuance  of  Certificate  of  Registration (Intermediaries).pdf\n\t\t\t\t\t\t\t\t\t\t\t267 KB",
           "desc": "",
-          "link": "https://irdai.gov.in/documents/37343/365525/%E0%A4%B5%E0%A4%BE%E0%A4%B0%E0%A5%8D%E0%A4%B7%E0%A4%BF%E0%A4%95+%E0%A4%B6%E0%A5%81%E0%A4%B2%E0%A5%8D%E0%A4%95+%E0%A4%95%E0%A5%87+%E0%A4%AD%E0%A5%81%E0%A4%97%E0%A4%A4%E0%A4%BE%E0%A4%A8+%E0%A4%94%E0%A4%B0+%E0%A4%AA%E0%A4%82%E0%A4%9C%E0%A5%80%E0%A4%95%E0%A4%B0%E0%A4%A3+%E0%A4%AA%E0%A5%8D%E0%A4%B0%E0%A4%AE%E0%A4%BE%E0%A4%A3%E0%A4%AA%E0%A4%A4%E0%A5%8D%E0%A4%B0+%E0%A4%95%E0%A5%87+%E0%A4%A8%E0%A4%BF%E0%A4%B0%E0%A5%8D%E0%A4%97%E0%A4%AE+%E0%A4%95%E0%A5%87+%E0%A4%B2%E0%A4%BF%E0%A4%8F+%E0%A4%AA%E0%A4%B0%E0%A4%BF%E0%A4%B5%E0%A4%B0%E0%A5%8D%E0%A4%A4%E0%A5%80+%E0%A4%B5%E0%A5%8D%E0%A4%AF%E0%A4%B5%E0%A4%B8%E0%A5%8D%E0%A4%A5%E0%A4%BE%E0%A4%8F%E0%A4%81+%28%E0%A4%AE%E0%A4%A7%E0%A5%8D%E0%A4%AF%E0%A4%B5%E0%A4%B0%E0%A5%8D%E0%A4%A4%E0%A4%BF%E0%A4%AF%E0%A5%8B%E0%A4%82%29+_+Transitional+arrangements+for+payment+of+Annual+Fee+and+issuance++of++Certificate++of++Registration+%28Intermediaries%29.pdf/840b8111-53f2-566b-e1ce-e2d5a6b961aa?version=2.0&t=1774597157001&download=true"
+          "link": "https://irdai.gov.in/documents/37343/365525/%E0%A4%B5%E0%A4%BE%E0%A4%B0%E0%A5%8D%E0%A4%B7%E0%A4%BF%E0%A4%95+%E0%A4%B6%E0%A5%81%E0%A4%B2%E0%A5%8D%E0%A4%95+%E0%A4%95%E0%A5%87+%E0%A4%AD%E0%A5%81%E0%A4%97%E0%A4%A4%E0%A4%BE%E0%A4%A8+%E0%A4%94%E0%A4%B0+%E0%A4%AA%E0%A4%82%E0%A4%9C%E0%A5%80%E0%A4%95%E0%A4%B0%E0%A4%A3+%E0%A4%AA%E0%A5%8D%E0%A4%B0%E0%A4%AE%E0%A4%BE%E0%A4%A3%E0%A4%AA%E0%A4%A4%E0%A5%8D%E0%A4%B0+%E0%A4%95%E0%A5%87+%E0%A4%A8%E0%A4%BF%E0%A4%B0%E0%A5%8D%E0%A4%97%E0%A4%AE+%E0%A4%95%E0%A5%87+%E0%A4%B2%E0%A4%BF%E0%A4%8F+%E0%A4%AA%E0%A4%B0%E0%A4%BF%E0%A4%B5%E0%A4%B0%E0%A5%8D%E0%A4%A4%E0%A5%80+%E0%A4%B5%E0%A5%8D%E0%A4%AF%E0%A4%B5%E0%A4%B8%E0%A5%8D%E0%A4%A5%E0%A4%BE%E0%A4%8F%E0%A4%81+%28%E0%A4%AE%E0%A4%A7%E0%A5%8D%E0%A4%AF%E0%A4%B5%E0%A4%B0%E0%A5%8D%E0%A4%A4%E0%A4%BF%E0%A4%AF%E0%A5%8B%E0%A4%82%29+_+Transitional+arrangements+for+payment+of+Annual+Fee+and+issuance++of++Certificate++of++Registration+%28Intermediaries%29.pdf/840b8111-53f2-566b-e1ce-e2d5a6b961aa?version=2.0&t=1774597157001&download=true",
+          "isNew": false
         },
         {
           "sr": 16,
@@ -20341,7 +20336,8 @@
           "cat": "Circulars",
           "title": "वैकल्पिक निवेश निधियों (एआईएफएस) में निवेश के संबंध में उपबंधों संबंधी स्पष्टीकरण _ Clarifications on provisions with respect to investment in Alternative Investment Funds(AIFs).pdf\n\t\t\t\t\t\t\t\t\t\t\t393 KB",
           "desc": "",
-          "link": "https://irdai.gov.in/documents/37343/365525/%E0%A4%B5%E0%A5%88%E0%A4%95%E0%A4%B2%E0%A5%8D%E0%A4%AA%E0%A4%BF%E0%A4%95+%E0%A4%A8%E0%A4%BF%E0%A4%B5%E0%A5%87%E0%A4%B6+%E0%A4%A8%E0%A4%BF%E0%A4%A7%E0%A4%BF%E0%A4%AF%E0%A5%8B%E0%A4%82+%28%E0%A4%8F%E0%A4%86%E0%A4%88%E0%A4%8F%E0%A4%AB%E0%A4%8F%E0%A4%B8%29+%E0%A4%AE%E0%A5%87%E0%A4%82+%E0%A4%A8%E0%A4%BF%E0%A4%B5%E0%A5%87%E0%A4%B6+%E0%A4%95%E0%A5%87+%E0%A4%B8%E0%A4%82%E0%A4%AC%E0%A4%82%E0%A4%A7+%E0%A4%AE%E0%A5%87%E0%A4%82+%E0%A4%89%E0%A4%AA%E0%A4%AC%E0%A4%82%E0%A4%A7%E0%A5%8B%E0%A4%82+%E0%A4%B8%E0%A4%82%E0%A4%AC%E0%A4%82%E0%A4%A7%E0%A5%80+%E0%A4%B8%E0%A5%8D%E0%A4%AA%E0%A4%B7%E0%A5%8D%E0%A4%9F%E0%A5%80%E0%A4%95%E0%A4%B0%E0%A4%A3+_+Clarifications+on+provisions+with+respect+to+investment+in+Alternative+Investment+Funds%28AIFs%29.pdf/f7d75129-66cd-99d4-2cc5-3bb4fe1f4ff4?version=2.0&t=1771505532123&download=true"
+          "link": "https://irdai.gov.in/documents/37343/365525/%E0%A4%B5%E0%A5%88%E0%A4%95%E0%A4%B2%E0%A5%8D%E0%A4%AA%E0%A4%BF%E0%A4%95+%E0%A4%A8%E0%A4%BF%E0%A4%B5%E0%A5%87%E0%A4%B6+%E0%A4%A8%E0%A4%BF%E0%A4%A7%E0%A4%BF%E0%A4%AF%E0%A5%8B%E0%A4%82+%28%E0%A4%8F%E0%A4%86%E0%A4%88%E0%A4%8F%E0%A4%AB%E0%A4%8F%E0%A4%B8%29+%E0%A4%AE%E0%A5%87%E0%A4%82+%E0%A4%A8%E0%A4%BF%E0%A4%B5%E0%A5%87%E0%A4%B6+%E0%A4%95%E0%A5%87+%E0%A4%B8%E0%A4%82%E0%A4%AC%E0%A4%82%E0%A4%A7+%E0%A4%AE%E0%A5%87%E0%A4%82+%E0%A4%89%E0%A4%AA%E0%A4%AC%E0%A4%82%E0%A4%A7%E0%A5%8B%E0%A4%82+%E0%A4%B8%E0%A4%82%E0%A4%AC%E0%A4%82%E0%A4%A7%E0%A5%80+%E0%A4%B8%E0%A5%8D%E0%A4%AA%E0%A4%B7%E0%A5%8D%E0%A4%9F%E0%A5%80%E0%A4%95%E0%A4%B0%E0%A4%A3+_+Clarifications+on+provisions+with+respect+to+investment+in+Alternative+Investment+Funds%28AIFs%29.pdf/f7d75129-66cd-99d4-2cc5-3bb4fe1f4ff4?version=2.0&t=1771505532123&download=true",
+          "isNew": false
         },
         {
           "sr": 17,
@@ -20350,7 +20346,8 @@
           "cat": "Circulars",
           "title": "1600-शृंखला के अनिवार्य अंगीकरण संबंधी ट्राई (भारतीय दूरसंचार विनियामक प्राधिकरण) के निदेश का कार्यान्वयन _ Implementation of 1600 Series TRAI directions.pdf\n\t\t\t\t\t\t\t\t\t\t\t1.9 MB",
           "desc": "",
-          "link": "https://irdai.gov.in/documents/37343/365525/1600-%E0%A4%B6%E0%A5%83%E0%A4%82%E0%A4%96%E0%A4%B2%E0%A4%BE+%E0%A4%95%E0%A5%87+%E0%A4%85%E0%A4%A8%E0%A4%BF%E0%A4%B5%E0%A4%BE%E0%A4%B0%E0%A5%8D%E0%A4%AF+%E0%A4%85%E0%A4%82%E0%A4%97%E0%A5%80%E0%A4%95%E0%A4%B0%E0%A4%A3+%E0%A4%B8%E0%A4%82%E0%A4%AC%E0%A4%82%E0%A4%A7%E0%A5%80+%E0%A4%9F%E0%A5%8D%E0%A4%B0%E0%A4%BE%E0%A4%88+%28%E0%A4%AD%E0%A4%BE%E0%A4%B0%E0%A4%A4%E0%A5%80%E0%A4%AF+%E0%A4%A6%E0%A5%82%E0%A4%B0%E0%A4%B8%E0%A4%82%E0%A4%9A%E0%A4%BE%E0%A4%B0+%E0%A4%B5%E0%A4%BF%E0%A4%A8%E0%A4%BF%E0%A4%AF%E0%A4%BE%E0%A4%AE%E0%A4%95+%E0%A4%AA%E0%A5%8D%E0%A4%B0%E0%A4%BE%E0%A4%A7%E0%A4%BF%E0%A4%95%E0%A4%B0%E0%A4%A3%29+%E0%A4%95%E0%A5%87+%E0%A4%A8%E0%A4%BF%E0%A4%A6%E0%A5%87%E0%A4%B6+%E0%A4%95%E0%A4%BE+%E0%A4%95%E0%A4%BE%E0%A4%B0%E0%A5%8D%E0%A4%AF%E0%A4%BE%E0%A4%A8%E0%A5%8D%E0%A4%B5%E0%A4%AF%E0%A4%A8+_+Implementation+of+1600+Series+TRAI+directions.pdf/c8e0e0d1-4359-b70a-da07-63c175e8491b?version=1.0&t=1767791333736&download=true"
+          "link": "https://irdai.gov.in/documents/37343/365525/1600-%E0%A4%B6%E0%A5%83%E0%A4%82%E0%A4%96%E0%A4%B2%E0%A4%BE+%E0%A4%95%E0%A5%87+%E0%A4%85%E0%A4%A8%E0%A4%BF%E0%A4%B5%E0%A4%BE%E0%A4%B0%E0%A5%8D%E0%A4%AF+%E0%A4%85%E0%A4%82%E0%A4%97%E0%A5%80%E0%A4%95%E0%A4%B0%E0%A4%A3+%E0%A4%B8%E0%A4%82%E0%A4%AC%E0%A4%82%E0%A4%A7%E0%A5%80+%E0%A4%9F%E0%A5%8D%E0%A4%B0%E0%A4%BE%E0%A4%88+%28%E0%A4%AD%E0%A4%BE%E0%A4%B0%E0%A4%A4%E0%A5%80%E0%A4%AF+%E0%A4%A6%E0%A5%82%E0%A4%B0%E0%A4%B8%E0%A4%82%E0%A4%9A%E0%A4%BE%E0%A4%B0+%E0%A4%B5%E0%A4%BF%E0%A4%A8%E0%A4%BF%E0%A4%AF%E0%A4%BE%E0%A4%AE%E0%A4%95+%E0%A4%AA%E0%A5%8D%E0%A4%B0%E0%A4%BE%E0%A4%A7%E0%A4%BF%E0%A4%95%E0%A4%B0%E0%A4%A3%29+%E0%A4%95%E0%A5%87+%E0%A4%A8%E0%A4%BF%E0%A4%A6%E0%A5%87%E0%A4%B6+%E0%A4%95%E0%A4%BE+%E0%A4%95%E0%A4%BE%E0%A4%B0%E0%A5%8D%E0%A4%AF%E0%A4%BE%E0%A4%A8%E0%A5%8D%E0%A4%B5%E0%A4%AF%E0%A4%A8+_+Implementation+of+1600+Series+TRAI+directions.pdf/c8e0e0d1-4359-b70a-da07-63c175e8491b?version=1.0&t=1767791333736&download=true",
+          "isNew": false
         },
         {
           "sr": 18,
@@ -20359,7 +20356,8 @@
           "cat": "Circulars",
           "title": "बीमाकर्ताओं को आरबीआई द्वारा विनियमित एआईएफआईएस के एटी1 बांडों और टियर 2 पूँजी में निवेश करने के लिए अनुमति देना_Permitting insurers’ investments in AT1 bonds and Tier 2 Capital of RBI regulated AIFIs.pdf\n\t\t\t\t\t\t\t\t\t\t\t223 KB",
           "desc": "",
-          "link": "https://irdai.gov.in/documents/37343/365525/%E0%A4%AC%E0%A5%80%E0%A4%AE%E0%A4%BE%E0%A4%95%E0%A4%B0%E0%A5%8D%E0%A4%A4%E0%A4%BE%E0%A4%93%E0%A4%82+%E0%A4%95%E0%A5%8B+%E0%A4%86%E0%A4%B0%E0%A4%AC%E0%A5%80%E0%A4%86%E0%A4%88+%E0%A4%A6%E0%A5%8D%E0%A4%B5%E0%A4%BE%E0%A4%B0%E0%A4%BE+%E0%A4%B5%E0%A4%BF%E0%A4%A8%E0%A4%BF%E0%A4%AF%E0%A4%AE%E0%A4%BF%E0%A4%A4+%E0%A4%8F%E0%A4%86%E0%A4%88%E0%A4%8F%E0%A4%AB%E0%A4%86%E0%A4%88%E0%A4%8F%E0%A4%B8+%E0%A4%95%E0%A5%87+%E0%A4%8F%E0%A4%9F%E0%A5%801+%E0%A4%AC%E0%A4%BE%E0%A4%82%E0%A4%A1%E0%A5%8B%E0%A4%82+%E0%A4%94%E0%A4%B0+%E0%A4%9F%E0%A4%BF%E0%A4%AF%E0%A4%B0+2+%E0%A4%AA%E0%A5%82%E0%A4%81%E0%A4%9C%E0%A5%80+%E0%A4%AE%E0%A5%87%E0%A4%82+%E0%A4%A8%E0%A4%BF%E0%A4%B5%E0%A5%87%E0%A4%B6+%E0%A4%95%E0%A4%B0%E0%A4%A8%E0%A5%87+%E0%A4%95%E0%A5%87+%E0%A4%B2%E0%A4%BF%E0%A4%8F+%E0%A4%85%E0%A4%A8%E0%A5%81%E0%A4%AE%E0%A4%A4%E0%A4%BF+%E0%A4%A6%E0%A5%87%E0%A4%A8%E0%A4%BE_Permitting+insurers%E2%80%99+investments+in+AT1+bonds+and+Tier+2+Capital+of+RBI+regulated+AIFIs.pdf/9ff35188-7c9d-6020-f5dd-520eb24e43ee?version=2.0&t=1766489111419&download=true"
+          "link": "https://irdai.gov.in/documents/37343/365525/%E0%A4%AC%E0%A5%80%E0%A4%AE%E0%A4%BE%E0%A4%95%E0%A4%B0%E0%A5%8D%E0%A4%A4%E0%A4%BE%E0%A4%93%E0%A4%82+%E0%A4%95%E0%A5%8B+%E0%A4%86%E0%A4%B0%E0%A4%AC%E0%A5%80%E0%A4%86%E0%A4%88+%E0%A4%A6%E0%A5%8D%E0%A4%B5%E0%A4%BE%E0%A4%B0%E0%A4%BE+%E0%A4%B5%E0%A4%BF%E0%A4%A8%E0%A4%BF%E0%A4%AF%E0%A4%AE%E0%A4%BF%E0%A4%A4+%E0%A4%8F%E0%A4%86%E0%A4%88%E0%A4%8F%E0%A4%AB%E0%A4%86%E0%A4%88%E0%A4%8F%E0%A4%B8+%E0%A4%95%E0%A5%87+%E0%A4%8F%E0%A4%9F%E0%A5%801+%E0%A4%AC%E0%A4%BE%E0%A4%82%E0%A4%A1%E0%A5%8B%E0%A4%82+%E0%A4%94%E0%A4%B0+%E0%A4%9F%E0%A4%BF%E0%A4%AF%E0%A4%B0+2+%E0%A4%AA%E0%A5%82%E0%A4%81%E0%A4%9C%E0%A5%80+%E0%A4%AE%E0%A5%87%E0%A4%82+%E0%A4%A8%E0%A4%BF%E0%A4%B5%E0%A5%87%E0%A4%B6+%E0%A4%95%E0%A4%B0%E0%A4%A8%E0%A5%87+%E0%A4%95%E0%A5%87+%E0%A4%B2%E0%A4%BF%E0%A4%8F+%E0%A4%85%E0%A4%A8%E0%A5%81%E0%A4%AE%E0%A4%A4%E0%A4%BF+%E0%A4%A6%E0%A5%87%E0%A4%A8%E0%A4%BE_Permitting+insurers%E2%80%99+investments+in+AT1+bonds+and+Tier+2+Capital+of+RBI+regulated+AIFIs.pdf/9ff35188-7c9d-6020-f5dd-520eb24e43ee?version=2.0&t=1766489111419&download=true",
+          "isNew": false
         },
         {
           "sr": 19,
@@ -20368,7 +20366,8 @@
           "cat": "Circulars",
           "title": "2001-02 में जारी किये गये श्रेणीकरण पत्र के आधार पर सर्वेक्षकों और हानि निर्धारकों को व्यवसाय_विभाग की अतिरिक्त व्यवस्था की अनुमति की प्रथा का समापन_Cessation of the practice of allowing additional line of business_department to SLA based on categoriz.pdf\n\t\t\t\t\t\t\t\t\t\t\t871 KB",
           "desc": "",
-          "link": "https://irdai.gov.in/documents/37343/365525/2001-02+%E0%A4%AE%E0%A5%87%E0%A4%82+%E0%A4%9C%E0%A4%BE%E0%A4%B0%E0%A5%80+%E0%A4%95%E0%A4%BF%E0%A4%AF%E0%A5%87+%E0%A4%97%E0%A4%AF%E0%A5%87+%E0%A4%B6%E0%A5%8D%E0%A4%B0%E0%A5%87%E0%A4%A3%E0%A5%80%E0%A4%95%E0%A4%B0%E0%A4%A3+%E0%A4%AA%E0%A4%A4%E0%A5%8D%E0%A4%B0+%E0%A4%95%E0%A5%87+%E0%A4%86%E0%A4%A7%E0%A4%BE%E0%A4%B0+%E0%A4%AA%E0%A4%B0+%E0%A4%B8%E0%A4%B0%E0%A5%8D%E0%A4%B5%E0%A5%87%E0%A4%95%E0%A5%8D%E0%A4%B7%E0%A4%95%E0%A5%8B%E0%A4%82+%E0%A4%94%E0%A4%B0+%E0%A4%B9%E0%A4%BE%E0%A4%A8%E0%A4%BF+%E0%A4%A8%E0%A4%BF%E0%A4%B0%E0%A5%8D%E0%A4%A7%E0%A4%BE%E0%A4%B0%E0%A4%95%E0%A5%8B%E0%A4%82+%E0%A4%95%E0%A5%8B+%E0%A4%B5%E0%A5%8D%E0%A4%AF%E0%A4%B5%E0%A4%B8%E0%A4%BE%E0%A4%AF_%E0%A4%B5%E0%A4%BF%E0%A4%AD%E0%A4%BE%E0%A4%97+%E0%A4%95%E0%A5%80+%E0%A4%85%E0%A4%A4%E0%A4%BF%E0%A4%B0%E0%A4%BF%E0%A4%95%E0%A5%8D%E0%A4%A4+%E0%A4%B5%E0%A5%8D%E0%A4%AF%E0%A4%B5%E0%A4%B8%E0%A5%8D%E0%A4%A5%E0%A4%BE+%E0%A4%95%E0%A5%80+%E0%A4%85%E0%A4%A8%E0%A5%81%E0%A4%AE%E0%A4%A4%E0%A4%BF+%E0%A4%95%E0%A5%80+%E0%A4%AA%E0%A5%8D%E0%A4%B0%E0%A4%A5%E0%A4%BE+%E0%A4%95%E0%A4%BE+%E0%A4%B8%E0%A4%AE%E0%A4%BE%E0%A4%AA%E0%A4%A8_Cessation+of+the+practice+of+allowing+additional+line+of+business_department+to+SLA+based+on+categoriz.pdf/daea8863-7c52-ebfa-1468-9892bcf8b35c?version=1.0&t=1760247032356&download=true"
+          "link": "https://irdai.gov.in/documents/37343/365525/2001-02+%E0%A4%AE%E0%A5%87%E0%A4%82+%E0%A4%9C%E0%A4%BE%E0%A4%B0%E0%A5%80+%E0%A4%95%E0%A4%BF%E0%A4%AF%E0%A5%87+%E0%A4%97%E0%A4%AF%E0%A5%87+%E0%A4%B6%E0%A5%8D%E0%A4%B0%E0%A5%87%E0%A4%A3%E0%A5%80%E0%A4%95%E0%A4%B0%E0%A4%A3+%E0%A4%AA%E0%A4%A4%E0%A5%8D%E0%A4%B0+%E0%A4%95%E0%A5%87+%E0%A4%86%E0%A4%A7%E0%A4%BE%E0%A4%B0+%E0%A4%AA%E0%A4%B0+%E0%A4%B8%E0%A4%B0%E0%A5%8D%E0%A4%B5%E0%A5%87%E0%A4%95%E0%A5%8D%E0%A4%B7%E0%A4%95%E0%A5%8B%E0%A4%82+%E0%A4%94%E0%A4%B0+%E0%A4%B9%E0%A4%BE%E0%A4%A8%E0%A4%BF+%E0%A4%A8%E0%A4%BF%E0%A4%B0%E0%A5%8D%E0%A4%A7%E0%A4%BE%E0%A4%B0%E0%A4%95%E0%A5%8B%E0%A4%82+%E0%A4%95%E0%A5%8B+%E0%A4%B5%E0%A5%8D%E0%A4%AF%E0%A4%B5%E0%A4%B8%E0%A4%BE%E0%A4%AF_%E0%A4%B5%E0%A4%BF%E0%A4%AD%E0%A4%BE%E0%A4%97+%E0%A4%95%E0%A5%80+%E0%A4%85%E0%A4%A4%E0%A4%BF%E0%A4%B0%E0%A4%BF%E0%A4%95%E0%A5%8D%E0%A4%A4+%E0%A4%B5%E0%A5%8D%E0%A4%AF%E0%A4%B5%E0%A4%B8%E0%A5%8D%E0%A4%A5%E0%A4%BE+%E0%A4%95%E0%A5%80+%E0%A4%85%E0%A4%A8%E0%A5%81%E0%A4%AE%E0%A4%A4%E0%A4%BF+%E0%A4%95%E0%A5%80+%E0%A4%AA%E0%A5%8D%E0%A4%B0%E0%A4%A5%E0%A4%BE+%E0%A4%95%E0%A4%BE+%E0%A4%B8%E0%A4%AE%E0%A4%BE%E0%A4%AA%E0%A4%A8_Cessation+of+the+practice+of+allowing+additional+line+of+business_department+to+SLA+based+on+categoriz.pdf/daea8863-7c52-ebfa-1468-9892bcf8b35c?version=1.0&t=1760247032356&download=true",
+          "isNew": false
         },
         {
           "sr": 20,
@@ -20377,10 +20376,11 @@
           "cat": "Circulars",
           "title": "राष्ट्रीय साइबर सुरक्षा जागरूकता माह (NCSAM) 2025 _ National Cyber Security Awareness Month (NCSAM) 2025.pdf\n\t\t\t\t\t\t\t\t\t\t\t461 KB",
           "desc": "",
-          "link": "https://irdai.gov.in/documents/37343/365525/%E0%A4%B0%E0%A4%BE%E0%A4%B7%E0%A5%8D%E0%A4%9F%E0%A5%8D%E0%A4%B0%E0%A5%80%E0%A4%AF+%E0%A4%B8%E0%A4%BE%E0%A4%87%E0%A4%AC%E0%A4%B0+%E0%A4%B8%E0%A5%81%E0%A4%B0%E0%A4%95%E0%A5%8D%E0%A4%B7%E0%A4%BE+%E0%A4%9C%E0%A4%BE%E0%A4%97%E0%A4%B0%E0%A5%82%E0%A4%95%E0%A4%A4%E0%A4%BE+%E0%A4%AE%E0%A4%BE%E0%A4%B9+%28NCSAM%29+2025+_+National+Cyber+Security+Awareness+Month+%28NCSAM%29+2025.pdf/7d436948-a8a1-94f0-267e-a0030b4828e2?version=1.1&t=1759818487723&download=true"
+          "link": "https://irdai.gov.in/documents/37343/365525/%E0%A4%B0%E0%A4%BE%E0%A4%B7%E0%A5%8D%E0%A4%9F%E0%A5%8D%E0%A4%B0%E0%A5%80%E0%A4%AF+%E0%A4%B8%E0%A4%BE%E0%A4%87%E0%A4%AC%E0%A4%B0+%E0%A4%B8%E0%A5%81%E0%A4%B0%E0%A4%95%E0%A5%8D%E0%A4%B7%E0%A4%BE+%E0%A4%9C%E0%A4%BE%E0%A4%97%E0%A4%B0%E0%A5%82%E0%A4%95%E0%A4%A4%E0%A4%BE+%E0%A4%AE%E0%A4%BE%E0%A4%B9+%28NCSAM%29+2025+_+National+Cyber+Security+Awareness+Month+%28NCSAM%29+2025.pdf/7d436948-a8a1-94f0-267e-a0030b4828e2?version=1.1&t=1759818487723&download=true",
+          "isNew": false
         }
       ],
-      "ts": 1792452582861,
+      "ts": 1792468797829,
       "ok": true,
       "newCount": 0
     },
@@ -20393,7 +20393,8 @@
           "cat": "Guidelines",
           "title": "आईआरडीएआई सूचना और साइबर सुरक्षा दिशानिर्देश, 2026 _ IRDAI Information and Cybersecurity Guidelines, 2026.pdf\n\t\t\t\t\t\t\t\t\t\t\t577 KB",
           "desc": "",
-          "link": "https://irdai.gov.in/documents/37343/366029/%E0%A4%86%E0%A4%88%E0%A4%86%E0%A4%B0%E0%A4%A1%E0%A5%80%E0%A4%8F%E0%A4%86%E0%A4%88+%E0%A4%B8%E0%A5%82%E0%A4%9A%E0%A4%A8%E0%A4%BE+%E0%A4%94%E0%A4%B0+%E0%A4%B8%E0%A4%BE%E0%A4%87%E0%A4%AC%E0%A4%B0+%E0%A4%B8%E0%A5%81%E0%A4%B0%E0%A4%95%E0%A5%8D%E0%A4%B7%E0%A4%BE+%E0%A4%A6%E0%A4%BF%E0%A4%B6%E0%A4%BE%E0%A4%A8%E0%A4%BF%E0%A4%B0%E0%A5%8D%E0%A4%A6%E0%A5%87%E0%A4%B6%2C+2026+_+IRDAI+Information+and+Cybersecurity+Guidelines%2C+2026.pdf/9714979d-6006-3809-297f-91a4593ac072?version=2.0&t=1777011998536&download=true"
+          "link": "https://irdai.gov.in/documents/37343/366029/%E0%A4%86%E0%A4%88%E0%A4%86%E0%A4%B0%E0%A4%A1%E0%A5%80%E0%A4%8F%E0%A4%86%E0%A4%88+%E0%A4%B8%E0%A5%82%E0%A4%9A%E0%A4%A8%E0%A4%BE+%E0%A4%94%E0%A4%B0+%E0%A4%B8%E0%A4%BE%E0%A4%87%E0%A4%AC%E0%A4%B0+%E0%A4%B8%E0%A5%81%E0%A4%B0%E0%A4%95%E0%A5%8D%E0%A4%B7%E0%A4%BE+%E0%A4%A6%E0%A4%BF%E0%A4%B6%E0%A4%BE%E0%A4%A8%E0%A4%BF%E0%A4%B0%E0%A5%8D%E0%A4%A6%E0%A5%87%E0%A4%B6%2C+2026+_+IRDAI+Information+and+Cybersecurity+Guidelines%2C+2026.pdf/9714979d-6006-3809-297f-91a4593ac072?version=2.0&t=1777011998536&download=true",
+          "isNew": false
         },
         {
           "sr": 2,
@@ -20402,7 +20403,8 @@
           "cat": "Guidelines",
           "title": "भारत के बाहर पंजीकृत बीमा कंपनी द्वारा भारत में संपर्क कार्यालय की  स्थापना और समाप्ति के संबंध में दिशानिर्देश _ Guidelines on Establishment and Closure of Liaison Office in India by an Insurance Company registered outside India.pdf\n\t\t\t\t\t\t\t\t\t\t\t460 KB",
           "desc": "",
-          "link": "https://irdai.gov.in/documents/37343/366029/%E0%A4%AD%E0%A4%BE%E0%A4%B0%E0%A4%A4+%E0%A4%95%E0%A5%87+%E0%A4%AC%E0%A4%BE%E0%A4%B9%E0%A4%B0+%E0%A4%AA%E0%A4%82%E0%A4%9C%E0%A5%80%E0%A4%95%E0%A5%83%E0%A4%A4+%E0%A4%AC%E0%A5%80%E0%A4%AE%E0%A4%BE+%E0%A4%95%E0%A4%82%E0%A4%AA%E0%A4%A8%E0%A5%80+%E0%A4%A6%E0%A5%8D%E0%A4%B5%E0%A4%BE%E0%A4%B0%E0%A4%BE+%E0%A4%AD%E0%A4%BE%E0%A4%B0%E0%A4%A4+%E0%A4%AE%E0%A5%87%E0%A4%82+%E0%A4%B8%E0%A4%82%E0%A4%AA%E0%A4%B0%E0%A5%8D%E0%A4%95+%E0%A4%95%E0%A4%BE%E0%A4%B0%E0%A5%8D%E0%A4%AF%E0%A4%BE%E0%A4%B2%E0%A4%AF+%E0%A4%95%E0%A5%80++%E0%A4%B8%E0%A5%8D%E0%A4%A5%E0%A4%BE%E0%A4%AA%E0%A4%A8%E0%A4%BE+%E0%A4%94%E0%A4%B0+%E0%A4%B8%E0%A4%AE%E0%A4%BE%E0%A4%AA%E0%A5%8D%E0%A4%A4%E0%A4%BF+%E0%A4%95%E0%A5%87+%E0%A4%B8%E0%A4%82%E0%A4%AC%E0%A4%82%E0%A4%A7+%E0%A4%AE%E0%A5%87%E0%A4%82+%E0%A4%A6%E0%A4%BF%E0%A4%B6%E0%A4%BE%E0%A4%A8%E0%A4%BF%E0%A4%B0%E0%A5%8D%E0%A4%A6%E0%A5%87%E0%A4%B6+_+Guidelines+on+Establishment+and+Closure+of+Liaison+Office+in+India+by+an+Insurance+Company+registered+outside+India.pdf/7f1cf31a-df13-b088-d823-b1e9ecc6b301?version=2.0&t=1772020656040&download=true"
+          "link": "https://irdai.gov.in/documents/37343/366029/%E0%A4%AD%E0%A4%BE%E0%A4%B0%E0%A4%A4+%E0%A4%95%E0%A5%87+%E0%A4%AC%E0%A4%BE%E0%A4%B9%E0%A4%B0+%E0%A4%AA%E0%A4%82%E0%A4%9C%E0%A5%80%E0%A4%95%E0%A5%83%E0%A4%A4+%E0%A4%AC%E0%A5%80%E0%A4%AE%E0%A4%BE+%E0%A4%95%E0%A4%82%E0%A4%AA%E0%A4%A8%E0%A5%80+%E0%A4%A6%E0%A5%8D%E0%A4%B5%E0%A4%BE%E0%A4%B0%E0%A4%BE+%E0%A4%AD%E0%A4%BE%E0%A4%B0%E0%A4%A4+%E0%A4%AE%E0%A5%87%E0%A4%82+%E0%A4%B8%E0%A4%82%E0%A4%AA%E0%A4%B0%E0%A5%8D%E0%A4%95+%E0%A4%95%E0%A4%BE%E0%A4%B0%E0%A5%8D%E0%A4%AF%E0%A4%BE%E0%A4%B2%E0%A4%AF+%E0%A4%95%E0%A5%80++%E0%A4%B8%E0%A5%8D%E0%A4%A5%E0%A4%BE%E0%A4%AA%E0%A4%A8%E0%A4%BE+%E0%A4%94%E0%A4%B0+%E0%A4%B8%E0%A4%AE%E0%A4%BE%E0%A4%AA%E0%A5%8D%E0%A4%A4%E0%A4%BF+%E0%A4%95%E0%A5%87+%E0%A4%B8%E0%A4%82%E0%A4%AC%E0%A4%82%E0%A4%A7+%E0%A4%AE%E0%A5%87%E0%A4%82+%E0%A4%A6%E0%A4%BF%E0%A4%B6%E0%A4%BE%E0%A4%A8%E0%A4%BF%E0%A4%B0%E0%A5%8D%E0%A4%A6%E0%A5%87%E0%A4%B6+_+Guidelines+on+Establishment+and+Closure+of+Liaison+Office+in+India+by+an+Insurance+Company+registered+outside+India.pdf/7f1cf31a-df13-b088-d823-b1e9ecc6b301?version=2.0&t=1772020656040&download=true",
+          "isNew": false
         },
         {
           "sr": 3,
@@ -20411,7 +20413,8 @@
           "cat": "Guidelines",
           "title": "आईआरडीएआई (बीमा धोखाधड़ी निगरानी रूपरेखा) दिशानिर्देश, 2025 _ IRDAI (Insurance Fraud Monitoring Framework) Guidelines, 2025.pdf\n\t\t\t\t\t\t\t\t\t\t\t1,010 KB",
           "desc": "",
-          "link": "https://irdai.gov.in/documents/37343/366029/%E0%A4%86%E0%A4%88%E0%A4%86%E0%A4%B0%E0%A4%A1%E0%A5%80%E0%A4%8F%E0%A4%86%E0%A4%88+%28%E0%A4%AC%E0%A5%80%E0%A4%AE%E0%A4%BE+%E0%A4%A7%E0%A5%8B%E0%A4%96%E0%A4%BE%E0%A4%A7%E0%A4%A1%E0%A4%BC%E0%A5%80+%E0%A4%A8%E0%A4%BF%E0%A4%97%E0%A4%B0%E0%A4%BE%E0%A4%A8%E0%A5%80+%E0%A4%B0%E0%A5%82%E0%A4%AA%E0%A4%B0%E0%A5%87%E0%A4%96%E0%A4%BE%29+%E0%A4%A6%E0%A4%BF%E0%A4%B6%E0%A4%BE%E0%A4%A8%E0%A4%BF%E0%A4%B0%E0%A5%8D%E0%A4%A6%E0%A5%87%E0%A4%B6%2C+2025+_+IRDAI+%28Insurance+Fraud+Monitoring+Framework%29+Guidelines%2C+2025.pdf/99fa5c70-aee2-43af-d52b-50818f53c1df?version=2.5&t=1762079011603&download=true"
+          "link": "https://irdai.gov.in/documents/37343/366029/%E0%A4%86%E0%A4%88%E0%A4%86%E0%A4%B0%E0%A4%A1%E0%A5%80%E0%A4%8F%E0%A4%86%E0%A4%88+%28%E0%A4%AC%E0%A5%80%E0%A4%AE%E0%A4%BE+%E0%A4%A7%E0%A5%8B%E0%A4%96%E0%A4%BE%E0%A4%A7%E0%A4%A1%E0%A4%BC%E0%A5%80+%E0%A4%A8%E0%A4%BF%E0%A4%97%E0%A4%B0%E0%A4%BE%E0%A4%A8%E0%A5%80+%E0%A4%B0%E0%A5%82%E0%A4%AA%E0%A4%B0%E0%A5%87%E0%A4%96%E0%A4%BE%29+%E0%A4%A6%E0%A4%BF%E0%A4%B6%E0%A4%BE%E0%A4%A8%E0%A4%BF%E0%A4%B0%E0%A5%8D%E0%A4%A6%E0%A5%87%E0%A4%B6%2C+2025+_+IRDAI+%28Insurance+Fraud+Monitoring+Framework%29+Guidelines%2C+2025.pdf/99fa5c70-aee2-43af-d52b-50818f53c1df?version=2.5&t=1762079011603&download=true",
+          "isNew": false
         },
         {
           "sr": 4,
@@ -20420,7 +20423,8 @@
           "cat": "Guidelines",
           "title": "बीमा कोषों (रिपोजिटरियों) और बीमा पालिसियों के इलेक्ट्रानिक निर्गम संबंधी संशोधित दिशानिर्देश के खंड 15(क) में संशोधन _ Amendment to Clause 15(a) of Revised Guidelines on Insurance Repositories and Electronic Issuance of Insurance Policies.pdf\n\t\t\t\t\t\t\t\t\t\t\t452 KB",
           "desc": "",
-          "link": "https://irdai.gov.in/documents/37343/366029/%E0%A4%AC%E0%A5%80%E0%A4%AE%E0%A4%BE+%E0%A4%95%E0%A5%8B%E0%A4%B7%E0%A5%8B%E0%A4%82+%28%E0%A4%B0%E0%A4%BF%E0%A4%AA%E0%A5%8B%E0%A4%9C%E0%A4%BF%E0%A4%9F%E0%A4%B0%E0%A4%BF%E0%A4%AF%E0%A5%8B%E0%A4%82%29+%E0%A4%94%E0%A4%B0+%E0%A4%AC%E0%A5%80%E0%A4%AE%E0%A4%BE+%E0%A4%AA%E0%A4%BE%E0%A4%B2%E0%A4%BF%E0%A4%B8%E0%A4%BF%E0%A4%AF%E0%A5%8B%E0%A4%82+%E0%A4%95%E0%A5%87+%E0%A4%87%E0%A4%B2%E0%A5%87%E0%A4%95%E0%A5%8D%E0%A4%9F%E0%A5%8D%E0%A4%B0%E0%A4%BE%E0%A4%A8%E0%A4%BF%E0%A4%95+%E0%A4%A8%E0%A4%BF%E0%A4%B0%E0%A5%8D%E0%A4%97%E0%A4%AE+%E0%A4%B8%E0%A4%82%E0%A4%AC%E0%A4%82%E0%A4%A7%E0%A5%80+%E0%A4%B8%E0%A4%82%E0%A4%B6%E0%A5%8B%E0%A4%A7%E0%A4%BF%E0%A4%A4+%E0%A4%A6%E0%A4%BF%E0%A4%B6%E0%A4%BE%E0%A4%A8%E0%A4%BF%E0%A4%B0%E0%A5%8D%E0%A4%A6%E0%A5%87%E0%A4%B6+%E0%A4%95%E0%A5%87+%E0%A4%96%E0%A4%82%E0%A4%A1+15%28%E0%A4%95%29+%E0%A4%AE%E0%A5%87%E0%A4%82+%E0%A4%B8%E0%A4%82%E0%A4%B6%E0%A5%8B%E0%A4%A7%E0%A4%A8+_+Amendment+to+Clause+15%28a%29+of+Revised+Guidelines+on+Insurance+Repositories+and+Electronic+Issuance+of+Insurance+Policies.pdf/85f31340-4346-7b6a-dbce-032eb465c386?version=1.0&t=1753878853207&download=true"
+          "link": "https://irdai.gov.in/documents/37343/366029/%E0%A4%AC%E0%A5%80%E0%A4%AE%E0%A4%BE+%E0%A4%95%E0%A5%8B%E0%A4%B7%E0%A5%8B%E0%A4%82+%28%E0%A4%B0%E0%A4%BF%E0%A4%AA%E0%A5%8B%E0%A4%9C%E0%A4%BF%E0%A4%9F%E0%A4%B0%E0%A4%BF%E0%A4%AF%E0%A5%8B%E0%A4%82%29+%E0%A4%94%E0%A4%B0+%E0%A4%AC%E0%A5%80%E0%A4%AE%E0%A4%BE+%E0%A4%AA%E0%A4%BE%E0%A4%B2%E0%A4%BF%E0%A4%B8%E0%A4%BF%E0%A4%AF%E0%A5%8B%E0%A4%82+%E0%A4%95%E0%A5%87+%E0%A4%87%E0%A4%B2%E0%A5%87%E0%A4%95%E0%A5%8D%E0%A4%9F%E0%A5%8D%E0%A4%B0%E0%A4%BE%E0%A4%A8%E0%A4%BF%E0%A4%95+%E0%A4%A8%E0%A4%BF%E0%A4%B0%E0%A5%8D%E0%A4%97%E0%A4%AE+%E0%A4%B8%E0%A4%82%E0%A4%AC%E0%A4%82%E0%A4%A7%E0%A5%80+%E0%A4%B8%E0%A4%82%E0%A4%B6%E0%A5%8B%E0%A4%A7%E0%A4%BF%E0%A4%A4+%E0%A4%A6%E0%A4%BF%E0%A4%B6%E0%A4%BE%E0%A4%A8%E0%A4%BF%E0%A4%B0%E0%A5%8D%E0%A4%A6%E0%A5%87%E0%A4%B6+%E0%A4%95%E0%A5%87+%E0%A4%96%E0%A4%82%E0%A4%A1+15%28%E0%A4%95%29+%E0%A4%AE%E0%A5%87%E0%A4%82+%E0%A4%B8%E0%A4%82%E0%A4%B6%E0%A5%8B%E0%A4%A7%E0%A4%A8+_+Amendment+to+Clause+15%28a%29+of+Revised+Guidelines+on+Insurance+Repositories+and+Electronic+Issuance+of+Insurance+Policies.pdf/85f31340-4346-7b6a-dbce-032eb465c386?version=1.0&t=1753878853207&download=true",
+          "isNew": false
         },
         {
           "sr": 5,
@@ -20429,7 +20433,8 @@
           "cat": "Guidelines",
           "title": "ईक्विटी व्युत्पन्नियों (डेरिवेटिव्स) के द्वारा बचाव-व्यवस्था संबंधी दिशानिर्देश _ Guidelines on Hedging Through Equity Derivatives.pdf\n\t\t\t\t\t\t\t\t\t\t\t367 KB",
           "desc": "",
-          "link": "https://irdai.gov.in/documents/37343/366029/%E0%A4%88%E0%A4%95%E0%A5%8D%E0%A4%B5%E0%A4%BF%E0%A4%9F%E0%A5%80+%E0%A4%B5%E0%A5%8D%E0%A4%AF%E0%A5%81%E0%A4%A4%E0%A5%8D%E0%A4%AA%E0%A4%A8%E0%A5%8D%E0%A4%A8%E0%A4%BF%E0%A4%AF%E0%A5%8B%E0%A4%82+%28%E0%A4%A1%E0%A5%87%E0%A4%B0%E0%A4%BF%E0%A4%B5%E0%A5%87%E0%A4%9F%E0%A4%BF%E0%A4%B5%E0%A5%8D%E0%A4%B8%29+%E0%A4%95%E0%A5%87+%E0%A4%A6%E0%A5%8D%E0%A4%B5%E0%A4%BE%E0%A4%B0%E0%A4%BE+%E0%A4%AC%E0%A4%9A%E0%A4%BE%E0%A4%B5-%E0%A4%B5%E0%A5%8D%E0%A4%AF%E0%A4%B5%E0%A4%B8%E0%A5%8D%E0%A4%A5%E0%A4%BE+%E0%A4%B8%E0%A4%82%E0%A4%AC%E0%A4%82%E0%A4%A7%E0%A5%80+%E0%A4%A6%E0%A4%BF%E0%A4%B6%E0%A4%BE%E0%A4%A8%E0%A4%BF%E0%A4%B0%E0%A5%8D%E0%A4%A6%E0%A5%87%E0%A4%B6+_+Guidelines+on+Hedging+Through+Equity+Derivatives.pdf/dadd7138-c7a7-cacc-a31b-697e7587f9fd?version=1.0&t=1740722077884&download=true"
+          "link": "https://irdai.gov.in/documents/37343/366029/%E0%A4%88%E0%A4%95%E0%A5%8D%E0%A4%B5%E0%A4%BF%E0%A4%9F%E0%A5%80+%E0%A4%B5%E0%A5%8D%E0%A4%AF%E0%A5%81%E0%A4%A4%E0%A5%8D%E0%A4%AA%E0%A4%A8%E0%A5%8D%E0%A4%A8%E0%A4%BF%E0%A4%AF%E0%A5%8B%E0%A4%82+%28%E0%A4%A1%E0%A5%87%E0%A4%B0%E0%A4%BF%E0%A4%B5%E0%A5%87%E0%A4%9F%E0%A4%BF%E0%A4%B5%E0%A5%8D%E0%A4%B8%29+%E0%A4%95%E0%A5%87+%E0%A4%A6%E0%A5%8D%E0%A4%B5%E0%A4%BE%E0%A4%B0%E0%A4%BE+%E0%A4%AC%E0%A4%9A%E0%A4%BE%E0%A4%B5-%E0%A4%B5%E0%A5%8D%E0%A4%AF%E0%A4%B5%E0%A4%B8%E0%A5%8D%E0%A4%A5%E0%A4%BE+%E0%A4%B8%E0%A4%82%E0%A4%AC%E0%A4%82%E0%A4%A7%E0%A5%80+%E0%A4%A6%E0%A4%BF%E0%A4%B6%E0%A4%BE%E0%A4%A8%E0%A4%BF%E0%A4%B0%E0%A5%8D%E0%A4%A6%E0%A5%87%E0%A4%B6+_+Guidelines+on+Hedging+Through+Equity+Derivatives.pdf/dadd7138-c7a7-cacc-a31b-697e7587f9fd?version=1.0&t=1740722077884&download=true",
+          "isNew": false
         },
         {
           "sr": 6,
@@ -20438,7 +20443,8 @@
           "cat": "Guidelines",
           "title": "आईआरडीएआई बीमा वाहक दिशानिर्देश, 2023 _ IRDAI Bima Vahak Guidelines, 2023.pdf\n\t\t\t\t\t\t\t\t\t\t\t732 KB",
           "desc": "",
-          "link": "https://irdai.gov.in/documents/37343/366029/%E0%A4%86%E0%A4%88%E0%A4%86%E0%A4%B0%E0%A4%A1%E0%A5%80%E0%A4%8F%E0%A4%86%E0%A4%88+%E0%A4%AC%E0%A5%80%E0%A4%AE%E0%A4%BE+%E0%A4%B5%E0%A4%BE%E0%A4%B9%E0%A4%95+%E0%A4%A6%E0%A4%BF%E0%A4%B6%E0%A4%BE%E0%A4%A8%E0%A4%BF%E0%A4%B0%E0%A5%8D%E0%A4%A6%E0%A5%87%E0%A4%B6%2C+2023+_+IRDAI+Bima+Vahak+Guidelines%2C+2023.pdf/5e7364ec-bb19-8667-1ebd-6bdee101df6a?version=2.0&t=1698041792888&download=true"
+          "link": "https://irdai.gov.in/documents/37343/366029/%E0%A4%86%E0%A4%88%E0%A4%86%E0%A4%B0%E0%A4%A1%E0%A5%80%E0%A4%8F%E0%A4%86%E0%A4%88+%E0%A4%AC%E0%A5%80%E0%A4%AE%E0%A4%BE+%E0%A4%B5%E0%A4%BE%E0%A4%B9%E0%A4%95+%E0%A4%A6%E0%A4%BF%E0%A4%B6%E0%A4%BE%E0%A4%A8%E0%A4%BF%E0%A4%B0%E0%A5%8D%E0%A4%A6%E0%A5%87%E0%A4%B6%2C+2023+_+IRDAI+Bima+Vahak+Guidelines%2C+2023.pdf/5e7364ec-bb19-8667-1ebd-6bdee101df6a?version=2.0&t=1698041792888&download=true",
+          "isNew": false
         },
         {
           "sr": 7,
@@ -20447,7 +20453,8 @@
           "cat": "Guidelines",
           "title": "बीमाकर्ताओं के निदेशकों और प्रमुख प्रबंधकीय व्यक्तियों के पारिश्रमिक संबंधी दिशानिर्देश _ Guidelines on Remuneration of Directors and Key Managerial Persons of Insurers.pdf\n\t\t\t\t\t\t\t\t\t\t\t2.1 MB",
           "desc": "",
-          "link": "https://irdai.gov.in/documents/37343/366029/%E0%A4%AC%E0%A5%80%E0%A4%AE%E0%A4%BE%E0%A4%95%E0%A4%B0%E0%A5%8D%E0%A4%A4%E0%A4%BE%E0%A4%93%E0%A4%82+%E0%A4%95%E0%A5%87+%E0%A4%A8%E0%A4%BF%E0%A4%A6%E0%A5%87%E0%A4%B6%E0%A4%95%E0%A5%8B%E0%A4%82+%E0%A4%94%E0%A4%B0+%E0%A4%AA%E0%A5%8D%E0%A4%B0%E0%A4%AE%E0%A5%81%E0%A4%96+%E0%A4%AA%E0%A5%8D%E0%A4%B0%E0%A4%AC%E0%A4%82%E0%A4%A7%E0%A4%95%E0%A5%80%E0%A4%AF+%E0%A4%B5%E0%A5%8D%E0%A4%AF%E0%A4%95%E0%A5%8D%E0%A4%A4%E0%A4%BF%E0%A4%AF%E0%A5%8B%E0%A4%82+%E0%A4%95%E0%A5%87+%E0%A4%AA%E0%A4%BE%E0%A4%B0%E0%A4%BF%E0%A4%B6%E0%A5%8D%E0%A4%B0%E0%A4%AE%E0%A4%BF%E0%A4%95+%E0%A4%B8%E0%A4%82%E0%A4%AC%E0%A4%82%E0%A4%A7%E0%A5%80+%E0%A4%A6%E0%A4%BF%E0%A4%B6%E0%A4%BE%E0%A4%A8%E0%A4%BF%E0%A4%B0%E0%A5%8D%E0%A4%A6%E0%A5%87%E0%A4%B6+_+Guidelines+on+Remuneration+of+Directors+and+Key+Managerial+Persons+of+Insurers.pdf/ed595b44-43b2-fe7c-64cb-c4cc42dcfe49?version=2.0&t=1698646617411&download=true"
+          "link": "https://irdai.gov.in/documents/37343/366029/%E0%A4%AC%E0%A5%80%E0%A4%AE%E0%A4%BE%E0%A4%95%E0%A4%B0%E0%A5%8D%E0%A4%A4%E0%A4%BE%E0%A4%93%E0%A4%82+%E0%A4%95%E0%A5%87+%E0%A4%A8%E0%A4%BF%E0%A4%A6%E0%A5%87%E0%A4%B6%E0%A4%95%E0%A5%8B%E0%A4%82+%E0%A4%94%E0%A4%B0+%E0%A4%AA%E0%A5%8D%E0%A4%B0%E0%A4%AE%E0%A5%81%E0%A4%96+%E0%A4%AA%E0%A5%8D%E0%A4%B0%E0%A4%AC%E0%A4%82%E0%A4%A7%E0%A4%95%E0%A5%80%E0%A4%AF+%E0%A4%B5%E0%A5%8D%E0%A4%AF%E0%A4%95%E0%A5%8D%E0%A4%A4%E0%A4%BF%E0%A4%AF%E0%A5%8B%E0%A4%82+%E0%A4%95%E0%A5%87+%E0%A4%AA%E0%A4%BE%E0%A4%B0%E0%A4%BF%E0%A4%B6%E0%A5%8D%E0%A4%B0%E0%A4%AE%E0%A4%BF%E0%A4%95+%E0%A4%B8%E0%A4%82%E0%A4%AC%E0%A4%82%E0%A4%A7%E0%A5%80+%E0%A4%A6%E0%A4%BF%E0%A4%B6%E0%A4%BE%E0%A4%A8%E0%A4%BF%E0%A4%B0%E0%A5%8D%E0%A4%A6%E0%A5%87%E0%A4%B6+_+Guidelines+on+Remuneration+of+Directors+and+Key+Managerial+Persons+of+Insurers.pdf/ed595b44-43b2-fe7c-64cb-c4cc42dcfe49?version=2.0&t=1698646617411&download=true",
+          "isNew": false
         },
         {
           "sr": 8,
@@ -20456,7 +20463,8 @@
           "cat": "Guidelines",
           "title": "आईआरडीएआई सूचना और साइबर सुरक्षा संबंधी दिशानिर्देश, 2023  _ IRDAI Information and Cyber Security Guidelines, 2023.pdf\n\t\t\t\t\t\t\t\t\t\t\t984 KB",
           "desc": "",
-          "link": "https://irdai.gov.in/documents/37343/366029/%E0%A4%86%E0%A4%88%E0%A4%86%E0%A4%B0%E0%A4%A1%E0%A5%80%E0%A4%8F%E0%A4%86%E0%A4%88+%E0%A4%B8%E0%A5%82%E0%A4%9A%E0%A4%A8%E0%A4%BE+%E0%A4%94%E0%A4%B0+%E0%A4%B8%E0%A4%BE%E0%A4%87%E0%A4%AC%E0%A4%B0+%E0%A4%B8%E0%A5%81%E0%A4%B0%E0%A4%95%E0%A5%8D%E0%A4%B7%E0%A4%BE+%E0%A4%B8%E0%A4%82%E0%A4%AC%E0%A4%82%E0%A4%A7%E0%A5%80+%E0%A4%A6%E0%A4%BF%E0%A4%B6%E0%A4%BE%E0%A4%A8%E0%A4%BF%E0%A4%B0%E0%A5%8D%E0%A4%A6%E0%A5%87%E0%A4%B6%2C+2023++_+IRDAI+Information+and+Cyber+Security+Guidelines%2C+2023.pdf/755d6b0e-8729-6499-80f3-38117149cc9b?version=1.3&t=1682511070828&download=true"
+          "link": "https://irdai.gov.in/documents/37343/366029/%E0%A4%86%E0%A4%88%E0%A4%86%E0%A4%B0%E0%A4%A1%E0%A5%80%E0%A4%8F%E0%A4%86%E0%A4%88+%E0%A4%B8%E0%A5%82%E0%A4%9A%E0%A4%A8%E0%A4%BE+%E0%A4%94%E0%A4%B0+%E0%A4%B8%E0%A4%BE%E0%A4%87%E0%A4%AC%E0%A4%B0+%E0%A4%B8%E0%A5%81%E0%A4%B0%E0%A4%95%E0%A5%8D%E0%A4%B7%E0%A4%BE+%E0%A4%B8%E0%A4%82%E0%A4%AC%E0%A4%82%E0%A4%A7%E0%A5%80+%E0%A4%A6%E0%A4%BF%E0%A4%B6%E0%A4%BE%E0%A4%A8%E0%A4%BF%E0%A4%B0%E0%A5%8D%E0%A4%A6%E0%A5%87%E0%A4%B6%2C+2023++_+IRDAI+Information+and+Cyber+Security+Guidelines%2C+2023.pdf/755d6b0e-8729-6499-80f3-38117149cc9b?version=1.3&t=1682511070828&download=true",
+          "isNew": false
         },
         {
           "sr": 9,
@@ -20465,7 +20473,8 @@
           "cat": "Guidelines",
           "title": "विनियामक सैंडबाक्स से संबंधित परिचालनगत विषयों संबंधी दिशानिर्देश _ Guidelines on Operational Issues pertaining to the  Regulatory Sandbox.pdf\n\t\t\t\t\t\t\t\t\t\t\t1.2 MB",
           "desc": "",
-          "link": "https://irdai.gov.in/documents/37343/366029/%E0%A4%B5%E0%A4%BF%E0%A4%A8%E0%A4%BF%E0%A4%AF%E0%A4%BE%E0%A4%AE%E0%A4%95+%E0%A4%B8%E0%A5%88%E0%A4%82%E0%A4%A1%E0%A4%AC%E0%A4%BE%E0%A4%95%E0%A5%8D%E0%A4%B8+%E0%A4%B8%E0%A5%87+%E0%A4%B8%E0%A4%82%E0%A4%AC%E0%A4%82%E0%A4%A7%E0%A4%BF%E0%A4%A4+%E0%A4%AA%E0%A4%B0%E0%A4%BF%E0%A4%9A%E0%A4%BE%E0%A4%B2%E0%A4%A8%E0%A4%97%E0%A4%A4+%E0%A4%B5%E0%A4%BF%E0%A4%B7%E0%A4%AF%E0%A5%8B%E0%A4%82+%E0%A4%B8%E0%A4%82%E0%A4%AC%E0%A4%82%E0%A4%A7%E0%A5%80+%E0%A4%A6%E0%A4%BF%E0%A4%B6%E0%A4%BE%E0%A4%A8%E0%A4%BF%E0%A4%B0%E0%A5%8D%E0%A4%A6%E0%A5%87%E0%A4%B6+_+Guidelines+on+Operational+Issues+pertaining+to+the++Regulatory+Sandbox.pdf/4ad21687-acd6-e776-75a2-83bb130b9dbb?version=2.1&t=1682919984101&download=true"
+          "link": "https://irdai.gov.in/documents/37343/366029/%E0%A4%B5%E0%A4%BF%E0%A4%A8%E0%A4%BF%E0%A4%AF%E0%A4%BE%E0%A4%AE%E0%A4%95+%E0%A4%B8%E0%A5%88%E0%A4%82%E0%A4%A1%E0%A4%AC%E0%A4%BE%E0%A4%95%E0%A5%8D%E0%A4%B8+%E0%A4%B8%E0%A5%87+%E0%A4%B8%E0%A4%82%E0%A4%AC%E0%A4%82%E0%A4%A7%E0%A4%BF%E0%A4%A4+%E0%A4%AA%E0%A4%B0%E0%A4%BF%E0%A4%9A%E0%A4%BE%E0%A4%B2%E0%A4%A8%E0%A4%97%E0%A4%A4+%E0%A4%B5%E0%A4%BF%E0%A4%B7%E0%A4%AF%E0%A5%8B%E0%A4%82+%E0%A4%B8%E0%A4%82%E0%A4%AC%E0%A4%82%E0%A4%A7%E0%A5%80+%E0%A4%A6%E0%A4%BF%E0%A4%B6%E0%A4%BE%E0%A4%A8%E0%A4%BF%E0%A4%B0%E0%A5%8D%E0%A4%A6%E0%A5%87%E0%A4%B6+_+Guidelines+on+Operational+Issues+pertaining+to+the++Regulatory+Sandbox.pdf/4ad21687-acd6-e776-75a2-83bb130b9dbb?version=2.1&t=1682919984101&download=true",
+          "isNew": false
         },
         {
           "sr": 10,
@@ -20474,7 +20483,8 @@
           "cat": "Guidelines",
           "title": "सीमापार पुनर्बीमाकर्ताओं को एफआरएन के निर्गम संबंधी दिशानिर्देश Guidelines on issuance of FRNs to Cross Border Reinsurers.pdf\n\t\t\t\t\t\t\t\t\t\t\t8.1 MB",
           "desc": "",
-          "link": "https://irdai.gov.in/documents/37343/366029/%E0%A4%B8%E0%A5%80%E0%A4%AE%E0%A4%BE%E0%A4%AA%E0%A4%BE%E0%A4%B0+%E0%A4%AA%E0%A5%81%E0%A4%A8%E0%A4%B0%E0%A5%8D%E0%A4%AC%E0%A5%80%E0%A4%AE%E0%A4%BE%E0%A4%95%E0%A4%B0%E0%A5%8D%E0%A4%A4%E0%A4%BE%E0%A4%93%E0%A4%82+%E0%A4%95%E0%A5%8B+%E0%A4%8F%E0%A4%AB%E0%A4%86%E0%A4%B0%E0%A4%8F%E0%A4%A8+%E0%A4%95%E0%A5%87+%E0%A4%A8%E0%A4%BF%E0%A4%B0%E0%A5%8D%E0%A4%97%E0%A4%AE+%E0%A4%B8%E0%A4%82%E0%A4%AC%E0%A4%82%E0%A4%A7%E0%A5%80+%E0%A4%A6%E0%A4%BF%E0%A4%B6%E0%A4%BE%E0%A4%A8%E0%A4%BF%E0%A4%B0%E0%A5%8D%E0%A4%A6%E0%A5%87%E0%A4%B6+Guidelines+on+issuance+of+FRNs+to+Cross+Border+Reinsurers.pdf/f7c83eaa-24b2-ce7d-96ed-9d8e5e5eecaa?version=2.0&t=1682510377843&download=true"
+          "link": "https://irdai.gov.in/documents/37343/366029/%E0%A4%B8%E0%A5%80%E0%A4%AE%E0%A4%BE%E0%A4%AA%E0%A4%BE%E0%A4%B0+%E0%A4%AA%E0%A5%81%E0%A4%A8%E0%A4%B0%E0%A5%8D%E0%A4%AC%E0%A5%80%E0%A4%AE%E0%A4%BE%E0%A4%95%E0%A4%B0%E0%A5%8D%E0%A4%A4%E0%A4%BE%E0%A4%93%E0%A4%82+%E0%A4%95%E0%A5%8B+%E0%A4%8F%E0%A4%AB%E0%A4%86%E0%A4%B0%E0%A4%8F%E0%A4%A8+%E0%A4%95%E0%A5%87+%E0%A4%A8%E0%A4%BF%E0%A4%B0%E0%A5%8D%E0%A4%97%E0%A4%AE+%E0%A4%B8%E0%A4%82%E0%A4%AC%E0%A4%82%E0%A4%A7%E0%A5%80+%E0%A4%A6%E0%A4%BF%E0%A4%B6%E0%A4%BE%E0%A4%A8%E0%A4%BF%E0%A4%B0%E0%A5%8D%E0%A4%A6%E0%A5%87%E0%A4%B6+Guidelines+on+issuance+of+FRNs+to+Cross+Border+Reinsurers.pdf/f7c83eaa-24b2-ce7d-96ed-9d8e5e5eecaa?version=2.0&t=1682510377843&download=true",
+          "isNew": false
         },
         {
           "sr": 11,
@@ -20483,7 +20493,8 @@
           "cat": "Guidelines",
           "title": "Guidelines on Establishment and Closure of Liaison Office in India by an Insurance Company registered outside India",
           "desc": "",
-          "link": "https://irdai.gov.in/document-detail?documentId=1445464"
+          "link": "https://irdai.gov.in/document-detail?documentId=1445464",
+          "isNew": false
         },
         {
           "sr": 12,
@@ -20492,7 +20503,8 @@
           "cat": "Guidelines",
           "title": "Guidelines in respect of Conflict of Interest and Common Directorship  among Intermediary or Insurance intermediary.pdf\n\t\t\t\t\t\t\t\t\t\t\t1.5 MB",
           "desc": "",
-          "link": "https://irdai.gov.in/documents/37343/366029/Guidelines+in+respect+of+Conflict+of+Interest+and+Common+Directorship++among+Intermediary+or+Insurance+intermediary.pdf/2ac57f2e-5a61-5bb6-6a96-469d23025bcb?version=1.0&t=1665634621535&download=true"
+          "link": "https://irdai.gov.in/documents/37343/366029/Guidelines+in+respect+of+Conflict+of+Interest+and+Common+Directorship++among+Intermediary+or+Insurance+intermediary.pdf/2ac57f2e-5a61-5bb6-6a96-469d23025bcb?version=1.0&t=1665634621535&download=true",
+          "isNew": false
         },
         {
           "sr": 13,
@@ -20501,7 +20513,8 @@
           "cat": "Guidelines",
           "title": "Guidelines on Information and Cyber Security.pdf\n\t\t\t\t\t\t\t\t\t\t\t292 KB",
           "desc": "",
-          "link": "https://irdai.gov.in/documents/37343/366029/Guidelines+on+Information+and+Cyber+Security.pdf/052a1248-cfce-3f37-ff2d-16e4a2aeed3c?version=1.1&t=1665031369193&download=true"
+          "link": "https://irdai.gov.in/documents/37343/366029/Guidelines+on+Information+and+Cyber+Security.pdf/052a1248-cfce-3f37-ff2d-16e4a2aeed3c?version=1.1&t=1665031369193&download=true",
+          "isNew": false
         },
         {
           "sr": 14,
@@ -20510,7 +20523,8 @@
           "cat": "Guidelines",
           "title": "Master Guidelines on Anti-Money Laundering/ Counter Financing of Terrorism (AML/CFT), 2022",
           "desc": "",
-          "link": "https://irdai.gov.in/document-detail?documentId=1345417"
+          "link": "https://irdai.gov.in/document-detail?documentId=1345417",
+          "isNew": false
         },
         {
           "sr": 15,
@@ -20519,7 +20533,8 @@
           "cat": "Guidelines",
           "title": "IRDAI (Surety Insurance Contracts) Guidelines 20220103_signed.pdf\n\t\t\t\t\t\t\t\t\t\t\t605 KB",
           "desc": "",
-          "link": "https://irdai.gov.in/documents/37343/366029/IRDAI+%28Surety+Insurance+Contracts%29+Guidelines+20220103_signed.pdf/3cc74752-2c32-c008-c7a1-303874c2e497?version=1.1&t=1656583536565&download=true"
+          "link": "https://irdai.gov.in/documents/37343/366029/IRDAI+%28Surety+Insurance+Contracts%29+Guidelines+20220103_signed.pdf/3cc74752-2c32-c008-c7a1-303874c2e497?version=1.1&t=1656583536565&download=true",
+          "isNew": false
         },
         {
           "sr": 16,
@@ -20528,7 +20543,8 @@
           "cat": "Guidelines",
           "title": "IRDAI (Trade Credit Insurance) Guidelines, 20212021-09-08.pdf\n\t\t\t\t\t\t\t\t\t\t\t464 KB",
           "desc": "",
-          "link": "https://irdai.gov.in/documents/37343/366029/IRDAI+%28Trade+Credit+Insurance%29+Guidelines%2C+20212021-09-08.pdf/1e5d4088-0d6d-1cca-814b-46e72b7125f0?version=1.1&t=1665032789594&download=true"
+          "link": "https://irdai.gov.in/documents/37343/366029/IRDAI+%28Trade+Credit+Insurance%29+Guidelines%2C+20212021-09-08.pdf/1e5d4088-0d6d-1cca-814b-46e72b7125f0?version=1.1&t=1665032789594&download=true",
+          "isNew": false
         },
         {
           "sr": 17,
@@ -20537,7 +20553,8 @@
           "cat": "Guidelines",
           "title": "Guidelines on settlement of Life Insurance Claims to the victims of Flood 2021-08-06.pdf\n\t\t\t\t\t\t\t\t\t\t\t801 KB",
           "desc": "",
-          "link": "https://irdai.gov.in/documents/37343/366029/Guidelines+on+settlement+of+Life+Insurance+Claims+to+the+victims+of+Flood+2021-08-06.pdf/e13e506f-79e1-0879-a596-eee5ba0c2504?version=1.1&t=1665033218671&download=true"
+          "link": "https://irdai.gov.in/documents/37343/366029/Guidelines+on+settlement+of+Life+Insurance+Claims+to+the+victims+of+Flood+2021-08-06.pdf/e13e506f-79e1-0879-a596-eee5ba0c2504?version=1.1&t=1665033218671&download=true",
+          "isNew": false
         },
         {
           "sr": 18,
@@ -20546,7 +20563,8 @@
           "cat": "Guidelines",
           "title": "GUIDELINES ON STANDARD PROFESSIONAL INDEMNITY POLICY FOR INSURANCE BROKERS/CORPORATE AGENT/WEB AGGREGATORS/IMF",
           "desc": "",
-          "link": "https://irdai.gov.in/document-detail?documentId=397859"
+          "link": "https://irdai.gov.in/document-detail?documentId=397859",
+          "isNew": false
         },
         {
           "sr": 19,
@@ -20555,7 +20573,8 @@
           "cat": "Guidelines",
           "title": "Guidelines on Standard Domestic Travel Insurance Product.pdf\n\t\t\t\t\t\t\t\t\t\t\t564 KB",
           "desc": "",
-          "link": "https://irdai.gov.in/documents/37343/366029/Guidelines+on+Standard+Domestic+Travel+Insurance+Product.pdf/4a689456-0a1c-e541-81d7-ec79d8913410?version=1.4&t=1665033545846&download=true"
+          "link": "https://irdai.gov.in/documents/37343/366029/Guidelines+on+Standard+Domestic+Travel+Insurance+Product.pdf/4a689456-0a1c-e541-81d7-ec79d8913410?version=1.4&t=1665033545846&download=true",
+          "isNew": false
         },
         {
           "sr": 20,
@@ -20564,10 +20583,11 @@
           "cat": "Guidelines",
           "title": "Guidelines for Practical Training for Surveyors and Loss Assessors.pdf\n\t\t\t\t\t\t\t\t\t\t\t1.2 MB",
           "desc": "",
-          "link": "https://irdai.gov.in/documents/37343/366029/Guidelines+for+Practical+Training+for+Surveyors+and+Loss+Assessors.pdf/a6bf771d-06cb-182f-6b70-f49179a9241d?version=1.0&t=1631531743569&download=true"
+          "link": "https://irdai.gov.in/documents/37343/366029/Guidelines+for+Practical+Training+for+Surveyors+and+Loss+Assessors.pdf/a6bf771d-06cb-182f-6b70-f49179a9241d?version=1.0&t=1631531743569&download=true",
+          "isNew": false
         }
       ],
-      "ts": 1792452586532,
+      "ts": 1792468801525,
       "ok": true,
       "newCount": 0
     },
@@ -20624,7 +20644,7 @@
           "isNew": false
         }
       ],
-      "ts": 1792452599769,
+      "ts": 1792468814892,
       "ok": true,
       "newCount": 0
     },
@@ -20681,7 +20701,7 @@
           "isNew": false
         }
       ],
-      "ts": 1792452604557,
+      "ts": 1792468819902,
       "ok": true,
       "newCount": 0
     },
@@ -20722,7 +20742,7 @@
           "date": "21 Feb 2024",
           "year": 2024,
           "cat": "Orders",
-          "title": "List of Claim SRNs liable for rejection under rule 7(7) where company has not filed revised VR | 683 KB",
+          "title": "List of Claim SRNs liable for rejection under rule 7(3) where company has not filed any VR | 1 MB",
           "desc": "",
           "link": "https://www.iepf.gov.in/content/iepf/global/master/Home/Notifications/notices-and-orders-under-rule-7-3----7-7-.html#",
           "isNew": false
@@ -20732,13 +20752,13 @@
           "date": "21 Feb 2024",
           "year": 2024,
           "cat": "Orders",
-          "title": "List of Claim SRNs liable for rejection under rule 7(3) where company has not filed any VR | 1 MB",
+          "title": "List of Claim SRNs liable for rejection under rule 7(7) where company has not filed revised VR | 683 KB",
           "desc": "",
           "link": "https://www.iepf.gov.in/content/iepf/global/master/Home/Notifications/notices-and-orders-under-rule-7-3----7-7-.html#",
           "isNew": false
         }
       ],
-      "ts": 1792452609275,
+      "ts": 1792468824875,
       "ok": true,
       "newCount": 0
     },
@@ -20755,75 +20775,28 @@
           "isNew": false
         }
       ],
-      "ts": 1792452631196,
+      "ts": 1792468845026,
       "ok": true,
       "newCount": 0
     },
     "MCA_1": {
       "rows": [],
-      "ts": 1792452670378,
+      "ts": 1792468877240,
       "ok": true
     },
     "MCA_2": {
       "rows": [],
-      "ts": 1792452706276,
+      "ts": 1792468906826,
       "ok": true
     },
     "MCA_3": {
-      "rows": [
-        {
-          "sr": 1,
-          "date": "18 Nov 2025",
-          "year": 2025,
-          "cat": "Orders",
-          "title": "Adjudication order for violation of section 42(6) r/w 42(10) of Companies Act, 2013 In the matter of M/s. Chiraharit LTD | 67 KB",
-          "desc": "",
-          "link": "https://www.mca.gov.in/content/mca/global/en/data-and-reports/rd-roc-info/rd-adjudication-orders.html#"
-        },
-        {
-          "sr": 2,
-          "date": "18 Nov 2025",
-          "year": 2025,
-          "cat": "Orders",
-          "title": "Adjudication order for violation of section 143 of Companies Act, 2013 in the matter of M/s.UJWALA DEVELOPERS PRIVATE LIMITED | 35 KB",
-          "desc": "",
-          "link": "https://www.mca.gov.in/content/mca/global/en/data-and-reports/rd-roc-info/rd-adjudication-orders.html#"
-        },
-        {
-          "sr": 3,
-          "date": "18 Nov 2025",
-          "year": 2025,
-          "cat": "Orders",
-          "title": "Adjudication order for violation of section 203 of Companies Act, 2013 in the matter of M/s.SUTARA ROADS & INFRA LIMITED | 59 KB",
-          "desc": "",
-          "link": "https://www.mca.gov.in/content/mca/global/en/data-and-reports/rd-roc-info/rd-adjudication-orders.html#"
-        },
-        {
-          "sr": 4,
-          "date": "18 Nov 2025",
-          "year": 2025,
-          "cat": "Orders",
-          "title": "Adjudication order for violation of section 118(10) of Companies Act, 2013 in the matter of M/s.STANLEY OEM SOFAS LIMITED | 34 KB",
-          "desc": "",
-          "link": "https://www.mca.gov.in/content/mca/global/en/data-and-reports/rd-roc-info/rd-adjudication-orders.html#"
-        },
-        {
-          "sr": 5,
-          "date": "18 Nov 2025",
-          "year": 2025,
-          "cat": "Orders",
-          "title": "Adjudication order for violation of section 134 of Companies Act, 2013 in the matter of M/s. Stanley Lifestyles Limited | 24 KB",
-          "desc": "",
-          "link": "https://www.mca.gov.in/content/mca/global/en/data-and-reports/rd-roc-info/rd-adjudication-orders.html#"
-        }
-      ],
-      "ts": 1792452740521,
-      "ok": true,
-      "newCount": 0
+      "rows": [],
+      "ts": 1792468936734,
+      "ok": true
     },
     "MCA_4": {
       "rows": [],
-      "ts": 1792452775993,
+      "ts": 1792468965526,
       "ok": true
     },
     "NFRA_0": {
@@ -20889,7 +20862,7 @@
           "isNew": false
         }
       ],
-      "ts": 1792452779031,
+      "ts": 1792468968643,
       "ok": true,
       "newCount": 0
     },
@@ -21016,7 +20989,7 @@
           "isNew": false
         }
       ],
-      "ts": 1792452780519,
+      "ts": 1792468970153,
       "ok": true,
       "newCount": 0
     },
@@ -21133,7 +21106,7 @@
           "isNew": false
         }
       ],
-      "ts": 1792452782005,
+      "ts": 1792468971654,
       "ok": true,
       "newCount": 0
     },
@@ -21260,7 +21233,7 @@
           "isNew": false
         }
       ],
-      "ts": 1792452783485,
+      "ts": 1792468973160,
       "ok": true,
       "newCount": 0
     },
