@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Finance Listening Portal has moved – Bajaj Finserv</title>
+<!-- Fallback redirect if JavaScript is disabled -->
+<meta http-equiv="refresh" content="10; url=https://finance-listening-regulatory-tracker.streamlit.app/">
+<link rel="canonical" href="https://finance-listening-regulatory-tracker.streamlit.app/">
+<meta name="robots" content="noindex">
+<style>
+  :root { --blue:#0072bc; --navy:#0b2545; --bg:#f4f7fb; --text:#1f2a37; --muted:#5b6b7f; }
+  * { box-sizing:border-box; margin:0; padding:0; }
+  body {
+    font-family: "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+    background: var(--bg); color: var(--text);
+    min-height: 100vh; display:flex; align-items:center; justify-content:center; padding:24px;
+  }
+  .card {
+    background:#fff; max-width:620px; width:100%; border-radius:14px;
+    box-shadow:0 10px 30px rgba(11,37,69,.12); overflow:hidden;
+  }
+  .top { background:var(--navy); color:#fff; padding:28px 32px; }
+  .tag {
+    display:inline-block; background:#ffb703; color:var(--navy); font-weight:700;
+    font-size:12px; letter-spacing:.06em; text-transform:uppercase;
+    padding:4px 10px; border-radius:999px; margin-bottom:12px;
+  }
+  h1 { font-size:26px; line-height:1.25; }
+  .body { padding:28px 32px 32px; }
+  p { line-height:1.6; margin-bottom:14px; }
+  ul { margin:6px 0 20px 20px; line-height:1.8; }
+  .steps { background:#eef5fc; border-left:4px solid var(--blue); padding:14px 18px; border-radius:6px; margin-bottom:24px; }
+  .steps strong { color:var(--navy); }
+  .btn {
+    display:inline-block; background:var(--blue); color:#fff; text-decoration:none;
+    font-weight:600; padding:13px 26px; border-radius:8px; font-size:16px;
+  }
+  .btn:hover { background:#005a94; }
+  .count { color:var(--muted); font-size:14px; margin-top:16px; }
+  .url { word-break:break-all; color:var(--blue); }
+</style>
+</head>
+<body>
+  <div class="card">
+    <div class="top">
+      <span class="tag">We've moved</span>
+      <h1>The Finance Listening Portal has a new home</h1>
+    </div>
+    <div class="body">
+      <p>This version of the Regulatory Tracker has been retired. We've launched a new portal with:</p>
+      <ul>
+        <li>New and improved features</li>
+        <li>Login ID–based access management</li>
+      </ul>
+      <div class="steps">
+        <strong>How to get access:</strong> Visit the new portal and request access with your login ID. You'll be able to use it once your access is approved.
+      </div>
+      <a class="btn" href="https://finance-listening-regulatory-tracker.streamlit.app/">Go to the new portal &rarr;</a>
+      <p class="count">Redirecting automatically in <span id="sec">10</span> seconds…<br>
+        New address: <a class="url" href="https://finance-listening-regulatory-tracker.streamlit.app/">finance-listening-regulatory-tracker.streamlit.app</a>
+      </p>
+    </div>
+  </div>
+<script>
+  (function () {
+    var target = "https://finance-listening-regulatory-tracker.streamlit.app/";
+    var s = 10, el = document.getElementById("sec");
+    var t = setInterval(function () {
+      s--; if (el) el.textContent = s;
+      if (s <= 0) { clearInterval(t); window.location.replace(target); }
+    }, 1000);
+  })();
+</script>
+</body>
+</html>
