@@ -1,14 +1,14 @@
 {
-  "generatedAt": "2026-11-02T00:31:16.175Z",
+  "generatedAt": "2026-11-02T07:43:08.010Z",
   "data": {
     "TAXATION_0": {
       "rows": [],
-      "ts": 1793578989283,
+      "ts": 1793604272487,
       "ok": true
     },
     "TAXATION_1": {
       "rows": [],
-      "ts": 1793579007048,
+      "ts": 1793604292108,
       "ok": true
     },
     "TAXATION_2": {
@@ -124,7 +124,7 @@
           "isNew": false
         }
       ],
-      "ts": 1793579016334,
+      "ts": 1793604300464,
       "ok": true,
       "newCount": 0
     },
@@ -232,18 +232,80 @@
         }
       ],
       "ts": 1793579024855,
-      "ok": true,
-      "newCount": 0
+      "ok": false,
+      "newCount": 0,
+      "error": "Navigation timeout of 45000 ms exceeded"
     },
     "TAXATION_4": {
       "rows": [],
       "ts": 1793579035347,
-      "ok": true
+      "ok": false,
+      "error": "net::ERR_CONNECTION_TIMED_OUT at https://cbic-gst.gov.in/"
     },
     "TAXATION_5": {
       "rows": [
         {
           "sr": 1,
+          "date": "02 Nov 2026",
+          "year": 2026,
+          "cat": "Case Law",
+          "title": "Income Tax | Infrastructure Fund Receipts of Development Authority Taxable: Uttarakhand High Court",
+          "desc": "The post Infrastructure Fund Receipts of Development Authority Taxable: Uttarakhand High Court appeared first on TaxGuru.",
+          "link": "https://taxguru.in/income-tax/infrastructure-fund-receipts-development-authority-taxable-uttarakhand-high-court.html",
+          "isNew": true
+        },
+        {
+          "sr": 2,
+          "date": "02 Nov 2026",
+          "year": 2026,
+          "cat": "Case Law",
+          "title": "Custom Duty | Sea Cargo Manifest Regulations: Table Date Changed to 31 January 2027",
+          "desc": "Notification 90/2026-Customs (N.T.) substitutes 31 January 2027 against serial No. 6 in the table after Form XII of SCMTR, 2018.\nThe post Sea Cargo Manifest Regulations: Table Date Changed to 31 Janua",
+          "link": "https://taxguru.in/custom-duty/sea-cargo-manifest-regulations-table-date-changed-31-january-2027.html",
+          "isNew": true
+        },
+        {
+          "sr": 3,
+          "date": "02 Nov 2026",
+          "year": 2026,
+          "cat": "Case Law",
+          "title": "Income Tax | Quantifiable Tax Effect Below ₹2 Crore Bars Revenue Appeal: Allahabad High Court",
+          "desc": "The post Quantifiable Tax Effect Below ₹2 Crore Bars Revenue Appeal: Allahabad High Court appeared first on TaxGuru.",
+          "link": "https://taxguru.in/income-tax/quantifiable-tax-effect-rs-2-crore-bars-revenue-appeal-allahabad-high-court.html",
+          "isNew": true
+        },
+        {
+          "sr": 4,
+          "date": "02 Nov 2026",
+          "year": 2026,
+          "cat": "Case Law",
+          "title": "Custom Duty | CBIC Circular No. 47/2026-Customs: Phased SCMTR Export Message Transition by 31 January 2027",
+          "desc": "CBIC Circular 47/2026-Customs sets zone-wise dates for phasing out old export messages under SCMTR, 2018, with transition ending 31 January 2027.The post CBIC Circular No. 47/2026-Customs: Phased SCMT",
+          "link": "https://taxguru.in/custom-duty/cbic-circular-no-47-2026-customs-phased-scmtr-export-message-transition-31-january-2027.html",
+          "isNew": true
+        },
+        {
+          "sr": 5,
+          "date": "02 Nov 2026",
+          "year": 2026,
+          "cat": "Case Law",
+          "title": "Goods and Services Tax | CBIC Invites Public Suggestions on Proposed GST Liability and ITC Amendment Mechanism",
+          "desc": "CBIC invites suggestions from 1–30 November 2026 on a proposed alternate mechanism to amend GST return liabilities and input tax credit.The post CBIC Invites Public Suggestions on Proposed GST Liabili",
+          "link": "https://taxguru.in/goods-and-service-tax/cbic-invites-public-suggestions-proposed-gst-liability-itc-amendment-mechanism.html",
+          "isNew": true
+        },
+        {
+          "sr": 6,
+          "date": "02 Nov 2026",
+          "year": 2026,
+          "cat": "Case Law",
+          "title": "CA, CS, CMA | November 2026 Tax Compliance Deadlines for Income Tax and GST",
+          "desc": "November 2026 tax compliance tracker covering income tax returns, TDS/TCS, GST returns, QRMP, ITC and key filing deadlines.The post November 2026 Tax Compliance Deadlines for Income Tax and GST appear",
+          "link": "https://taxguru.in/chartered-accountant/statutory-tax-compliance-tracker.html",
+          "isNew": true
+        },
+        {
+          "sr": 7,
           "date": "01 Nov 2026",
           "year": 2026,
           "cat": "Case Law",
@@ -253,7 +315,7 @@
           "isNew": false
         },
         {
-          "sr": 2,
+          "sr": 8,
           "date": "01 Nov 2026",
           "year": 2026,
           "cat": "Case Law",
@@ -263,7 +325,7 @@
           "isNew": false
         },
         {
-          "sr": 3,
+          "sr": 9,
           "date": "01 Nov 2026",
           "year": 2026,
           "cat": "Case Law",
@@ -273,7 +335,7 @@
           "isNew": false
         },
         {
-          "sr": 4,
+          "sr": 10,
           "date": "01 Nov 2026",
           "year": 2026,
           "cat": "Case Law",
@@ -283,7 +345,7 @@
           "isNew": false
         },
         {
-          "sr": 5,
+          "sr": 11,
           "date": "01 Nov 2026",
           "year": 2026,
           "cat": "Case Law",
@@ -293,7 +355,7 @@
           "isNew": false
         },
         {
-          "sr": 6,
+          "sr": 12,
           "date": "01 Nov 2026",
           "year": 2026,
           "cat": "Case Law",
@@ -303,7 +365,7 @@
           "isNew": false
         },
         {
-          "sr": 7,
+          "sr": 13,
           "date": "01 Nov 2026",
           "year": 2026,
           "cat": "Case Law",
@@ -313,7 +375,7 @@
           "isNew": false
         },
         {
-          "sr": 8,
+          "sr": 14,
           "date": "01 Nov 2026",
           "year": 2026,
           "cat": "Case Law",
@@ -323,7 +385,7 @@
           "isNew": false
         },
         {
-          "sr": 9,
+          "sr": 15,
           "date": "01 Nov 2026",
           "year": 2026,
           "cat": "Case Law",
@@ -333,7 +395,7 @@
           "isNew": false
         },
         {
-          "sr": 10,
+          "sr": 16,
           "date": "01 Nov 2026",
           "year": 2026,
           "cat": "Case Law",
@@ -343,7 +405,7 @@
           "isNew": false
         },
         {
-          "sr": 11,
+          "sr": 17,
           "date": "01 Nov 2026",
           "year": 2026,
           "cat": "Case Law",
@@ -353,7 +415,7 @@
           "isNew": false
         },
         {
-          "sr": 12,
+          "sr": 18,
           "date": "01 Nov 2026",
           "year": 2026,
           "cat": "Case Law",
@@ -361,136 +423,316 @@
           "desc": "The post Ice-Cream Machinery Reclassification Without Speaking Order Invalid: CESTAT Kolkata appeared first on TaxGuru.",
           "link": "https://taxguru.in/custom-duty/ice-cream-machinery-reclassification-without-speaking-order-invalid-cestat-kolkata.html",
           "isNew": false
-        },
-        {
-          "sr": 13,
-          "date": "01 Nov 2026",
-          "year": 2026,
-          "cat": "Case Law",
-          "title": "Custom Duty | Customs Valuation Enhancement Without Valid Comparable Imports Set Aside: CESTAT Mumbai",
-          "desc": "CESTAT Mumbai sets aside enhanced customs valuation of imported cloves where the Department failed to establish a valid substitute transaction value.The post Customs Valuation Enhancement Without Vali",
-          "link": "https://taxguru.in/custom-duty/customs-valuation-enhancement-without-valid-comparable-imports-set-cestat-mumbai.html",
-          "isNew": false
-        },
-        {
-          "sr": 14,
-          "date": "01 Nov 2026",
-          "year": 2026,
-          "cat": "Case Law",
-          "title": "Corporate Law | Supreme Court Refers Hyderabad Family Property Dispute to Mediation, Orders Status Quo",
-          "desc": "The post Supreme Court Refers Hyderabad Family Property Dispute to Mediation, Orders Status Quo appeared first on TaxGuru.",
-          "link": "https://taxguru.in/corporate-law/supreme-court-refers-hyderabad-family-property-dispute-mediation-orders-status-quo.html",
-          "isNew": false
-        },
-        {
-          "sr": 15,
-          "date": "01 Nov 2026",
-          "year": 2026,
-          "cat": "Case Law",
-          "title": "Service Tax | Water Supply Charges Not Taxable as Natural Resource Allocation: CESTAT Kolkata",
-          "desc": "The post Water Supply Charges Not Taxable as Natural Resource Allocation: CESTAT Kolkata appeared first on TaxGuru.",
-          "link": "https://taxguru.in/service-tax/water-supply-charges-not-taxable-natural-resource-allocation-cestat-kolkata.html",
-          "isNew": false
-        },
-        {
-          "sr": 16,
-          "date": "01 Nov 2026",
-          "year": 2026,
-          "cat": "Case Law",
-          "title": "Excise Duty | ATF Export SAED Increased to ₹11 per Litre from 31 October 2026",
-          "desc": "CBIC raises ATF export SAED from ₹10.50 to ₹11 per litre under Notification 56/2026-Central Excise, effective 31 October 2026.The post ATF Export SAED Increased to ₹11 per Litre from 31 October 2026 a",
-          "link": "https://taxguru.in/excise-duty/atf-export-saed-increased-rs-11-litre-31-october-2026.html",
-          "isNew": false
-        },
-        {
-          "sr": 17,
-          "date": "01 Nov 2026",
-          "year": 2026,
-          "cat": "Case Law",
-          "title": "Excise Duty | CBIC Sets Petrol Export SAED at Nil, Diesel at ₹11.50/Litre from 31 October 2026",
-          "desc": "Notification 55/2026-Central Excise sets petrol export SAED at Nil and diesel at ₹11.50/litre. Check revised rates and effective date.The post CBIC Sets Petrol Export SAED at Nil, Diesel at ₹11.50/Lit",
-          "link": "https://taxguru.in/excise-duty/cbic-sets-petrol-export-saed-nil-diesel-rs-11-50-litre-31-october-2026.html",
-          "isNew": false
-        },
-        {
-          "sr": 18,
-          "date": "01 Nov 2026",
-          "year": 2026,
-          "cat": "Case Law",
-          "title": "Service Tax | Service Tax Demand on Composite Residential Construction Contracts Quashed: CESTAT Chennai",
-          "desc": "The post Service Tax Demand on Composite Residential Construction Contracts Quashed: CESTAT Chennai appeared first on TaxGuru.",
-          "link": "https://taxguru.in/service-tax/service-tax-demand-composite-residential-construction-contracts-quashed-cestat-chennai.html",
-          "isNew": false
-        },
-        {
-          "sr": 19,
-          "date": "01 Nov 2026",
-          "year": 2026,
-          "cat": "Case Law",
-          "title": "Service Tax | No Service Tax on Flats Sold After Construction: CESTAT Chandigarh",
-          "desc": "The post No Service Tax on Flats Sold After Construction: CESTAT Chandigarh appeared first on TaxGuru.",
-          "link": "https://taxguru.in/service-tax/no-service-tax-flats-sold-construction-cestat-chandigarh.html",
-          "isNew": false
-        },
-        {
-          "sr": 20,
-          "date": "01 Nov 2026",
-          "year": 2026,
-          "cat": "Case Law",
-          "title": "Service Tax | 12-Unit Condition Applies to Each Building, Not Entire Colony: CESTAT Delhi",
-          "desc": "The post 12-Unit Condition Applies to Each Building, Not Entire Colony: CESTAT Delhi appeared first on TaxGuru.",
-          "link": "https://taxguru.in/service-tax/12-unit-condition-applies-building-not-entire-colony-cestat.html",
-          "isNew": false
-        },
-        {
-          "sr": 21,
-          "date": "01 Nov 2026",
-          "year": 2026,
-          "cat": "Case Law",
-          "title": "Service Tax | No Service Tax on Individual Villas in Gated Layout: CESTAT Chennai",
-          "desc": "The post No Service Tax on Individual Villas in Gated Layout: CESTAT Chennai appeared first on TaxGuru.",
-          "link": "https://taxguru.in/service-tax/no-service-tax-individual-villas-gated-layout-cestat-chennai.html",
-          "isNew": false
-        },
-        {
-          "sr": 22,
-          "date": "01 Nov 2026",
-          "year": 2026,
-          "cat": "Case Law",
-          "title": "Income Tax | Orissa HC Allows Challenge to Section 147A After Supreme Court Remand",
-          "desc": "The post Orissa HC Allows Challenge to Section 147A After Supreme Court Remand appeared first on TaxGuru.",
-          "link": "https://taxguru.in/income-tax/orissa-hc-challenge-section-147a-supreme-court-remand.html",
-          "isNew": false
-        },
-        {
-          "sr": 23,
-          "date": "01 Nov 2026",
-          "year": 2026,
-          "cat": "Case Law",
-          "title": "Corporate Law | Statutory Tariff Notification Overrides Power Purchase Agreement: Supreme Court",
-          "desc": "The post Statutory Tariff Notification Overrides Power Purchase Agreement: Supreme Court appeared first on TaxGuru.",
-          "link": "https://taxguru.in/corporate-law/statutory-tariff-notification-overrides-power-purchase-agreement-supreme-court.html",
-          "isNew": false
-        },
-        {
-          "sr": 24,
-          "date": "01 Nov 2026",
-          "year": 2026,
-          "cat": "Case Law",
-          "title": "Corporate Law | Supreme Court Rejects Market Value Compensation for Delayed Refugee Land Claim",
-          "desc": "The post Supreme Court Rejects Market Value Compensation for Delayed Refugee Land Claim appeared first on TaxGuru.",
-          "link": "https://taxguru.in/corporate-law/supreme-court-rejects-market-compensation-delayed-refugee-land-claim.html",
-          "isNew": false
         }
       ],
-      "ts": 1793579038055,
+      "ts": 1793604439399,
       "ok": true,
-      "newCount": 0
+      "newCount": 6
     },
     "TAXATION_6": {
       "rows": [
         {
           "sr": 1,
+          "date": "02 Nov 2026",
+          "year": 2026,
+          "cat": "Law Update",
+          "title": "Company Law | Resolution Plan May Change Corporate Debtor&#8217;s Business Model: NCLAT Delhi",
+          "desc": "The post Resolution Plan May Change Corporate Debtor&#8217;s Business Model: NCLAT Delhi appeared first on TaxGuru.",
+          "link": "https://taxguru.in/company-law/resolution-plan-change-corporate-debtors-business-model-nclat-delhi.html",
+          "isNew": true
+        },
+        {
+          "sr": 2,
+          "date": "02 Nov 2026",
+          "year": 2026,
+          "cat": "Law Update",
+          "title": "Corporate Law | Civil Court Jurisdiction Not Barred in Boundary Disputes by NGT Act: Kerala HC",
+          "desc": "The post Civil Court Jurisdiction Not Barred in Boundary Disputes by NGT Act: Kerala HC appeared first on TaxGuru.",
+          "link": "https://taxguru.in/corporate-law/civil-court-jurisdiction-not-barred-boundary-disputes-ngt-act-kerala-hc.html",
+          "isNew": true
+        },
+        {
+          "sr": 3,
+          "date": "02 Nov 2026",
+          "year": 2026,
+          "cat": "Law Update",
+          "title": "Income Tax | Section 80P Deduction Denied Without Valid Income Tax Return: ITAT Visakhapatnam",
+          "desc": "The post Section 80P Deduction Denied Without Valid Income Tax Return: ITAT Visakhapatnam appeared first on TaxGuru.",
+          "link": "https://taxguru.in/income-tax/section-80p-deduction-denied-without-valid-income-tax-return-itat-visakhapatnam.html",
+          "isNew": true
+        },
+        {
+          "sr": 4,
+          "date": "02 Nov 2026",
+          "year": 2026,
+          "cat": "Law Update",
+          "title": "Corporate Law | Delayed UPS Contributions: DoPPW Clarifies Restoration of Pension Units Under Rule 8(1)",
+          "desc": "DoPPW clarifies Rule 8(1) on delayed UPS contributions, covering enrolment, salary deductions, Government credits and restoration of pension units.The post Delayed UPS Contributions: DoPPW Clarifies R",
+          "link": "https://taxguru.in/corporate-law/delayed-ups-contributions-doppw-clarifies-restoration-pension-units-rule-8-1.html",
+          "isNew": true
+        },
+        {
+          "sr": 5,
+          "date": "02 Nov 2026",
+          "year": 2026,
+          "cat": "Law Update",
+          "title": "Income Tax | Infrastructure Fund Receipts of Development Authority Taxable: Uttarakhand High Court",
+          "desc": "The post Infrastructure Fund Receipts of Development Authority Taxable: Uttarakhand High Court appeared first on TaxGuru.",
+          "link": "https://taxguru.in/income-tax/infrastructure-fund-receipts-development-authority-taxable-uttarakhand-high-court.html",
+          "isNew": true
+        },
+        {
+          "sr": 6,
+          "date": "02 Nov 2026",
+          "year": 2026,
+          "cat": "Law Update",
+          "title": "Insurance | HDFC Life Click 2 Protect Ultimate UIN 101N179V01 Guide for 2026",
+          "desc": "Verified guide to UIN 101N179V01 covering death and terminal-illness benefits, return of premium, exclusions, claims, GST and income tax.The post HDFC Life Click 2 Protect Ultimate UIN 101N179V01 Guid",
+          "link": "https://taxguru.in/finance/insurance/hdfc-life-click-2-protect-ultimate-uin-101n179v01-guide-2026.html",
+          "isNew": true
+        },
+        {
+          "sr": 7,
+          "date": "02 Nov 2026",
+          "year": 2026,
+          "cat": "Law Update",
+          "title": "Custom Duty | Sea Cargo Manifest Regulations: Table Date Changed to 31 January 2027",
+          "desc": "Notification 90/2026-Customs (N.T.) substitutes 31 January 2027 against serial No. 6 in the table after Form XII of SCMTR, 2018.\nThe post Sea Cargo Manifest Regulations: Table Date Changed to 31 Janua",
+          "link": "https://taxguru.in/custom-duty/sea-cargo-manifest-regulations-table-date-changed-31-january-2027.html",
+          "isNew": true
+        },
+        {
+          "sr": 8,
+          "date": "02 Nov 2026",
+          "year": 2026,
+          "cat": "Law Update",
+          "title": "Finance | UPI Enabled for Burj Khalifa and Resorts World Sentosa Online Bookings",
+          "desc": "Indian travellers can use UPI for online bookings at Burj Khalifa and Resorts World Sentosa under NIPL partnerships in the UAE and Singapore.The post UPI Enabled for Burj Khalifa and Resorts World Sen",
+          "link": "https://taxguru.in/finance/upi-enabled-burj-khalifa-resorts-world-sentosa-online-bookings.html",
+          "isNew": true
+        },
+        {
+          "sr": 9,
+          "date": "02 Nov 2026",
+          "year": 2026,
+          "cat": "Law Update",
+          "title": "Income Tax | Quantifiable Tax Effect Below ₹2 Crore Bars Revenue Appeal: Allahabad High Court",
+          "desc": "The post Quantifiable Tax Effect Below ₹2 Crore Bars Revenue Appeal: Allahabad High Court appeared first on TaxGuru.",
+          "link": "https://taxguru.in/income-tax/quantifiable-tax-effect-rs-2-crore-bars-revenue-appeal-allahabad-high-court.html",
+          "isNew": true
+        },
+        {
+          "sr": 10,
+          "date": "02 Nov 2026",
+          "year": 2026,
+          "cat": "Law Update",
+          "title": "Business | Ambuja Cements Announces Major Expansion with 30 MTPA Capacity Increase",
+          "desc": "Ambuja Cements Limited, a prominent entity within the Adani Portfolio, has unveiled an ambitious expansion plan to bolster its manufacturing capabilities by approximately 30 million tonnes&#8230;The p",
+          "link": "https://taxguru.in/finance/business/ambuja-cements-announces-major-expansion-with-30-mtpa-capacity-increase.html",
+          "isNew": true
+        },
+        {
+          "sr": 11,
+          "date": "02 Nov 2026",
+          "year": 2026,
+          "cat": "Law Update",
+          "title": "Income Tax | Penalty on Income Estimated at 5% Deleted Under Section 271(1)(c): ITAT Chennai",
+          "desc": "The post Penalty on Income Estimated at 5% Deleted Under Section 271(1)(c): ITAT Chennai appeared first on TaxGuru.",
+          "link": "https://taxguru.in/income-tax/penalty-income-estimated-5-percent-deleted-section-271-1-itat-chennai.html",
+          "isNew": true
+        },
+        {
+          "sr": 12,
+          "date": "02 Nov 2026",
+          "year": 2026,
+          "cat": "Law Update",
+          "title": "Custom Duty | CBIC Circular No. 47/2026-Customs: Phased SCMTR Export Message Transition by 31 January 2027",
+          "desc": "CBIC Circular 47/2026-Customs sets zone-wise dates for phasing out old export messages under SCMTR, 2018, with transition ending 31 January 2027.The post CBIC Circular No. 47/2026-Customs: Phased SCMT",
+          "link": "https://taxguru.in/custom-duty/cbic-circular-no-47-2026-customs-phased-scmtr-export-message-transition-31-january-2027.html",
+          "isNew": true
+        },
+        {
+          "sr": 13,
+          "date": "02 Nov 2026",
+          "year": 2026,
+          "cat": "Law Update",
+          "title": "Goods and Services Tax | CBIC Invites Public Suggestions on Proposed GST Liability and ITC Amendment Mechanism",
+          "desc": "CBIC invites suggestions from 1–30 November 2026 on a proposed alternate mechanism to amend GST return liabilities and input tax credit.The post CBIC Invites Public Suggestions on Proposed GST Liabili",
+          "link": "https://taxguru.in/goods-and-service-tax/cbic-invites-public-suggestions-proposed-gst-liability-itc-amendment-mechanism.html",
+          "isNew": true
+        },
+        {
+          "sr": 14,
+          "date": "02 Nov 2026",
+          "year": 2026,
+          "cat": "Law Update",
+          "title": "Corporate Law | UPS Jeevan Setu Digital Life Certificate Facility Launched; Annual Submission by 30 November",
+          "desc": "PFRDA launches UPS Jeevan Setu Digital Life Certificate facility through NPS by Protean eGov app. UPS pensioners must submit DLC by 30 November.The post UPS Jeevan Setu Digital Life Certificate Facili",
+          "link": "https://taxguru.in/corporate-law/ups-jeevan-setu-digital-life-certificate-facility-launched-annual-submission-30-november.html",
+          "isNew": true
+        },
+        {
+          "sr": 15,
+          "date": "02 Nov 2026",
+          "year": 2026,
+          "cat": "Law Update",
+          "title": "Goods and Services Tax | GST Registration Amendment Rules 2026: Automatic Approval, REG-14 and OTP Verification",
+          "desc": "GSTN revises Rule 19 registration amendments with automatic approval, REG-14 filing, OTP verification and three-day ARN validation.The post GST Registration Amendment Rules 2026: Automatic Approval, R",
+          "link": "https://taxguru.in/goods-and-service-tax/gst-registration-amendment-rules-2026-automatic-approval-reg-14-otp-verification.html",
+          "isNew": true
+        },
+        {
+          "sr": 16,
+          "date": "02 Nov 2026",
+          "year": 2026,
+          "cat": "Law Update",
+          "title": "Goods and Services Tax | GSTN Introduces Section 10(2A) Composition Levy Category and REG-14 Amendment Facility",
+          "desc": "GSTN adds Section 10(2A) composition category and REG-14 amendment facility. Check category selection rules and PAN-linked GSTIN requirements.The post GSTN Introduces Section 10(2A) Composition Levy C",
+          "link": "https://taxguru.in/goods-and-service-tax/gstn-introduces-section-10-2a-composition-levy-category-reg-14-amendment-facility.html",
+          "isNew": true
+        },
+        {
+          "sr": 17,
+          "date": "02 Nov 2026",
+          "year": 2026,
+          "cat": "Law Update",
+          "title": "Goods and Services Tax | GST TDS Registration Extended to Used Cooking Oil, Plastic, Tyre and E-Waste Scrap Dealers from November 2026",
+          "desc": "GSTN advises TDS registration in GST REG-07 for metal scrap, used cooking oil, plastic, tyre and e-waste dealers under Notification 07/2026.The post GST TDS Registration Extended to Used Cooking Oil, ",
+          "link": "https://taxguru.in/goods-and-service-tax/gst-tds-registration-extended-cooking-oil-plastic-tyre-waste-scrap-dealers-november-2026.html",
+          "isNew": true
+        },
+        {
+          "sr": 18,
+          "date": "02 Nov 2026",
+          "year": 2026,
+          "cat": "Law Update",
+          "title": "Goods and Services Tax | GSTN Revises GST REG-16 Cancellation Process: Automatic Approval, Return Filing and ₹2.5 Lakh Limit",
+          "desc": "GSTN revises GST REG-16 cancellation with automated approvals, return filing checks, ₹2.5 lakh tax limit and GSTR-10 requirements.The post GSTN Revises GST REG-16 Cancellation Process: Automatic Appro",
+          "link": "https://taxguru.in/goods-and-service-tax/gstn-revises-gst-reg-16-cancellation-process-automatic-approval-return-filing-rs-2-5-lakh-limit.html",
+          "isNew": true
+        },
+        {
+          "sr": 19,
+          "date": "02 Nov 2026",
+          "year": 2026,
+          "cat": "Law Update",
+          "title": "Goods and Services Tax | GSTN Rule 14B Simplified Registration Scheme for E-Commerce Sellers: Eligibility, Process and ECO Consent",
+          "desc": "GSTN introduces Rule 14B simplified GST registration for e-commerce sellers. Check eligibility, ₹2.5 lakh tax limit, ECO consent and verification.The post GSTN Rule 14B Simplified Registration Scheme ",
+          "link": "https://taxguru.in/goods-and-service-tax/gstn-rule-14b-simplified-registration-scheme-commerce-sellers-eligibility-process-eco-consent.html",
+          "isNew": true
+        },
+        {
+          "sr": 20,
+          "date": "02 Nov 2026",
+          "year": 2026,
+          "cat": "Law Update",
+          "title": "Goods and Services Tax | GSTN Revises FORM GST REG-01: Nine Major GST Registration Changes from November 2026",
+          "desc": "GSTN revises GST REG-01 with new OPC, SEZ, e-commerce, business premises, bank account and identity validation requirements.The post GSTN Revises FORM GST REG-01: Nine Major GST Registration Changes f",
+          "link": "https://taxguru.in/goods-and-service-tax/gstn-revises-form-gst-reg-01-major-gst-registration-november-2026.html",
+          "isNew": true
+        },
+        {
+          "sr": 21,
+          "date": "02 Nov 2026",
+          "year": 2026,
+          "cat": "Law Update",
+          "title": "Goods and Services Tax | GST Collections October 2026 Rise 22.9% to Rs 2.31 Lakh Crore",
+          "desc": "October 2026 gross GST collections rose 22.9% to Rs 2.31 lakh crore; net revenue reached Rs 2.03 lakh crore, up 25.6%.The post GST Collections October 2026 Rise 22.9% to Rs 2.31 Lakh Crore appeared fi",
+          "link": "https://taxguru.in/goods-and-service-tax/gst-collections-october-2026-rise-22-9-percent-rs-2-31-lakh-crore.html",
+          "isNew": true
+        },
+        {
+          "sr": 22,
+          "date": "02 Nov 2026",
+          "year": 2026,
+          "cat": "Law Update",
+          "title": "CA, CS, CMA | November 2026 Tax Compliance Deadlines for Income Tax and GST",
+          "desc": "November 2026 tax compliance tracker covering income tax returns, TDS/TCS, GST returns, QRMP, ITC and key filing deadlines.The post November 2026 Tax Compliance Deadlines for Income Tax and GST appear",
+          "link": "https://taxguru.in/chartered-accountant/statutory-tax-compliance-tracker.html",
+          "isNew": true
+        },
+        {
+          "sr": 23,
+          "date": "02 Nov 2026",
+          "year": 2026,
+          "cat": "Law Update",
+          "title": "Income Tax | CBI Arrests Income Tax Inspector while accepting Rs. 15 Lakh Bribe",
+          "desc": "CBI arrests Mumbai Income Tax Inspector for allegedly accepting ₹15 lakh to close a benami property matter; ₹11 lakh cash recovered in searches.The post CBI Arrests Income Tax Inspector while acceptin",
+          "link": "https://taxguru.in/income-tax/cbi-arrests-inspectors-income-tax-accepting-bribe-rs-15-lakh.html",
+          "isNew": true
+        },
+        {
+          "sr": 24,
+          "date": "02 Nov 2026",
+          "year": 2026,
+          "cat": "Law Update",
+          "title": "Corporate Law | UPS Contributions During Suspension: DoPPW Clarifies Rules 6(2) and 7(3)",
+          "desc": "DoPPW clarifies optional subscriber and conditional Government UPS contributions during suspension under Rules 6(2) and 7(3).The post UPS Contributions During Suspension: DoPPW Clarifies Rules 6(2) an",
+          "link": "https://taxguru.in/corporate-law/ups-contributions-suspension-doppw-clarifies-rules-6-2-7-3.html",
+          "isNew": true
+        },
+        {
+          "sr": 25,
+          "date": "02 Nov 2026",
+          "year": 2026,
+          "cat": "Law Update",
+          "title": "Corporate Law | UPS Pension Benefits on Deputation: DoPPW Clarifies Rule 27 Authorisation Responsibilities",
+          "desc": "DoPPW clarifies which authority authorises UPS retirement benefits for employees on Central, State Government or foreign-service deputation.The post UPS Pension Benefits on Deputation: DoPPW Clarifies",
+          "link": "https://taxguru.in/corporate-law/ups-pension-benefits-deputation-doppw-clarifies-rule-27-authorisation-responsibilities.html",
+          "isNew": true
+        },
+        {
+          "sr": 26,
+          "date": "02 Nov 2026",
+          "year": 2026,
+          "cat": "Law Update",
+          "title": "Corporate Law | UPS Contribution Mandatory During Probation Under Rule 6(6)",
+          "desc": "DoPPW clarifies that UPS subscribers must contribute during probation under Rule 6(6) of the CCS Unified Pension Scheme Rules, 2025.The post UPS Contribution Mandatory During Probation Under Rule 6(6)",
+          "link": "https://taxguru.in/corporate-law/ups-contribution-mandatory-probation-rule-6-6.html",
+          "isNew": true
+        },
+        {
+          "sr": 27,
+          "date": "02 Nov 2026",
+          "year": 2026,
+          "cat": "Law Update",
+          "title": "Corporate Law | No UPS Contribution During Unpaid Absence: DoPPW Clarifies Rules 6(3) and 7(2)",
+          "desc": "DoPPW clarifies UPS subscriber and government contributions during unpaid absence under Rules 6(3) and 7(2) of the UPS Rules, 2025.The post No UPS Contribution During Unpaid Absence: DoPPW Clarifies R",
+          "link": "https://taxguru.in/corporate-law/no-ups-contribution-unpaid-absence-doppw-clarifies-rules-6-3-7-2.html",
+          "isNew": true
+        },
+        {
+          "sr": 28,
+          "date": "02 Nov 2026",
+          "year": 2026,
+          "cat": "Law Update",
+          "title": "Corporate Law | Past Service Counts Towards Pension After Reinstatement Under Rule 25: DoPPW Office Memorandum",
+          "desc": "DoPPW clarifies Rule 25 of CCS Pension Rules, 2021 on counting past service after reinstatement and conditions for interruption and suspension periods.The post Past Service Counts Towards Pension Afte",
+          "link": "https://taxguru.in/corporate-law/counting-service-reinstatement-central-civil-service-pension-rules-2021.html",
+          "isNew": true
+        },
+        {
+          "sr": 29,
+          "date": "02 Nov 2026",
+          "year": 2026,
+          "cat": "Law Update",
+          "title": "Business | GAIL reports strong Q2 FY2026-27 results with revenue of ₹45,924 crore",
+          "desc": "GAIL (India) Limited has announced its financial results for the second quarter of the fiscal year 2026-27, showcasing a robust performance despite challenging geopolitical conditions. The&#8230;The p",
+          "link": "https://taxguru.in/finance/business/gail-reports-strong-q2-fy2026-27-results-with-revenue-of-%e2%82%b945924-crore.html",
+          "isNew": true
+        },
+        {
+          "sr": 30,
+          "date": "02 Nov 2026",
+          "year": 2026,
+          "cat": "Law Update",
+          "title": "Business | Bajaj Auto reports robust sales growth in October 2026",
+          "desc": "Bajaj Auto Limited has reported a significant increase in its sales figures for October 2026, according to a press release issued by the company. The total&#8230;The post Bajaj Auto reports robust sal",
+          "link": "https://taxguru.in/finance/business/bajaj-auto-reports-robust-sales-growth-in-october-2026.html",
+          "isNew": true
+        },
+        {
+          "sr": 31,
           "date": "01 Nov 2026",
           "year": 2026,
           "cat": "Law Update",
@@ -500,7 +742,7 @@
           "isNew": false
         },
         {
-          "sr": 2,
+          "sr": 32,
           "date": "01 Nov 2026",
           "year": 2026,
           "cat": "Law Update",
@@ -510,7 +752,7 @@
           "isNew": false
         },
         {
-          "sr": 3,
+          "sr": 33,
           "date": "01 Nov 2026",
           "year": 2026,
           "cat": "Law Update",
@@ -520,7 +762,7 @@
           "isNew": false
         },
         {
-          "sr": 4,
+          "sr": 34,
           "date": "01 Nov 2026",
           "year": 2026,
           "cat": "Law Update",
@@ -530,7 +772,7 @@
           "isNew": false
         },
         {
-          "sr": 5,
+          "sr": 35,
           "date": "01 Nov 2026",
           "year": 2026,
           "cat": "Law Update",
@@ -540,7 +782,7 @@
           "isNew": false
         },
         {
-          "sr": 6,
+          "sr": 36,
           "date": "01 Nov 2026",
           "year": 2026,
           "cat": "Law Update",
@@ -550,7 +792,7 @@
           "isNew": false
         },
         {
-          "sr": 7,
+          "sr": 37,
           "date": "01 Nov 2026",
           "year": 2026,
           "cat": "Law Update",
@@ -560,7 +802,7 @@
           "isNew": false
         },
         {
-          "sr": 8,
+          "sr": 38,
           "date": "01 Nov 2026",
           "year": 2026,
           "cat": "Law Update",
@@ -570,7 +812,7 @@
           "isNew": false
         },
         {
-          "sr": 9,
+          "sr": 39,
           "date": "01 Nov 2026",
           "year": 2026,
           "cat": "Law Update",
@@ -580,7 +822,7 @@
           "isNew": false
         },
         {
-          "sr": 10,
+          "sr": 40,
           "date": "01 Nov 2026",
           "year": 2026,
           "cat": "Law Update",
@@ -590,7 +832,7 @@
           "isNew": false
         },
         {
-          "sr": 11,
+          "sr": 41,
           "date": "01 Nov 2026",
           "year": 2026,
           "cat": "Law Update",
@@ -600,7 +842,7 @@
           "isNew": false
         },
         {
-          "sr": 12,
+          "sr": 42,
           "date": "01 Nov 2026",
           "year": 2026,
           "cat": "Law Update",
@@ -610,7 +852,7 @@
           "isNew": false
         },
         {
-          "sr": 13,
+          "sr": 43,
           "date": "01 Nov 2026",
           "year": 2026,
           "cat": "Law Update",
@@ -620,7 +862,7 @@
           "isNew": false
         },
         {
-          "sr": 14,
+          "sr": 44,
           "date": "01 Nov 2026",
           "year": 2026,
           "cat": "Law Update",
@@ -630,7 +872,7 @@
           "isNew": false
         },
         {
-          "sr": 15,
+          "sr": 45,
           "date": "01 Nov 2026",
           "year": 2026,
           "cat": "Law Update",
@@ -640,7 +882,7 @@
           "isNew": false
         },
         {
-          "sr": 16,
+          "sr": 46,
           "date": "01 Nov 2026",
           "year": 2026,
           "cat": "Law Update",
@@ -650,7 +892,7 @@
           "isNew": false
         },
         {
-          "sr": 17,
+          "sr": 47,
           "date": "01 Nov 2026",
           "year": 2026,
           "cat": "Law Update",
@@ -660,7 +902,7 @@
           "isNew": false
         },
         {
-          "sr": 18,
+          "sr": 48,
           "date": "01 Nov 2026",
           "year": 2026,
           "cat": "Law Update",
@@ -670,7 +912,7 @@
           "isNew": false
         },
         {
-          "sr": 19,
+          "sr": 49,
           "date": "01 Nov 2026",
           "year": 2026,
           "cat": "Law Update",
@@ -680,7 +922,7 @@
           "isNew": false
         },
         {
-          "sr": 20,
+          "sr": 50,
           "date": "01 Nov 2026",
           "year": 2026,
           "cat": "Law Update",
@@ -690,7 +932,7 @@
           "isNew": false
         },
         {
-          "sr": 21,
+          "sr": 51,
           "date": "01 Nov 2026",
           "year": 2026,
           "cat": "Law Update",
@@ -700,7 +942,7 @@
           "isNew": false
         },
         {
-          "sr": 22,
+          "sr": 52,
           "date": "01 Nov 2026",
           "year": 2026,
           "cat": "Law Update",
@@ -710,7 +952,7 @@
           "isNew": false
         },
         {
-          "sr": 23,
+          "sr": 53,
           "date": "01 Nov 2026",
           "year": 2026,
           "cat": "Law Update",
@@ -720,7 +962,7 @@
           "isNew": false
         },
         {
-          "sr": 24,
+          "sr": 54,
           "date": "01 Nov 2026",
           "year": 2026,
           "cat": "Law Update",
@@ -730,7 +972,7 @@
           "isNew": false
         },
         {
-          "sr": 25,
+          "sr": 55,
           "date": "01 Nov 2026",
           "year": 2026,
           "cat": "Law Update",
@@ -740,7 +982,7 @@
           "isNew": false
         },
         {
-          "sr": 26,
+          "sr": 56,
           "date": "01 Nov 2026",
           "year": 2026,
           "cat": "Law Update",
@@ -750,7 +992,7 @@
           "isNew": false
         },
         {
-          "sr": 27,
+          "sr": 57,
           "date": "01 Nov 2026",
           "year": 2026,
           "cat": "Law Update",
@@ -760,7 +1002,7 @@
           "isNew": false
         },
         {
-          "sr": 28,
+          "sr": 58,
           "date": "01 Nov 2026",
           "year": 2026,
           "cat": "Law Update",
@@ -770,7 +1012,7 @@
           "isNew": false
         },
         {
-          "sr": 29,
+          "sr": 59,
           "date": "01 Nov 2026",
           "year": 2026,
           "cat": "Law Update",
@@ -780,7 +1022,7 @@
           "isNew": false
         },
         {
-          "sr": 30,
+          "sr": 60,
           "date": "01 Nov 2026",
           "year": 2026,
           "cat": "Law Update",
@@ -790,7 +1032,7 @@
           "isNew": false
         },
         {
-          "sr": 31,
+          "sr": 61,
           "date": "01 Nov 2026",
           "year": 2026,
           "cat": "Law Update",
@@ -800,7 +1042,7 @@
           "isNew": false
         },
         {
-          "sr": 32,
+          "sr": 62,
           "date": "01 Nov 2026",
           "year": 2026,
           "cat": "Law Update",
@@ -810,7 +1052,7 @@
           "isNew": false
         },
         {
-          "sr": 33,
+          "sr": 63,
           "date": "01 Nov 2026",
           "year": 2026,
           "cat": "Law Update",
@@ -820,7 +1062,7 @@
           "isNew": false
         },
         {
-          "sr": 34,
+          "sr": 64,
           "date": "01 Nov 2026",
           "year": 2026,
           "cat": "Law Update",
@@ -830,7 +1072,7 @@
           "isNew": false
         },
         {
-          "sr": 35,
+          "sr": 65,
           "date": "01 Nov 2026",
           "year": 2026,
           "cat": "Law Update",
@@ -840,7 +1082,7 @@
           "isNew": false
         },
         {
-          "sr": 36,
+          "sr": 66,
           "date": "01 Nov 2026",
           "year": 2026,
           "cat": "Law Update",
@@ -850,7 +1092,7 @@
           "isNew": false
         },
         {
-          "sr": 37,
+          "sr": 67,
           "date": "01 Nov 2026",
           "year": 2026,
           "cat": "Law Update",
@@ -860,7 +1102,7 @@
           "isNew": false
         },
         {
-          "sr": 38,
+          "sr": 68,
           "date": "01 Nov 2026",
           "year": 2026,
           "cat": "Law Update",
@@ -870,7 +1112,7 @@
           "isNew": false
         },
         {
-          "sr": 39,
+          "sr": 69,
           "date": "01 Nov 2026",
           "year": 2026,
           "cat": "Law Update",
@@ -880,7 +1122,7 @@
           "isNew": false
         },
         {
-          "sr": 40,
+          "sr": 70,
           "date": "01 Nov 2026",
           "year": 2026,
           "cat": "Law Update",
@@ -890,7 +1132,7 @@
           "isNew": false
         },
         {
-          "sr": 41,
+          "sr": 71,
           "date": "01 Nov 2026",
           "year": 2026,
           "cat": "Law Update",
@@ -900,7 +1142,7 @@
           "isNew": false
         },
         {
-          "sr": 42,
+          "sr": 72,
           "date": "01 Nov 2026",
           "year": 2026,
           "cat": "Law Update",
@@ -910,7 +1152,7 @@
           "isNew": false
         },
         {
-          "sr": 43,
+          "sr": 73,
           "date": "01 Nov 2026",
           "year": 2026,
           "cat": "Law Update",
@@ -920,7 +1162,7 @@
           "isNew": false
         },
         {
-          "sr": 44,
+          "sr": 74,
           "date": "01 Nov 2026",
           "year": 2026,
           "cat": "Law Update",
@@ -930,7 +1172,7 @@
           "isNew": false
         },
         {
-          "sr": 45,
+          "sr": 75,
           "date": "01 Nov 2026",
           "year": 2026,
           "cat": "Law Update",
@@ -938,311 +1180,11 @@
           "desc": "The post Ice-Cream Machinery Reclassification Without Speaking Order Invalid: CESTAT Kolkata appeared first on TaxGuru.",
           "link": "https://taxguru.in/custom-duty/ice-cream-machinery-reclassification-without-speaking-order-invalid-cestat-kolkata.html",
           "isNew": false
-        },
-        {
-          "sr": 46,
-          "date": "01 Nov 2026",
-          "year": 2026,
-          "cat": "Law Update",
-          "title": "Custom Duty | Customs Valuation Enhancement Without Valid Comparable Imports Set Aside: CESTAT Mumbai",
-          "desc": "CESTAT Mumbai sets aside enhanced customs valuation of imported cloves where the Department failed to establish a valid substitute transaction value.The post Customs Valuation Enhancement Without Vali",
-          "link": "https://taxguru.in/custom-duty/customs-valuation-enhancement-without-valid-comparable-imports-set-cestat-mumbai.html",
-          "isNew": false
-        },
-        {
-          "sr": 47,
-          "date": "01 Nov 2026",
-          "year": 2026,
-          "cat": "Law Update",
-          "title": "Income Tax | Reassessment Quashed as Joint Property Share Below ₹50 Lakh: Jharkhand HC",
-          "desc": "The post Reassessment Quashed as Joint Property Share Below ₹50 Lakh: Jharkhand HC appeared first on TaxGuru.",
-          "link": "https://taxguru.in/income-tax/reassessment-quashed-joint-property-share-rs-50-lakh-jharkhand-hc.html",
-          "isNew": false
-        },
-        {
-          "sr": 48,
-          "date": "01 Nov 2026",
-          "year": 2026,
-          "cat": "Law Update",
-          "title": "Income Tax | ITAT Can Consider Expenditure Claim Without Revised Income Tax Return: Madras HC",
-          "desc": "The post ITAT Can Consider Expenditure Claim Without Revised Income Tax Return: Madras HC appeared first on TaxGuru.",
-          "link": "https://taxguru.in/income-tax/itat-expenditure-claim-without-revised-income-tax-return-madras-hc.html",
-          "isNew": false
-        },
-        {
-          "sr": 49,
-          "date": "01 Nov 2026",
-          "year": 2026,
-          "cat": "Law Update",
-          "title": "Corporate Law | Delhi HC Imposes ₹5 Lakh Costs on Insurer for Avoiding Pre-Suit Mediation",
-          "desc": "The post Delhi HC Imposes ₹5 Lakh Costs on Insurer for Avoiding Pre-Suit Mediation appeared first on TaxGuru.",
-          "link": "https://taxguru.in/corporate-law/delhi-hc-imposes-rs-5-lakh-costs-insurer-avoiding-pre-suit-mediation.html",
-          "isNew": false
-        },
-        {
-          "sr": 50,
-          "date": "01 Nov 2026",
-          "year": 2026,
-          "cat": "Law Update",
-          "title": "Corporate Law | Suppression of Partition Suits Defeats Building Permission Review: Telangana HC",
-          "desc": "The post Suppression of Partition Suits Defeats Building Permission Review: Telangana HC appeared first on TaxGuru.",
-          "link": "https://taxguru.in/corporate-law/suppression-partition-suits-defeats-building-permission-review-telangana-hc.html",
-          "isNew": false
-        },
-        {
-          "sr": 51,
-          "date": "01 Nov 2026",
-          "year": 2026,
-          "cat": "Law Update",
-          "title": "Corporate Law | Supreme Court Refers Hyderabad Family Property Dispute to Mediation, Orders Status Quo",
-          "desc": "The post Supreme Court Refers Hyderabad Family Property Dispute to Mediation, Orders Status Quo appeared first on TaxGuru.",
-          "link": "https://taxguru.in/corporate-law/supreme-court-refers-hyderabad-family-property-dispute-mediation-orders-status-quo.html",
-          "isNew": false
-        },
-        {
-          "sr": 52,
-          "date": "01 Nov 2026",
-          "year": 2026,
-          "cat": "Law Update",
-          "title": "Corporate Law | Property Partition Cannot Be Reopened Merely for Roof Rights Valuation: SC",
-          "desc": "The post Property Partition Cannot Be Reopened Merely for Roof Rights Valuation: SC appeared first on TaxGuru.",
-          "link": "https://taxguru.in/corporate-law/property-partition-cannot-reopened-roof-rights-valuation-sc.html",
-          "isNew": false
-        },
-        {
-          "sr": 53,
-          "date": "01 Nov 2026",
-          "year": 2026,
-          "cat": "Law Update",
-          "title": "Service Tax | Water Supply Charges Not Taxable as Natural Resource Allocation: CESTAT Kolkata",
-          "desc": "The post Water Supply Charges Not Taxable as Natural Resource Allocation: CESTAT Kolkata appeared first on TaxGuru.",
-          "link": "https://taxguru.in/service-tax/water-supply-charges-not-taxable-natural-resource-allocation-cestat-kolkata.html",
-          "isNew": false
-        },
-        {
-          "sr": 54,
-          "date": "01 Nov 2026",
-          "year": 2026,
-          "cat": "Law Update",
-          "title": "Excise Duty | ATF Export SAED Increased to ₹11 per Litre from 31 October 2026",
-          "desc": "CBIC raises ATF export SAED from ₹10.50 to ₹11 per litre under Notification 56/2026-Central Excise, effective 31 October 2026.The post ATF Export SAED Increased to ₹11 per Litre from 31 October 2026 a",
-          "link": "https://taxguru.in/excise-duty/atf-export-saed-increased-rs-11-litre-31-october-2026.html",
-          "isNew": false
-        },
-        {
-          "sr": 55,
-          "date": "01 Nov 2026",
-          "year": 2026,
-          "cat": "Law Update",
-          "title": "Excise Duty | CBIC Sets Petrol Export SAED at Nil, Diesel at ₹11.50/Litre from 31 October 2026",
-          "desc": "Notification 55/2026-Central Excise sets petrol export SAED at Nil and diesel at ₹11.50/litre. Check revised rates and effective date.The post CBIC Sets Petrol Export SAED at Nil, Diesel at ₹11.50/Lit",
-          "link": "https://taxguru.in/excise-duty/cbic-sets-petrol-export-saed-nil-diesel-rs-11-50-litre-31-october-2026.html",
-          "isNew": false
-        },
-        {
-          "sr": 56,
-          "date": "01 Nov 2026",
-          "year": 2026,
-          "cat": "Law Update",
-          "title": "Corporate Law | Appearance Before CBI Does Not Automatically Amount to Arrest: Uttarakhand HC",
-          "desc": "The post Appearance Before CBI Does Not Automatically Amount to Arrest: Uttarakhand HC appeared first on TaxGuru.",
-          "link": "https://taxguru.in/corporate-law/appearance-cbi-not-automatically-amount-arrest-uttarakhand-hc.html",
-          "isNew": false
-        },
-        {
-          "sr": 57,
-          "date": "01 Nov 2026",
-          "year": 2026,
-          "cat": "Law Update",
-          "title": "Company Law | NCLT Cannot Dismiss Oppression Petition Without Examining Allegations: NCLAT Delhi",
-          "desc": "The post NCLT Cannot Dismiss Oppression Petition Without Examining Allegations: NCLAT Delhi appeared first on TaxGuru.",
-          "link": "https://taxguru.in/company-law/nclt-cannot-dismiss-oppression-petition-without-examining-allegations-nclat-delhi.html",
-          "isNew": false
-        },
-        {
-          "sr": 58,
-          "date": "01 Nov 2026",
-          "year": 2026,
-          "cat": "Law Update",
-          "title": "Service Tax | Service Tax Demand on Composite Residential Construction Contracts Quashed: CESTAT Chennai",
-          "desc": "The post Service Tax Demand on Composite Residential Construction Contracts Quashed: CESTAT Chennai appeared first on TaxGuru.",
-          "link": "https://taxguru.in/service-tax/service-tax-demand-composite-residential-construction-contracts-quashed-cestat-chennai.html",
-          "isNew": false
-        },
-        {
-          "sr": 59,
-          "date": "01 Nov 2026",
-          "year": 2026,
-          "cat": "Law Update",
-          "title": "Service Tax | No Service Tax on Flats Sold After Construction: CESTAT Chandigarh",
-          "desc": "The post No Service Tax on Flats Sold After Construction: CESTAT Chandigarh appeared first on TaxGuru.",
-          "link": "https://taxguru.in/service-tax/no-service-tax-flats-sold-construction-cestat-chandigarh.html",
-          "isNew": false
-        },
-        {
-          "sr": 60,
-          "date": "01 Nov 2026",
-          "year": 2026,
-          "cat": "Law Update",
-          "title": "Service Tax | Gated Community Villas Exempt from Service Tax: Revenue Appeals Dismissed",
-          "desc": "The post Gated Community Villas Exempt from Service Tax: Revenue Appeals Dismissed appeared first on TaxGuru.",
-          "link": "https://taxguru.in/service-tax/gated-community-villas-exempt-service-tax-revenue-appeals-dismissed.html",
-          "isNew": false
-        },
-        {
-          "sr": 61,
-          "date": "01 Nov 2026",
-          "year": 2026,
-          "cat": "Law Update",
-          "title": "Service Tax | 12-Unit Condition Applies to Each Building, Not Entire Colony: CESTAT Delhi",
-          "desc": "The post 12-Unit Condition Applies to Each Building, Not Entire Colony: CESTAT Delhi appeared first on TaxGuru.",
-          "link": "https://taxguru.in/service-tax/12-unit-condition-applies-building-not-entire-colony-cestat.html",
-          "isNew": false
-        },
-        {
-          "sr": 62,
-          "date": "01 Nov 2026",
-          "year": 2026,
-          "cat": "Law Update",
-          "title": "Service Tax | No Service Tax on Individual Villas in Gated Layout: CESTAT Chennai",
-          "desc": "The post No Service Tax on Individual Villas in Gated Layout: CESTAT Chennai appeared first on TaxGuru.",
-          "link": "https://taxguru.in/service-tax/no-service-tax-individual-villas-gated-layout-cestat-chennai.html",
-          "isNew": false
-        },
-        {
-          "sr": 63,
-          "date": "01 Nov 2026",
-          "year": 2026,
-          "cat": "Law Update",
-          "title": "Business | Hero MotoCorp Reports 16% YoY Growth in October Dispatches",
-          "desc": "Hero MotoCorp Limited, the world’s largest motorcycle and scooter manufacturer, announced a significant year-on-year growth in dispatches for October 2026. The company recorded a total of&#8230;The po",
-          "link": "https://taxguru.in/finance/business/hero-motocorp-reports-16-yoy-growth-in-october-dispatches.html",
-          "isNew": false
-        },
-        {
-          "sr": 64,
-          "date": "01 Nov 2026",
-          "year": 2026,
-          "cat": "Law Update",
-          "title": "Income Tax | Indian Subsidiary&#8217;s Marketing Activities Do Not Create Agency PE: ITAT Delhi",
-          "desc": "The post Indian Subsidiary&#8217;s Marketing Activities Do Not Create Agency PE: ITAT Delhi appeared first on TaxGuru.",
-          "link": "https://taxguru.in/income-tax/indian-subsidiarys-marketing-activities-not-create-agency-pe-itat-delhi.html",
-          "isNew": false
-        },
-        {
-          "sr": 65,
-          "date": "01 Nov 2026",
-          "year": 2026,
-          "cat": "Law Update",
-          "title": "Income Tax | Indian Subsidiary Not Dependent Agent PE Without Contract Authority: ITAT Delhi",
-          "desc": "The post Indian Subsidiary Not Dependent Agent PE Without Contract Authority: ITAT Delhi appeared first on TaxGuru.",
-          "link": "https://taxguru.in/income-tax/indian-subsidiary-not-dependent-agent-pe-without-contract-authority-itat-delhi.html",
-          "isNew": false
-        },
-        {
-          "sr": 66,
-          "date": "01 Nov 2026",
-          "year": 2026,
-          "cat": "Law Update",
-          "title": "Income Tax | Aircraft Lease Rentals Taxable Only in Ireland Under DTAA: ITAT Mumbai",
-          "desc": "The post Aircraft Lease Rentals Taxable Only in Ireland Under DTAA: ITAT Mumbai appeared first on TaxGuru.",
-          "link": "https://taxguru.in/income-tax/aircraft-lease-rentals-taxable-ireland-dtaa-itat-mumbai.html",
-          "isNew": false
-        },
-        {
-          "sr": 67,
-          "date": "01 Nov 2026",
-          "year": 2026,
-          "cat": "Law Update",
-          "title": "Income Tax | ITAT Chennai Condones 1419-Day Appeal Delay Due to COVID-19 Disruption",
-          "desc": "The post ITAT Chennai Condones 1419-Day Appeal Delay Due to COVID-19 Disruption appeared first on TaxGuru.",
-          "link": "https://taxguru.in/income-tax/itat-chennai-condones-1419-day-appeal-delay-due-covid-19-disruption.html",
-          "isNew": false
-        },
-        {
-          "sr": 68,
-          "date": "01 Nov 2026",
-          "year": 2026,
-          "cat": "Law Update",
-          "title": "Income Tax | Orissa HC Allows Challenge to Section 147A After Supreme Court Remand",
-          "desc": "The post Orissa HC Allows Challenge to Section 147A After Supreme Court Remand appeared first on TaxGuru.",
-          "link": "https://taxguru.in/income-tax/orissa-hc-challenge-section-147a-supreme-court-remand.html",
-          "isNew": false
-        },
-        {
-          "sr": 69,
-          "date": "01 Nov 2026",
-          "year": 2026,
-          "cat": "Law Update",
-          "title": "Income Tax | Arm&#8217;s Length Payment to Indian Agent Bars Further PE Profit Attribution: ITAT Mumbai",
-          "desc": "The post Arm&#8217;s Length Payment to Indian Agent Bars Further PE Profit Attribution: ITAT Mumbai appeared first on TaxGuru.",
-          "link": "https://taxguru.in/income-tax/arms-length-payment-indian-agent-bars-pe-profit-attribution-itat-mumbai.html",
-          "isNew": false
-        },
-        {
-          "sr": 70,
-          "date": "01 Nov 2026",
-          "year": 2026,
-          "cat": "Law Update",
-          "title": "Income Tax | Section 263 Revision Invalid Without Revenue Prejudice: ITAT Mumbai",
-          "desc": "The post Section 263 Revision Invalid Without Revenue Prejudice: ITAT Mumbai appeared first on TaxGuru.",
-          "link": "https://taxguru.in/income-tax/section-263-revision-invalid-without-revenue-prejudice-itat-mumbai.html",
-          "isNew": false
-        },
-        {
-          "sr": 71,
-          "date": "01 Nov 2026",
-          "year": 2026,
-          "cat": "Law Update",
-          "title": "Corporate Law | Statutory Tariff Notification Overrides Power Purchase Agreement: Supreme Court",
-          "desc": "The post Statutory Tariff Notification Overrides Power Purchase Agreement: Supreme Court appeared first on TaxGuru.",
-          "link": "https://taxguru.in/corporate-law/statutory-tariff-notification-overrides-power-purchase-agreement-supreme-court.html",
-          "isNew": false
-        },
-        {
-          "sr": 72,
-          "date": "01 Nov 2026",
-          "year": 2026,
-          "cat": "Law Update",
-          "title": "Corporate Law | Supreme Court Rejects Market Value Compensation for Delayed Refugee Land Claim",
-          "desc": "The post Supreme Court Rejects Market Value Compensation for Delayed Refugee Land Claim appeared first on TaxGuru.",
-          "link": "https://taxguru.in/corporate-law/supreme-court-rejects-market-compensation-delayed-refugee-land-claim.html",
-          "isNew": false
-        },
-        {
-          "sr": 73,
-          "date": "01 Nov 2026",
-          "year": 2026,
-          "cat": "Law Update",
-          "title": "Income Tax | ITAT Mumbai Allows Mahindra&#8217;s Development and Scientific Research Expenses",
-          "desc": "The post ITAT Mumbai Allows Mahindra&#8217;s Development and Scientific Research Expenses appeared first on TaxGuru.",
-          "link": "https://taxguru.in/income-tax/itat-mumbai-mahindras-development-scientific-research-expenses.html",
-          "isNew": false
-        },
-        {
-          "sr": 74,
-          "date": "01 Nov 2026",
-          "year": 2026,
-          "cat": "Law Update",
-          "title": "Income Tax | ₹16.26 Crore Mark-to-Market Loss on Derivatives Allowed: ITAT Mumbai",
-          "desc": "The post ₹16.26 Crore Mark-to-Market Loss on Derivatives Allowed: ITAT Mumbai appeared first on TaxGuru.",
-          "link": "https://taxguru.in/income-tax/rs-16-26-crore-mark-market-loss-derivatives-allowed-itat-mumbai.html",
-          "isNew": false
-        },
-        {
-          "sr": 75,
-          "date": "01 Nov 2026",
-          "year": 2026,
-          "cat": "Law Update",
-          "title": "Income Tax | HDFC Bank Wins Partial Relief in 42 Income Tax Appeals: ITAT Mumbai",
-          "desc": "The post HDFC Bank Wins Partial Relief in 42 Income Tax Appeals: ITAT Mumbai appeared first on TaxGuru.",
-          "link": "https://taxguru.in/income-tax/hdfc-bank-wins-partial-relief-42-income-tax-appeals-itat-mumbai.html",
-          "isNew": false
         }
       ],
-      "ts": 1793579040185,
+      "ts": 1793604441747,
       "ok": true,
-      "newCount": 0
+      "newCount": 30
     },
     "NEWSLETTER_0": {
       "rows": [
@@ -1283,21 +1225,9 @@
       "error": "HTTP 403"
     },
     "NEWSLETTER_1": {
-      "rows": [
-        {
-          "sr": 1,
-          "date": "30 Oct 2026",
-          "year": 2026,
-          "cat": "News",
-          "title": "Axis Bank Revises Savings Account Charges From December 1: Cash Limits, Cheque Fees, Reward Points And MoreOct 30, 2026, 16:16 IST",
-          "desc": "",
-          "link": "https://www.timesnownews.com/business-economy/personal-finance/axis-bank-revises-savings-account-charges-from-december-1-cash-limits-cheque-fees-reward-points-and-more-article-156435518",
-          "isNew": false
-        }
-      ],
-      "ts": 1793579069096,
-      "ok": true,
-      "newCount": 0
+      "rows": [],
+      "ts": 1793604470620,
+      "ok": true
     },
     "NEWSLETTER_2": {
       "rows": [
@@ -1312,7 +1242,7 @@
           "isNew": false
         }
       ],
-      "ts": 1793579070475,
+      "ts": 1793604472195,
       "ok": true,
       "newCount": 0
     },
@@ -1320,6 +1250,46 @@
       "rows": [
         {
           "sr": 1,
+          "date": "02 Nov 2026",
+          "year": 2026,
+          "cat": "News",
+          "title": "Bank of India, Suryoday SFB raise interest rates on fixed deposits",
+          "desc": "Bank of India has revised rates across select maturities and introduced a 500-day scheme, while Suryoday SFB is offering up to 8.25 per cent to general customers and 8.6 per cent to senior citizens",
+          "link": "https://www.business-standard.com/industry/banking/bank-of-india-suryoday-sfb-raise-fixed-deposit-rates-126110200443_1.html",
+          "isNew": true
+        },
+        {
+          "sr": 2,
+          "date": "02 Nov 2026",
+          "year": 2026,
+          "cat": "News",
+          "title": "Muthoot Finance rebounds, up 9% from 52-week low as stock reacts to Q2 nos",
+          "desc": "Muthoot Finance share price hit a 52-week low of ₹2,305 in Monday's trade but soon rebounded and was up nearly 9% from the day's low.",
+          "link": "https://www.business-standard.com/markets/news/muthoot-finance-rebounds-up-9-from-52-week-low-as-stock-reacts-to-q2-nos-126110200210_1.html",
+          "isNew": true
+        },
+        {
+          "sr": 3,
+          "date": "02 Nov 2026",
+          "year": 2026,
+          "cat": "News",
+          "title": "Coforge, ICICI Bank, KPR Mill: 3 technical ideas by Choice Equity",
+          "desc": "Sachin Gupta of Choice Equity Broking has recommended 3 stocks that could rally in the near term -- Coforge, ICICI Bank, and KPR Mill.",
+          "link": "https://www.business-standard.com/markets/news/coforge-icici-bank-kpr-mill-3-technical-ideas-by-choice-equity-126110200057_1.html",
+          "isNew": true
+        },
+        {
+          "sr": 4,
+          "date": "02 Nov 2026",
+          "year": 2026,
+          "cat": "News",
+          "title": "Stocks to watch: RIL, Jio Platforms, NTPC, Muthoot Finance, Bank of Baroda",
+          "desc": "Shares of NTPC, NTPC Green Energy, Muthoot Finance, Bank of Baroda, PB Fintech and CDSL will remain in focus after the companies reported their September quarter (Q2FY27) results.",
+          "link": "https://www.business-standard.com/markets/news/stocks-to-watch-ril-jio-platforms-ntpc-muthoot-finance-bank-of-baroda-126110200060_1.html",
+          "isNew": true
+        },
+        {
+          "sr": 5,
           "date": "01 Nov 2026",
           "year": 2026,
           "cat": "News",
@@ -1327,61 +1297,11 @@
           "desc": "MDR is not intended to be profit-accretive; bank will reinvest proceeds to improve scale of UPI",
           "link": "https://www.business-standard.com/companies/people/bank-of-baroda-to-put-mdr-proceeds-back-into-upi-ecosystem-md-ceo-126110100195_1.html",
           "isNew": false
-        },
-        {
-          "sr": 2,
-          "date": "01 Nov 2026",
-          "year": 2026,
-          "cat": "News",
-          "title": "RBI's net short dollar forward position hits record $239.2 bn in September",
-          "desc": "RBI's net short dollar forward position rose from $200.06 billion in August to $239.2 billion in September, driven by FCNR(B) swaps, as forward premiums climbed sharply in October",
-          "link": "https://www.business-standard.com/economy/news/rbi-s-net-short-dollar-forward-position-hits-record-239-2-bn-in-september-126110100730_1.html",
-          "isNew": false
-        },
-        {
-          "sr": 3,
-          "date": "01 Nov 2026",
-          "year": 2026,
-          "cat": "News",
-          "title": "India's 10-year bond yield may ease to 6.75-7% by March: SBI Research",
-          "desc": "SBI Research sees the 10-year G-sec yield easing by March 2027, citing historical yield spreads and steps to lower government borrowing, despite a possible 50-basis-point rate hike.",
-          "link": "https://www.business-standard.com/markets/news/india-s-10-year-bond-yield-may-ease-to-6-75-7-by-march-sbi-research-126110100657_1.html",
-          "isNew": false
-        },
-        {
-          "sr": 4,
-          "date": "01 Nov 2026",
-          "year": 2026,
-          "cat": "News",
-          "title": "When gold loses its glitter",
-          "desc": "The regulatory framework effective April 2026 has created the foundation for mitigating risks in gold loans but more needs to be done",
-          "link": "https://www.business-standard.com/opinion/columns/when-gold-loses-its-glitter-126110100574_1.html",
-          "isNew": false
-        },
-        {
-          "sr": 5,
-          "date": "01 Nov 2026",
-          "year": 2026,
-          "cat": "News",
-          "title": "BoB steps up cyber defences after attack, tech spend to exceed 10%",
-          "desc": "State-run Bank of Baroda has scaled up its cybersecurity framework across technology, personnel, and operational processes following a July 2026 incident, with overall IT defence spending set to excee",
-          "link": "https://www.business-standard.com/industry/banking/bob-steps-up-cyber-defences-after-attack-tech-spend-to-exceed-10-126110100337_1.html",
-          "isNew": false
-        },
-        {
-          "sr": 6,
-          "date": "01 Nov 2026",
-          "year": 2026,
-          "cat": "News",
-          "title": "Commercial LPG rates increase by ₹10, ATF prices up by ₹1.37 per litre",
-          "desc": "Aviation turbine fuel (ATF) prices rose by Rs 1.37 per litre from Sunday, and commercial LPG rates increased by Rs 10 per 19-kg cylinder in step with firming international benchmarks, according to sta",
-          "link": "https://www.business-standard.com/economy/news/commercial-lpg-rates-increase-by-10-atf-prices-up-by-1-37-per-litre-126110100124_1.html",
-          "isNew": false
         }
       ],
-      "ts": 1793579072971,
+      "ts": 1793604473575,
       "ok": true,
-      "newCount": 0
+      "newCount": 4
     },
     "NEWSLETTER_4": {
       "rows": [],
@@ -1391,12 +1311,12 @@
     },
     "NEWSLETTER_5": {
       "rows": [],
-      "ts": 1793579103925,
+      "ts": 1793604494580,
       "ok": true
     },
     "NEWSLETTER_6": {
       "rows": [],
-      "ts": 1793579110282,
+      "ts": 1793604501125,
       "ok": true
     },
     "SEBI_0": {
@@ -4403,8 +4323,9 @@
         }
       ],
       "ts": 1793579146053,
-      "ok": true,
-      "newCount": 0
+      "ok": false,
+      "newCount": 0,
+      "error": "fetch failed"
     },
     "SEBI_1": {
       "rows": [
@@ -5750,8 +5671,9 @@
         }
       ],
       "ts": 1793579165841,
-      "ok": true,
-      "newCount": 0
+      "ok": false,
+      "newCount": 0,
+      "error": "fetch failed"
     },
     "SEBI_2": {
       "rows": [
@@ -6007,8 +5929,9 @@
         }
       ],
       "ts": 1793579168280,
-      "ok": true,
-      "newCount": 0
+      "ok": false,
+      "newCount": 0,
+      "error": "fetch failed"
     },
     "SEBI_3": {
       "rows": [
@@ -8954,8 +8877,9 @@
         }
       ],
       "ts": 1793579204341,
-      "ok": true,
-      "newCount": 0
+      "ok": false,
+      "newCount": 0,
+      "error": "fetch failed"
     },
     "SEBI_4": {
       "rows": [
@@ -10161,8 +10085,9 @@
         }
       ],
       "ts": 1793579207621,
-      "ok": true,
-      "newCount": 0
+      "ok": false,
+      "newCount": 0,
+      "error": "fetch failed"
     },
     "SEBI_5": {
       "rows": [
@@ -10188,8 +10113,9 @@
         }
       ],
       "ts": 1793579209348,
-      "ok": true,
-      "newCount": 0
+      "ok": false,
+      "newCount": 0,
+      "error": "fetch failed"
     },
     "SEBI_6": {
       "rows": [
@@ -13195,8 +13121,9 @@
         }
       ],
       "ts": 1793579247678,
-      "ok": true,
-      "newCount": 0
+      "ok": false,
+      "newCount": 0,
+      "error": "fetch failed"
     },
     "RBI_0": {
       "rows": [
@@ -13321,7 +13248,7 @@
           "isNew": false
         }
       ],
-      "ts": 1793579250057,
+      "ts": 1793605121957,
       "ok": true,
       "newCount": 0
     },
@@ -16328,7 +16255,7 @@
           "isNew": false
         }
       ],
-      "ts": 1793579253151,
+      "ts": 1793605124807,
       "ok": true,
       "newCount": 0
     },
@@ -16345,7 +16272,7 @@
           "isNew": false
         }
       ],
-      "ts": 1793579255306,
+      "ts": 1793605126652,
       "ok": true,
       "newCount": 0
     },
@@ -16552,7 +16479,7 @@
           "isNew": false
         }
       ],
-      "ts": 1793579257675,
+      "ts": 1793605129096,
       "ok": true,
       "newCount": 0
     },
@@ -16560,256 +16487,256 @@
       "rows": [
         {
           "sr": 1,
-          "date": "23 Oct 2026",
+          "date": "10 Mar 2026",
           "year": 2026,
           "cat": "Circular",
-          "title": "Securities and Exchange Board of India (Listing Obligations and Disclosure Requirements) (Third Amendment) Regulations, 2026.",
+          "title": "Revised Norms for appointment of an independent third-party reviewer/ certifier for green debt security",
           "desc": "",
-          "link": "https://www.bseindia.com/downloads/UploadDocs/Notices/20261023-12/20261023-12.pdf",
+          "link": "https://www.bseindia.com/markets/MarketInfo/DispNewNoticesCirculars?page=20260310-1",
           "isNew": false
         },
         {
           "sr": 2,
-          "date": "21 Oct 2026",
-          "year": 2026,
-          "cat": "Circular",
-          "title": "Common Standard Operating Procedure (SOP) for grant of approvals for further issues by Stock Exchanges",
-          "desc": "",
-          "link": "https://www.bseindia.com/downloads/UploadDocs/Notices/20261021-14/20261021-14.pdf",
-          "isNew": false
-        },
-        {
-          "sr": 3,
-          "date": "14 Oct 2026",
-          "year": 2026,
-          "cat": "Circular",
-          "title": "Update in the formats for publishing financial results as required under the SEBI (Listing Obligations and Disclosure Requirements) Regulations, 2015 and Filing of Financial Results in XBRL Mode by all Insurers and Reinsurers",
-          "desc": "",
-          "link": "https://www.bseindia.com/downloads/UploadDocs/Notices/20261014-25/20261014-25.pdf",
-          "isNew": false
-        },
-        {
-          "sr": 4,
-          "date": "08 Oct 2026",
-          "year": 2026,
-          "cat": "Circular",
-          "title": "Introduction of Credit Risk-o-Meter as an additional disclosure mechanism for debt securities.",
-          "desc": "",
-          "link": "https://www.bseindia.com/downloads/UploadDocs/Notices/20261008-23/20261008-23.pdf",
-          "isNew": false
-        },
-        {
-          "sr": 5,
-          "date": "08 Oct 2026",
-          "year": 2026,
-          "cat": "Circular",
-          "title": "Exemption from the requirement of mandatory merchant banker appointment for debt issued through private placement by certain listed issuers.",
-          "desc": "",
-          "link": "https://www.bseindia.com/downloads/UploadDocs/Notices/20261008-22/20261008-22.pdf",
-          "isNew": false
-        },
-        {
-          "sr": 6,
-          "date": "08 Oct 2026",
-          "year": 2026,
-          "cat": "Circular",
-          "title": "Review of provisions related to International Securities Identification Number (ISIN) for debt securities issued on private placement basis.",
-          "desc": "",
-          "link": "https://www.bseindia.com/downloads/UploadDocs/Notices/20261008-21/20261008-21.pdf",
-          "isNew": false
-        },
-        {
-          "sr": 7,
-          "date": "18 Sept 2026",
-          "year": 2026,
-          "cat": "Circular",
-          "title": "Framework for Calculation of Net Distributable Cash Flows for InvITs",
-          "desc": "",
-          "link": "https://www.bseindia.com/downloads/UploadDocs/Notices/20260918-25/20260918-25.pdf",
-          "isNew": false
-        },
-        {
-          "sr": 8,
-          "date": "24 Aug 2026",
-          "year": 2026,
-          "cat": "Circular",
-          "title": "Frequently Asked Questions (FAQs) on Record Date for Corporate Actions",
-          "desc": "",
-          "link": "https://www.bseindia.com/downloads/UploadDocs/Notices/20260824-16/20260824-16.pdf",
-          "isNew": false
-        },
-        {
-          "sr": 9,
-          "date": "07 Aug 2026",
-          "year": 2026,
-          "cat": "Circular",
-          "title": "Adherence to Compliance Requirements for Handling Unpublished Price Sensitive Information (UPSI) under the SEBI (Prohibition of Insider Trading) Regulations, 2015",
-          "desc": "",
-          "link": "https://www.bseindia.com/downloads/UploadDocs/Notices/20260807-20/20260807-20.pdf",
-          "isNew": false
-        },
-        {
-          "sr": 10,
-          "date": "22 Jul 2026",
-          "year": 2026,
-          "cat": "Circular",
-          "title": "SEBI (Listing Obligations and Disclosure Requirements) (Second Amendment) Regulations, 2026",
-          "desc": "",
-          "link": "https://www.bseindia.com/downloads/UploadDocs/Notices/20260722-7/20260722-7.pdf",
-          "isNew": false
-        },
-        {
-          "sr": 11,
-          "date": "19 Jun 2026",
-          "year": 2026,
-          "cat": "Circular",
-          "title": "Update of single filing system through API-based integration between Stock Exchanges.",
-          "desc": "",
-          "link": "https://www.bseindia.com/downloads/UploadDocs/Notices/20260619-11/20260619-11.pdf",
-          "isNew": false
-        },
-        {
-          "sr": 12,
-          "date": "12 Jun 2026",
-          "year": 2026,
-          "cat": "Circular",
-          "title": "Frequently Asked Questions (FAQs) on the submission of the Quarterly Integrated Filing – Governance",
-          "desc": "",
-          "link": "https://www.bseindia.com/downloads/UploadDocs/Notices/20260612-13/20260612-13.pdf",
-          "isNew": false
-        },
-        {
-          "sr": 13,
-          "date": "01 Jun 2026",
-          "year": 2026,
-          "cat": "Circular",
-          "title": "MCA Notifications relating to Corporate Social Responsibility (CSR) and Social Stock Exchange",
-          "desc": "",
-          "link": "https://www.bseindia.com/downloads/UploadDocs/Notices/20260601-37/20260601-37.pdf",
-          "isNew": false
-        },
-        {
-          "sr": 14,
-          "date": "01 Jun 2026",
-          "year": 2026,
-          "cat": "Circular",
-          "title": "Pre-Packaged Insolvency Resolution Process under Section 54L of the Insolvency and Bankruptcy Code, 2016",
-          "desc": "",
-          "link": "https://www.bseindia.com/downloads/UploadDocs/Notices/20260601-34/20260601-34.pdf",
-          "isNew": false
-        },
-        {
-          "sr": 15,
-          "date": "29 May 2026",
-          "year": 2026,
-          "cat": "Circular",
-          "title": "Update of single filing system through API-based integration between Stock Exchanges",
-          "desc": "",
-          "link": "https://www.bseindia.com/downloads/UploadDocs/Notices/20260529-28/20260529-28.pdf",
-          "isNew": false
-        },
-        {
-          "sr": 16,
-          "date": "20 May 2026",
-          "year": 2026,
-          "cat": "Circular",
-          "title": "Status of SPVs post conclusion or termination of Concession Agreement",
-          "desc": "",
-          "link": "https://www.bseindia.com/downloads/UploadDocs/Notices/20260520-10/20260520-10.pdf",
-          "isNew": false
-        },
-        {
-          "sr": 17,
-          "date": "20 May 2026",
-          "year": 2026,
-          "cat": "Circular",
-          "title": "Permitted use of fresh borrowings for InvITs where Net Borrowings exceeds forty-nine percent of the value of InvIT assets",
-          "desc": "",
-          "link": "https://www.bseindia.com/downloads/UploadDocs/Notices/20260520-8/20260520-8.pdf",
-          "isNew": false
-        },
-        {
-          "sr": 18,
-          "date": "06 May 2026",
-          "year": 2026,
-          "cat": "Circular",
-          "title": "Extension of timeline for compliance with terms and conditions by\nDebenture Trustees for carrying out activities outside the purview of\nSEBI",
-          "desc": "",
-          "link": "https://www.bseindia.com/downloads/UploadDocs/Notices/20260506-37/20260506-37.pdf",
-          "isNew": false
-        },
-        {
-          "sr": 19,
-          "date": "04 May 2026",
-          "year": 2026,
-          "cat": "Circular",
-          "title": "XBRL based filing for Violations related to Code of Conduct (CoC) under SEBI PIT Regulations, 2015",
-          "desc": "",
-          "link": "https://www.bseindia.com/downloads/UploadDocs/Notices/20260504-17/20260504-17.pdf",
-          "isNew": false
-        },
-        {
-          "sr": 20,
-          "date": "04 May 2026",
-          "year": 2026,
-          "cat": "Circular",
-          "title": "Update of single filing system through API-based integration between Stock Exchanges",
-          "desc": "",
-          "link": "https://www.bseindia.com/downloads/UploadDocs/Notices/20260504-16/20260504-16.pdf",
-          "isNew": false
-        },
-        {
-          "sr": 21,
-          "date": "30 Apr 2026",
-          "year": 2026,
-          "cat": "Circular",
-          "title": "Master Circular - Listing Compliance",
-          "desc": "",
-          "link": "https://www.bseindia.com/downloads/UploadDocs/Notices/20260430-29/20260430-29.pdf",
-          "isNew": false
-        },
-        {
-          "sr": 22,
-          "date": "24 Apr 2026",
-          "year": 2026,
-          "cat": "Circular",
-          "title": "Update of single filing system through API-based integration between Stock Exchanges",
-          "desc": "",
-          "link": "https://www.bseindia.com/downloads/UploadDocs/Notices/20260424-25/20260424-25.pdf",
-          "isNew": false
-        },
-        {
-          "sr": 23,
-          "date": "20 Apr 2026",
-          "year": 2026,
-          "cat": "Circular",
-          "title": "Update of single filing system through API-based integration between Stock Exchanges",
-          "desc": "",
-          "link": "https://www.bseindia.com/downloads/UploadDocs/Notices/20260420-31/20260420-31.pdf",
-          "isNew": false
-        },
-        {
-          "sr": 24,
-          "date": "09 Apr 2026",
-          "year": 2026,
-          "cat": "Circular",
-          "title": "Master Circular for compliance with the provisions of the SEBI (LODR) Regulations, 2015 on non-compliance with the Minimum Public Shareholding (MPS) requirements",
-          "desc": "",
-          "link": "https://www.bseindia.com/downloads/UploadDocs/Notices/20260409-3/20260409-3.pdf",
-          "isNew": false
-        },
-        {
-          "sr": 25,
-          "date": "30 Mar 2026",
+          "date": "06 Mar 2026",
           "year": 2026,
           "cat": "Circular",
           "title": "Update on single filing system through API-based integration between Stock Exchanges",
           "desc": "",
-          "link": "https://www.bseindia.com/downloads/UploadDocs/Notices/20260330-41/20260330-41.pdf",
+          "link": "https://www.bseindia.com/markets/MarketInfo/DispNewNoticesCirculars?page=20260306-25",
+          "isNew": false
+        },
+        {
+          "sr": 3,
+          "date": "20 Feb 2026",
+          "year": 2026,
+          "cat": "Circular",
+          "title": "Update on single filing system through API-based integration between Stock Exchanges",
+          "desc": "",
+          "link": "https://www.bseindia.com/markets/MarketInfo/DispNewNoticesCirculars?page=20260220-44",
+          "isNew": false
+        },
+        {
+          "sr": 4,
+          "date": "03 Feb 2026",
+          "year": 2026,
+          "cat": "Circular",
+          "title": "Master Circular for compliance with the provisions of the SEBI (LODR) Regulations, 2015 by listed entities",
+          "desc": "",
+          "link": "https://www.bseindia.com/markets/MarketInfo/DispNewNoticesCirculars?page=20260203-14",
+          "isNew": false
+        },
+        {
+          "sr": 5,
+          "date": "03 Feb 2026",
+          "year": 2026,
+          "cat": "Circular",
+          "title": "SEBI (Issue and Listing of Non-Convertible Securities)(Amendment) Regulations, 2026",
+          "desc": "",
+          "link": "https://www.bseindia.com/markets/MarketInfo/DispNewNoticesCirculars?page=20260203-13",
+          "isNew": false
+        },
+        {
+          "sr": 6,
+          "date": "03 Feb 2026",
+          "year": 2026,
+          "cat": "Circular",
+          "title": "SEBI (Listing Obligations and Disclosure Requirements) (Amendment) Regulations, 2026",
+          "desc": "",
+          "link": "https://www.bseindia.com/markets/MarketInfo/DispNewNoticesCirculars?page=20260203-12",
+          "isNew": false
+        },
+        {
+          "sr": 7,
+          "date": "02 Feb 2026",
+          "year": 2026,
+          "cat": "Circular",
+          "title": "Ease of Doing Investment -Special Window for Transfer and Dematerialisation of Physical Securities",
+          "desc": "",
+          "link": "https://www.bseindia.com/markets/MarketInfo/DispNewNoticesCirculars?page=20260202-37",
+          "isNew": false
+        },
+        {
+          "sr": 8,
+          "date": "02 Jan 2026",
+          "year": 2026,
+          "cat": "Circular",
+          "title": "Update on single filing system through API-based integration between Stock Exchanges",
+          "desc": "",
+          "link": "https://www.bseindia.com/markets/MarketInfo/DispNewNoticesCirculars?page=20260102-23",
+          "isNew": false
+        },
+        {
+          "sr": 9,
+          "date": "22 Dec 2025",
+          "year": 2025,
+          "cat": "Circular",
+          "title": "Modification in the conditions specified for reduction in denomination of debt securities",
+          "desc": "",
+          "link": "https://www.bseindia.com/markets/MarketInfo/DispNewNoticesCirculars?page=20251222-26",
+          "isNew": false
+        },
+        {
+          "sr": 10,
+          "date": "22 Dec 2025",
+          "year": 2025,
+          "cat": "Circular",
+          "title": "Mandating periodic disclosure requirements- Securitised Debt  Instruments (SDIs).",
+          "desc": "",
+          "link": "https://www.bseindia.com/markets/MarketInfo/DispNewNoticesCirculars?page=20251222-25",
+          "isNew": false
+        },
+        {
+          "sr": 11,
+          "date": "18 Dec 2025",
+          "year": 2025,
+          "cat": "Circular",
+          "title": "Reclassification of Real Estate Investment Trusts (REITs) as equity related instruments for facilitating enhanced participation by Mutual Funds and Specialized Investment Funds (SIFs).",
+          "desc": "",
+          "link": "https://www.bseindia.com/markets/MarketInfo/DispNewNoticesCirculars?page=20251218-23",
+          "isNew": false
+        },
+        {
+          "sr": 12,
+          "date": "09 Dec 2025",
+          "year": 2025,
+          "cat": "Circular",
+          "title": "SEBI (Substantial Acquisition of Shares and Takeovers) (Amendment) Regulations, 2025",
+          "desc": "",
+          "link": "https://www.bseindia.com/markets/MarketInfo/DispNewNoticesCirculars?page=20251209-53",
+          "isNew": false
+        },
+        {
+          "sr": 13,
+          "date": "27 Nov 2025",
+          "year": 2025,
+          "cat": "Circular",
+          "title": "Modifications to Chapter IV of the Master Circular for Debenture Trustees dated August 13, 2025.",
+          "desc": "",
+          "link": "https://www.bseindia.com/markets/MarketInfo/DispNewNoticesCirculars?page=20251127-66",
+          "isNew": false
+        },
+        {
+          "sr": 14,
+          "date": "27 Nov 2025",
+          "year": 2025,
+          "cat": "Circular",
+          "title": "Specification of the terms and conditions for Debenture Trustees for carrying out activities outside the purview of SEBI.",
+          "desc": "",
+          "link": "https://www.bseindia.com/markets/MarketInfo/DispNewNoticesCirculars?page=20251127-65",
+          "isNew": false
+        },
+        {
+          "sr": 15,
+          "date": "27 Nov 2025",
+          "year": 2025,
+          "cat": "Circular",
+          "title": "Timeline for submission of information by the Issuer to the Debenture Trustee(s)",
+          "desc": "",
+          "link": "https://www.bseindia.com/markets/MarketInfo/DispNewNoticesCirculars?page=20251127-64",
+          "isNew": false
+        },
+        {
+          "sr": 16,
+          "date": "27 Nov 2025",
+          "year": 2025,
+          "cat": "Circular",
+          "title": "SEBI (Listing obligations and disclosure requirements) (Fifth amendment) regulations, 2025",
+          "desc": "",
+          "link": "https://www.bseindia.com/markets/MarketInfo/DispNewNoticesCirculars?page=20251127-63",
+          "isNew": false
+        },
+        {
+          "sr": 17,
+          "date": "21 Nov 2025",
+          "year": 2025,
+          "cat": "Circular",
+          "title": "Master Circular for issue and listing of Non-convertible Securities, Securitised Debt Instruments, Security Receipts, Municipal Debt Securities and Commercial Paper.",
+          "desc": "",
+          "link": "https://www.bseindia.com/markets/MarketInfo/DispNewNoticesCirculars?page=20251121-73",
+          "isNew": false
+        },
+        {
+          "sr": 18,
+          "date": "21 Nov 2025",
+          "year": 2025,
+          "cat": "Circular",
+          "title": "XBRL based filing of Regulation 50 for Entities which has listed its non-convertible securities",
+          "desc": "",
+          "link": "https://www.bseindia.com/markets/MarketInfo/DispNewNoticesCirculars?page=20251121-72",
+          "isNew": false
+        },
+        {
+          "sr": 19,
+          "date": "17 Nov 2025",
+          "year": 2025,
+          "cat": "Circular",
+          "title": "Frequently Asked Questions (FAQ) for submission of financial results as required under Regulation 33 of SEBI (LODR) Regulations, 2015 & Master circular for compliance with the provisions of the SEBI (LODR) Regulations, 2015.",
+          "desc": "",
+          "link": "https://www.bseindia.com/markets/MarketInfo/DispNewNoticesCirculars?page=20251117-20",
+          "isNew": false
+        },
+        {
+          "sr": 20,
+          "date": "14 Oct 2025",
+          "year": 2025,
+          "cat": "Circular",
+          "title": "SEBI Circular on “Minimum information to be provided to the Audit Committee and Shareholders for approval of Related Party Transactions.”",
+          "desc": "",
+          "link": "https://www.bseindia.com/markets/MarketInfo/DispNewNoticesCirculars?page=20251014-34",
+          "isNew": false
+        },
+        {
+          "sr": 21,
+          "date": "09 Oct 2025",
+          "year": 2025,
+          "cat": "Circular",
+          "title": "Filing of Financial Results by REITs & InvITs in XBRL Mode",
+          "desc": "",
+          "link": "https://www.bseindia.com/markets/MarketInfo/DispNewNoticesCirculars?page=20251009-62",
+          "isNew": false
+        },
+        {
+          "sr": 22,
+          "date": "26 Sept 2025",
+          "year": 2025,
+          "cat": "Circular",
+          "title": "Framework on Social Stock Exchange (“SSE”)",
+          "desc": "",
+          "link": "https://www.bseindia.com/markets/MarketInfo/DispNewNoticesCirculars?page=20250926-67",
+          "isNew": false
+        },
+        {
+          "sr": 23,
+          "date": "24 Sept 2025",
+          "year": 2025,
+          "cat": "Circular",
+          "title": "Listing of further securities issued by the companies under ESOP/ESOS",
+          "desc": "",
+          "link": "https://www.bseindia.com/markets/MarketInfo/DispNewNoticesCirculars?page=20250924-42",
+          "isNew": false
+        },
+        {
+          "sr": 24,
+          "date": "12 Sept 2025",
+          "year": 2025,
+          "cat": "Circular",
+          "title": "Update on single filing system through API-based integration between Stock Exchanges",
+          "desc": "",
+          "link": "https://www.bseindia.com/markets/MarketInfo/DispNewNoticesCirculars?page=20250912-89",
+          "isNew": false
+        },
+        {
+          "sr": 25,
+          "date": "11 Sept 2025",
+          "year": 2025,
+          "cat": "Circular",
+          "title": "SEBI (LODR) (Third Amendment) Regulations, 2025",
+          "desc": "",
+          "link": "https://www.bseindia.com/markets/MarketInfo/DispNewNoticesCirculars?page=20250911-86",
           "isNew": false
         }
       ],
-      "ts": 1793579266963,
+      "ts": 1793605138066,
       "ok": true,
       "newCount": 0
     },
@@ -19816,7 +19743,7 @@
           "isNew": false
         }
       ],
-      "ts": 1793579270699,
+      "ts": 1793605140323,
       "ok": true,
       "newCount": 0
     },
@@ -20023,7 +19950,7 @@
           "isNew": false
         }
       ],
-      "ts": 1793579274255,
+      "ts": 1793605143572,
       "ok": true,
       "newCount": 0
     },
@@ -20230,7 +20157,7 @@
           "isNew": false
         }
       ],
-      "ts": 1793579277558,
+      "ts": 1793605146910,
       "ok": true,
       "newCount": 0
     },
@@ -20437,7 +20364,7 @@
           "isNew": false
         }
       ],
-      "ts": 1793579280970,
+      "ts": 1793605150125,
       "ok": true,
       "newCount": 0
     },
@@ -20494,7 +20421,7 @@
           "isNew": false
         }
       ],
-      "ts": 1793579294200,
+      "ts": 1793605155744,
       "ok": true,
       "newCount": 0
     },
@@ -20551,7 +20478,7 @@
           "isNew": false
         }
       ],
-      "ts": 1793579298950,
+      "ts": 1793605160637,
       "ok": true,
       "newCount": 0
     },
@@ -20592,7 +20519,7 @@
           "date": "21 Feb 2024",
           "year": 2024,
           "cat": "Orders",
-          "title": "List of Claim SRNs liable for rejection under rule 7(3) where company has not filed any VR | 1 MB",
+          "title": "List of Claim SRNs liable for rejection under rule 7(7) where company has not filed revised VR | 683 KB",
           "desc": "",
           "link": "https://www.iepf.gov.in/content/iepf/global/master/Home/Notifications/notices-and-orders-under-rule-7-3----7-7-.html#",
           "isNew": false
@@ -20602,13 +20529,13 @@
           "date": "21 Feb 2024",
           "year": 2024,
           "cat": "Orders",
-          "title": "List of Claim SRNs liable for rejection under rule 7(7) where company has not filed revised VR | 683 KB",
+          "title": "List of Claim SRNs liable for rejection under rule 7(3) where company has not filed any VR | 1 MB",
           "desc": "",
           "link": "https://www.iepf.gov.in/content/iepf/global/master/Home/Notifications/notices-and-orders-under-rule-7-3----7-7-.html#",
           "isNew": false
         }
       ],
-      "ts": 1793579303668,
+      "ts": 1793605166088,
       "ok": true,
       "newCount": 0
     },
@@ -20635,7 +20562,7 @@
           "isNew": false
         }
       ],
-      "ts": 1793579324355,
+      "ts": 1793605184971,
       "ok": true,
       "newCount": 0
     },
@@ -20652,7 +20579,7 @@
           "isNew": false
         }
       ],
-      "ts": 1793579362044,
+      "ts": 1793605236214,
       "ok": true,
       "newCount": 0
     },
@@ -20660,68 +20587,50 @@
       "rows": [
         {
           "sr": 1,
-          "date": "29 Sept 2026",
-          "year": 2026,
+          "date": "31 Jan 2027",
+          "year": 2027,
           "cat": "Orders",
-          "title": "Corrigendum to Adjudication Order Imposing Penalties under Section 62 of the Companies Act, 2013 in the Matter of M/s Integris Medtech Limited | 3 MB",
+          "title": "MCA Open house webinar on name reservation/name change of companies and LLPs",
           "desc": "",
-          "link": "https://www.mca.gov.in/content/mca/global/en/data-and-reports/rd-roc-info/roc-adjudication-orders/archive.html#",
-          "isNew": false
-        },
-        {
-          "sr": 2,
-          "date": "20 Aug 2026",
-          "year": 2026,
-          "cat": "Orders",
-          "title": "Adjudication Order under Section 42 of the Companies Act, 2013 in the Matter of M/s.Hindustan Coca-Cola Holdings Private Limited. | 4 MB",
-          "desc": "",
-          "link": "https://www.mca.gov.in/content/mca/global/en/data-and-reports/rd-roc-info/roc-adjudication-orders/archive.html#",
-          "isNew": false
-        },
-        {
-          "sr": 3,
-          "date": "17 Aug 2026",
-          "year": 2026,
-          "cat": "Orders",
-          "title": "ADJUDICATION ORDER FOR VIOLATION OF SECTION 134 OF THE COMPANIES ACT, 2013 IN THE MATTER OF M/s.SDU INVESTMENTS PRIVATE LIMITED | 428 KB",
-          "desc": "",
-          "link": "https://www.mca.gov.in/content/mca/global/en/data-and-reports/rd-roc-info/roc-adjudication-orders/archive.html#",
-          "isNew": false
-        },
-        {
-          "sr": 4,
-          "date": "17 Aug 2026",
-          "year": 2026,
-          "cat": "Orders",
-          "title": "ADJUDICATION ORDER FOR VIOLATION OF SECTION 134 OF THE COMPANIES ACT, 2013 IN THE MATTER OF M/s.SDU PROJECTS PRIVATE LIMITED | 394 KB",
-          "desc": "",
-          "link": "https://www.mca.gov.in/content/mca/global/en/data-and-reports/rd-roc-info/roc-adjudication-orders/archive.html#",
-          "isNew": false
-        },
-        {
-          "sr": 5,
-          "date": "17 Aug 2026",
-          "year": 2026,
-          "cat": "Orders",
-          "title": "ADJUDICATION ORDER FOR VIOLATION OF SECTION 179 OF THE COMPANIES ACT, 2013 IN THE MATTER OF M/s.SDU PROJECTS PRIVATE LIMITED | 424 KB",
-          "desc": "",
-          "link": "https://www.mca.gov.in/content/mca/global/en/data-and-reports/rd-roc-info/roc-adjudication-orders/archive.html#",
+          "link": "https://www.mca.gov.in/content/dam/mca/pdf/MCA-open-house-session-new-20261022.pdf",
           "isNew": false
         }
       ],
-      "ts": 1793579390905,
+      "ts": 1793605279035,
       "ok": true,
       "newCount": 0
     },
     "MCA_3": {
-      "rows": [],
-      "ts": 1793579423503,
-      "ok": true
+      "rows": [
+        {
+          "sr": 1,
+          "date": "31 Jan 2027",
+          "year": 2027,
+          "cat": "Orders",
+          "title": "MCA Open house webinar on name reservation/name change of companies and LLPs",
+          "desc": "",
+          "link": "https://www.mca.gov.in/content/dam/mca/pdf/MCA-open-house-session-new-20261022.pdf"
+        }
+      ],
+      "ts": 1793605310820,
+      "ok": true,
+      "newCount": 0
     },
     "MCA_4": {
-      "rows": [],
-      "ts": 1793579450560,
-      "ok": true
+      "rows": [
+        {
+          "sr": 1,
+          "date": "31 Jan 2027",
+          "year": 2027,
+          "cat": "Orders",
+          "title": "MCA Open house webinar on name reservation/name change of companies and LLPs",
+          "desc": "",
+          "link": "https://www.mca.gov.in/content/dam/mca/pdf/MCA-open-house-session-new-20261022.pdf"
+        }
+      ],
+      "ts": 1793605350966,
+      "ok": true,
+      "newCount": 0
     },
     "NFRA_0": {
       "rows": [
@@ -20786,7 +20695,7 @@
           "isNew": false
         }
       ],
-      "ts": 1793579453700,
+      "ts": 1793605353882,
       "ok": true,
       "newCount": 0
     },
@@ -20913,7 +20822,7 @@
           "isNew": false
         }
       ],
-      "ts": 1793579455201,
+      "ts": 1793605355415,
       "ok": true,
       "newCount": 0
     },
@@ -21030,7 +20939,7 @@
           "isNew": false
         }
       ],
-      "ts": 1793579456715,
+      "ts": 1793605356945,
       "ok": true,
       "newCount": 0
     },
@@ -21157,7 +21066,7 @@
           "isNew": false
         }
       ],
-      "ts": 1793579458219,
+      "ts": 1793605358469,
       "ok": true,
       "newCount": 0
     },
