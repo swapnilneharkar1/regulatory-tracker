@@ -1,14 +1,14 @@
 {
-  "generatedAt": "2026-11-15T00:57:55.413Z",
+  "generatedAt": "2026-11-15T07:45:35.825Z",
   "data": {
     "TAXATION_0": {
       "rows": [],
-      "ts": 1794703831962,
+      "ts": 1794728301556,
       "ok": true
     },
     "TAXATION_1": {
       "rows": [],
-      "ts": 1794703851362,
+      "ts": 1794728321449,
       "ok": true
     },
     "TAXATION_2": {
@@ -124,7 +124,7 @@
           "isNew": false
         }
       ],
-      "ts": 1794703860549,
+      "ts": 1794728330119,
       "ok": true,
       "newCount": 0
     },
@@ -231,19 +231,189 @@
           "isNew": false
         }
       ],
-      "ts": 1794703868622,
+      "ts": 1794728338437,
       "ok": true,
       "newCount": 0
     },
     "TAXATION_4": {
       "rows": [],
-      "ts": 1794703878589,
+      "ts": 1794728349172,
       "ok": true
     },
     "TAXATION_5": {
       "rows": [
         {
           "sr": 1,
+          "date": "15 Nov 2026",
+          "year": 2026,
+          "cat": "Case Law",
+          "title": "Corporate Law | MSME Council Must Conduct Conciliation Before Arbitration: J&#038;K High Court",
+          "desc": "The post MSME Council Must Conduct Conciliation Before Arbitration: J&#038;K High Court appeared first on TaxGuru.",
+          "link": "https://taxguru.in/corporate-law/msme-council-conduct-conciliation-arbitration-high-court.html",
+          "isNew": true
+        },
+        {
+          "sr": 2,
+          "date": "15 Nov 2026",
+          "year": 2026,
+          "cat": "Case Law",
+          "title": "Service Tax | Service Tax Demand Upheld for Mismatch Between Income Tax Receipts &#038; ST-3 Returns: CESTAT Allahabad",
+          "desc": "The post Service Tax Demand Upheld for Mismatch Between Income Tax Receipts &#038; ST-3 Returns: CESTAT Allahabad appeared first on TaxGuru.",
+          "link": "https://taxguru.in/service-tax/service-tax-demand-upheld-mismatch-income-tax-receipts-st-3-returns-cestat-allahabad.html",
+          "isNew": true
+        },
+        {
+          "sr": 3,
+          "date": "15 Nov 2026",
+          "year": 2026,
+          "cat": "Case Law",
+          "title": "Service Tax | Salary Reimbursements for Seconded Employees Attract Service Tax Under RCM: CESTAT Bangalore",
+          "desc": "The post Salary Reimbursements for Seconded Employees Attract Service Tax Under RCM: CESTAT Bangalore appeared first on TaxGuru.",
+          "link": "https://taxguru.in/service-tax/salary-reimbursements-seconded-employees-attract-service-tax-rcm-cestat-bangalore.html",
+          "isNew": true
+        },
+        {
+          "sr": 4,
+          "date": "15 Nov 2026",
+          "year": 2026,
+          "cat": "Case Law",
+          "title": "Service Tax | Revenue Neutrality Cannot Extinguish Service Tax Liability on Imported Manpower Services: CESTAT Chennai",
+          "desc": "The post Revenue Neutrality Cannot Extinguish Service Tax Liability on Imported Manpower Services: CESTAT Chennai appeared first on TaxGuru.",
+          "link": "https://taxguru.in/service-tax/revenue-neutrality-cannot-extinguish-service-tax-liability-imported-manpower-services-cestat-chennai.html",
+          "isNew": true
+        },
+        {
+          "sr": 5,
+          "date": "15 Nov 2026",
+          "year": 2026,
+          "cat": "Case Law",
+          "title": "Service Tax | Employee Secondment Taxable but Time-Barred Demand Invalid: CESTAT Mumbai",
+          "desc": "The post Employee Secondment Taxable but Time-Barred Demand Invalid: CESTAT Mumbai appeared first on TaxGuru.",
+          "link": "https://taxguru.in/service-tax/employee-secondment-taxable-time-barred-demand-invalid-cestat-mumbai.html",
+          "isNew": true
+        },
+        {
+          "sr": 6,
+          "date": "15 Nov 2026",
+          "year": 2026,
+          "cat": "Case Law",
+          "title": "Service Tax | Delphi Automotive Secondment Service Tax Demand Set Aside as Time-Barred: CESTAT Chandigarh",
+          "desc": "The post Delphi Automotive Secondment Service Tax Demand Set Aside as Time-Barred: CESTAT Chandigarh appeared first on TaxGuru.",
+          "link": "https://taxguru.in/service-tax/delphi-automotive-secondment-service-tax-demand-set-time-barred-cestat-chandigarh.html",
+          "isNew": true
+        },
+        {
+          "sr": 7,
+          "date": "15 Nov 2026",
+          "year": 2026,
+          "cat": "Case Law",
+          "title": "Service Tax | CENVAT Credit Cannot Be Denied for Missing Invoice Serial Numbers: CESTAT Delhi",
+          "desc": "The post CENVAT Credit Cannot Be Denied for Missing Invoice Serial Numbers: CESTAT Delhi appeared first on TaxGuru.",
+          "link": "https://taxguru.in/service-tax/cenvat-credit-cannot-denied-missing-invoice-serial-numbers-cestat-delhi.html",
+          "isNew": true
+        },
+        {
+          "sr": 8,
+          "date": "15 Nov 2026",
+          "year": 2026,
+          "cat": "Case Law",
+          "title": "Service Tax | Overseas Employee Secondment Taxable but Extended Limitation Invalid: CESTAT Bangalore",
+          "desc": "The post Overseas Employee Secondment Taxable but Extended Limitation Invalid: CESTAT Bangalore appeared first on TaxGuru.",
+          "link": "https://taxguru.in/service-tax/overseas-employee-secondment-taxable-extended-limitation-invalid-cestat-bangalore.html",
+          "isNew": true
+        },
+        {
+          "sr": 9,
+          "date": "15 Nov 2026",
+          "year": 2026,
+          "cat": "Case Law",
+          "title": "Service Tax | Service Tax Payable on Overseas Employee Secondment but Extended Limitation Invalid: CESTAT Bangalore",
+          "desc": "The post Service Tax Payable on Overseas Employee Secondment but Extended Limitation Invalid: CESTAT Bangalore appeared first on TaxGuru.",
+          "link": "https://taxguru.in/service-tax/service-tax-payable-overseas-employee-secondment-extended-limitation-invalid-cestat-bangalore.html",
+          "isNew": true
+        },
+        {
+          "sr": 10,
+          "date": "15 Nov 2026",
+          "year": 2026,
+          "cat": "Case Law",
+          "title": "Custom Duty | Customs Refund Without Challenging Self-Assessment Not Maintainable: Supreme Court",
+          "desc": "The post Customs Refund Without Challenging Self-Assessment Not Maintainable: Supreme Court appeared first on TaxGuru.",
+          "link": "https://taxguru.in/custom-duty/customs-refund-without-challenging-assessment-not-maintainable-supreme-court.html",
+          "isNew": true
+        },
+        {
+          "sr": 11,
+          "date": "15 Nov 2026",
+          "year": 2026,
+          "cat": "Case Law",
+          "title": "Income Tax | DRP Directions and Assessment Order Without Valid DIN Are Invalid: Madras High Court",
+          "desc": "The post DRP Directions and Assessment Order Without Valid DIN Are Invalid: Madras High Court appeared first on TaxGuru.",
+          "link": "https://taxguru.in/income-tax/drp-directions-assessment-order-without-valid-din-invalid-madras-high-court.html",
+          "isNew": true
+        },
+        {
+          "sr": 12,
+          "date": "15 Nov 2026",
+          "year": 2026,
+          "cat": "Case Law",
+          "title": "Goods and Services Tax | GST Registration Cancellation Must Match Show Cause Notice: Delhi HC",
+          "desc": "The post GST Registration Cancellation Must Match Show Cause Notice: Delhi HC appeared first on TaxGuru.",
+          "link": "https://taxguru.in/goods-and-service-tax/gst-registration-cancellation-match-show-notice-delhi-hc.html",
+          "isNew": true
+        },
+        {
+          "sr": 13,
+          "date": "15 Nov 2026",
+          "year": 2026,
+          "cat": "Case Law",
+          "title": "Corporate Law | ED Cannot Use PMLA Powers to Discover FEMA or Customs Offences: Madras HC",
+          "desc": "The post ED Cannot Use PMLA Powers to Discover FEMA or Customs Offences: Madras HC appeared first on TaxGuru.",
+          "link": "https://taxguru.in/corporate-law/ed-cannot-pmla-powers-discover-fema-customs-offences-madras-hc.html",
+          "isNew": true
+        },
+        {
+          "sr": 14,
+          "date": "15 Nov 2026",
+          "year": 2026,
+          "cat": "Case Law",
+          "title": "Service Tax | CENVAT Credit Cannot Be Denied for Procedural Defects in ISD Documents: CESTAT Chandigarh",
+          "desc": "The post CENVAT Credit Cannot Be Denied for Procedural Defects in ISD Documents: CESTAT Chandigarh appeared first on TaxGuru.",
+          "link": "https://taxguru.in/service-tax/cenvat-credit-cannot-denied-procedural-defects-isd-documents-cestat-chandigarh.html",
+          "isNew": true
+        },
+        {
+          "sr": 15,
+          "date": "15 Nov 2026",
+          "year": 2026,
+          "cat": "Case Law",
+          "title": "Service Tax | Airline and CRS Incentives Not Taxable as Business Auxiliary Service: CESTAT Delhi",
+          "desc": "The post Airline and CRS Incentives Not Taxable as Business Auxiliary Service: CESTAT Delhi appeared first on TaxGuru.",
+          "link": "https://taxguru.in/service-tax/airline-crs-incentives-not-taxable-business-auxiliary-service-cestat-delhi-2.html",
+          "isNew": true
+        },
+        {
+          "sr": 16,
+          "date": "15 Nov 2026",
+          "year": 2026,
+          "cat": "Case Law",
+          "title": "Service Tax | Oil Exploration Under Production Sharing Contract Not Taxable Service to Government: CESTAT Chennai",
+          "desc": "The post Oil Exploration Under Production Sharing Contract Not Taxable Service to Government: CESTAT Chennai appeared first on TaxGuru.",
+          "link": "https://taxguru.in/service-tax/oil-exploration-production-sharing-contract-not-taxable-service-government-cestat-chennai.html",
+          "isNew": true
+        },
+        {
+          "sr": 17,
+          "date": "15 Nov 2026",
+          "year": 2026,
+          "cat": "Case Law",
+          "title": "Service Tax | Revenue Sharing Between Cinema Exhibitor &#038; Distributor Not Automatically Taxable: CESTAT Mumbai",
+          "desc": "The post Revenue Sharing Between Cinema Exhibitor &#038; Distributor Not Automatically Taxable: CESTAT Mumbai appeared first on TaxGuru.",
+          "link": "https://taxguru.in/service-tax/revenue-sharing-cinema-exhibitor-distributor-not-automatically-taxable-cestat-mumbai.html",
+          "isNew": true
+        },
+        {
+          "sr": 18,
           "date": "14 Nov 2026",
           "year": 2026,
           "cat": "Case Law",
@@ -253,7 +423,7 @@
           "isNew": false
         },
         {
-          "sr": 2,
+          "sr": 19,
           "date": "14 Nov 2026",
           "year": 2026,
           "cat": "Case Law",
@@ -263,7 +433,7 @@
           "isNew": false
         },
         {
-          "sr": 3,
+          "sr": 20,
           "date": "14 Nov 2026",
           "year": 2026,
           "cat": "Case Law",
@@ -273,7 +443,7 @@
           "isNew": false
         },
         {
-          "sr": 4,
+          "sr": 21,
           "date": "14 Nov 2026",
           "year": 2026,
           "cat": "Case Law",
@@ -283,7 +453,7 @@
           "isNew": false
         },
         {
-          "sr": 5,
+          "sr": 22,
           "date": "14 Nov 2026",
           "year": 2026,
           "cat": "Case Law",
@@ -293,7 +463,7 @@
           "isNew": false
         },
         {
-          "sr": 6,
+          "sr": 23,
           "date": "14 Nov 2026",
           "year": 2026,
           "cat": "Case Law",
@@ -303,7 +473,7 @@
           "isNew": false
         },
         {
-          "sr": 7,
+          "sr": 24,
           "date": "14 Nov 2026",
           "year": 2026,
           "cat": "Case Law",
@@ -313,7 +483,7 @@
           "isNew": false
         },
         {
-          "sr": 8,
+          "sr": 25,
           "date": "14 Nov 2026",
           "year": 2026,
           "cat": "Case Law",
@@ -323,7 +493,7 @@
           "isNew": false
         },
         {
-          "sr": 9,
+          "sr": 26,
           "date": "14 Nov 2026",
           "year": 2026,
           "cat": "Case Law",
@@ -333,7 +503,7 @@
           "isNew": false
         },
         {
-          "sr": 10,
+          "sr": 27,
           "date": "14 Nov 2026",
           "year": 2026,
           "cat": "Case Law",
@@ -343,7 +513,7 @@
           "isNew": false
         },
         {
-          "sr": 11,
+          "sr": 28,
           "date": "14 Nov 2026",
           "year": 2026,
           "cat": "Case Law",
@@ -353,7 +523,7 @@
           "isNew": false
         },
         {
-          "sr": 12,
+          "sr": 29,
           "date": "14 Nov 2026",
           "year": 2026,
           "cat": "Case Law",
@@ -363,7 +533,7 @@
           "isNew": false
         },
         {
-          "sr": 13,
+          "sr": 30,
           "date": "14 Nov 2026",
           "year": 2026,
           "cat": "Case Law",
@@ -373,7 +543,7 @@
           "isNew": false
         },
         {
-          "sr": 14,
+          "sr": 31,
           "date": "14 Nov 2026",
           "year": 2026,
           "cat": "Case Law",
@@ -383,7 +553,7 @@
           "isNew": false
         },
         {
-          "sr": 15,
+          "sr": 32,
           "date": "14 Nov 2026",
           "year": 2026,
           "cat": "Case Law",
@@ -393,7 +563,7 @@
           "isNew": false
         },
         {
-          "sr": 16,
+          "sr": 33,
           "date": "14 Nov 2026",
           "year": 2026,
           "cat": "Case Law",
@@ -403,7 +573,7 @@
           "isNew": false
         },
         {
-          "sr": 17,
+          "sr": 34,
           "date": "14 Nov 2026",
           "year": 2026,
           "cat": "Case Law",
@@ -411,36 +581,246 @@
           "desc": "The post Vague GST Cancellation Notice Invalidates Registration Order: GSTAT Lucknow appeared first on TaxGuru.",
           "link": "https://taxguru.in/goods-and-service-tax/vague-gst-cancellation-notice-invalidates-registration-order-gstat-lucknow.html",
           "isNew": false
-        },
-        {
-          "sr": 18,
-          "date": "14 Nov 2026",
-          "year": 2026,
-          "cat": "Case Law",
-          "title": "Custom Duty | Customs Adjudication: Cross-Examination Requires Reliance on Witness Statements, Rules Karnataka HC",
-          "desc": "The post Customs Adjudication: Cross-Examination Requires Reliance on Witness Statements, Rules Karnataka HC appeared first on TaxGuru.",
-          "link": "https://taxguru.in/custom-duty/customs-adjudication-cross-examination-requires-reliance-witness-statements-rules-karnataka-hc.html",
-          "isNew": false
-        },
-        {
-          "sr": 19,
-          "date": "14 Nov 2026",
-          "year": 2026,
-          "cat": "Case Law",
-          "title": "Service Tax | Brand Promotion Services to Foreign Entity Qualify as Export, Not Intermediary Services: CESTAT Delhi",
-          "desc": "The post Brand Promotion Services to Foreign Entity Qualify as Export, Not Intermediary Services: CESTAT Delhi appeared first on TaxGuru.",
-          "link": "https://taxguru.in/service-tax/brand-promotion-services-foreign-entity-qualify-export-not-intermediary-services-cestat-delhi.html",
-          "isNew": false
         }
       ],
-      "ts": 1794703882095,
+      "ts": 1794728352602,
       "ok": true,
-      "newCount": 0
+      "newCount": 17
     },
     "TAXATION_6": {
       "rows": [
         {
           "sr": 1,
+          "date": "15 Nov 2026",
+          "year": 2026,
+          "cat": "Law Update",
+          "title": "Corporate Law | MSME Council Must Conduct Conciliation Before Arbitration: J&#038;K High Court",
+          "desc": "The post MSME Council Must Conduct Conciliation Before Arbitration: J&#038;K High Court appeared first on TaxGuru.",
+          "link": "https://taxguru.in/corporate-law/msme-council-conduct-conciliation-arbitration-high-court.html",
+          "isNew": true
+        },
+        {
+          "sr": 2,
+          "date": "15 Nov 2026",
+          "year": 2026,
+          "cat": "Law Update",
+          "title": "Service Tax | Service Tax Demand Upheld for Mismatch Between Income Tax Receipts &#038; ST-3 Returns: CESTAT Allahabad",
+          "desc": "The post Service Tax Demand Upheld for Mismatch Between Income Tax Receipts &#038; ST-3 Returns: CESTAT Allahabad appeared first on TaxGuru.",
+          "link": "https://taxguru.in/service-tax/service-tax-demand-upheld-mismatch-income-tax-receipts-st-3-returns-cestat-allahabad.html",
+          "isNew": true
+        },
+        {
+          "sr": 3,
+          "date": "15 Nov 2026",
+          "year": 2026,
+          "cat": "Law Update",
+          "title": "Service Tax | Salary Reimbursements for Seconded Employees Attract Service Tax Under RCM: CESTAT Bangalore",
+          "desc": "The post Salary Reimbursements for Seconded Employees Attract Service Tax Under RCM: CESTAT Bangalore appeared first on TaxGuru.",
+          "link": "https://taxguru.in/service-tax/salary-reimbursements-seconded-employees-attract-service-tax-rcm-cestat-bangalore.html",
+          "isNew": true
+        },
+        {
+          "sr": 4,
+          "date": "15 Nov 2026",
+          "year": 2026,
+          "cat": "Law Update",
+          "title": "Service Tax | Revenue Neutrality Cannot Extinguish Service Tax Liability on Imported Manpower Services: CESTAT Chennai",
+          "desc": "The post Revenue Neutrality Cannot Extinguish Service Tax Liability on Imported Manpower Services: CESTAT Chennai appeared first on TaxGuru.",
+          "link": "https://taxguru.in/service-tax/revenue-neutrality-cannot-extinguish-service-tax-liability-imported-manpower-services-cestat-chennai.html",
+          "isNew": true
+        },
+        {
+          "sr": 5,
+          "date": "15 Nov 2026",
+          "year": 2026,
+          "cat": "Law Update",
+          "title": "Service Tax | Employee Secondment Taxable but Time-Barred Demand Invalid: CESTAT Mumbai",
+          "desc": "The post Employee Secondment Taxable but Time-Barred Demand Invalid: CESTAT Mumbai appeared first on TaxGuru.",
+          "link": "https://taxguru.in/service-tax/employee-secondment-taxable-time-barred-demand-invalid-cestat-mumbai.html",
+          "isNew": true
+        },
+        {
+          "sr": 6,
+          "date": "15 Nov 2026",
+          "year": 2026,
+          "cat": "Law Update",
+          "title": "Service Tax | Delphi Automotive Secondment Service Tax Demand Set Aside as Time-Barred: CESTAT Chandigarh",
+          "desc": "The post Delphi Automotive Secondment Service Tax Demand Set Aside as Time-Barred: CESTAT Chandigarh appeared first on TaxGuru.",
+          "link": "https://taxguru.in/service-tax/delphi-automotive-secondment-service-tax-demand-set-time-barred-cestat-chandigarh.html",
+          "isNew": true
+        },
+        {
+          "sr": 7,
+          "date": "15 Nov 2026",
+          "year": 2026,
+          "cat": "Law Update",
+          "title": "Service Tax | CENVAT Credit Cannot Be Denied for Missing Invoice Serial Numbers: CESTAT Delhi",
+          "desc": "The post CENVAT Credit Cannot Be Denied for Missing Invoice Serial Numbers: CESTAT Delhi appeared first on TaxGuru.",
+          "link": "https://taxguru.in/service-tax/cenvat-credit-cannot-denied-missing-invoice-serial-numbers-cestat-delhi.html",
+          "isNew": true
+        },
+        {
+          "sr": 8,
+          "date": "15 Nov 2026",
+          "year": 2026,
+          "cat": "Law Update",
+          "title": "Service Tax | Overseas Employee Secondment Taxable but Extended Limitation Invalid: CESTAT Bangalore",
+          "desc": "The post Overseas Employee Secondment Taxable but Extended Limitation Invalid: CESTAT Bangalore appeared first on TaxGuru.",
+          "link": "https://taxguru.in/service-tax/overseas-employee-secondment-taxable-extended-limitation-invalid-cestat-bangalore.html",
+          "isNew": true
+        },
+        {
+          "sr": 9,
+          "date": "15 Nov 2026",
+          "year": 2026,
+          "cat": "Law Update",
+          "title": "Goods and Services Tax | GST Refund Paid Under Mistake of Law Not Barred by Section 54 Limitation: Delhi HC",
+          "desc": "The post GST Refund Paid Under Mistake of Law Not Barred by Section 54 Limitation: Delhi HC appeared first on TaxGuru.",
+          "link": "https://taxguru.in/goods-and-service-tax/gst-refund-paid-mistake-law-not-barred-section-54-limitation-delhi-hc.html",
+          "isNew": true
+        },
+        {
+          "sr": 10,
+          "date": "15 Nov 2026",
+          "year": 2026,
+          "cat": "Law Update",
+          "title": "Service Tax | Service Tax Payable on Overseas Employee Secondment but Extended Limitation Invalid: CESTAT Bangalore",
+          "desc": "The post Service Tax Payable on Overseas Employee Secondment but Extended Limitation Invalid: CESTAT Bangalore appeared first on TaxGuru.",
+          "link": "https://taxguru.in/service-tax/service-tax-payable-overseas-employee-secondment-extended-limitation-invalid-cestat-bangalore.html",
+          "isNew": true
+        },
+        {
+          "sr": 11,
+          "date": "15 Nov 2026",
+          "year": 2026,
+          "cat": "Law Update",
+          "title": "Service Tax | Service Tax Refund on Floating Rigs Allowed Despite Limitation Objection: Madras HC",
+          "desc": "The post Service Tax Refund on Floating Rigs Allowed Despite Limitation Objection: Madras HC appeared first on TaxGuru.",
+          "link": "https://taxguru.in/service-tax/service-tax-refund-floating-rigs-allowed-limitation-objection-madras-hc.html",
+          "isNew": true
+        },
+        {
+          "sr": 12,
+          "date": "15 Nov 2026",
+          "year": 2026,
+          "cat": "Law Update",
+          "title": "Custom Duty | Customs Refund Without Challenging Self-Assessment Not Maintainable: Supreme Court",
+          "desc": "The post Customs Refund Without Challenging Self-Assessment Not Maintainable: Supreme Court appeared first on TaxGuru.",
+          "link": "https://taxguru.in/custom-duty/customs-refund-without-challenging-assessment-not-maintainable-supreme-court.html",
+          "isNew": true
+        },
+        {
+          "sr": 13,
+          "date": "15 Nov 2026",
+          "year": 2026,
+          "cat": "Law Update",
+          "title": "Income Tax | Maharashtra Sales Tax Information Not Covered by CBDT Low-Tax Appeal Exception: Chhattisgarh HC",
+          "desc": "The post Maharashtra Sales Tax Information Not Covered by CBDT Low-Tax Appeal Exception: Chhattisgarh HC appeared first on TaxGuru.",
+          "link": "https://taxguru.in/income-tax/maharashtra-sales-tax-information-not-covered-cbdt-tax-appeal-exception-chhattisgarh-hc.html",
+          "isNew": true
+        },
+        {
+          "sr": 14,
+          "date": "15 Nov 2026",
+          "year": 2026,
+          "cat": "Law Update",
+          "title": "Income Tax | DRP Directions and Assessment Order Without Valid DIN Are Invalid: Madras High Court",
+          "desc": "The post DRP Directions and Assessment Order Without Valid DIN Are Invalid: Madras High Court appeared first on TaxGuru.",
+          "link": "https://taxguru.in/income-tax/drp-directions-assessment-order-without-valid-din-invalid-madras-high-court.html",
+          "isNew": true
+        },
+        {
+          "sr": 15,
+          "date": "15 Nov 2026",
+          "year": 2026,
+          "cat": "Law Update",
+          "title": "Goods and Services Tax | GST Registration Cancellation Must Match Show Cause Notice: Delhi HC",
+          "desc": "The post GST Registration Cancellation Must Match Show Cause Notice: Delhi HC appeared first on TaxGuru.",
+          "link": "https://taxguru.in/goods-and-service-tax/gst-registration-cancellation-match-show-notice-delhi-hc.html",
+          "isNew": true
+        },
+        {
+          "sr": 16,
+          "date": "15 Nov 2026",
+          "year": 2026,
+          "cat": "Law Update",
+          "title": "Goods and Services Tax | GST Registration Cannot Be Cancelled Retrospectively Without Prior Notice: Delhi HC",
+          "desc": "The post GST Registration Cannot Be Cancelled Retrospectively Without Prior Notice: Delhi HC appeared first on TaxGuru.",
+          "link": "https://taxguru.in/goods-and-service-tax/gst-registration-cannot-cancelled-retrospectively-without-prior-notice-delhi-hc.html",
+          "isNew": true
+        },
+        {
+          "sr": 17,
+          "date": "15 Nov 2026",
+          "year": 2026,
+          "cat": "Law Update",
+          "title": "Corporate Law | Red Sanders Smuggling: Bombay HC Applies PMLA Bail Restrictions",
+          "desc": "The post Red Sanders Smuggling: Bombay HC Applies PMLA Bail Restrictions appeared first on TaxGuru.",
+          "link": "https://taxguru.in/corporate-law/red-sanders-smuggling-bombay-hc-applies-pmla-bail-restrictions.html",
+          "isNew": true
+        },
+        {
+          "sr": 18,
+          "date": "15 Nov 2026",
+          "year": 2026,
+          "cat": "Law Update",
+          "title": "Corporate Law | ED Cannot Use PMLA Powers to Discover FEMA or Customs Offences: Madras HC",
+          "desc": "The post ED Cannot Use PMLA Powers to Discover FEMA or Customs Offences: Madras HC appeared first on TaxGuru.",
+          "link": "https://taxguru.in/corporate-law/ed-cannot-pmla-powers-discover-fema-customs-offences-madras-hc.html",
+          "isNew": true
+        },
+        {
+          "sr": 19,
+          "date": "15 Nov 2026",
+          "year": 2026,
+          "cat": "Law Update",
+          "title": "Income Tax | Section 147 Reassessment Cannot Survive on New Grounds Alone: Delhi HC",
+          "desc": "The post Section 147 Reassessment Cannot Survive on New Grounds Alone: Delhi HC appeared first on TaxGuru.",
+          "link": "https://taxguru.in/income-tax/section-147-reassessment-cannot-survive-grounds-delhi-hc.html",
+          "isNew": true
+        },
+        {
+          "sr": 20,
+          "date": "15 Nov 2026",
+          "year": 2026,
+          "cat": "Law Update",
+          "title": "Service Tax | CENVAT Credit Cannot Be Denied for Procedural Defects in ISD Documents: CESTAT Chandigarh",
+          "desc": "The post CENVAT Credit Cannot Be Denied for Procedural Defects in ISD Documents: CESTAT Chandigarh appeared first on TaxGuru.",
+          "link": "https://taxguru.in/service-tax/cenvat-credit-cannot-denied-procedural-defects-isd-documents-cestat-chandigarh.html",
+          "isNew": true
+        },
+        {
+          "sr": 21,
+          "date": "15 Nov 2026",
+          "year": 2026,
+          "cat": "Law Update",
+          "title": "Service Tax | Airline and CRS Incentives Not Taxable as Business Auxiliary Service: CESTAT Delhi",
+          "desc": "The post Airline and CRS Incentives Not Taxable as Business Auxiliary Service: CESTAT Delhi appeared first on TaxGuru.",
+          "link": "https://taxguru.in/service-tax/airline-crs-incentives-not-taxable-business-auxiliary-service-cestat-delhi-2.html",
+          "isNew": true
+        },
+        {
+          "sr": 22,
+          "date": "15 Nov 2026",
+          "year": 2026,
+          "cat": "Law Update",
+          "title": "Service Tax | Oil Exploration Under Production Sharing Contract Not Taxable Service to Government: CESTAT Chennai",
+          "desc": "The post Oil Exploration Under Production Sharing Contract Not Taxable Service to Government: CESTAT Chennai appeared first on TaxGuru.",
+          "link": "https://taxguru.in/service-tax/oil-exploration-production-sharing-contract-not-taxable-service-government-cestat-chennai.html",
+          "isNew": true
+        },
+        {
+          "sr": 23,
+          "date": "15 Nov 2026",
+          "year": 2026,
+          "cat": "Law Update",
+          "title": "Service Tax | Revenue Sharing Between Cinema Exhibitor &#038; Distributor Not Automatically Taxable: CESTAT Mumbai",
+          "desc": "The post Revenue Sharing Between Cinema Exhibitor &#038; Distributor Not Automatically Taxable: CESTAT Mumbai appeared first on TaxGuru.",
+          "link": "https://taxguru.in/service-tax/revenue-sharing-cinema-exhibitor-distributor-not-automatically-taxable-cestat-mumbai.html",
+          "isNew": true
+        },
+        {
+          "sr": 24,
           "date": "14 Nov 2026",
           "year": 2026,
           "cat": "Law Update",
@@ -450,7 +830,7 @@
           "isNew": false
         },
         {
-          "sr": 2,
+          "sr": 25,
           "date": "14 Nov 2026",
           "year": 2026,
           "cat": "Law Update",
@@ -460,7 +840,7 @@
           "isNew": false
         },
         {
-          "sr": 3,
+          "sr": 26,
           "date": "14 Nov 2026",
           "year": 2026,
           "cat": "Law Update",
@@ -470,7 +850,7 @@
           "isNew": false
         },
         {
-          "sr": 4,
+          "sr": 27,
           "date": "14 Nov 2026",
           "year": 2026,
           "cat": "Law Update",
@@ -480,7 +860,7 @@
           "isNew": false
         },
         {
-          "sr": 5,
+          "sr": 28,
           "date": "14 Nov 2026",
           "year": 2026,
           "cat": "Law Update",
@@ -490,7 +870,7 @@
           "isNew": false
         },
         {
-          "sr": 6,
+          "sr": 29,
           "date": "14 Nov 2026",
           "year": 2026,
           "cat": "Law Update",
@@ -500,7 +880,7 @@
           "isNew": false
         },
         {
-          "sr": 7,
+          "sr": 30,
           "date": "14 Nov 2026",
           "year": 2026,
           "cat": "Law Update",
@@ -510,7 +890,7 @@
           "isNew": false
         },
         {
-          "sr": 8,
+          "sr": 31,
           "date": "14 Nov 2026",
           "year": 2026,
           "cat": "Law Update",
@@ -520,7 +900,7 @@
           "isNew": false
         },
         {
-          "sr": 9,
+          "sr": 32,
           "date": "14 Nov 2026",
           "year": 2026,
           "cat": "Law Update",
@@ -530,7 +910,7 @@
           "isNew": false
         },
         {
-          "sr": 10,
+          "sr": 33,
           "date": "14 Nov 2026",
           "year": 2026,
           "cat": "Law Update",
@@ -540,7 +920,7 @@
           "isNew": false
         },
         {
-          "sr": 11,
+          "sr": 34,
           "date": "14 Nov 2026",
           "year": 2026,
           "cat": "Law Update",
@@ -550,7 +930,7 @@
           "isNew": false
         },
         {
-          "sr": 12,
+          "sr": 35,
           "date": "14 Nov 2026",
           "year": 2026,
           "cat": "Law Update",
@@ -560,7 +940,7 @@
           "isNew": false
         },
         {
-          "sr": 13,
+          "sr": 36,
           "date": "14 Nov 2026",
           "year": 2026,
           "cat": "Law Update",
@@ -570,7 +950,7 @@
           "isNew": false
         },
         {
-          "sr": 14,
+          "sr": 37,
           "date": "14 Nov 2026",
           "year": 2026,
           "cat": "Law Update",
@@ -580,7 +960,7 @@
           "isNew": false
         },
         {
-          "sr": 15,
+          "sr": 38,
           "date": "14 Nov 2026",
           "year": 2026,
           "cat": "Law Update",
@@ -590,7 +970,7 @@
           "isNew": false
         },
         {
-          "sr": 16,
+          "sr": 39,
           "date": "14 Nov 2026",
           "year": 2026,
           "cat": "Law Update",
@@ -600,7 +980,7 @@
           "isNew": false
         },
         {
-          "sr": 17,
+          "sr": 40,
           "date": "14 Nov 2026",
           "year": 2026,
           "cat": "Law Update",
@@ -610,7 +990,7 @@
           "isNew": false
         },
         {
-          "sr": 18,
+          "sr": 41,
           "date": "14 Nov 2026",
           "year": 2026,
           "cat": "Law Update",
@@ -620,7 +1000,7 @@
           "isNew": false
         },
         {
-          "sr": 19,
+          "sr": 42,
           "date": "14 Nov 2026",
           "year": 2026,
           "cat": "Law Update",
@@ -630,7 +1010,7 @@
           "isNew": false
         },
         {
-          "sr": 20,
+          "sr": 43,
           "date": "14 Nov 2026",
           "year": 2026,
           "cat": "Law Update",
@@ -640,7 +1020,7 @@
           "isNew": false
         },
         {
-          "sr": 21,
+          "sr": 44,
           "date": "14 Nov 2026",
           "year": 2026,
           "cat": "Law Update",
@@ -650,7 +1030,7 @@
           "isNew": false
         },
         {
-          "sr": 22,
+          "sr": 45,
           "date": "14 Nov 2026",
           "year": 2026,
           "cat": "Law Update",
@@ -660,7 +1040,7 @@
           "isNew": false
         },
         {
-          "sr": 23,
+          "sr": 46,
           "date": "14 Nov 2026",
           "year": 2026,
           "cat": "Law Update",
@@ -670,7 +1050,7 @@
           "isNew": false
         },
         {
-          "sr": 24,
+          "sr": 47,
           "date": "14 Nov 2026",
           "year": 2026,
           "cat": "Law Update",
@@ -680,7 +1060,7 @@
           "isNew": false
         },
         {
-          "sr": 25,
+          "sr": 48,
           "date": "14 Nov 2026",
           "year": 2026,
           "cat": "Law Update",
@@ -690,7 +1070,7 @@
           "isNew": false
         },
         {
-          "sr": 26,
+          "sr": 49,
           "date": "14 Nov 2026",
           "year": 2026,
           "cat": "Law Update",
@@ -700,7 +1080,7 @@
           "isNew": false
         },
         {
-          "sr": 27,
+          "sr": 50,
           "date": "14 Nov 2026",
           "year": 2026,
           "cat": "Law Update",
@@ -710,7 +1090,7 @@
           "isNew": false
         },
         {
-          "sr": 28,
+          "sr": 51,
           "date": "14 Nov 2026",
           "year": 2026,
           "cat": "Law Update",
@@ -720,7 +1100,7 @@
           "isNew": false
         },
         {
-          "sr": 29,
+          "sr": 52,
           "date": "14 Nov 2026",
           "year": 2026,
           "cat": "Law Update",
@@ -730,7 +1110,7 @@
           "isNew": false
         },
         {
-          "sr": 30,
+          "sr": 53,
           "date": "14 Nov 2026",
           "year": 2026,
           "cat": "Law Update",
@@ -740,7 +1120,7 @@
           "isNew": false
         },
         {
-          "sr": 31,
+          "sr": 54,
           "date": "14 Nov 2026",
           "year": 2026,
           "cat": "Law Update",
@@ -750,7 +1130,7 @@
           "isNew": false
         },
         {
-          "sr": 32,
+          "sr": 55,
           "date": "14 Nov 2026",
           "year": 2026,
           "cat": "Law Update",
@@ -760,7 +1140,7 @@
           "isNew": false
         },
         {
-          "sr": 33,
+          "sr": 56,
           "date": "14 Nov 2026",
           "year": 2026,
           "cat": "Law Update",
@@ -770,7 +1150,7 @@
           "isNew": false
         },
         {
-          "sr": 34,
+          "sr": 57,
           "date": "14 Nov 2026",
           "year": 2026,
           "cat": "Law Update",
@@ -780,7 +1160,7 @@
           "isNew": false
         },
         {
-          "sr": 35,
+          "sr": 58,
           "date": "14 Nov 2026",
           "year": 2026,
           "cat": "Law Update",
@@ -790,7 +1170,7 @@
           "isNew": false
         },
         {
-          "sr": 36,
+          "sr": 59,
           "date": "14 Nov 2026",
           "year": 2026,
           "cat": "Law Update",
@@ -800,7 +1180,7 @@
           "isNew": false
         },
         {
-          "sr": 37,
+          "sr": 60,
           "date": "14 Nov 2026",
           "year": 2026,
           "cat": "Law Update",
@@ -810,7 +1190,7 @@
           "isNew": false
         },
         {
-          "sr": 38,
+          "sr": 61,
           "date": "14 Nov 2026",
           "year": 2026,
           "cat": "Law Update",
@@ -820,7 +1200,7 @@
           "isNew": false
         },
         {
-          "sr": 39,
+          "sr": 62,
           "date": "14 Nov 2026",
           "year": 2026,
           "cat": "Law Update",
@@ -830,7 +1210,7 @@
           "isNew": false
         },
         {
-          "sr": 40,
+          "sr": 63,
           "date": "14 Nov 2026",
           "year": 2026,
           "cat": "Law Update",
@@ -840,7 +1220,7 @@
           "isNew": false
         },
         {
-          "sr": 41,
+          "sr": 64,
           "date": "14 Nov 2026",
           "year": 2026,
           "cat": "Law Update",
@@ -850,7 +1230,7 @@
           "isNew": false
         },
         {
-          "sr": 42,
+          "sr": 65,
           "date": "14 Nov 2026",
           "year": 2026,
           "cat": "Law Update",
@@ -860,7 +1240,7 @@
           "isNew": false
         },
         {
-          "sr": 43,
+          "sr": 66,
           "date": "14 Nov 2026",
           "year": 2026,
           "cat": "Law Update",
@@ -870,7 +1250,7 @@
           "isNew": false
         },
         {
-          "sr": 44,
+          "sr": 67,
           "date": "14 Nov 2026",
           "year": 2026,
           "cat": "Law Update",
@@ -880,7 +1260,7 @@
           "isNew": false
         },
         {
-          "sr": 45,
+          "sr": 68,
           "date": "14 Nov 2026",
           "year": 2026,
           "cat": "Law Update",
@@ -890,7 +1270,7 @@
           "isNew": false
         },
         {
-          "sr": 46,
+          "sr": 69,
           "date": "14 Nov 2026",
           "year": 2026,
           "cat": "Law Update",
@@ -900,7 +1280,7 @@
           "isNew": false
         },
         {
-          "sr": 47,
+          "sr": 70,
           "date": "14 Nov 2026",
           "year": 2026,
           "cat": "Law Update",
@@ -910,7 +1290,7 @@
           "isNew": false
         },
         {
-          "sr": 48,
+          "sr": 71,
           "date": "14 Nov 2026",
           "year": 2026,
           "cat": "Law Update",
@@ -920,7 +1300,7 @@
           "isNew": false
         },
         {
-          "sr": 49,
+          "sr": 72,
           "date": "14 Nov 2026",
           "year": 2026,
           "cat": "Law Update",
@@ -930,7 +1310,7 @@
           "isNew": false
         },
         {
-          "sr": 50,
+          "sr": 73,
           "date": "14 Nov 2026",
           "year": 2026,
           "cat": "Law Update",
@@ -940,7 +1320,7 @@
           "isNew": false
         },
         {
-          "sr": 51,
+          "sr": 74,
           "date": "14 Nov 2026",
           "year": 2026,
           "cat": "Law Update",
@@ -950,7 +1330,7 @@
           "isNew": false
         },
         {
-          "sr": 52,
+          "sr": 75,
           "date": "14 Nov 2026",
           "year": 2026,
           "cat": "Law Update",
@@ -958,241 +1338,11 @@
           "desc": "The post Reassessment Notice for AY 2015-16 Beyond Ten-Year Search Period Quashed: Gujarat HC appeared first on TaxGuru.",
           "link": "https://taxguru.in/income-tax/reassessment-notice-ay-2015-16-ten-year-search-period-quashed-gujarat-hc.html",
           "isNew": false
-        },
-        {
-          "sr": 53,
-          "date": "14 Nov 2026",
-          "year": 2026,
-          "cat": "Law Update",
-          "title": "Custom Duty | Customs Adjudication: Cross-Examination Requires Reliance on Witness Statements, Rules Karnataka HC",
-          "desc": "The post Customs Adjudication: Cross-Examination Requires Reliance on Witness Statements, Rules Karnataka HC appeared first on TaxGuru.",
-          "link": "https://taxguru.in/custom-duty/customs-adjudication-cross-examination-requires-reliance-witness-statements-rules-karnataka-hc.html",
-          "isNew": false
-        },
-        {
-          "sr": 54,
-          "date": "14 Nov 2026",
-          "year": 2026,
-          "cat": "Law Update",
-          "title": "Goods and Services Tax | VAT TDS Cannot Be Carried Forward as GST TRAN-1 Credit: Kerala HC",
-          "desc": "The post VAT TDS Cannot Be Carried Forward as GST TRAN-1 Credit: Kerala HC appeared first on TaxGuru.",
-          "link": "https://taxguru.in/goods-and-service-tax/vat-tds-cannot-carried-gst-tran-1-credit-kerala-hc.html",
-          "isNew": false
-        },
-        {
-          "sr": 55,
-          "date": "14 Nov 2026",
-          "year": 2026,
-          "cat": "Law Update",
-          "title": "Corporate Law | PMLA Attachment Cannot Be Set Aside Without Examining All Predicate FIRs: Delhi HC",
-          "desc": "The post PMLA Attachment Cannot Be Set Aside Without Examining All Predicate FIRs: Delhi HC appeared first on TaxGuru.",
-          "link": "https://taxguru.in/corporate-law/pmla-attachment-cannot-set-without-examining-predicate-firs-delhi-hc.html",
-          "isNew": false
-        },
-        {
-          "sr": 56,
-          "date": "14 Nov 2026",
-          "year": 2026,
-          "cat": "Law Update",
-          "title": "Corporate Law | Legal Heir Not Personally Liable for Deceased Guarantor’s Loan: Madras HC",
-          "desc": "The post Legal Heir Not Personally Liable for Deceased Guarantor’s Loan: Madras HC appeared first on TaxGuru.",
-          "link": "https://taxguru.in/corporate-law/legal-heir-not-personally-liable-deceased-guarantors-loan-madras-hc.html",
-          "isNew": false
-        },
-        {
-          "sr": 57,
-          "date": "14 Nov 2026",
-          "year": 2026,
-          "cat": "Law Update",
-          "title": "Goods and Services Tax | GST Portal Upload Alone Is Insufficient for Service: Punjab and Haryana HC",
-          "desc": "The post GST Portal Upload Alone Is Insufficient for Service: Punjab and Haryana HC appeared first on TaxGuru.",
-          "link": "https://taxguru.in/goods-and-service-tax/gst-portal-upload-insufficient-service-punjab-haryana-hc.html",
-          "isNew": false
-        },
-        {
-          "sr": 58,
-          "date": "14 Nov 2026",
-          "year": 2026,
-          "cat": "Law Update",
-          "title": "Corporate Law | Successor Bank Cannot Invoke Arbitration After Predecessor Contests Suit: Gujarat HC",
-          "desc": "The post Successor Bank Cannot Invoke Arbitration After Predecessor Contests Suit: Gujarat HC appeared first on TaxGuru.",
-          "link": "https://taxguru.in/corporate-law/successor-bank-cannot-invoke-arbitration-predecessor-contests-suit-gujarat-hc.html",
-          "isNew": false
-        },
-        {
-          "sr": 59,
-          "date": "14 Nov 2026",
-          "year": 2026,
-          "cat": "Law Update",
-          "title": "Income Tax | SBI Lending Rate Valid for Valuation of Concessional Employee Loan Perquisites: Madras HC",
-          "desc": "The post SBI Lending Rate Valid for Valuation of Concessional Employee Loan Perquisites: Madras HC appeared first on TaxGuru.",
-          "link": "https://taxguru.in/income-tax/sbi-lending-rate-valid-valuation-concessional-employee-loan-perquisites-madras-hc.html",
-          "isNew": false
-        },
-        {
-          "sr": 60,
-          "date": "14 Nov 2026",
-          "year": 2026,
-          "cat": "Law Update",
-          "title": "Income Tax | Interest-Free and Concessional Loans to Bank Employees Are Taxable Perquisites: Madras HC",
-          "desc": "The post Interest-Free and Concessional Loans to Bank Employees Are Taxable Perquisites: Madras HC appeared first on TaxGuru.",
-          "link": "https://taxguru.in/income-tax/interest-free-concessional-loans-bank-employees-taxable-perquisites-madras-hc.html",
-          "isNew": false
-        },
-        {
-          "sr": 61,
-          "date": "14 Nov 2026",
-          "year": 2026,
-          "cat": "Law Update",
-          "title": "Income Tax | Section 14A Disallowance Without Recorded Satisfaction Deleted: ITAT Pune",
-          "desc": "The post Section 14A Disallowance Without Recorded Satisfaction Deleted: ITAT Pune appeared first on TaxGuru.",
-          "link": "https://taxguru.in/income-tax/section-14a-disallowance-without-recorded-satisfaction-deleted-itat-pune.html",
-          "isNew": false
-        },
-        {
-          "sr": 62,
-          "date": "14 Nov 2026",
-          "year": 2026,
-          "cat": "Law Update",
-          "title": "Income Tax | Government-Notified Temple Permitted to Seek Retrospective Section 12A Registration: Karnataka HC",
-          "desc": "The post Government-Notified Temple Permitted to Seek Retrospective Section 12A Registration: Karnataka HC appeared first on TaxGuru.",
-          "link": "https://taxguru.in/income-tax/government-notified-temple-permitted-seek-retrospective-section-12a-registration-karnataka-hc.html",
-          "isNew": false
-        },
-        {
-          "sr": 63,
-          "date": "14 Nov 2026",
-          "year": 2026,
-          "cat": "Law Update",
-          "title": "Corporate Law | Temple Property Patta Must Record Deity&#8217;s Name Alone: Madras HC",
-          "desc": "The post Temple Property Patta Must Record Deity&#8217;s Name Alone: Madras HC appeared first on TaxGuru.",
-          "link": "https://taxguru.in/corporate-law/temple-property-patta-record-deitys-madras-hc.html",
-          "isNew": false
-        },
-        {
-          "sr": 64,
-          "date": "14 Nov 2026",
-          "year": 2026,
-          "cat": "Law Update",
-          "title": "Income Tax | Section 54G Exemption Upheld as Shifted Industrial Unit Was Located in Urban Area: Madras HC",
-          "desc": "The post Section 54G Exemption Upheld as Shifted Industrial Unit Was Located in Urban Area: Madras HC appeared first on TaxGuru.",
-          "link": "https://taxguru.in/income-tax/section-54g-exemption-upheld-shifted-industrial-unit-located-urban-area-madras-hc.html",
-          "isNew": false
-        },
-        {
-          "sr": 65,
-          "date": "14 Nov 2026",
-          "year": 2026,
-          "cat": "Law Update",
-          "title": "Corporate Law | Section 138 Acquittal Upheld Over Contradictory Cheque Dates: Kerala HC",
-          "desc": "The post Section 138 Acquittal Upheld Over Contradictory Cheque Dates: Kerala HC appeared first on TaxGuru.",
-          "link": "https://taxguru.in/corporate-law/section-138-acquittal-upheld-contradictory-cheque-dates.html",
-          "isNew": false
-        },
-        {
-          "sr": 66,
-          "date": "14 Nov 2026",
-          "year": 2026,
-          "cat": "Law Update",
-          "title": "Income Tax | Section 54 Exemption Cannot Be Denied After Accepting Capital Gains: Karnataka HC",
-          "desc": "The post Section 54 Exemption Cannot Be Denied After Accepting Capital Gains: Karnataka HC appeared first on TaxGuru.",
-          "link": "https://taxguru.in/income-tax/section-54-exemption-cannot-denied-accepting-capital-gains-karnataka-hc.html",
-          "isNew": false
-        },
-        {
-          "sr": 67,
-          "date": "14 Nov 2026",
-          "year": 2026,
-          "cat": "Law Update",
-          "title": "Company Law | NCLT Chennai Sanctions Jana Holdings–Jana Capital Merger Despite Regulatory and Financial Concerns",
-          "desc": "The post NCLT Chennai Sanctions Jana Holdings–Jana Capital Merger Despite Regulatory and Financial Concerns appeared first on TaxGuru.",
-          "link": "https://taxguru.in/company-law/nclt-chennai-sanctions-jana-holdings-jana-capital-merger-regulatory-financial-concerns.html",
-          "isNew": false
-        },
-        {
-          "sr": 68,
-          "date": "14 Nov 2026",
-          "year": 2026,
-          "cat": "Law Update",
-          "title": "Income Tax | GST Turnover Difference Due to Free Warranty Replacements Not Taxable as Unaccounted Income: ITAT Rajkot",
-          "desc": "The post GST Turnover Difference Due to Free Warranty Replacements Not Taxable as Unaccounted Income: ITAT Rajkot appeared first on TaxGuru.",
-          "link": "https://taxguru.in/income-tax/gst-turnover-difference-due-free-warranty-replacements-not-taxable-unaccounted-income-itat-rajkot.html",
-          "isNew": false
-        },
-        {
-          "sr": 69,
-          "date": "14 Nov 2026",
-          "year": 2026,
-          "cat": "Law Update",
-          "title": "Income Tax | Section 270A Misreporting Penalty Deleted After Voluntary Tax Payment",
-          "desc": "The post Section 270A Misreporting Penalty Deleted After Voluntary Tax Payment appeared first on TaxGuru.",
-          "link": "https://taxguru.in/income-tax/section-270a-misreporting-penalty-deleted-voluntary-tax-payment.html",
-          "isNew": false
-        },
-        {
-          "sr": 70,
-          "date": "14 Nov 2026",
-          "year": 2026,
-          "cat": "Law Update",
-          "title": "Income Tax | Real Estate On-Money Receipts Taxable at 8% Profit Rate, Not Gross Amount: ITAT Mumbai",
-          "desc": "The post Real Estate On-Money Receipts Taxable at 8% Profit Rate, Not Gross Amount: ITAT Mumbai appeared first on TaxGuru.",
-          "link": "https://taxguru.in/income-tax/real-estate-money-receipts-taxable-8-percent-profit-rate-not-gross-amount-itat-mumbai.html",
-          "isNew": false
-        },
-        {
-          "sr": 71,
-          "date": "14 Nov 2026",
-          "year": 2026,
-          "cat": "Law Update",
-          "title": "Corporate Law | Bombay HC Seeks Rules on Misleading Debt Settlement Ads, Orders I4C Report",
-          "desc": "The post Bombay HC Seeks Rules on Misleading Debt Settlement Ads, Orders I4C Report appeared first on TaxGuru.",
-          "link": "https://taxguru.in/corporate-law/bombay-hc-seeks-rules-misleading-debt-settlement-ads-orders-i4c-report.html",
-          "isNew": false
-        },
-        {
-          "sr": 72,
-          "date": "14 Nov 2026",
-          "year": 2026,
-          "cat": "Law Update",
-          "title": "Income Tax | Reassessment Without Section 143(2) Notice Invalid: Madras HC",
-          "desc": "The post Reassessment Without Section 143(2) Notice Invalid: Madras HC appeared first on TaxGuru.",
-          "link": "https://taxguru.in/income-tax/reassessment-without-section-143-2-notice-invalid-madras-hc.html",
-          "isNew": false
-        },
-        {
-          "sr": 73,
-          "date": "14 Nov 2026",
-          "year": 2026,
-          "cat": "Law Update",
-          "title": "Income Tax | High-End KPO Companies Excluded from Captive ITeS Comparables: ITAT Bangalore",
-          "desc": "The post High-End KPO Companies Excluded from Captive ITeS Comparables: ITAT Bangalore appeared first on TaxGuru.",
-          "link": "https://taxguru.in/income-tax/high-kpo-companies-excluded-captive-ites-comparables-itat-bangalore.html",
-          "isNew": false
-        },
-        {
-          "sr": 74,
-          "date": "14 Nov 2026",
-          "year": 2026,
-          "cat": "Law Update",
-          "title": "Corporate Law | Bombay HC Grants Interim Protection to Partner Against Alienation of Firm’s Assets Pending Arbitration",
-          "desc": "The post Bombay HC Grants Interim Protection to Partner Against Alienation of Firm’s Assets Pending Arbitration appeared first on TaxGuru.",
-          "link": "https://taxguru.in/corporate-law/bombay-hc-grants-interim-protection-partner-against-alienation-firms-assets-pending-arbitration.html",
-          "isNew": false
-        },
-        {
-          "sr": 75,
-          "date": "14 Nov 2026",
-          "year": 2026,
-          "cat": "Law Update",
-          "title": "Service Tax | Brand Promotion Services to Foreign Entity Qualify as Export, Not Intermediary Services: CESTAT Delhi",
-          "desc": "The post Brand Promotion Services to Foreign Entity Qualify as Export, Not Intermediary Services: CESTAT Delhi appeared first on TaxGuru.",
-          "link": "https://taxguru.in/service-tax/brand-promotion-services-foreign-entity-qualify-export-not-intermediary-services-cestat-delhi.html",
-          "isNew": false
         }
       ],
-      "ts": 1794703884520,
+      "ts": 1794728354984,
       "ok": true,
-      "newCount": 0
+      "newCount": 23
     },
     "NEWSLETTER_0": {
       "rows": [
@@ -1233,7 +1383,7 @@
           "isNew": false
         }
       ],
-      "ts": 1794703913098,
+      "ts": 1794728381994,
       "ok": true,
       "newCount": 0
     },
@@ -1250,7 +1400,7 @@
           "isNew": false
         }
       ],
-      "ts": 1794703914790,
+      "ts": 1794728383684,
       "ok": true,
       "newCount": 0
     },
@@ -1258,58 +1408,48 @@
       "rows": [
         {
           "sr": 1,
-          "date": "13 Nov 2026",
+          "date": "15 Nov 2026",
           "year": 2026,
           "cat": "News",
-          "title": "RBI fines MobiKwik ₹9 lakh over PPI transfer and fraud reporting lapses",
-          "desc": "RBI imposed a ₹9 lakh penalty on MobiKwik for breaching PPI transfer limits and failing to report certain frauds within the prescribed timeline following an inspection",
-          "link": "https://www.business-standard.com/finance/news/rbi-fines-mobikwik-9-lakh-over-ppi-transfer-and-fraud-reporting-lapses-126111301793_1.html",
-          "isNew": false
+          "title": "LICO Materials targets ₹450-500 crore revenue in current fiscal: CEO",
+          "desc": "Lithium-ion battery recycling and refurbishing firm LICO Materials is targeting revenue of about Rs 450500 crore in 202627, driven by higher material-processing volumes, improved capacity utilisation,",
+          "link": "https://www.business-standard.com/companies/news/lico-materials-targets-450-500-crore-revenue-in-current-fiscal-ceo-126111500160_1.html",
+          "isNew": true
         },
         {
           "sr": 2,
-          "date": "13 Nov 2026",
+          "date": "15 Nov 2026",
           "year": 2026,
           "cat": "News",
-          "title": "Yes Bank files review petition in SC over ₹8,415 crore AT-1 bonds",
-          "desc": "Supreme Court review petition challenges the October 15 ruling overturning YES Bank's ₹8,415 crore AT-1 bond write-down, with potential implications for its capital position",
-          "link": "https://www.business-standard.com/companies/news/yes-bank-seeks-sc-review-of-ruling-on-8-415-crore-at-1-bond-write-down-126111301764_1.html",
-          "isNew": false
+          "title": "Clean books, thin margins: The new reality of Indian banking",
+          "desc": "As the rate cycle turns, margins should get some relief, but how banks navigate emerging stress in unsecured personal and gold loans remains to be seen",
+          "link": "https://www.business-standard.com/opinion/columns/clean-books-thin-margins-the-new-reality-of-indian-banking-126111500177_1.html",
+          "isNew": true
         },
         {
           "sr": 3,
-          "date": "13 Nov 2026",
+          "date": "15 Nov 2026",
           "year": 2026,
           "cat": "News",
-          "title": "Rate hikes may not tame supply-led inflation: CEA V Anantha Nageswaran",
-          "desc": "CEA V Anantha Nageswaran says supply shocks will dominate the global economy, making monetary policy less effective and placing greater responsibility on fiscal measures",
-          "link": "https://www.business-standard.com/economy/news/rate-hikes-may-be-less-effective-against-supply-led-inflation-says-cea-126111301756_1.html",
-          "isNew": false
+          "title": "PNB targets ₹200 crore quarterly profit each from cards, cash services",
+          "desc": "The country's second-largest public sector lender, Punjab National Bank (PNB), expects its credit card and cash management services verticals to generate around Rs 200 crore each in quarterly profit f",
+          "link": "https://www.business-standard.com/industry/banking/pnb-targets-200-crore-quarterly-profit-each-from-cards-cash-services-126111500127_1.html",
+          "isNew": true
         },
         {
           "sr": 4,
-          "date": "13 Nov 2026",
+          "date": "15 Nov 2026",
           "year": 2026,
           "cat": "News",
-          "title": "India's current account deficit widens to $25.8 bn in H1FY27: RBI data",
-          "desc": "India's current account deficit widened to $25.8 billion in April-September 2026 from $18 billion a year ago, while the balance of payments posted a $66.8 billion surplus",
-          "link": "https://www.business-standard.com/finance/news/india-s-current-account-deficit-widens-to-25-8-bn-in-h1fy27-rbi-data-126111301723_1.html",
-          "isNew": false
-        },
-        {
-          "sr": 5,
-          "date": "13 Nov 2026",
-          "year": 2026,
-          "cat": "News",
-          "title": "Paytm wallet likely to see revival following RBI's in-principle nod",
-          "desc": "Paytm Payments Services has received in-principle RBI authorisation to issue prepaid payment instruments, paving the way for a wallet revival after regulatory curbs on PPBL",
-          "link": "https://www.business-standard.com/companies/news/paytm-wallet-likely-to-see-revival-following-rbi-s-in-principle-nod-126111301606_1.html",
-          "isNew": false
+          "title": "SpaceX makes first launch pad catch of Starship after its orbital return",
+          "desc": "SpaceX's Starship made a triumphant return to Earth on Saturday, caught in midair by giant mechanical arms where its journey began 22 hours earlier.\nIt was the grand finale that Elon Musk and his team",
+          "link": "https://www.business-standard.com/world-news/spacex-makes-first-launch-pad-catch-of-starship-after-its-orbital-return-126111500023_1.html",
+          "isNew": true
         }
       ],
-      "ts": 1794703916204,
+      "ts": 1794728384999,
       "ok": true,
-      "newCount": 0
+      "newCount": 4
     },
     "NEWSLETTER_4": {
       "rows": [],
@@ -1319,12 +1459,12 @@
     },
     "NEWSLETTER_5": {
       "rows": [],
-      "ts": 1794703946812,
+      "ts": 1794728406041,
       "ok": true
     },
     "NEWSLETTER_6": {
       "rows": [],
-      "ts": 1794703952811,
+      "ts": 1794728411958,
       "ok": true
     },
     "SEBI_0": {
@@ -4330,7 +4470,7 @@
           "isNew": false
         }
       ],
-      "ts": 1794703988885,
+      "ts": 1794728447481,
       "ok": true,
       "newCount": 0
     },
@@ -5178,7 +5318,7 @@
         },
         {
           "sr": 85,
-          "date": "29 Nov 2021",
+          "date": "30 Nov 2021",
           "year": 2021,
           "cat": "Master Circular",
           "title": "Master Circular for Infrastructure Investment Trusts (InvITs)",
@@ -5188,7 +5328,7 @@
         },
         {
           "sr": 86,
-          "date": "29 Nov 2021",
+          "date": "30 Nov 2021",
           "year": 2021,
           "cat": "Master Circular",
           "title": "Master Circular for Real Estate Investment Trusts (REITs)",
@@ -5368,7 +5508,7 @@
         },
         {
           "sr": 104,
-          "date": "10 Apr 2018",
+          "date": "09 Apr 2018",
           "year": 2018,
           "cat": "Master Circular",
           "title": "Master Circular for Debenture Trustees (DTs)",
@@ -5378,18 +5518,8 @@
         },
         {
           "sr": 105,
-          "date": "—",
-          "year": null,
-          "cat": "Master Circular",
-          "title": "Master Circular for Depositories",
-          "desc": "",
-          "link": "https://www.sebi.gov.in/legal/master-circulars/dec-2016/master-circular-for-depositories_33796.html",
-          "isNew": false
-        },
-        {
-          "sr": 106,
-          "date": "—",
-          "year": null,
+          "date": "16 Dec 2016",
+          "year": 2016,
           "cat": "Master Circular",
           "title": "Master Circular for Stock Exchange and Clearing Corporation",
           "desc": "",
@@ -5397,9 +5527,19 @@
           "isNew": false
         },
         {
+          "sr": 106,
+          "date": "15 Dec 2016",
+          "year": 2016,
+          "cat": "Master Circular",
+          "title": "Master Circular for Depositories",
+          "desc": "",
+          "link": "https://www.sebi.gov.in/legal/master-circulars/dec-2016/master-circular-for-depositories_33796.html",
+          "isNew": false
+        },
+        {
           "sr": 107,
-          "date": "—",
-          "year": null,
+          "date": "14 Sept 2016",
+          "year": 2016,
           "cat": "Master Circular",
           "title": "Master Circular for Mutual Funds",
           "desc": "",
@@ -5408,18 +5548,8 @@
         },
         {
           "sr": 108,
-          "date": "—",
-          "year": null,
-          "cat": "Master Circular",
-          "title": "Master Circular for Depositories",
-          "desc": "",
-          "link": "https://www.sebi.gov.in/legal/master-circulars/may-2015/master-circular-for-depositories_29760.html",
-          "isNew": false
-        },
-        {
-          "sr": 109,
-          "date": "—",
-          "year": null,
+          "date": "26 May 2015",
+          "year": 2015,
           "cat": "Master Circular",
           "title": "Master Circular for Stock Exchange and Clearing Corporation",
           "desc": "",
@@ -5427,9 +5557,19 @@
           "isNew": false
         },
         {
+          "sr": 109,
+          "date": "07 May 2015",
+          "year": 2015,
+          "cat": "Master Circular",
+          "title": "Master Circular for Depositories",
+          "desc": "",
+          "link": "https://www.sebi.gov.in/legal/master-circulars/may-2015/master-circular-for-depositories_29760.html",
+          "isNew": false
+        },
+        {
           "sr": 110,
-          "date": "—",
-          "year": null,
+          "date": "01 Oct 2014",
+          "year": 2014,
           "cat": "Master Circular",
           "title": "Master Circular for Mutual Funds",
           "desc": "",
@@ -5438,8 +5578,8 @@
         },
         {
           "sr": 111,
-          "date": "—",
-          "year": null,
+          "date": "20 May 2014",
+          "year": 2014,
           "cat": "Master Circular",
           "title": "Master Circular for Stock Exchanges - 2014",
           "desc": "",
@@ -5448,8 +5588,8 @@
         },
         {
           "sr": 112,
-          "date": "—",
-          "year": null,
+          "date": "07 Apr 2014",
+          "year": 2014,
           "cat": "Master Circular",
           "title": "Master Circular for Depositories",
           "desc": "",
@@ -5458,8 +5598,8 @@
         },
         {
           "sr": 113,
-          "date": "—",
-          "year": null,
+          "date": "11 Sept 2013",
+          "year": 2013,
           "cat": "Master Circular",
           "title": "Master Circular for Mutual Funds",
           "desc": "",
@@ -5468,18 +5608,8 @@
         },
         {
           "sr": 114,
-          "date": "—",
-          "year": null,
-          "cat": "Master Circular",
-          "title": "Master Circular for Depositories",
-          "desc": "",
-          "link": "https://www.sebi.gov.in/legal/master-circulars/apr-2013/master-circular-for-depositories_24618.html",
-          "isNew": false
-        },
-        {
-          "sr": 115,
-          "date": "—",
-          "year": null,
+          "date": "17 Apr 2013",
+          "year": 2013,
           "cat": "Master Circular",
           "title": "Master Circular for Stock Exchange - Cash Market",
           "desc": "",
@@ -5487,9 +5617,19 @@
           "isNew": false
         },
         {
+          "sr": 115,
+          "date": "15 Apr 2013",
+          "year": 2013,
+          "cat": "Master Circular",
+          "title": "Master Circular for Depositories",
+          "desc": "",
+          "link": "https://www.sebi.gov.in/legal/master-circulars/apr-2013/master-circular-for-depositories_24618.html",
+          "isNew": false
+        },
+        {
           "sr": 116,
-          "date": "—",
-          "year": null,
+          "date": "01 Apr 2013",
+          "year": 2013,
           "cat": "Master Circular",
           "title": "Master Circular on Matters relating to Exchange Traded Derivatives",
           "desc": "",
@@ -5498,8 +5638,8 @@
         },
         {
           "sr": 117,
-          "date": "—",
-          "year": null,
+          "date": "11 May 2012",
+          "year": 2012,
           "cat": "Master Circular",
           "title": "Master Circular for Mutual Funds",
           "desc": "",
@@ -5508,8 +5648,8 @@
         },
         {
           "sr": 118,
-          "date": "—",
-          "year": null,
+          "date": "13 Apr 2012",
+          "year": 2012,
           "cat": "Master Circular",
           "title": "Master Circular for Depositories",
           "desc": "",
@@ -5518,8 +5658,8 @@
         },
         {
           "sr": 119,
-          "date": "—",
-          "year": null,
+          "date": "13 Apr 2012",
+          "year": 2012,
           "cat": "Master Circular",
           "title": "Master Circular for Stock Exchanges / Cash Market",
           "desc": "",
@@ -5528,8 +5668,8 @@
         },
         {
           "sr": 120,
-          "date": "—",
-          "year": null,
+          "date": "02 Jan 2012",
+          "year": 2012,
           "cat": "Master Circular",
           "title": "Master Circular on Matters relating to Exchange Traded Derivatives",
           "desc": "",
@@ -5538,38 +5678,8 @@
         },
         {
           "sr": 121,
-          "date": "—",
-          "year": null,
-          "cat": "Master Circular",
-          "title": "AML/CFT- Master Circular",
-          "desc": "",
-          "link": "https://www.sebi.gov.in/legal/master-circulars/dec-2010/aml-cft-master-circular_14421.html",
-          "isNew": false
-        },
-        {
-          "sr": 122,
-          "date": "—",
-          "year": null,
-          "cat": "Master Circular",
-          "title": "Master Circular for Depositories",
-          "desc": "",
-          "link": "https://www.sebi.gov.in/legal/master-circulars/dec-2010/master-circular-for-depositories_14419.html",
-          "isNew": false
-        },
-        {
-          "sr": 123,
-          "date": "—",
-          "year": null,
-          "cat": "Master Circular",
-          "title": "Master circular for Exchange Traded Derivatives",
-          "desc": "",
-          "link": "https://www.sebi.gov.in/legal/master-circulars/dec-2010/master-circular-for-exchange-traded-derivatives_14416.html",
-          "isNew": false
-        },
-        {
-          "sr": 124,
-          "date": "—",
-          "year": null,
+          "date": "07 Jan 2011",
+          "year": 2011,
           "cat": "Master Circular",
           "title": "Master Circular for Mutual Funds",
           "desc": "",
@@ -5577,9 +5687,39 @@
           "isNew": false
         },
         {
+          "sr": 122,
+          "date": "31 Dec 2010",
+          "year": 2010,
+          "cat": "Master Circular",
+          "title": "AML/CFT- Master Circular",
+          "desc": "",
+          "link": "https://www.sebi.gov.in/legal/master-circulars/dec-2010/aml-cft-master-circular_14421.html",
+          "isNew": false
+        },
+        {
+          "sr": 123,
+          "date": "31 Dec 2010",
+          "year": 2010,
+          "cat": "Master Circular",
+          "title": "Master Circular for Depositories",
+          "desc": "",
+          "link": "https://www.sebi.gov.in/legal/master-circulars/dec-2010/master-circular-for-depositories_14419.html",
+          "isNew": false
+        },
+        {
+          "sr": 124,
+          "date": "31 Dec 2010",
+          "year": 2010,
+          "cat": "Master Circular",
+          "title": "Master circular for Exchange Traded Derivatives",
+          "desc": "",
+          "link": "https://www.sebi.gov.in/legal/master-circulars/dec-2010/master-circular-for-exchange-traded-derivatives_14416.html",
+          "isNew": false
+        },
+        {
           "sr": 125,
-          "date": "—",
-          "year": null,
+          "date": "31 Dec 2010",
+          "year": 2010,
           "cat": "Master Circular",
           "title": "Master Circular for Stock Exchange - Cash Market",
           "desc": "",
@@ -5588,8 +5728,8 @@
         },
         {
           "sr": 126,
-          "date": "31 Dec 2010",
-          "year": 2010,
+          "date": "—",
+          "year": null,
           "cat": "Master Circular",
           "title": "Master Circular for Stock Exchanges and Depositories",
           "desc": "",
@@ -5598,8 +5738,8 @@
         },
         {
           "sr": 127,
-          "date": "31 Dec 2010",
-          "year": 2010,
+          "date": "—",
+          "year": null,
           "cat": "Master Circular",
           "title": "Master Circular on Administration of Stock Exchanges, Arbitration in recognised Stock Exchanges and Stock Exchanges / trading platform for Small & Medium Enterprises including guidelines for Market Makers",
           "desc": "",
@@ -5608,38 +5748,38 @@
         },
         {
           "sr": 128,
-          "date": "06 Apr 2010",
-          "year": 2010,
+          "date": "—",
+          "year": null,
           "cat": "Master Circular",
-          "title": "Master Circular for Depositories",
+          "title": "Master Circular on Anti Money Laundering and Combating Financing of Terrorism (AML and CFT) Standards-PDF",
           "desc": "",
-          "link": "https://www.sebi.gov.in/legal/master-circulars/apr-2010/master-circular-for-depositories_1729.html",
+          "link": "https://www.sebi.gov.in/legal/master-circulars/dec-2008/master-circular-on-anti-money-laundering-and-combating-financing-of-terrorism-aml-and-cft-standards-a-href-http-www-sebi-gov-in-cms-sebi-data-commondocs-isdcir0108-p-pdf-target-blank-pdf-a-_6847.html",
           "isNew": false
         },
         {
           "sr": 129,
-          "date": "06 Apr 2010",
-          "year": 2010,
+          "date": "—",
+          "year": null,
           "cat": "Master Circular",
-          "title": "Master Circular for Stock Exchange - Cash Market",
+          "title": "Master Circular-Mutual Funds",
           "desc": "",
-          "link": "https://www.sebi.gov.in/legal/master-circulars/apr-2010/master-circular-for-stock-exchange-cash-market_1929.html",
+          "link": "https://www.sebi.gov.in/legal/master-circulars/jan-2010/master-circular-mutual-funds_2699.html",
           "isNew": false
         },
         {
           "sr": 130,
-          "date": "06 Apr 2010",
-          "year": 2010,
+          "date": "—",
+          "year": null,
           "cat": "Master Circular",
-          "title": "Master Circular on Allotment of codes to Stock Exchanges, Subsidiary management by Stock Exchanges, Governance of recognised Stock Exchanges and Arbitration in recognised Stock Exchanges",
+          "title": "Master Circular on Anti-Money Laundering (AML) and Combating Financing of Terrorism (CFT) Standards",
           "desc": "",
-          "link": "https://www.sebi.gov.in/legal/master-circulars/apr-2010/master-circular-on-allotment-of-codes-to-stock-exchanges-subsidiary-management-by-stock-exchanges-governance-of-recognised-stock-exchanges-and-arbitration-in-recognised-stock-exchanges_1730.html",
+          "link": "https://www.sebi.gov.in/legal/master-circulars/feb-2010/master-circular-on-anti-money-laundering-aml-and-combating-financing-of-terrorism-cft-standards_2492.html",
           "isNew": false
         },
         {
           "sr": 131,
-          "date": "17 Mar 2010",
-          "year": 2010,
+          "date": "—",
+          "year": null,
           "cat": "Master Circular",
           "title": "Master Circular on Oversight of Members (Stock Brokers/Trading Members/Clearing Members of any Segment of Stock Exchanges and Clearing Corporations)",
           "desc": "",
@@ -5648,36 +5788,36 @@
         },
         {
           "sr": 132,
-          "date": "12 Feb 2010",
-          "year": 2010,
+          "date": "—",
+          "year": null,
           "cat": "Master Circular",
-          "title": "Master Circular on Anti-Money Laundering (AML) and Combating Financing of Terrorism (CFT) Standards",
+          "title": "Master Circular for Depositories",
           "desc": "",
-          "link": "https://www.sebi.gov.in/legal/master-circulars/feb-2010/master-circular-on-anti-money-laundering-aml-and-combating-financing-of-terrorism-cft-standards_2492.html",
+          "link": "https://www.sebi.gov.in/legal/master-circulars/apr-2010/master-circular-for-depositories_1729.html",
           "isNew": false
         },
         {
           "sr": 133,
-          "date": "01 Jan 2010",
-          "year": 2010,
+          "date": "—",
+          "year": null,
           "cat": "Master Circular",
-          "title": "Master Circular-Mutual Funds",
+          "title": "Master Circular for Stock Exchange - Cash Market",
           "desc": "",
-          "link": "https://www.sebi.gov.in/legal/master-circulars/jan-2010/master-circular-mutual-funds_2699.html",
+          "link": "https://www.sebi.gov.in/legal/master-circulars/apr-2010/master-circular-for-stock-exchange-cash-market_1929.html",
           "isNew": false
         },
         {
           "sr": 134,
-          "date": "19 Dec 2008",
-          "year": 2008,
+          "date": "—",
+          "year": null,
           "cat": "Master Circular",
-          "title": "Master Circular on Anti Money Laundering and Combating Financing of Terrorism (AML and CFT) Standards-PDF",
+          "title": "Master Circular on Allotment of codes to Stock Exchanges, Subsidiary management by Stock Exchanges, Governance of recognised Stock Exchanges and Arbitration in recognised Stock Exchanges",
           "desc": "",
-          "link": "https://www.sebi.gov.in/legal/master-circulars/dec-2008/master-circular-on-anti-money-laundering-and-combating-financing-of-terrorism-aml-and-cft-standards-a-href-http-www-sebi-gov-in-cms-sebi-data-commondocs-isdcir0108-p-pdf-target-blank-pdf-a-_6847.html",
+          "link": "https://www.sebi.gov.in/legal/master-circulars/apr-2010/master-circular-on-allotment-of-codes-to-stock-exchanges-subsidiary-management-by-stock-exchanges-governance-of-recognised-stock-exchanges-and-arbitration-in-recognised-stock-exchanges_1730.html",
           "isNew": false
         }
       ],
-      "ts": 1794704008189,
+      "ts": 1794728467031,
       "ok": true,
       "newCount": 0
     },
@@ -5934,7 +6074,7 @@
           "isNew": false
         }
       ],
-      "ts": 1794704011518,
+      "ts": 1794728469291,
       "ok": true,
       "newCount": 0
     },
@@ -6692,26 +6832,6 @@
         },
         {
           "sr": 76,
-          "date": "06 Nov 2025",
-          "year": 2025,
-          "cat": "Consultation Paper",
-          "title": "Consultation paper on Amendments to SEBI (Certification of Associated Persons in the Securities Markets) Regulations, 2007 Click here to provide your comments",
-          "desc": "",
-          "link": "https://www.sebi.gov.in/reports-and-statistics/reports/nov-2025/consultation-paper-on-amendments-to-sebi-certification-of-associated-persons-in-the-securities-markets-regulations-2007_97657.html",
-          "isNew": false
-        },
-        {
-          "sr": 77,
-          "date": "28 Oct 2025",
-          "year": 2025,
-          "cat": "Consultation Paper",
-          "title": "Consultation paper on comprehensive review of SEBI (Mutual Funds) Regulations, 1996. Click here to provide your comments",
-          "desc": "",
-          "link": "https://www.sebi.gov.in/reports-and-statistics/reports/oct-2025/consultation-paper-on-comprehensive-review-of-sebi-mutual-funds-regulations-1996-_97496.html",
-          "isNew": false
-        },
-        {
-          "sr": 78,
           "date": "27 Oct 2025",
           "year": 2025,
           "cat": "Consultation Paper",
@@ -6721,7 +6841,7 @@
           "isNew": false
         },
         {
-          "sr": 79,
+          "sr": 77,
           "date": "27 Oct 2025",
           "year": 2025,
           "cat": "Consultation Paper",
@@ -6731,7 +6851,7 @@
           "isNew": false
         },
         {
-          "sr": 80,
+          "sr": 78,
           "date": "24 Oct 2025",
           "year": 2025,
           "cat": "Consultation Paper",
@@ -6741,7 +6861,7 @@
           "isNew": false
         },
         {
-          "sr": 81,
+          "sr": 79,
           "date": "23 Oct 2025",
           "year": 2025,
           "cat": "Consultation Paper",
@@ -6751,7 +6871,7 @@
           "isNew": false
         },
         {
-          "sr": 82,
+          "sr": 80,
           "date": "23 Oct 2025",
           "year": 2025,
           "cat": "Consultation Paper",
@@ -6761,7 +6881,7 @@
           "isNew": false
         },
         {
-          "sr": 83,
+          "sr": 81,
           "date": "17 Oct 2025",
           "year": 2025,
           "cat": "Consultation Paper",
@@ -6771,7 +6891,7 @@
           "isNew": false
         },
         {
-          "sr": 84,
+          "sr": 82,
           "date": "08 Oct 2025",
           "year": 2025,
           "cat": "Consultation Paper",
@@ -6781,7 +6901,7 @@
           "isNew": false
         },
         {
-          "sr": 85,
+          "sr": 83,
           "date": "22 Sept 2025",
           "year": 2025,
           "cat": "Consultation Paper",
@@ -6791,7 +6911,7 @@
           "isNew": false
         },
         {
-          "sr": 86,
+          "sr": 84,
           "date": "19 Sept 2025",
           "year": 2025,
           "cat": "Consultation Paper",
@@ -6801,7 +6921,7 @@
           "isNew": false
         },
         {
-          "sr": 87,
+          "sr": 85,
           "date": "12 Sept 2025",
           "year": 2025,
           "cat": "Consultation Paper",
@@ -6811,7 +6931,7 @@
           "isNew": false
         },
         {
-          "sr": 88,
+          "sr": 86,
           "date": "22 Aug 2025",
           "year": 2025,
           "cat": "Consultation Paper",
@@ -6821,7 +6941,7 @@
           "isNew": false
         },
         {
-          "sr": 89,
+          "sr": 87,
           "date": "22 Aug 2025",
           "year": 2025,
           "cat": "Consultation Paper",
@@ -6831,7 +6951,7 @@
           "isNew": false
         },
         {
-          "sr": 90,
+          "sr": 88,
           "date": "18 Aug 2025",
           "year": 2025,
           "cat": "Consultation Paper",
@@ -6841,7 +6961,7 @@
           "isNew": false
         },
         {
-          "sr": 91,
+          "sr": 89,
           "date": "18 Aug 2025",
           "year": 2025,
           "cat": "Consultation Paper",
@@ -6851,7 +6971,7 @@
           "isNew": false
         },
         {
-          "sr": 92,
+          "sr": 90,
           "date": "13 Aug 2025",
           "year": 2025,
           "cat": "Consultation Paper",
@@ -6861,7 +6981,7 @@
           "isNew": false
         },
         {
-          "sr": 93,
+          "sr": 91,
           "date": "12 Aug 2025",
           "year": 2025,
           "cat": "Consultation Paper",
@@ -6871,7 +6991,7 @@
           "isNew": false
         },
         {
-          "sr": 94,
+          "sr": 92,
           "date": "12 Aug 2025",
           "year": 2025,
           "cat": "Consultation Paper",
@@ -6881,7 +7001,7 @@
           "isNew": false
         },
         {
-          "sr": 95,
+          "sr": 93,
           "date": "08 Aug 2025",
           "year": 2025,
           "cat": "Consultation Paper",
@@ -6891,7 +7011,7 @@
           "isNew": false
         },
         {
-          "sr": 96,
+          "sr": 94,
           "date": "08 Aug 2025",
           "year": 2025,
           "cat": "Consultation Paper",
@@ -6901,7 +7021,7 @@
           "isNew": false
         },
         {
-          "sr": 97,
+          "sr": 95,
           "date": "08 Aug 2025",
           "year": 2025,
           "cat": "Consultation Paper",
@@ -6911,7 +7031,7 @@
           "isNew": false
         },
         {
-          "sr": 98,
+          "sr": 96,
           "date": "08 Aug 2025",
           "year": 2025,
           "cat": "Consultation Paper",
@@ -6921,7 +7041,7 @@
           "isNew": false
         },
         {
-          "sr": 99,
+          "sr": 97,
           "date": "07 Aug 2025",
           "year": 2025,
           "cat": "Consultation Paper",
@@ -6931,7 +7051,7 @@
           "isNew": false
         },
         {
-          "sr": 100,
+          "sr": 98,
           "date": "07 Aug 2025",
           "year": 2025,
           "cat": "Consultation Paper",
@@ -6941,7 +7061,7 @@
           "isNew": false
         },
         {
-          "sr": 101,
+          "sr": 99,
           "date": "04 Aug 2025",
           "year": 2025,
           "cat": "Consultation Paper",
@@ -6951,7 +7071,7 @@
           "isNew": false
         },
         {
-          "sr": 102,
+          "sr": 100,
           "date": "01 Aug 2025",
           "year": 2025,
           "cat": "Consultation Paper",
@@ -6961,7 +7081,7 @@
           "isNew": false
         },
         {
-          "sr": 103,
+          "sr": 101,
           "date": "01 Aug 2025",
           "year": 2025,
           "cat": "Consultation Paper",
@@ -6971,7 +7091,7 @@
           "isNew": false
         },
         {
-          "sr": 104,
+          "sr": 102,
           "date": "01 Aug 2025",
           "year": 2025,
           "cat": "Consultation Paper",
@@ -6981,7 +7101,7 @@
           "isNew": false
         },
         {
-          "sr": 105,
+          "sr": 103,
           "date": "31 Jul 2025",
           "year": 2025,
           "cat": "Consultation Paper",
@@ -6991,7 +7111,7 @@
           "isNew": false
         },
         {
-          "sr": 106,
+          "sr": 104,
           "date": "25 Jul 2025",
           "year": 2025,
           "cat": "Consultation Paper",
@@ -7001,7 +7121,7 @@
           "isNew": false
         },
         {
-          "sr": 107,
+          "sr": 105,
           "date": "18 Jul 2025",
           "year": 2025,
           "cat": "Consultation Paper",
@@ -7011,7 +7131,7 @@
           "isNew": false
         },
         {
-          "sr": 108,
+          "sr": 106,
           "date": "16 Jul 2025",
           "year": 2025,
           "cat": "Consultation Paper",
@@ -7021,7 +7141,7 @@
           "isNew": false
         },
         {
-          "sr": 109,
+          "sr": 107,
           "date": "09 Jul 2025",
           "year": 2025,
           "cat": "Consultation Paper",
@@ -7031,7 +7151,7 @@
           "isNew": false
         },
         {
-          "sr": 110,
+          "sr": 108,
           "date": "07 Jul 2025",
           "year": 2025,
           "cat": "Consultation Paper",
@@ -7041,7 +7161,7 @@
           "isNew": false
         },
         {
-          "sr": 111,
+          "sr": 109,
           "date": "03 Jul 2025",
           "year": 2025,
           "cat": "Consultation Paper",
@@ -7051,7 +7171,7 @@
           "isNew": false
         },
         {
-          "sr": 112,
+          "sr": 110,
           "date": "01 Jul 2025",
           "year": 2025,
           "cat": "Consultation Paper",
@@ -7061,7 +7181,7 @@
           "isNew": false
         },
         {
-          "sr": 113,
+          "sr": 111,
           "date": "30 Jun 2025",
           "year": 2025,
           "cat": "Consultation Paper",
@@ -7071,7 +7191,7 @@
           "isNew": false
         },
         {
-          "sr": 114,
+          "sr": 112,
           "date": "24 Jun 2025",
           "year": 2025,
           "cat": "Consultation Paper",
@@ -7081,7 +7201,7 @@
           "isNew": false
         },
         {
-          "sr": 115,
+          "sr": 113,
           "date": "20 Jun 2025",
           "year": 2025,
           "cat": "Consultation Paper",
@@ -7091,7 +7211,7 @@
           "isNew": false
         },
         {
-          "sr": 116,
+          "sr": 114,
           "date": "20 Jun 2025",
           "year": 2025,
           "cat": "Consultation Paper",
@@ -7101,7 +7221,7 @@
           "isNew": false
         },
         {
-          "sr": 117,
+          "sr": 115,
           "date": "17 Jun 2025",
           "year": 2025,
           "cat": "Consultation Paper",
@@ -7111,7 +7231,7 @@
           "isNew": false
         },
         {
-          "sr": 118,
+          "sr": 116,
           "date": "16 Jun 2025",
           "year": 2025,
           "cat": "Consultation Paper",
@@ -7121,7 +7241,7 @@
           "isNew": false
         },
         {
-          "sr": 119,
+          "sr": 117,
           "date": "09 Jun 2025",
           "year": 2025,
           "cat": "Consultation Paper",
@@ -7131,7 +7251,7 @@
           "isNew": false
         },
         {
-          "sr": 120,
+          "sr": 118,
           "date": "13 May 2025",
           "year": 2025,
           "cat": "Consultation Paper",
@@ -7141,7 +7261,7 @@
           "isNew": false
         },
         {
-          "sr": 121,
+          "sr": 119,
           "date": "09 May 2025",
           "year": 2025,
           "cat": "Consultation Paper",
@@ -7151,7 +7271,7 @@
           "isNew": false
         },
         {
-          "sr": 122,
+          "sr": 120,
           "date": "09 May 2025",
           "year": 2025,
           "cat": "Consultation Paper",
@@ -7161,7 +7281,7 @@
           "isNew": false
         },
         {
-          "sr": 123,
+          "sr": 121,
           "date": "09 May 2025",
           "year": 2025,
           "cat": "Consultation Paper",
@@ -7171,7 +7291,7 @@
           "isNew": false
         },
         {
-          "sr": 124,
+          "sr": 122,
           "date": "06 May 2025",
           "year": 2025,
           "cat": "Consultation Paper",
@@ -7181,7 +7301,7 @@
           "isNew": false
         },
         {
-          "sr": 125,
+          "sr": 123,
           "date": "02 May 2025",
           "year": 2025,
           "cat": "Consultation Paper",
@@ -7191,7 +7311,7 @@
           "isNew": false
         },
         {
-          "sr": 126,
+          "sr": 124,
           "date": "29 Apr 2025",
           "year": 2025,
           "cat": "Consultation Paper",
@@ -7201,7 +7321,7 @@
           "isNew": false
         },
         {
-          "sr": 127,
+          "sr": 125,
           "date": "21 Apr 2025",
           "year": 2025,
           "cat": "Consultation Paper",
@@ -7211,7 +7331,7 @@
           "isNew": false
         },
         {
-          "sr": 128,
+          "sr": 126,
           "date": "21 Apr 2025",
           "year": 2025,
           "cat": "Consultation Paper",
@@ -7221,7 +7341,7 @@
           "isNew": false
         },
         {
-          "sr": 129,
+          "sr": 127,
           "date": "17 Apr 2025",
           "year": 2025,
           "cat": "Consultation Paper",
@@ -7231,7 +7351,7 @@
           "isNew": false
         },
         {
-          "sr": 130,
+          "sr": 128,
           "date": "11 Apr 2025",
           "year": 2025,
           "cat": "Consultation Paper",
@@ -7241,7 +7361,7 @@
           "isNew": false
         },
         {
-          "sr": 131,
+          "sr": 129,
           "date": "11 Apr 2025",
           "year": 2025,
           "cat": "Consultation Paper",
@@ -7251,7 +7371,7 @@
           "isNew": false
         },
         {
-          "sr": 132,
+          "sr": 130,
           "date": "11 Apr 2025",
           "year": 2025,
           "cat": "Consultation Paper",
@@ -7261,7 +7381,7 @@
           "isNew": false
         },
         {
-          "sr": 133,
+          "sr": 131,
           "date": "04 Apr 2025",
           "year": 2025,
           "cat": "Consultation Paper",
@@ -7271,7 +7391,7 @@
           "isNew": false
         },
         {
-          "sr": 134,
+          "sr": 132,
           "date": "28 Mar 2025",
           "year": 2025,
           "cat": "Consultation Paper",
@@ -7281,7 +7401,7 @@
           "isNew": false
         },
         {
-          "sr": 135,
+          "sr": 133,
           "date": "27 Mar 2025",
           "year": 2025,
           "cat": "Consultation Paper",
@@ -7291,7 +7411,7 @@
           "isNew": false
         },
         {
-          "sr": 136,
+          "sr": 134,
           "date": "21 Mar 2025",
           "year": 2025,
           "cat": "Consultation Paper",
@@ -7301,7 +7421,7 @@
           "isNew": false
         },
         {
-          "sr": 137,
+          "sr": 135,
           "date": "20 Mar 2025",
           "year": 2025,
           "cat": "Consultation Paper",
@@ -7311,7 +7431,7 @@
           "isNew": false
         },
         {
-          "sr": 138,
+          "sr": 136,
           "date": "20 Mar 2025",
           "year": 2025,
           "cat": "Consultation Paper",
@@ -7321,7 +7441,7 @@
           "isNew": false
         },
         {
-          "sr": 139,
+          "sr": 137,
           "date": "07 Mar 2025",
           "year": 2025,
           "cat": "Consultation Paper",
@@ -7331,7 +7451,7 @@
           "isNew": false
         },
         {
-          "sr": 140,
+          "sr": 138,
           "date": "07 Mar 2025",
           "year": 2025,
           "cat": "Consultation Paper",
@@ -7341,7 +7461,7 @@
           "isNew": false
         },
         {
-          "sr": 141,
+          "sr": 139,
           "date": "28 Feb 2025",
           "year": 2025,
           "cat": "Consultation Paper",
@@ -7351,7 +7471,7 @@
           "isNew": false
         },
         {
-          "sr": 142,
+          "sr": 140,
           "date": "24 Feb 2025",
           "year": 2025,
           "cat": "Consultation Paper",
@@ -7361,7 +7481,7 @@
           "isNew": false
         },
         {
-          "sr": 143,
+          "sr": 141,
           "date": "21 Feb 2025",
           "year": 2025,
           "cat": "Consultation Paper",
@@ -7371,7 +7491,7 @@
           "isNew": false
         },
         {
-          "sr": 144,
+          "sr": 142,
           "date": "20 Feb 2025",
           "year": 2025,
           "cat": "Consultation Paper",
@@ -7381,7 +7501,7 @@
           "isNew": false
         },
         {
-          "sr": 145,
+          "sr": 143,
           "date": "18 Feb 2025",
           "year": 2025,
           "cat": "Consultation Paper",
@@ -7391,7 +7511,7 @@
           "isNew": false
         },
         {
-          "sr": 146,
+          "sr": 144,
           "date": "14 Feb 2025",
           "year": 2025,
           "cat": "Consultation Paper",
@@ -7401,7 +7521,7 @@
           "isNew": false
         },
         {
-          "sr": 147,
+          "sr": 145,
           "date": "13 Feb 2025",
           "year": 2025,
           "cat": "Consultation Paper",
@@ -7411,7 +7531,7 @@
           "isNew": false
         },
         {
-          "sr": 148,
+          "sr": 146,
           "date": "12 Feb 2025",
           "year": 2025,
           "cat": "Consultation Paper",
@@ -7421,7 +7541,7 @@
           "isNew": false
         },
         {
-          "sr": 149,
+          "sr": 147,
           "date": "12 Feb 2025",
           "year": 2025,
           "cat": "Consultation Paper",
@@ -7431,7 +7551,7 @@
           "isNew": false
         },
         {
-          "sr": 150,
+          "sr": 148,
           "date": "12 Feb 2025",
           "year": 2025,
           "cat": "Consultation Paper",
@@ -7441,7 +7561,7 @@
           "isNew": false
         },
         {
-          "sr": 151,
+          "sr": 149,
           "date": "11 Feb 2025",
           "year": 2025,
           "cat": "Consultation Paper",
@@ -7451,7 +7571,7 @@
           "isNew": false
         },
         {
-          "sr": 152,
+          "sr": 150,
           "date": "07 Feb 2025",
           "year": 2025,
           "cat": "Consultation Paper",
@@ -7461,7 +7581,7 @@
           "isNew": false
         },
         {
-          "sr": 153,
+          "sr": 151,
           "date": "07 Feb 2025",
           "year": 2025,
           "cat": "Consultation Paper",
@@ -7471,7 +7591,7 @@
           "isNew": false
         },
         {
-          "sr": 154,
+          "sr": 152,
           "date": "07 Feb 2025",
           "year": 2025,
           "cat": "Consultation Paper",
@@ -7481,7 +7601,7 @@
           "isNew": false
         },
         {
-          "sr": 155,
+          "sr": 153,
           "date": "03 Feb 2025",
           "year": 2025,
           "cat": "Consultation Paper",
@@ -7491,7 +7611,7 @@
           "isNew": false
         },
         {
-          "sr": 156,
+          "sr": 154,
           "date": "31 Jan 2025",
           "year": 2025,
           "cat": "Consultation Paper",
@@ -7501,7 +7621,7 @@
           "isNew": false
         },
         {
-          "sr": 157,
+          "sr": 155,
           "date": "28 Jan 2025",
           "year": 2025,
           "cat": "Consultation Paper",
@@ -7511,7 +7631,7 @@
           "isNew": false
         },
         {
-          "sr": 158,
+          "sr": 156,
           "date": "22 Jan 2025",
           "year": 2025,
           "cat": "Consultation Paper",
@@ -7521,7 +7641,7 @@
           "isNew": false
         },
         {
-          "sr": 159,
+          "sr": 157,
           "date": "20 Jan 2025",
           "year": 2025,
           "cat": "Consultation Paper",
@@ -7531,7 +7651,7 @@
           "isNew": false
         },
         {
-          "sr": 160,
+          "sr": 158,
           "date": "20 Jan 2025",
           "year": 2025,
           "cat": "Consultation Paper",
@@ -7541,7 +7661,7 @@
           "isNew": false
         },
         {
-          "sr": 161,
+          "sr": 159,
           "date": "14 Jan 2025",
           "year": 2025,
           "cat": "Consultation Paper",
@@ -7551,7 +7671,7 @@
           "isNew": false
         },
         {
-          "sr": 162,
+          "sr": 160,
           "date": "10 Jan 2025",
           "year": 2025,
           "cat": "Consultation Paper",
@@ -7561,7 +7681,7 @@
           "isNew": false
         },
         {
-          "sr": 163,
+          "sr": 161,
           "date": "17 Dec 2024",
           "year": 2024,
           "cat": "Consultation Paper",
@@ -7571,7 +7691,7 @@
           "isNew": false
         },
         {
-          "sr": 164,
+          "sr": 162,
           "date": "13 Dec 2024",
           "year": 2024,
           "cat": "Consultation Paper",
@@ -7581,7 +7701,7 @@
           "isNew": false
         },
         {
-          "sr": 165,
+          "sr": 163,
           "date": "13 Dec 2024",
           "year": 2024,
           "cat": "Consultation Paper",
@@ -7591,7 +7711,7 @@
           "isNew": false
         },
         {
-          "sr": 166,
+          "sr": 164,
           "date": "13 Dec 2024",
           "year": 2024,
           "cat": "Consultation Paper",
@@ -7601,7 +7721,7 @@
           "isNew": false
         },
         {
-          "sr": 167,
+          "sr": 165,
           "date": "10 Dec 2024",
           "year": 2024,
           "cat": "Consultation Paper",
@@ -7611,7 +7731,7 @@
           "isNew": false
         },
         {
-          "sr": 168,
+          "sr": 166,
           "date": "10 Dec 2024",
           "year": 2024,
           "cat": "Consultation Paper",
@@ -7621,7 +7741,7 @@
           "isNew": false
         },
         {
-          "sr": 169,
+          "sr": 167,
           "date": "06 Dec 2024",
           "year": 2024,
           "cat": "Consultation Paper",
@@ -7631,7 +7751,7 @@
           "isNew": false
         },
         {
-          "sr": 170,
+          "sr": 168,
           "date": "05 Dec 2024",
           "year": 2024,
           "cat": "Consultation Paper",
@@ -7641,7 +7761,7 @@
           "isNew": false
         },
         {
-          "sr": 171,
+          "sr": 169,
           "date": "05 Dec 2024",
           "year": 2024,
           "cat": "Consultation Paper",
@@ -7651,7 +7771,7 @@
           "isNew": false
         },
         {
-          "sr": 172,
+          "sr": 170,
           "date": "05 Dec 2024",
           "year": 2024,
           "cat": "Consultation Paper",
@@ -7661,13 +7781,33 @@
           "isNew": false
         },
         {
-          "sr": 173,
+          "sr": 171,
           "date": "03 Dec 2024",
           "year": 2024,
           "cat": "Consultation Paper",
           "title": "Consultation Paper on Online Monitoring of System Audit of Stock Brokers  Click here to provide your comments",
           "desc": "",
           "link": "https://www.sebi.gov.in/reports-and-statistics/reports/dec-2024/consultation-paper-on-online-monitoring-of-system-audit-of-stock-brokers_89234.html",
+          "isNew": false
+        },
+        {
+          "sr": 172,
+          "date": "22 Nov 2024",
+          "year": 2024,
+          "cat": "Consultation Paper",
+          "title": "Consultation Paper on Review of Ownership and Economic Structure of Clearing Corporations  Click here to provide your comments",
+          "desc": "",
+          "link": "https://www.sebi.gov.in/reports-and-statistics/reports/nov-2024/consultation-paper-on-review-of-ownership-and-economic-structure-of-clearing-corporations_88710.html",
+          "isNew": false
+        },
+        {
+          "sr": 173,
+          "date": "22 Nov 2024",
+          "year": 2024,
+          "cat": "Consultation Paper",
+          "title": "Consultation Paper on Process for appointment of specific KMPs of an MII; and cooling-off period for KMPs and Directors of an MII joining a competing MII  Click here to provide your comments",
+          "desc": "",
+          "link": "https://www.sebi.gov.in/reports-and-statistics/reports/nov-2024/consultation-paper-on-process-for-appointment-of-specific-kmps-of-an-mii-and-cooling-off-period-for-kmps-and-directors-of-an-mii-joining-a-competing-mii_88686.html",
           "isNew": false
         },
         {
@@ -8152,6 +8292,26 @@
         },
         {
           "sr": 222,
+          "date": "22 Jul 2024",
+          "year": 2024,
+          "cat": "Consultation Paper",
+          "title": "Extension of timeline for submission of public comments on the consultation paper titled “Recommendations of the Expert Committee for facilitating ease of doing business and harmonization of the provisions of ICDR and LODR Regulations”  Click here to provide your comments",
+          "desc": "",
+          "link": "https://www.sebi.gov.in/reports-and-statistics/reports/jul-2024/extension-of-timeline-for-submission-of-public-comments-on-the-consultation-paper-titled-recommendations-of-the-expert-committee-for-facilitating-ease-of-doing-business-and-harmonization-of-the-provi-_84918.html",
+          "isNew": false
+        },
+        {
+          "sr": 223,
+          "date": "16 Jul 2024",
+          "year": 2024,
+          "cat": "Consultation Paper",
+          "title": "Consultation Paper on Proposed Legal Provisions for Summary Proceedings  Click here to provide your comments",
+          "desc": "",
+          "link": "https://www.sebi.gov.in/reports-and-statistics/reports/jul-2024/consultation-paper-on-proposed-legal-provisions-for-summary-proceedings_84802.html",
+          "isNew": false
+        },
+        {
+          "sr": 224,
           "date": "16 Jul 2024",
           "year": 2024,
           "cat": "Consultation Paper",
@@ -8161,7 +8321,7 @@
           "isNew": false
         },
         {
-          "sr": 223,
+          "sr": 225,
           "date": "09 Jul 2024",
           "year": 2024,
           "cat": "Consultation Paper",
@@ -8171,7 +8331,7 @@
           "isNew": false
         },
         {
-          "sr": 224,
+          "sr": 226,
           "date": "05 Jul 2024",
           "year": 2024,
           "cat": "Consultation Paper",
@@ -8181,7 +8341,7 @@
           "isNew": false
         },
         {
-          "sr": 225,
+          "sr": 227,
           "date": "01 Jul 2024",
           "year": 2024,
           "cat": "Consultation Paper",
@@ -8191,7 +8351,7 @@
           "isNew": false
         },
         {
-          "sr": 226,
+          "sr": 228,
           "date": "28 Jun 2024",
           "year": 2024,
           "cat": "Consultation Paper",
@@ -8201,7 +8361,7 @@
           "isNew": false
         },
         {
-          "sr": 227,
+          "sr": 229,
           "date": "26 Jun 2024",
           "year": 2024,
           "cat": "Consultation Paper",
@@ -8211,7 +8371,7 @@
           "isNew": false
         },
         {
-          "sr": 228,
+          "sr": 230,
           "date": "08 Jun 2024",
           "year": 2024,
           "cat": "Consultation Paper",
@@ -8221,7 +8381,7 @@
           "isNew": false
         },
         {
-          "sr": 229,
+          "sr": 231,
           "date": "07 Jun 2024",
           "year": 2024,
           "cat": "Consultation Paper",
@@ -8231,7 +8391,7 @@
           "isNew": false
         },
         {
-          "sr": 230,
+          "sr": 232,
           "date": "05 Jun 2024",
           "year": 2024,
           "cat": "Consultation Paper",
@@ -8241,7 +8401,7 @@
           "isNew": false
         },
         {
-          "sr": 231,
+          "sr": 233,
           "date": "23 May 2024",
           "year": 2024,
           "cat": "Consultation Paper",
@@ -8251,7 +8411,7 @@
           "isNew": false
         },
         {
-          "sr": 232,
+          "sr": 234,
           "date": "22 May 2024",
           "year": 2024,
           "cat": "Consultation Paper",
@@ -8261,7 +8421,7 @@
           "isNew": false
         },
         {
-          "sr": 233,
+          "sr": 235,
           "date": "21 May 2024",
           "year": 2024,
           "cat": "Consultation Paper",
@@ -8271,7 +8431,7 @@
           "isNew": false
         },
         {
-          "sr": 234,
+          "sr": 236,
           "date": "17 May 2024",
           "year": 2024,
           "cat": "Consultation Paper",
@@ -8281,7 +8441,7 @@
           "isNew": false
         },
         {
-          "sr": 235,
+          "sr": 237,
           "date": "09 May 2024",
           "year": 2024,
           "cat": "Consultation Paper",
@@ -8291,7 +8451,7 @@
           "isNew": false
         },
         {
-          "sr": 236,
+          "sr": 238,
           "date": "09 May 2024",
           "year": 2024,
           "cat": "Consultation Paper",
@@ -8301,7 +8461,7 @@
           "isNew": false
         },
         {
-          "sr": 237,
+          "sr": 239,
           "date": "09 May 2024",
           "year": 2024,
           "cat": "Consultation Paper",
@@ -8311,7 +8471,7 @@
           "isNew": false
         },
         {
-          "sr": 238,
+          "sr": 240,
           "date": "19 Apr 2024",
           "year": 2024,
           "cat": "Consultation Paper",
@@ -8321,7 +8481,7 @@
           "isNew": false
         },
         {
-          "sr": 239,
+          "sr": 241,
           "date": "05 Apr 2024",
           "year": 2024,
           "cat": "Consultation Paper",
@@ -8331,7 +8491,7 @@
           "isNew": false
         },
         {
-          "sr": 240,
+          "sr": 242,
           "date": "19 Mar 2024",
           "year": 2024,
           "cat": "Consultation Paper",
@@ -8341,7 +8501,7 @@
           "isNew": false
         },
         {
-          "sr": 241,
+          "sr": 243,
           "date": "08 Mar 2024",
           "year": 2024,
           "cat": "Consultation Paper",
@@ -8351,7 +8511,7 @@
           "isNew": false
         },
         {
-          "sr": 242,
+          "sr": 244,
           "date": "27 Feb 2024",
           "year": 2024,
           "cat": "Consultation Paper",
@@ -8361,7 +8521,7 @@
           "isNew": false
         },
         {
-          "sr": 243,
+          "sr": 245,
           "date": "23 Feb 2024",
           "year": 2024,
           "cat": "Consultation Paper",
@@ -8371,33 +8531,13 @@
           "isNew": false
         },
         {
-          "sr": 244,
+          "sr": 246,
           "date": "15 Feb 2024",
           "year": 2024,
           "cat": "Consultation Paper",
           "title": "Consultation Paper on Ease of Doing Business Initiatives for Portfolio Managers  Click here to provide your comments",
           "desc": "",
           "link": "https://www.sebi.gov.in/reports-and-statistics/reports/feb-2024/consultation-paper-on-ease-of-doing-business-initiatives-for-portfolio-managers_81463.html",
-          "isNew": false
-        },
-        {
-          "sr": 245,
-          "date": "07 Feb 2024",
-          "year": 2024,
-          "cat": "Consultation Paper",
-          "title": "Consultation Paper on Relaxation in Timelines for Disclosure of Material Changes by Foreign Portfolio Investors  Click here to provide your comments",
-          "desc": "",
-          "link": "https://www.sebi.gov.in/reports-and-statistics/reports/feb-2024/consultation-paper-on-relaxation-in-timelines-for-disclosure-of-material-changes-by-foreign-portfolio-investors_81211.html",
-          "isNew": false
-        },
-        {
-          "sr": 246,
-          "date": "07 Feb 2024",
-          "year": 2024,
-          "cat": "Consultation Paper",
-          "title": "Consultation Paper on framework for providing flexibility to FPIs in dealing with their securities post expiry of their registration     Click here to provide your comments",
-          "desc": "",
-          "link": "https://www.sebi.gov.in/reports-and-statistics/reports/feb-2024/consultation-paper-on-framework-for-providing-flexibility-to-fpis-in-dealing-with-their-securities-post-expiry-of-their-registration_81210.html",
           "isNew": false
         },
         {
@@ -8901,7 +9041,7 @@
           "isNew": false
         }
       ],
-      "ts": 1794704047019,
+      "ts": 1794728505224,
       "ok": true,
       "newCount": 0
     },
@@ -10088,7 +10228,7 @@
           "isNew": false
         }
       ],
-      "ts": 1794704051766,
+      "ts": 1794728508473,
       "ok": true,
       "newCount": 0
     },
@@ -10105,7 +10245,7 @@
           "isNew": false
         }
       ],
-      "ts": 1794704053517,
+      "ts": 1794728510094,
       "ok": true,
       "newCount": 0
     },
@@ -13112,7 +13252,7 @@
           "isNew": false
         }
       ],
-      "ts": 1794704090820,
+      "ts": 1794728547680,
       "ok": true,
       "newCount": 0
     },
@@ -13239,7 +13379,7 @@
           "isNew": false
         }
       ],
-      "ts": 1794704093109,
+      "ts": 1794728550188,
       "ok": true,
       "newCount": 0
     },
@@ -16246,7 +16386,7 @@
           "isNew": false
         }
       ],
-      "ts": 1794704096257,
+      "ts": 1794728554068,
       "ok": true,
       "newCount": 0
     },
@@ -16263,7 +16403,7 @@
           "isNew": false
         }
       ],
-      "ts": 1794704098354,
+      "ts": 1794728556075,
       "ok": true,
       "newCount": 0
     },
@@ -16470,7 +16610,7 @@
           "isNew": false
         }
       ],
-      "ts": 1794704100916,
+      "ts": 1794728558360,
       "ok": true,
       "newCount": 0
     },
@@ -16727,7 +16867,7 @@
           "isNew": false
         }
       ],
-      "ts": 1794704109499,
+      "ts": 1794728567154,
       "ok": true,
       "newCount": 0
     },
@@ -19734,7 +19874,7 @@
           "isNew": false
         }
       ],
-      "ts": 1794704113327,
+      "ts": 1794728569491,
       "ok": true,
       "newCount": 0
     },
@@ -19941,7 +20081,7 @@
           "isNew": false
         }
       ],
-      "ts": 1794704116884,
+      "ts": 1794728572578,
       "ok": true,
       "newCount": 0
     },
@@ -20148,7 +20288,7 @@
           "isNew": false
         }
       ],
-      "ts": 1794704120467,
+      "ts": 1794728575781,
       "ok": true,
       "newCount": 0
     },
@@ -20355,7 +20495,7 @@
           "isNew": false
         }
       ],
-      "ts": 1794704123992,
+      "ts": 1794728579010,
       "ok": true,
       "newCount": 0
     },
@@ -20412,7 +20552,7 @@
           "isNew": false
         }
       ],
-      "ts": 1794704135424,
+      "ts": 1794728587545,
       "ok": true,
       "newCount": 0
     },
@@ -20433,7 +20573,7 @@
           "date": "12 Dec 2025",
           "year": 2025,
           "cat": "Circular",
-          "title": "Common Booklet -unclaimed dividend and shares -Hindi | 2 MB",
+          "title": "Common booklet-unclaimed dividend and shares -English | 2 MB",
           "desc": "",
           "link": "https://www.iepf.gov.in/content/iepf/global/master/Home/Notifications/notices-and-circulars.html#",
           "isNew": false
@@ -20443,7 +20583,7 @@
           "date": "12 Dec 2025",
           "year": 2025,
           "cat": "Circular",
-          "title": "Common booklet-unclaimed dividend and shares -English | 2 MB",
+          "title": "Common Booklet -unclaimed dividend and shares -Hindi | 2 MB",
           "desc": "",
           "link": "https://www.iepf.gov.in/content/iepf/global/master/Home/Notifications/notices-and-circulars.html#",
           "isNew": false
@@ -20453,7 +20593,7 @@
           "date": "29 Aug 2025",
           "year": 2025,
           "cat": "Circular",
-          "title": "Public Notice in the matter of Niveshak Shivir (Hindi) | 3 MB",
+          "title": "Public Notice in the matter of Niveshak Shivir | 3 MB",
           "desc": "",
           "link": "https://www.iepf.gov.in/content/iepf/global/master/Home/Notifications/notices-and-circulars.html#",
           "isNew": false
@@ -20463,13 +20603,13 @@
           "date": "29 Aug 2025",
           "year": 2025,
           "cat": "Circular",
-          "title": "Public Notice in the matter of Niveshak Shivir | 3 MB",
+          "title": "Public Notice in the matter of Niveshak Shivir (Hindi) | 3 MB",
           "desc": "",
           "link": "https://www.iepf.gov.in/content/iepf/global/master/Home/Notifications/notices-and-circulars.html#",
           "isNew": false
         }
       ],
-      "ts": 1794704140154,
+      "ts": 1794728592569,
       "ok": true,
       "newCount": 0
     },
@@ -20510,7 +20650,7 @@
           "date": "21 Feb 2024",
           "year": 2024,
           "cat": "Orders",
-          "title": "List of Claim SRNs liable for rejection under rule 7(3) where company has not filed any VR | 1 MB",
+          "title": "List of Claim SRNs liable for rejection under rule 7(7) where company has not filed revised VR | 683 KB",
           "desc": "",
           "link": "https://www.iepf.gov.in/content/iepf/global/master/Home/Notifications/notices-and-orders-under-rule-7-3----7-7-.html#",
           "isNew": false
@@ -20520,13 +20660,13 @@
           "date": "21 Feb 2024",
           "year": 2024,
           "cat": "Orders",
-          "title": "List of Claim SRNs liable for rejection under rule 7(7) where company has not filed revised VR | 683 KB",
+          "title": "List of Claim SRNs liable for rejection under rule 7(3) where company has not filed any VR | 1 MB",
           "desc": "",
           "link": "https://www.iepf.gov.in/content/iepf/global/master/Home/Notifications/notices-and-orders-under-rule-7-3----7-7-.html#",
           "isNew": false
         }
       ],
-      "ts": 1794704144848,
+      "ts": 1794728597518,
       "ok": true,
       "newCount": 0
     },
@@ -20553,16 +20693,11 @@
           "isNew": false
         }
       ],
-      "ts": 1794704162160,
+      "ts": 1794728610364,
       "ok": true,
       "newCount": 0
     },
     "MCA_1": {
-      "rows": [],
-      "ts": 1794704184773,
-      "ok": true
-    },
-    "MCA_2": {
       "rows": [
         {
           "sr": 1,
@@ -20571,8 +20706,7 @@
           "cat": "Orders",
           "title": "Corrigendum to Adjudication Order Imposing Penalties under Section 62 of the Companies Act, 2013 in the Matter of M/s Integris Medtech Limited | 3 MB",
           "desc": "",
-          "link": "https://www.mca.gov.in/content/mca/global/en/data-and-reports/rd-roc-info/roc-adjudication-orders/archive.html#",
-          "isNew": false
+          "link": "https://www.mca.gov.in/content/mca/global/en/data-and-reports/rd-roc-info/roc-adjudication-orders.html#"
         },
         {
           "sr": 2,
@@ -20581,8 +20715,7 @@
           "cat": "Orders",
           "title": "Adjudication Order under Section 42 of the Companies Act, 2013 in the Matter of M/s.Hindustan Coca-Cola Holdings Private Limited. | 4 MB",
           "desc": "",
-          "link": "https://www.mca.gov.in/content/mca/global/en/data-and-reports/rd-roc-info/roc-adjudication-orders/archive.html#",
-          "isNew": false
+          "link": "https://www.mca.gov.in/content/mca/global/en/data-and-reports/rd-roc-info/roc-adjudication-orders.html#"
         },
         {
           "sr": 3,
@@ -20591,31 +20724,55 @@
           "cat": "Orders",
           "title": "ADJUDICATION ORDER FOR VIOLATION OF SECTION 134 OF THE COMPANIES ACT, 2013 IN THE MATTER OF M/s.SDU INVESTMENTS PRIVATE LIMITED | 428 KB",
           "desc": "",
-          "link": "https://www.mca.gov.in/content/mca/global/en/data-and-reports/rd-roc-info/roc-adjudication-orders/archive.html#",
-          "isNew": false
+          "link": "https://www.mca.gov.in/content/mca/global/en/data-and-reports/rd-roc-info/roc-adjudication-orders.html#"
         },
         {
           "sr": 4,
           "date": "17 Aug 2026",
           "year": 2026,
           "cat": "Orders",
-          "title": "ADJUDICATION ORDER FOR VIOLATION OF SECTION 179 OF THE COMPANIES ACT, 2013 IN THE MATTER OF M/s.SDU PROJECTS PRIVATE LIMITED | 424 KB",
+          "title": "ADJUDICATION ORDER FOR VIOLATION OF SECTION 134 OF THE COMPANIES ACT, 2013 IN THE MATTER OF M/s.SDU PROJECTS PRIVATE LIMITED | 394 KB",
           "desc": "",
-          "link": "https://www.mca.gov.in/content/mca/global/en/data-and-reports/rd-roc-info/roc-adjudication-orders/archive.html#",
-          "isNew": false
+          "link": "https://www.mca.gov.in/content/mca/global/en/data-and-reports/rd-roc-info/roc-adjudication-orders.html#"
         },
         {
           "sr": 5,
           "date": "17 Aug 2026",
           "year": 2026,
           "cat": "Orders",
-          "title": "ADJUDICATION ORDER FOR VIOLATION OF SECTION 134 OF THE COMPANIES ACT, 2013 IN THE MATTER OF M/s.SDU PROJECTS PRIVATE LIMITED | 394 KB",
+          "title": "ADJUDICATION ORDER FOR VIOLATION OF SECTION 179 OF THE COMPANIES ACT, 2013 IN THE MATTER OF M/s.SDU PROJECTS PRIVATE LIMITED | 424 KB",
           "desc": "",
-          "link": "https://www.mca.gov.in/content/mca/global/en/data-and-reports/rd-roc-info/roc-adjudication-orders/archive.html#",
+          "link": "https://www.mca.gov.in/content/mca/global/en/data-and-reports/rd-roc-info/roc-adjudication-orders.html#"
+        }
+      ],
+      "ts": 1794728627037,
+      "ok": true,
+      "newCount": 0
+    },
+    "MCA_2": {
+      "rows": [
+        {
+          "sr": 1,
+          "date": "31 Jan 2027",
+          "year": 2027,
+          "cat": "Orders",
+          "title": "Click here to participate",
+          "desc": "",
+          "link": "https://nesda.gov.in/wayforward/",
+          "isNew": false
+        },
+        {
+          "sr": 2,
+          "date": "31 Jan 2027",
+          "year": 2027,
+          "cat": "Orders",
+          "title": "MCA Open house webinar on name reservation/name change of companies and LLPs",
+          "desc": "",
+          "link": "https://www.mca.gov.in/content/dam/mca/pdf/MCA-open-house-session-new-20261022.pdf",
           "isNew": false
         }
       ],
-      "ts": 1794704211382,
+      "ts": 1794728652325,
       "ok": true,
       "newCount": 0
     },
@@ -20642,7 +20799,7 @@
           "isNew": false
         }
       ],
-      "ts": 1794704235107,
+      "ts": 1794728676474,
       "ok": true,
       "newCount": 0
     },
@@ -20650,56 +20807,26 @@
       "rows": [
         {
           "sr": 1,
-          "date": "18 Nov 2025",
-          "year": 2025,
+          "date": "31 Jan 2027",
+          "year": 2027,
           "cat": "Orders",
-          "title": "Adjudication order for violation of section 29 of Companies Act, 2013 in the matter of M/s. Kanoria Plaschem Limited. | 26 KB",
+          "title": "Click here to participate",
           "desc": "",
-          "link": "https://www.mca.gov.in/content/mca/global/en/data-and-reports/rd-roc-info/rd-adjudication-orders/archive.html#",
+          "link": "https://nesda.gov.in/wayforward/",
           "isNew": false
         },
         {
           "sr": 2,
-          "date": "18 Nov 2025",
-          "year": 2025,
+          "date": "31 Jan 2027",
+          "year": 2027,
           "cat": "Orders",
-          "title": "Adjudication order for violation of section 203 of Companies Act, 2013 in the matter of M/s. Kanoria Plaschem Ltd | 27 KB",
+          "title": "MCA Open house webinar on name reservation/name change of companies and LLPs",
           "desc": "",
-          "link": "https://www.mca.gov.in/content/mca/global/en/data-and-reports/rd-roc-info/rd-adjudication-orders/archive.html#",
-          "isNew": false
-        },
-        {
-          "sr": 3,
-          "date": "18 Nov 2025",
-          "year": 2025,
-          "cat": "Orders",
-          "title": "Adjudication order for violation of section 203 of Companies Act, 2013 in the matter of M/s. Zerodh asset management Pvt Ltd | 44 KB",
-          "desc": "",
-          "link": "https://www.mca.gov.in/content/mca/global/en/data-and-reports/rd-roc-info/rd-adjudication-orders/archive.html#",
-          "isNew": false
-        },
-        {
-          "sr": 4,
-          "date": "18 Nov 2025",
-          "year": 2025,
-          "cat": "Orders",
-          "title": "Adjudication order for violation of section 143 of Companies Act, 2013 in the matter of M/s.KAPIL PROPERTY DEVELOPERS LIMITED | 32 KB",
-          "desc": "",
-          "link": "https://www.mca.gov.in/content/mca/global/en/data-and-reports/rd-roc-info/rd-adjudication-orders/archive.html#",
-          "isNew": false
-        },
-        {
-          "sr": 5,
-          "date": "18 Nov 2025",
-          "year": 2025,
-          "cat": "Orders",
-          "title": "Adjudication order for violation of section 118(10) of Companies Act, 2013 in the matter of M/s. Stanley Lifestyles Limited | 33 KB",
-          "desc": "",
-          "link": "https://www.mca.gov.in/content/mca/global/en/data-and-reports/rd-roc-info/rd-adjudication-orders/archive.html#",
+          "link": "https://www.mca.gov.in/content/dam/mca/pdf/MCA-open-house-session-new-20261022.pdf",
           "isNew": false
         }
       ],
-      "ts": 1794704249467,
+      "ts": 1794728697786,
       "ok": true,
       "newCount": 0
     },
@@ -20766,7 +20893,7 @@
           "isNew": false
         }
       ],
-      "ts": 1794704252244,
+      "ts": 1794728700456,
       "ok": true,
       "newCount": 0
     },
@@ -20893,7 +21020,7 @@
           "isNew": false
         }
       ],
-      "ts": 1794704253749,
+      "ts": 1794728701923,
       "ok": true,
       "newCount": 0
     },
@@ -21010,7 +21137,7 @@
           "isNew": false
         }
       ],
-      "ts": 1794704255249,
+      "ts": 1794728703399,
       "ok": true,
       "newCount": 0
     },
@@ -21137,7 +21264,7 @@
           "isNew": false
         }
       ],
-      "ts": 1794704256722,
+      "ts": 1794728704862,
       "ok": true,
       "newCount": 0
     },
